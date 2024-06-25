@@ -1,0 +1,270 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Namespace BOOSE | mysite </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Namespace BOOSE | mysite ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="mysite">
+            mysite
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="BOOSE">
+
+  <h1 id="BOOSE" data-uid="BOOSE" class="text-break">Namespace BOOSE</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">
+Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.AboutBOOSE.html">AboutBOOSE</a></dt>
+      <dd><p>Basic Object Orientated Software Engineering.
+This is a set of classes for implementing the BOOSE language.
+To replace class functionality you can iether implement the relevant interface to completely replace all functionality, or extend the relevant class and override the interface methods, which will allow the calling of base methods in the original class.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.BOOSEException.html">BOOSEException</a></dt>
+      <dd><p>Generic BOOSE Language exception
+Extends Exception</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Canvas.html">Canvas</a></dt>
+      <dd><p>MAKE ABSTRACT WHEN YOU'VE ADDED a derived class for tests.
+Abstract class that implements CanvasInterface. See CanvasInterface documentation for what to implement.
+This class show handle all the drawing on your system according to above ocumentation.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.CanvasCommand.html">CanvasCommand</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.CanvasException.html">CanvasException</a></dt>
+      <dd><p>Exception generated by the Canvas class</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Circle.html">Circle</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Command.html">Command</a></dt>
+      <dd><p>abstract class for commands with a parameter list or expression.
+This class will seperate the parameters or expression from the command and store in the &quot;ParameterList&quot;.
+The Command's Compile() method is called by the parser and this is expected to set the Command's parameters.
+CheckParameters</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.CommandException.html">CommandException</a></dt>
+      <dd><p>exception genereted by the StoredProgram class</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.CommandFactory.html">CommandFactory</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.CommandOneParameter.html">CommandOneParameter</a></dt>
+      <dd><p>Commands with two parameters.
+Each command has an Xpos and Ypos that operates from the current cursor position.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.CommandThreeParameters.html">CommandThreeParameters</a></dt>
+      <dd><p>Commands with two parameters.
+Each command has an Xpos and Ypos that operates from the current cursor position.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.CommandTwoParameters.html">CommandTwoParameters</a></dt>
+      <dd><p>Commands with two parameters.
+Each command has an Xpos and Ypos that operates from the current cursor position.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.DrawTo.html">DrawTo</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.FactoryException.html">FactoryException</a></dt>
+      <dd><p>exception genereted by the StoredProgram class</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.MoveTo.html">MoveTo</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Parser.html">Parser</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.ParserException.html">ParserException</a></dt>
+      <dd><p>exception genereted by the StoredProgram class</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.PenColour.html">PenColour</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.StoredProgram.html">StoredProgram</a></dt>
+      <dd><p>a collection class for storing a program of Command objects, extends ArrayList to add a program counter and a flag to indicate that the syntax is ok and the program valid.
+Don't confuse with the class Program that a form creates with the main method in it</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.StoredProgramException.html">StoredProgramException</a></dt>
+      <dd><p>exception genereted by the StoredProgram class</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Var.html">Var</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.VarException.html">VarException</a></dt>
+      <dd></dd>
+    </dl>
+    <h3 id="interfaces">
+Interfaces
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.ICanvas.html">ICanvas</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.ICommand.html">ICommand</a></dt>
+      <dd><p>Interface for new commands. Any new Command class should implement this interface and be generated by a CommandFactory that implements the ICommandFactory interface.
+COntains methods to set the Command up after its creation, manage its parameters when it is compiled and execute it when it is called.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.ICommandFactory.html">ICommandFactory</a></dt>
+      <dd><p>To add commands to BOOSE you must create a CommandFactory that uses this interface.
+You should extend the existing BOOSE:CommandFactory (which implements this interface) and then
+implement the MakeCommand() method. It shoudld create a new command object based on the string passed.
+Any standard BOOSE commands can then be made by calling base.MakeCommand();</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.IParser.html">IParser</a></dt>
+      <dd><p>The Parser Class takes a BOOSE program as a String with each command seperated by '\n'
+and creates command objects for each valid command and stores them in the passed in StoredProgram.
+Exceptions are generated for any syntax errors.
+When each valid command is generated its Compile() method is called.
+The valid command will have its parameters processed and any variables identified.
+It is the role of StoredProgram to run the commands.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.StoredProgramI.html">StoredProgramI</a></dt>
+      <dd></dd>
+    </dl>
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
