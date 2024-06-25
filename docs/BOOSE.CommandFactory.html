@@ -162,10 +162,13 @@ Class CommandFactory  <a class="header-action link-secondary" title="View source
 
   <h3 id="BOOSE_CommandFactory_MakeCommand_System_String_" data-uid="BOOSE.CommandFactory.MakeCommand(System.String)">
   MakeCommand(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CommandFactory.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CommandFactory.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Make a Command object from the String passed.</p>
+  <div class="markdown level1 summary"><p>Make a Command object from the String passed.
+Currentlt creates moveto, drawto, circle, pen and var&quot;.
+To create additional commands create a Factory that iextends this class and which create a MakeCommand() to make your new commands. Call base.MakeCommand() to make the above commands.
+Replace the entire Factory buy impelementing the IFactory interface.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
