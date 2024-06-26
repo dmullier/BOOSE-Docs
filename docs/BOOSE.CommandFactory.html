@@ -162,7 +162,7 @@ Class CommandFactory  <a class="header-action link-secondary" title="View source
 
   <h3 id="BOOSE_CommandFactory_MakeCommand_System_String_" data-uid="BOOSE.CommandFactory.MakeCommand(System.String)">
   MakeCommand(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CommandFactory.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CommandFactory.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Make a Command object from the String passed.
@@ -179,13 +179,15 @@ Replace the entire Factory buy impelementing the IFactory interface.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>commandType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>String holding command to be created. Case is unimportant and it is trimmed.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="BOOSE.ICommand.html">ICommand</a></dt>
-    <dd></dd>
+    <dd><p>ICommand object if successful</p>
+</dd>
   </dl>
 
 
