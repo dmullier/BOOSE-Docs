@@ -96,14 +96,13 @@ Classes
 </h3>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.AboutBOOSE.html">AboutBOOSE</a></dt>
-      <dd><p>Basic Object Orientated Software Engineering.
-This is a set of classes for implementing the BOOSE language.
-To replace class functionality you can iether implement the relevant interface to completely replace all functionality, or extend the relevant class and override the interface methods, which will allow the calling of base methods in the original class.
-Example of adding a command to BOOSE. Here I will call the new program AppBOOSE and append App to class names (but you can call them what you like).
-step 1 extend ICanvas to have your new draw command that will be called when its command is executed, IAppCanvas.
-step 2 extend this new interface with a class (AppCanvas) which creates a drawing object (bitmap?) does all the actual drawing.
-step 3 extend appropriate command Interface to create a new command class. i.e. Rect(width, height) would extend ICommandTwoParameters.
-step 4 extend the original factory if you want to use any of its existing commands (by calling base.MakeCommand() after looking for your new commands) or ICommandFactory if completely replacing it.</p>
+      <dd><p>Basic Object Orientated Software Engineering.<br>
+This is a set of classes for implementing the BOOSE language.<br>
+To replace class functionality you can ether implement the relevant interface to completely replace all functionality, or extend the relevant class and override the interface methods, which will allow the calling of base methods in the original class.<br><br>Example of adding a command to BOOSE. Here I will call the new program AppBOOSE and append App to class names (but you can call them what you like).
+<br>step 1 extend ICanvas to have your new draw command that will be called when its command is executed, IAppCanvas.
+<br>step 2 extend this new interface with a class (AppCanvas) which creates a drawing object (bitmap?) does all the actual drawing.
+<br>step 3 extend appropriate command Interface to create a new command class. i.e. Rect(width, height) would extend ICommandTwoParameters.
+<br>step 4 extend the original factory if you want to use any of its existing commands (by calling base.MakeCommand() after looking for your new commands) or ICommandFactory if completely replacing it.</p>
 </dd>
     </dl>
     <dl class="jumplist">
