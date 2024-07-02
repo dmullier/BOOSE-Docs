@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Circle | mysite </title>
+      <title>Class If | mysite </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Circle | mysite ">
+      <meta name="title" content="Class If | mysite ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/dmullier/BOOSE/new/master/apiSpec/new?filename=BOOSE_Circle.md&amp;value=---%0Auid%3A%20BOOSE.Circle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/dmullier/BOOSE/new/master/apiSpec/new?filename=BOOSE_If.md&amp;value=---%0Auid%3A%20BOOSE.If%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSE.Circle">
+        <article data-uid="BOOSE.If">
 
 
 
-  <h1 id="BOOSE_Circle" data-uid="BOOSE.Circle" class="text-break">
-Class Circle  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Circle.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BOOSE_If" data-uid="BOOSE.If" class="text-break">
+Class If  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/If.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class Circle  <a class="header-action link-secondary" title="View source" href="
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Circle : CommandOneParameter, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class If : ConditionalCommand, ICommand</code></pre>
   </div>
 
 
@@ -112,9 +112,9 @@ Class Circle  <a class="header-action link-secondary" title="View source" href="
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="BOOSE.Command.html">Command</a></div>
-      <div><a class="xref" href="BOOSE.CanvasCommand.html">CanvasCommand</a></div>
-      <div><a class="xref" href="BOOSE.CommandOneParameter.html">CommandOneParameter</a></div>
-      <div><span class="xref">Circle</span></div>
+      <div><a class="xref" href="BOOSE.Var.html">Var</a></div>
+      <div><a class="xref" href="BOOSE.ConditionalCommand.html">ConditionalCommand</a></div>
+      <div><span class="xref">If</span></div>
     </dd>
   </dl>
 
@@ -130,22 +130,37 @@ Class Circle  <a class="header-action link-secondary" title="View source" href="
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter_param1">CommandOneParameter.param1</a>
+      <a class="xref" href="BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_EndLineNumber">ConditionalCommand.EndLineNumber</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter_param1unprocessed">CommandOneParameter.param1unprocessed</a>
+      <a class="xref" href="BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Condition">ConditionalCommand.Condition</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.CanvasCommand.html#BOOSE_CanvasCommand_yPos">CanvasCommand.yPos</a>
+      <a class="xref" href="BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_LineNumber">ConditionalCommand.LineNumber</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.CanvasCommand.html#BOOSE_CanvasCommand_xPos">CanvasCommand.xPos</a>
+      <a class="xref" href="BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_CondType">ConditionalCommand.CondType</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.CanvasCommand.html#BOOSE_CanvasCommand_canvas">CanvasCommand.canvas</a>
+      <a class="xref" href="BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Compile">ConditionalCommand.Compile()</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.CanvasCommand.html#BOOSE_CanvasCommand_Canvas">CanvasCommand.Canvas</a>
+      <a class="xref" href="BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Execute">ConditionalCommand.Execute()</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Var.html#BOOSE_Var_Expression">Var.Expression</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Var.html#BOOSE_Var_VarName">Var.VarName</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Var.html#BOOSE_Var_Value">Var.Value</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Var.html#BOOSE_Var_CheckParameters_System_String___">Var.CheckParameters(string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Var.html#BOOSE_Var_ProcessExpression_System_String_">Var.ProcessExpression(string)</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.Command.html#BOOSE_Command_Program">Command.Program</a>
@@ -164,9 +179,6 @@ Class Circle  <a class="header-action link-secondary" title="View source" href="
     </div>
     <div>
       <a class="xref" href="BOOSE.Command.html#BOOSE_Command_Set_BOOSE_StoredProgram_System_String_">Command.Set(StoredProgram, string)</a>
-    </div>
-    <div>
-      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_Compile">Command.Compile()</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.Command.html#BOOSE_Command_ProcessParameters_System_String_">Command.ProcessParameters(string)</a>
@@ -199,144 +211,11 @@ Class Circle  <a class="header-action link-secondary" title="View source" href="
 
 
 
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
-  <a id="BOOSE_Circle__ctor_" data-uid="BOOSE.Circle.#ctor*"></a>
-
-  <h3 id="BOOSE_Circle__ctor" data-uid="BOOSE.Circle.#ctor">
-  Circle()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Circle.cs/#L21"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>blank constructor for factory instantiation.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Circle()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="BOOSE_Circle__ctor_" data-uid="BOOSE.Circle.#ctor*"></a>
-
-  <h3 id="BOOSE_Circle__ctor_BOOSE_Canvas_System_Int32_" data-uid="BOOSE.Circle.#ctor(BOOSE.Canvas,System.Int32)">
-  Circle(Canvas, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Circle.cs/#L32"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>draw from current position to x, y. cursor left at x,y</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Circle(Canvas c, int radius)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>c</code> <a class="xref" href="BOOSE.Canvas.html">Canvas</a></dt>
-    <dd></dd>
-    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
-  <a id="BOOSE_Circle_CheckParameters_" data-uid="BOOSE.Circle.CheckParameters*"></a>
-
-  <h3 id="BOOSE_Circle_CheckParameters_System_String___" data-uid="BOOSE.Circle.CheckParameters(System.String[])">
-  CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Circle.cs/#L55"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>overridden generic one parameter message to say radius and not p1.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void CheckParameters(string[] parameterList)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>parameterList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BOOSE.CommandException.html">CommandException</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-  <a id="BOOSE_Circle_Execute_" data-uid="BOOSE.Circle.Execute*"></a>
-
-  <h3 id="BOOSE_Circle_Execute" data-uid="BOOSE.Circle.Execute">
-  Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Circle.cs/#L43"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Execute the command</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/dmullier/BOOSE/blob/master/Circle.cs/#L13" class="edit-link">Edit this page</a>
+          <a href="https://github.com/dmullier/BOOSE/blob/master/If.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -123,6 +123,12 @@ Class Var  <a class="header-action link-secondary" title="View source" href="htt
     </dd>
   </dl>
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="BOOSE.ConditionalCommand.html">ConditionalCommand</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
@@ -184,10 +190,11 @@ Class Var  <a class="header-action link-secondary" title="View source" href="htt
 
   <h3 id="BOOSE_Var__ctor" data-uid="BOOSE.Var.#ctor">
   Var()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Var.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Var.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Value of variable once the expression has been calculated.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -246,15 +253,14 @@ Class Var  <a class="header-action link-secondary" title="View source" href="htt
 
   <h3 id="BOOSE_Var_Value" data-uid="BOOSE.Var.Value">
   Value
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Var.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Var.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Value of variable once the expression has been calculated.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Value { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int Value { get; set; }</code></pre>
   </div>
 
 
@@ -314,10 +320,10 @@ Class Var  <a class="header-action link-secondary" title="View source" href="htt
 
   <h3 id="BOOSE_Var_CheckParameters_System_String___" data-uid="BOOSE.Var.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Var.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Var.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Checks that a Command has the right number of parameters and throws a CommandException if not.</p>
+  <div class="markdown level1 summary"><p>Derived commandas must provide a method to check that their parameters are ok and throw relevant exceptions if not.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -346,7 +352,7 @@ Class Var  <a class="header-action link-secondary" title="View source" href="htt
 
   <h3 id="BOOSE_Var_Compile" data-uid="BOOSE.Var.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Var.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Var.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when Command added to the Program</p>
@@ -373,7 +379,7 @@ Class Var  <a class="header-action link-secondary" title="View source" href="htt
 
   <h3 id="BOOSE_Var_Execute" data-uid="BOOSE.Var.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Var.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Var.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic Execute() checks a command's parameter list and converts any variables and expressions to literal values
@@ -402,7 +408,7 @@ Derived Command should check it has the correct number orf parameters and throw 
 
   <h3 id="BOOSE_Var_ProcessExpression_System_String_" data-uid="BOOSE.Var.ProcessExpression(System.String)">
   ProcessExpression(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Var.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Var.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Takes a complete expression with left hand side and right hand side and returns only the right hand side</p>
@@ -410,7 +416,7 @@ Derived Command should check it has the correct number orf parameters and throw 
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ProcessExpression(string Expression)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual string ProcessExpression(string Expression)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

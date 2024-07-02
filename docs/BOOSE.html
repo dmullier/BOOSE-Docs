@@ -168,13 +168,44 @@ Each command has an Xpos and Ypos that operates from the current cursor position
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.CompoundCommand.html">CompoundCommand</a></dt>
+      <dd><p>CompoundCommand is a building block for shared functionality between CompoundCommands, such as ELSE and ENDS</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.ConditionalCommand.html">ConditionalCommand</a></dt>
+      <dd><p>Extends Var because it has an expression, only this time it directly affects execution.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.DrawTo.html">DrawTo</a></dt>
       <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Else.html">Else</a></dt>
+      <dd><p>An Else is like an Endif but it pops the corresponding If off the stack and pushes itself on so that it becomes the corresponding command to the end</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.End.html">End</a></dt>
+      <dd><p>End command for If/While/For/Method.
+BOOSE has only one End type command which has a parameter to say what it belongs so eg. &quot;end if&quot;.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.FactoryException.html">FactoryException</a></dt>
       <dd><p>exception genereted by the StoredProgram class</p>
 </dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.For.html">For</a></dt>
+      <dd><p>For command.
+So far blank as it doesn't do anything beyond ConditionalCommand but it makes the code clearer (in the factory).</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.If.html">If</a></dt>
+      <dd></dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.MoveTo.html">MoveTo</a></dt>
@@ -212,6 +243,12 @@ Don't confuse with the class Program that a form creates with the main method in
       <dt><a class="xref" href="BOOSE.VarException.html">VarException</a></dt>
       <dd></dd>
     </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.While.html">While</a></dt>
+      <dd><p>While command.
+So far blank as it doesn't do anything beyond ConditionalCommand but it makes the code clearer (in the factory).</p>
+</dd>
+    </dl>
     <h3 id="interfaces">
 Interfaces
 </h3>
@@ -246,7 +283,14 @@ It is the role of StoredProgram to run the commands.</p>
 </dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="BOOSE.StoredProgramI.html">StoredProgramI</a></dt>
+      <dt><a class="xref" href="BOOSE.IStoredProgram.html">IStoredProgram</a></dt>
+      <dd></dd>
+    </dl>
+    <h3 id="enums">
+Enums
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.ConditionalCommand.conditionalTypes.html">ConditionalCommand.conditionalTypes</a></dt>
       <dd></dd>
     </dl>
 
