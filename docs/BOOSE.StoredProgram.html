@@ -357,7 +357,7 @@ Don't confuse with the class Program that a form creates with the main method in
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int INFINITE_LOOP_THRESHOLD = 500</code></pre>
+    <pre><code class="lang-csharp hljs">public const int INFINITE_LOOP_THRESHOLD = 50000</code></pre>
   </div>
 
 
@@ -445,10 +445,10 @@ Don't confuse with the class Program that a form creates with the main method in
 
   <h3 id="BOOSE_StoredProgram_PC" data-uid="BOOSE.StoredProgram.PC">
   PC
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>property for int pc the program counter</p>
+  <div class="markdown level1 summary"><p>Program Counter, points at the next command object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -481,11 +481,10 @@ Don't confuse with the class Program that a form creates with the main method in
 
   <h3 id="BOOSE_StoredProgram_Add_BOOSE_Command_" data-uid="BOOSE.StoredProgram.Add(BOOSE.Command)">
   Add(Command)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L338"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>adds Command to program, calls Command.compile()
-Any new command needs to implement a compile() method which will be called here when the command is compiled and added.</p>
+  <div class="markdown level1 summary"><p>Adds Command to a stored program</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -518,23 +517,24 @@ Any new command needs to implement a compile() method which will be called here 
 
   <a id="BOOSE_StoredProgram_AddVariable_" data-uid="BOOSE.StoredProgram.AddVariable*"></a>
 
-  <h3 id="BOOSE_StoredProgram_AddVariable_BOOSE_Var_" data-uid="BOOSE.StoredProgram.AddVariable(BOOSE.Var)">
-  AddVariable(Var)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_StoredProgram_AddVariable_BOOSE_Evaluation_" data-uid="BOOSE.StoredProgram.AddVariable(BOOSE.Evaluation)">
+  AddVariable(Evaluation)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Add a Var object to the StoredProgram.</p>
+  <div class="markdown level1 summary"><p>Add a variable/evaluation to the Stored Program.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void AddVariable(Var Variable)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void AddVariable(Evaluation Variable)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>Variable</code> <a class="xref" href="BOOSE.Var.html">Var</a></dt>
-    <dd></dd>
+    <dt><code>Variable</code> <a class="xref" href="BOOSE.Evaluation.html">Evaluation</a></dt>
+    <dd><p>Evaluation Object</p>
+</dd>
   </dl>
 
 
@@ -552,7 +552,7 @@ Any new command needs to implement a compile() method which will be called here 
 
   <h3 id="BOOSE_StoredProgram_Commandsleft" data-uid="BOOSE.StoredProgram.Commandsleft">
   Commandsleft()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L295"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L383"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Are there any commands left to execute in the program?
@@ -586,7 +586,7 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
   <h3 id="BOOSE_StoredProgram_DeleteVariable_System_String_" data-uid="BOOSE.StoredProgram.DeleteVariable(System.String)">
   DeleteVariable(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L212"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>If the passed in variable name exists then delete it.</p>
@@ -619,10 +619,11 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
   <h3 id="BOOSE_StoredProgram_EvaluateExpression_System_String_" data-uid="BOOSE.StoredProgram.EvaluateExpression(System.String)">
   EvaluateExpression(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L270"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Evaluate the given expression by finding the values of any variables and passing the result as a String</p>
+  <div class="markdown level1 summary"><p>Evaluate the given expression by finding the values of any variables and passing the final evaluated result as a String.
+Uses the DataTable Class Compute() method.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -658,11 +659,50 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
 
 
+  <a id="BOOSE_StoredProgram_EvaluateExpressionWithString_" data-uid="BOOSE.StoredProgram.EvaluateExpressionWithString*"></a>
+
+  <h3 id="BOOSE_StoredProgram_EvaluateExpressionWithString_System_String_" data-uid="BOOSE.StoredProgram.EvaluateExpressionWithString(System.String)">
+  EvaluateExpressionWithString(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Evaluate an expression with a string. i.e. area + &quot; cm^2&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EvaluateExpressionWithString(string expression)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>expression</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Expression as a String</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Resulting string to display.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="BOOSE_StoredProgram_FindVariable_" data-uid="BOOSE.StoredProgram.FindVariable*"></a>
 
-  <h3 id="BOOSE_StoredProgram_FindVariable_BOOSE_Var_" data-uid="BOOSE.StoredProgram.FindVariable(BOOSE.Var)">
-  FindVariable(Var)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_StoredProgram_FindVariable_BOOSE_Evaluation_" data-uid="BOOSE.StoredProgram.FindVariable(BOOSE.Evaluation)">
+  FindVariable(Evaluation)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Finds the position of a Variable Object in the Variable table.</p>
@@ -670,13 +710,14 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int FindVariable(Var Variable)</code></pre>
+    <pre><code class="lang-csharp hljs">public int FindVariable(Evaluation Variable)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>Variable</code> <a class="xref" href="BOOSE.Var.html">Var</a></dt>
-    <dd></dd>
+    <dt><code>Variable</code> <a class="xref" href="BOOSE.Evaluation.html">Evaluation</a></dt>
+    <dd><p>Evaluation Object to find.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -700,10 +741,10 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
   <h3 id="BOOSE_StoredProgram_FindVariable_System_String_" data-uid="BOOSE.StoredProgram.FindVariable(System.String)">
   FindVariable(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L115"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get a variables position in the Variables table arraylist</p>
+  <div class="markdown level1 summary"><p>Get a variable's position in the Variable table. The variable is expressed by its string name.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -714,7 +755,8 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>varName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The string name of the variable.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -738,7 +780,7 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
   <h3 id="BOOSE_StoredProgram_GetVarValue_System_String_" data-uid="BOOSE.StoredProgram.GetVarValue(System.String)">
   GetVarValue(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a variables value from it string name.</p>
@@ -746,7 +788,7 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual int GetVarValue(string varName)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual string GetVarValue(string varName)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -758,8 +800,8 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>Integer value of variable.</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String value of variable.</p>
 </dd>
   </dl>
 
@@ -783,15 +825,15 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
   <h3 id="BOOSE_StoredProgram_GetVariable_System_Int32_" data-uid="BOOSE.StoredProgram.GetVariable(System.Int32)">
   GetVariable(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Return the Variable object.</p>
+  <div class="markdown level1 summary"><p>Return the Variable object at the given index in the Variable table.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Var GetVariable(int index)</code></pre>
+    <pre><code class="lang-csharp hljs">public Evaluation GetVariable(int index)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -803,7 +845,7 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="BOOSE.Var.html">Var</a></dt>
+    <dt><a class="xref" href="BOOSE.Evaluation.html">Evaluation</a></dt>
     <dd><p>Position of object in Variables Table.</p>
 </dd>
   </dl>
@@ -824,11 +866,55 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
 
 
+  <a id="BOOSE_StoredProgram_GetVariable_" data-uid="BOOSE.StoredProgram.GetVariable*"></a>
+
+  <h3 id="BOOSE_StoredProgram_GetVariable_System_String_" data-uid="BOOSE.StoredProgram.GetVariable(System.String)">
+  GetVariable(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a Variable Object. Evaluation is the base class, it could itself be a subclass of the actual types (int, real boolean etc).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Evaluation GetVariable(string VarName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>VarName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BOOSE.Evaluation.html">Evaluation</a></dt>
+    <dd><p>Evaluation Object of the found type</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BOOSE.StoredProgramException.html">StoredProgramException</a></dt>
+    <dd><p>Throws exception if cannot be found, should check that it is there first.</p>
+</dd>
+  </dl>
+
+
+
   <a id="BOOSE_StoredProgram_IsExpression_" data-uid="BOOSE.StoredProgram.IsExpression*"></a>
 
   <h3 id="BOOSE_StoredProgram_IsExpression_System_String_" data-uid="BOOSE.StoredProgram.IsExpression(System.String)">
   IsExpression(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L226"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -864,10 +950,12 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
   <h3 id="BOOSE_StoredProgram_Pop" data-uid="BOOSE.StoredProgram.Pop">
   Pop()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L321"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Pop a compound command onto the stack.
+Used for whiles/if/fors/methods to move the PC.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -888,6 +976,12 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
 
 
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BOOSE.StoredProgramException.html">StoredProgramException</a></dt>
+    <dd><p>Throws StoredProgramException if it can't pop, which is assumed to be because there is a compound statement without and end.</p>
+</dd>
+  </dl>
 
 
 
@@ -895,10 +989,11 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
   <h3 id="BOOSE_StoredProgram_Push_BOOSE_ConditionalCommand_" data-uid="BOOSE.StoredProgram.Push(BOOSE.ConditionalCommand)">
   Push(ConditionalCommand)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L310"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Push a compund command onto the stack</p>
+  <div class="markdown level1 summary"><p>Push a compound command onto the stack.
+Used for whiles/if/fors/methods to move the PC.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -909,7 +1004,8 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>Com</code> <a class="xref" href="BOOSE.ConditionalCommand.html">ConditionalCommand</a></dt>
-    <dd></dd>
+    <dd><p>Compound Command Object</p>
+</dd>
   </dl>
 
 
@@ -927,7 +1023,7 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
   <h3 id="BOOSE_StoredProgram_ResetProgram" data-uid="BOOSE.StoredProgram.ResetProgram">
   ResetProgram()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L279"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L367"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Once a program has finished executing it needs to be reset (Program Counter set to zero)</p>
@@ -954,12 +1050,13 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
   <h3 id="BOOSE_StoredProgram_Run" data-uid="BOOSE.StoredProgram.Run">
   Run()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L310"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L399"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Attempt to execute the program, throws a StoredProgram if it cannot run to completion.
 It is probably better to not try and run a program that passed an errorlist back from Parser.ParseProgram() but it will try.
-The parser object should have generated a runnable program before running.</p>
+The parser object should have generated a runnable program before running.
+Attempts to detect infinite loops by detecting it has gione fround the run loop a lot.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -986,12 +1083,84 @@ The parser object should have generated a runnable program before running.</p>
 
   <a id="BOOSE_StoredProgram_UpdateVariable_" data-uid="BOOSE.StoredProgram.UpdateVariable*"></a>
 
-  <h3 id="BOOSE_StoredProgram_UpdateVariable_System_String_System_Int32_" data-uid="BOOSE.StoredProgram.UpdateVariable(System.String,System.Int32)">
-  UpdateVariable(string, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_StoredProgram_UpdateVariable_System_String_System_Boolean_" data-uid="BOOSE.StoredProgram.UpdateVariable(System.String,System.Boolean)">
+  UpdateVariable(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L202"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Update an existing variable's value if it is found, do nothing if not found.</p>
+  <div class="markdown level1 summary"><p>Update integer variable value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void UpdateVariable(string varName, bool value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>varName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String name of variable.</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>New integer value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_StoredProgram_UpdateVariable_" data-uid="BOOSE.StoredProgram.UpdateVariable*"></a>
+
+  <h3 id="BOOSE_StoredProgram_UpdateVariable_System_String_System_Double_" data-uid="BOOSE.StoredProgram.UpdateVariable(System.String,System.Double)">
+  UpdateVariable(string, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update real variable value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void UpdateVariable(string varName, double value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>varName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String name of variable.</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>New real value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_StoredProgram_UpdateVariable_" data-uid="BOOSE.StoredProgram.UpdateVariable*"></a>
+
+  <h3 id="BOOSE_StoredProgram_UpdateVariable_System_String_System_Int32_" data-uid="BOOSE.StoredProgram.UpdateVariable(System.String,System.Int32)">
+  UpdateVariable(string, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update an existing variable's integer value if it is found, do nothing if not found.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1002,7 +1171,7 @@ The parser object should have generated a runnable program before running.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>varName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>String nme of variable.</p>
+    <dd><p>String name of variable.</p>
 </dd>
     <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd><p>Integer value to change the variable to.</p>
@@ -1024,7 +1193,7 @@ The parser object should have generated a runnable program before running.</p>
 
   <h3 id="BOOSE_StoredProgram_VariableExists_System_String_" data-uid="BOOSE.StoredProgram.VariableExists(System.String)">
   VariableExists(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L137"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns true if the variable specified by its name exists.</p>

@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Parser | mysite </title>
+      <title>Class Real | mysite </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Parser | mysite ">
+      <meta name="title" content="Class Real | mysite ">
       
-      
+      <meta name="description" content="Class for a Real Number Variable.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/dmullier/BOOSE/new/master/apiSpec/new?filename=BOOSE_Parser.md&amp;value=---%0Auid%3A%20BOOSE.Parser%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/dmullier/BOOSE/new/master/apiSpec/new?filename=BOOSE_Real.md&amp;value=---%0Auid%3A%20BOOSE.Real%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSE.Parser">
+        <article data-uid="BOOSE.Real">
 
 
 
-  <h1 id="BOOSE_Parser" data-uid="BOOSE.Parser" class="text-break">
-Class Parser  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BOOSE_Real" data-uid="BOOSE.Real" class="text-break">
+Class Real  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Real.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,11 +97,12 @@ Class Parser  <a class="header-action link-secondary" title="View source" href="
   <dl><dt>Assembly</dt><dd>BOOSE.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Class for a Real Number Variable.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Parser : IParser</code></pre>
+    <pre><code class="lang-csharp hljs">public class Real : Evaluation, ICommand</code></pre>
   </div>
 
 
@@ -111,14 +112,16 @@ Class Parser  <a class="header-action link-secondary" title="View source" href="
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">Parser</span></div>
+      <div><a class="xref" href="BOOSE.Command.html">Command</a></div>
+      <div><a class="xref" href="BOOSE.Evaluation.html">Evaluation</a></div>
+      <div><span class="xref">Real</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="BOOSE.IParser.html">IParser</a></div>
+      <div><a class="xref" href="BOOSE.ICommand.html">ICommand</a></div>
     </dd>
   </dl>
 
@@ -126,6 +129,54 @@ Class Parser  <a class="header-action link-secondary" title="View source" href="
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_expression">Evaluation.expression</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_evaluatedExpression">Evaluation.evaluatedExpression</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_varName">Evaluation.varName</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_value">Evaluation.value</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Expression">Evaluation.Expression</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_VarName">Evaluation.VarName</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_CheckParameters_System_String___">Evaluation.CheckParameters(string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_System_String_">Evaluation.ProcessExpression(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_Program">Command.Program</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_Name">Command.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_ParameterList">Command.ParameterList</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_Parameters">Command.Parameters</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_Paramsint">Command.Paramsint</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_Set_BOOSE_StoredProgram_System_String_">Command.Set(StoredProgram, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_ProcessParameters_System_String_">Command.ProcessParameters(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_ToString">Command.ToString()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -144,9 +195,6 @@ Class Parser  <a class="header-action link-secondary" title="View source" href="
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
   </dd></dl>
 
 
@@ -154,38 +202,34 @@ Class Parser  <a class="header-action link-secondary" title="View source" href="
 
 
 
-  <h2 class="section" id="constructors">Constructors
+  <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="BOOSE_Parser__ctor_" data-uid="BOOSE.Parser.#ctor*"></a>
+  <a id="BOOSE_Real_Value_" data-uid="BOOSE.Real.Value*"></a>
 
-  <h3 id="BOOSE_Parser__ctor_BOOSE_CommandFactory_BOOSE_StoredProgram_" data-uid="BOOSE.Parser.#ctor(BOOSE.CommandFactory,BOOSE.StoredProgram)">
-  Parser(CommandFactory, StoredProgram)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_Real_Value" data-uid="BOOSE.Real.Value">
+  Value
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Real.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Create Parser object with associated StoredProgram.</p>
+  <div class="markdown level1 summary"><p>Get double value for a real number.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Parser(CommandFactory Factory, StoredProgram Program)</code></pre>
+    <pre><code class="lang-csharp hljs">public double Value { get; set; }</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
+
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><code>Factory</code> <a class="xref" href="BOOSE.CommandFactory.html">CommandFactory</a></dt>
-    <dd><p>CommandFactory that the paser will call to make command objects..</p>
-</dd>
-    <dt><code>Program</code> <a class="xref" href="BOOSE.StoredProgram.html">StoredProgram</a></dt>
-    <dd><p>StoredProgram to add generated commands to.</p>
-</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
   </dl>
-
-
-
-
 
 
 
@@ -198,34 +242,50 @@ Class Parser  <a class="header-action link-secondary" title="View source" href="
 </h2>
 
 
-  <a id="BOOSE_Parser_ParseCommand_" data-uid="BOOSE.Parser.ParseCommand*"></a>
+  <a id="BOOSE_Real_Compile_" data-uid="BOOSE.Real.Compile*"></a>
 
-  <h3 id="BOOSE_Parser_ParseCommand_System_String_" data-uid="BOOSE.Parser.ParseCommand(System.String)">
-  ParseCommand(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_Real_Compile" data-uid="BOOSE.Real.Compile">
+  Compile()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Real.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Take a line and attempt to parse a BOOSE command.
-The command is split from its parameters. It determines if variables are being defined or updated.
-The Command Factory is called to make the Command object and its Compile() method is called to further process its parameters.</p>
+  <div class="markdown level1 summary"><p>If this is a variable declartation set its value and add it to the variable table.
+If it is an expression then nothis happens as it already exists in the variable table.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ICommand ParseCommand(string Line)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Compile()</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>Line</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BOOSE.ICommand.html">ICommand</a></dt>
-    <dd></dd>
-  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Real_Execute_" data-uid="BOOSE.Real.Execute*"></a>
+
+  <h3 id="BOOSE_Real_Execute" data-uid="BOOSE.Real.Execute">
+  Execute()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Real.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Base calculates a string evaluated expression. Now see if it's a double/real value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
+  </div>
+
+
 
 
 
@@ -236,50 +296,9 @@ The Command Factory is called to make the Command object and its Compile() metho
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="BOOSE.ParserException.html">ParserException</a></dt>
-    <dd><p>Throws exceptions if an undefined variable is used in an expression.</p>
-</dd>
+    <dt><a class="xref" href="BOOSE.StoredProgramException.html">StoredProgramException</a></dt>
+    <dd></dd>
   </dl>
-
-
-
-  <a id="BOOSE_Parser_ParseProgram_" data-uid="BOOSE.Parser.ParseProgram*"></a>
-
-  <h3 id="BOOSE_Parser_ParseProgram_System_String_" data-uid="BOOSE.Parser.ParseProgram(System.String)">
-  ParseProgram(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L102"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>The whole program is processed line by line.
-ParseCommand() is called for each line.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string ParseProgram(string program)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>program</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>String program seperated by return characters.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>An error list of syntax errors by line seperated by returns.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
 
 
 
@@ -287,7 +306,7 @@ ParseCommand() is called for each line.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L25" class="edit-link">Edit this page</a>
+          <a href="https://github.com/dmullier/BOOSE/blob/master/Real.cs/#L14" class="edit-link">Edit this page</a>
         </div>
 
 

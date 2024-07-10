@@ -106,9 +106,19 @@ To replace class functionality you can ether implement the relevant interface to
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Array.html">Array</a></dt>
+      <dd><p>An array command takes the form &quot;array int myArray 10,2&quot; or &quot;array real prices 10&quot; [array][(type)][(size)][(optional dimentions, 1 if not given)]</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.BOOSEException.html">BOOSEException</a></dt>
       <dd><p>Generic BOOSE Language exception
 Extends Exception</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Boolean.html">Boolean</a></dt>
+      <dd><p>Boolean datatype, also used for Conditional Commands.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -193,6 +203,11 @@ BOOSE has only one End type command which has a parameter to say what it belongs
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Evaluation.html">Evaluation</a></dt>
+      <dd><p>An evaluation encompasses all things that can have a value, such as variables, expressions and conditions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.FactoryException.html">FactoryException</a></dt>
       <dd><p>exception genereted by the StoredProgram class</p>
 </dd>
@@ -200,12 +215,17 @@ BOOSE has only one End type command which has a parameter to say what it belongs
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.For.html">For</a></dt>
       <dd><p>For command.
-So far blank as it doesn't do anything beyond ConditionalCommand but it makes the code clearer (in the factory).</p>
+Adds processing at compile() and execute() to process a for command.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.If.html">If</a></dt>
       <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Int.html">Int</a></dt>
+      <dd><p>Class to store integer values.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.MoveTo.html">MoveTo</a></dt>
@@ -225,6 +245,11 @@ So far blank as it doesn't do anything beyond ConditionalCommand but it makes th
       <dd></dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Real.html">Real</a></dt>
+      <dd><p>Class for a Real Number Variable.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.StoredProgram.html">StoredProgram</a></dt>
       <dd><p>a collection class for storing a program of Command objects, extends ArrayList to add a program counter and a flag to indicate that the syntax is ok and the program valid.
 Don't confuse with the class Program that a form creates with the main method in it</p>
@@ -236,10 +261,6 @@ Don't confuse with the class Program that a form creates with the main method in
 </dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="BOOSE.Var.html">Var</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.VarException.html">VarException</a></dt>
       <dd></dd>
     </dl>
@@ -248,6 +269,10 @@ Don't confuse with the class Program that a form creates with the main method in
       <dd><p>While command.
 So far blank as it doesn't do anything beyond ConditionalCommand but it makes the code clearer (in the factory).</p>
 </dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Write.html">Write</a></dt>
+      <dd></dd>
     </dl>
     <h3 id="interfaces">
 Interfaces
@@ -270,6 +295,14 @@ Contains methods to set the Command up after its creation, manage its parameters
 You should extend the existing BOOSE:CommandFactory (which implements this interface) and then
 implement the MakeCommand() method. It shoudld create a new command object based on the string passed.
 Any standard BOOSE commands can then be made by calling base.MakeCommand();</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.IEvaluation.html">IEvaluation</a></dt>
+      <dd><p>IEvaluation adds properties to get and set an Evaluations name, value and expression.
+An evaluation can be a variable declaration, such as &quot;int total&quot; or &quot;real area&quot;.
+It can be change of value of a variable, such as &quot;total = total + 1&quot;, the part after the &quot;=&quot; is an referred to as an &quot;expression&quot;.
+In the first two cases the parser will generate an Int object and a Real Object. In the third case it will generate a &quot;Evaluation&quot; object.</p>
 </dd>
     </dl>
     <dl class="jumplist">

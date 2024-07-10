@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class For | mysite ">
       
-      <meta name="description" content="For command. So far blank as it doesn&#39;t do anything beyond ConditionalCommand but it makes the code clearer (in the factory).">
+      <meta name="description" content="For command. Adds processing at compile() and execute() to process a for command.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -98,7 +98,7 @@ Class For  <a class="header-action link-secondary" title="View source" href="htt
   </div>
 
   <div class="markdown summary"><p>For command.
-So far blank as it doesn't do anything beyond ConditionalCommand but it makes the code clearer (in the factory).</p>
+Adds processing at compile() and execute() to process a for command.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -114,7 +114,8 @@ So far blank as it doesn't do anything beyond ConditionalCommand but it makes th
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="BOOSE.Command.html">Command</a></div>
-      <div><a class="xref" href="BOOSE.Var.html">Var</a></div>
+      <div><a class="xref" href="BOOSE.Evaluation.html">Evaluation</a></div>
+      <div><a class="xref" href="BOOSE.Boolean.html">Boolean</a></div>
       <div><a class="xref" href="BOOSE.ConditionalCommand.html">ConditionalCommand</a></div>
       <div><span class="xref">For</span></div>
     </dd>
@@ -144,19 +145,37 @@ So far blank as it doesn't do anything beyond ConditionalCommand but it makes th
       <a class="xref" href="BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_CondType">ConditionalCommand.CondType</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Var.html#BOOSE_Var_Expression">Var.Expression</a>
+      <a class="xref" href="BOOSE.Boolean.html#BOOSE_Boolean_BoolValue">Boolean.BoolValue</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Var.html#BOOSE_Var_VarName">Var.VarName</a>
+      <a class="xref" href="BOOSE.Boolean.html#BOOSE_Boolean_BoolValue1">Boolean.BoolValue1</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Var.html#BOOSE_Var_Value">Var.Value</a>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_expression">Evaluation.expression</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Var.html#BOOSE_Var_CheckParameters_System_String___">Var.CheckParameters(string[])</a>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_evaluatedExpression">Evaluation.evaluatedExpression</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Var.html#BOOSE_Var_ProcessExpression_System_String_">Var.ProcessExpression(string)</a>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_varName">Evaluation.varName</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_value">Evaluation.value</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Expression">Evaluation.Expression</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_VarName">Evaluation.VarName</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Value">Evaluation.Value</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_CheckParameters_System_String___">Evaluation.CheckParameters(string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_System_String_">Evaluation.ProcessExpression(string)</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.Command.html#BOOSE_Command_Program">Command.Program</a>
@@ -218,7 +237,7 @@ So far blank as it doesn't do anything beyond ConditionalCommand but it makes th
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/For.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>WHere counting starts.</p>
+  <div class="markdown level1 summary"><p>Where counting starts.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -255,7 +274,7 @@ So far blank as it doesn't do anything beyond ConditionalCommand but it makes th
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Var LoopControlV { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Evaluation LoopControlV { get; }</code></pre>
   </div>
 
 
@@ -264,7 +283,7 @@ So far blank as it doesn't do anything beyond ConditionalCommand but it makes th
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="BOOSE.Var.html">Var</a></dt>
+    <dt><a class="xref" href="BOOSE.Evaluation.html">Evaluation</a></dt>
     <dd></dd>
   </dl>
 
@@ -350,7 +369,7 @@ So far blank as it doesn't do anything beyond ConditionalCommand but it makes th
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/For.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Takes teh standard parameter list and extracts the LCV name, &quot;from&quot;,&quot;to&quot; and &quot;step&quot;.
+  <div class="markdown level1 summary"><p>Takes the standard parameter list and extracts the LCV name, &quot;from&quot;,&quot;to&quot; and &quot;step&quot;.
 If the LCV does not exists then it creates it. Otherwise it gets it from the variable table.</p>
 </div>
   <div class="markdown level1 conceptual"></div>

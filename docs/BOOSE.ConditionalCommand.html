@@ -102,7 +102,7 @@ Class ConditionalCommand  <a class="header-action link-secondary" title="View so
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ConditionalCommand : Var, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class ConditionalCommand : Boolean, ICommand</code></pre>
   </div>
 
 
@@ -113,7 +113,8 @@ Class ConditionalCommand  <a class="header-action link-secondary" title="View so
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="BOOSE.Command.html">Command</a></div>
-      <div><a class="xref" href="BOOSE.Var.html">Var</a></div>
+      <div><a class="xref" href="BOOSE.Evaluation.html">Evaluation</a></div>
+      <div><a class="xref" href="BOOSE.Boolean.html">Boolean</a></div>
       <div><span class="xref">ConditionalCommand</span></div>
     </dd>
   </dl>
@@ -139,19 +140,37 @@ Class ConditionalCommand  <a class="header-action link-secondary" title="View so
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="BOOSE.Var.html#BOOSE_Var_Expression">Var.Expression</a>
+      <a class="xref" href="BOOSE.Boolean.html#BOOSE_Boolean_BoolValue">Boolean.BoolValue</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Var.html#BOOSE_Var_VarName">Var.VarName</a>
+      <a class="xref" href="BOOSE.Boolean.html#BOOSE_Boolean_BoolValue1">Boolean.BoolValue1</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Var.html#BOOSE_Var_Value">Var.Value</a>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_expression">Evaluation.expression</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Var.html#BOOSE_Var_CheckParameters_System_String___">Var.CheckParameters(string[])</a>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_evaluatedExpression">Evaluation.evaluatedExpression</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Var.html#BOOSE_Var_ProcessExpression_System_String_">Var.ProcessExpression(string)</a>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_varName">Evaluation.varName</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_value">Evaluation.value</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Expression">Evaluation.Expression</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_VarName">Evaluation.VarName</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Value">Evaluation.Value</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_CheckParameters_System_String___">Evaluation.CheckParameters(string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_System_String_">Evaluation.ProcessExpression(string)</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.Command.html#BOOSE_Command_Program">Command.Program</a>
@@ -374,7 +393,7 @@ Class ConditionalCommand  <a class="header-action link-secondary" title="View so
 
   <h3 id="BOOSE_ConditionalCommand_Execute" data-uid="BOOSE.ConditionalCommand.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when program is executed. Determines if condition is true or false. If false then jumps to corrensponding &quot;end&quot; command.</p>

@@ -197,8 +197,8 @@ Any new command needs to implement a compile() method which will be called here 
 
   <a id="BOOSE_IStoredProgram_AddVariable_" data-uid="BOOSE.IStoredProgram.AddVariable*"></a>
 
-  <h3 id="BOOSE_IStoredProgram_AddVariable_BOOSE_Var_" data-uid="BOOSE.IStoredProgram.AddVariable(BOOSE.Var)">
-  AddVariable(Var)
+  <h3 id="BOOSE_IStoredProgram_AddVariable_BOOSE_Evaluation_" data-uid="BOOSE.IStoredProgram.AddVariable(BOOSE.Evaluation)">
+  AddVariable(Evaluation)
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/IStoredProgram.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -207,12 +207,12 @@ Any new command needs to implement a compile() method which will be called here 
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void AddVariable(Var Variable)</code></pre>
+    <pre><code class="lang-csharp hljs">void AddVariable(Evaluation Variable)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>Variable</code> <a class="xref" href="BOOSE.Var.html">Var</a></dt>
+    <dt><code>Variable</code> <a class="xref" href="BOOSE.Evaluation.html">Evaluation</a></dt>
     <dd></dd>
   </dl>
 
@@ -311,12 +311,12 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/IStoredProgram.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Return the interger value of a variable. It should throw a StoredProgramException if attampt is made to retrieve a non-existant variable. i.e. don't try, check first.</p>
+  <div class="markdown level1 summary"><p>Return the String value of a variable. It should throw a StoredProgramException if attampt is made to retrieve a non-existant variable. i.e. don't try, check first.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int GetVarValue(string varName)</code></pre>
+    <pre><code class="lang-csharp hljs">string GetVarValue(string varName)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -327,7 +327,7 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
