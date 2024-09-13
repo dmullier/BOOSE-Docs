@@ -150,10 +150,25 @@ Class Write  <a class="header-action link-secondary" title="View source" href="h
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Value">Evaluation.Value</a>
     </div>
     <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Local">Evaluation.Local</a>
+    </div>
+    <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Compile">Evaluation.Compile()</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_System_String_">Evaluation.ProcessExpression(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_program">Command.program</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_parameterList">Command.parameterList</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_parameters">Command.parameters</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_paramsint">Command.paramsint</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.Command.html#BOOSE_Command_Program">Command.Program</a>
@@ -212,7 +227,7 @@ Class Write  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="BOOSE_Write_CheckParameters_System_String___" data-uid="BOOSE.Write.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Write.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Write.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Derived commandas must provide a method to check that their parameters are ok and throw relevant exceptions if not.</p>
@@ -244,10 +259,11 @@ Class Write  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="BOOSE_Write_Execute" data-uid="BOOSE.Write.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Write.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Write.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Evaluate any expression and store the evaluatedExpression result in instance data for sub classes.</p>
+  <div class="markdown level1 summary"><p>Write string to console.
+Also puts the evaluated string into this.evaluatedExpression so it can be used for outputting to other components, such as a text field.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 

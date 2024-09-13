@@ -143,9 +143,6 @@ Class ConditionalCommand  <a class="header-action link-secondary" title="View so
       <a class="xref" href="BOOSE.Boolean.html#BOOSE_Boolean_BoolValue">Boolean.BoolValue</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Boolean.html#BOOSE_Boolean_BoolValue1">Boolean.BoolValue1</a>
-    </div>
-    <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_expression">Evaluation.expression</a>
     </div>
     <div>
@@ -167,10 +164,25 @@ Class ConditionalCommand  <a class="header-action link-secondary" title="View so
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Value">Evaluation.Value</a>
     </div>
     <div>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Local">Evaluation.Local</a>
+    </div>
+    <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_CheckParameters_System_String___">Evaluation.CheckParameters(string[])</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_System_String_">Evaluation.ProcessExpression(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_program">Command.program</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_parameterList">Command.parameterList</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_parameters">Command.parameters</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_paramsint">Command.paramsint</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.Command.html#BOOSE_Command_Program">Command.Program</a>
@@ -221,6 +233,40 @@ Class ConditionalCommand  <a class="header-action link-secondary" title="View so
 
 
 
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="BOOSE_ConditionalCommand_endLineNumber" data-uid="BOOSE.ConditionalCommand.endLineNumber">
+  endLineNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int endLineNumber</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="properties">Properties
 </h2>
 
@@ -229,7 +275,7 @@ Class ConditionalCommand  <a class="header-action link-secondary" title="View so
 
   <h3 id="BOOSE_ConditionalCommand_CondType" data-uid="BOOSE.ConditionalCommand.CondType">
   CondType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Link end [type of conditional] to conditional, so compiler can tell if end end does not match</p>
@@ -261,7 +307,7 @@ Class ConditionalCommand  <a class="header-action link-secondary" title="View so
 
   <h3 id="BOOSE_ConditionalCommand_Condition" data-uid="BOOSE.ConditionalCommand.Condition">
   Condition
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Condition for If and While.</p>
@@ -293,7 +339,7 @@ Class ConditionalCommand  <a class="header-action link-secondary" title="View so
 
   <h3 id="BOOSE_ConditionalCommand_EndLineNumber" data-uid="BOOSE.ConditionalCommand.EndLineNumber">
   EndLineNumber
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Line number of corresponding &quot;end&quot; command for this conditional command (so when executed it can jump straight to it).</p>
@@ -325,7 +371,7 @@ Class ConditionalCommand  <a class="header-action link-secondary" title="View so
 
   <h3 id="BOOSE_ConditionalCommand_LineNumber" data-uid="BOOSE.ConditionalCommand.LineNumber">
   LineNumber
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Line number of this conditional command.</p>
@@ -353,6 +399,37 @@ Class ConditionalCommand  <a class="header-action link-secondary" title="View so
 
 
 
+  <a id="BOOSE_ConditionalCommand_ReturnLineNumber_" data-uid="BOOSE.ConditionalCommand.ReturnLineNumber*"></a>
+
+  <h3 id="BOOSE_ConditionalCommand_ReturnLineNumber" data-uid="BOOSE.ConditionalCommand.ReturnLineNumber">
+  ReturnLineNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ReturnLineNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -361,7 +438,7 @@ Class ConditionalCommand  <a class="header-action link-secondary" title="View so
 
   <h3 id="BOOSE_ConditionalCommand_Compile" data-uid="BOOSE.ConditionalCommand.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Override base.compile() because a variable always has variable = expression and this is just expression.</p>
@@ -393,7 +470,7 @@ Class ConditionalCommand  <a class="header-action link-secondary" title="View so
 
   <h3 id="BOOSE_ConditionalCommand_Execute" data-uid="BOOSE.ConditionalCommand.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ConditionalCommand.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when program is executed. Determines if condition is true or false. If false then jumps to corrensponding &quot;end&quot; command.</p>

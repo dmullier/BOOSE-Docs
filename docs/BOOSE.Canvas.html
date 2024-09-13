@@ -366,7 +366,7 @@ Cast to relevant type.</p>
 
   <h3 id="BOOSE_Canvas_Clear" data-uid="BOOSE.Canvas.Clear">
   Clear()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fill the background in the default colour.</p>
@@ -393,7 +393,7 @@ Cast to relevant type.</p>
 
   <h3 id="BOOSE_Canvas_DrawTo_System_Int32_System_Int32_" data-uid="BOOSE.Canvas.DrawTo(System.Int32,System.Int32)">
   DrawTo(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Draw a line using the current pen from the last drawingf position to the specified position and move the cursor position to the provided x,y</p>
@@ -429,7 +429,7 @@ Cast to relevant type.</p>
 
   <h3 id="BOOSE_Canvas_MoveTo_System_Int32_System_Int32_" data-uid="BOOSE.Canvas.MoveTo(System.Int32,System.Int32)">
   MoveTo(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Move the X and Y of the next drawing operation.</p>
@@ -461,11 +461,82 @@ Cast to relevant type.</p>
 
 
 
+  <a id="BOOSE_Canvas_Rect_" data-uid="BOOSE.Canvas.Rect*"></a>
+
+  <h3 id="BOOSE_Canvas_Rect_System_Int32_System_Int32_System_Boolean_" data-uid="BOOSE.Canvas.Rect(System.Int32,System.Int32,System.Boolean)">
+  Rect(int, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draw a rectangle at cursor position of width and height.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Rect(int width, int height, bool filled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>filled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Canvas_Rectangle_" data-uid="BOOSE.Canvas.Rectangle*"></a>
+
+  <h3 id="BOOSE_Canvas_Rectangle_System_Int32_System_Int32_System_Boolean_" data-uid="BOOSE.Canvas.Rectangle(System.Int32,System.Int32,System.Boolean)">
+  Rectangle(int, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Rectangle(int width, int height, bool filled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>filled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="BOOSE_Canvas_Reset_" data-uid="BOOSE.Canvas.Reset*"></a>
 
   <h3 id="BOOSE_Canvas_Reset" data-uid="BOOSE.Canvas.Reset">
   Reset()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L99"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Reset drawing cursor to 0,0 and reset pen to default.</p>
@@ -492,7 +563,7 @@ Cast to relevant type.</p>
 
   <h3 id="BOOSE_Canvas_Set_System_Int32_System_Int32_" data-uid="BOOSE.Canvas.Set(System.Int32,System.Int32)">
   Set(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set output display size. This method should create whatever drawing display you intend to use of the size specified.</p>
@@ -526,7 +597,7 @@ Cast to relevant type.</p>
 
   <h3 id="BOOSE_Canvas_SetColour_System_Int32_System_Int32_System_Int32_" data-uid="BOOSE.Canvas.SetColour(System.Int32,System.Int32,System.Int32)">
   SetColour(int, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L114"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set the pen colour using rgb values.</p>
@@ -558,11 +629,80 @@ Cast to relevant type.</p>
 
 
 
+  <a id="BOOSE_Canvas_Tri_" data-uid="BOOSE.Canvas.Tri*"></a>
+
+  <h3 id="BOOSE_Canvas_Tri_System_Int32_System_Int32_" data-uid="BOOSE.Canvas.Tri(System.Int32,System.Int32)">
+  Tri(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draw a triangle in the bounding rectangle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Tri(int width, int height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Width of bounding rectangle.</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Height of bounding rectangle.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Canvas_WriteText_" data-uid="BOOSE.Canvas.WriteText*"></a>
+
+  <h3 id="BOOSE_Canvas_WriteText_System_String_" data-uid="BOOSE.Canvas.WriteText(System.String)">
+  WriteText(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws text on the output window at the cursor position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void WriteText(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String to output</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="BOOSE_Canvas_getBitmap_" data-uid="BOOSE.Canvas.getBitmap*"></a>
 
   <h3 id="BOOSE_Canvas_getBitmap" data-uid="BOOSE.Canvas.getBitmap">
   getBitmap()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get the drawing Object of whatever native type.

@@ -125,6 +125,13 @@ Class Array  <a class="header-action link-secondary" title="View source" href="h
     </dd>
   </dl>
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="BOOSE.Peek.html">Peek</a></div>
+      <div><a class="xref" href="BOOSE.Poke.html">Poke</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
@@ -151,10 +158,22 @@ Class Array  <a class="header-action link-secondary" title="View source" href="h
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Value">Evaluation.Value</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Execute">Evaluation.Execute()</a>
+      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Local">Evaluation.Local</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_System_String_">Evaluation.ProcessExpression(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_program">Command.program</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_parameterList">Command.parameterList</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_parameters">Command.parameters</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_paramsint">Command.paramsint</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.Command.html#BOOSE_Command_Program">Command.Program</a>
@@ -213,7 +232,7 @@ Class Array  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="BOOSE_Array__ctor" data-uid="BOOSE.Array.#ctor">
   Array()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -235,6 +254,528 @@ Class Array  <a class="header-action link-secondary" title="View source" href="h
 
 
 
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="BOOSE_Array_PEEK" data-uid="BOOSE.Array.PEEK">
+  PEEK
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected const bool PEEK = false</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="BOOSE_Array_POKE" data-uid="BOOSE.Array.POKE">
+  POKE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const bool POKE = true</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="BOOSE_Array_column" data-uid="BOOSE.Array.column">
+  column
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int column</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="BOOSE_Array_columnS" data-uid="BOOSE.Array.columnS">
+  columnS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string columnS</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="BOOSE_Array_columns" data-uid="BOOSE.Array.columns">
+  columns
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int columns</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="BOOSE_Array_intArray" data-uid="BOOSE.Array.intArray">
+  intArray
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int[,] intArray</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>[,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="BOOSE_Array_peekVar" data-uid="BOOSE.Array.peekVar">
+  peekVar
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string peekVar</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="BOOSE_Array_pokeValue" data-uid="BOOSE.Array.pokeValue">
+  pokeValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string pokeValue</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="BOOSE_Array_realArray" data-uid="BOOSE.Array.realArray">
+  realArray
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected double[,] realArray</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>[,]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="BOOSE_Array_row" data-uid="BOOSE.Array.row">
+  row
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int row</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="BOOSE_Array_rowS" data-uid="BOOSE.Array.rowS">
+  rowS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string rowS</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="BOOSE_Array_rows" data-uid="BOOSE.Array.rows">
+  rows
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int rows</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="BOOSE_Array_type" data-uid="BOOSE.Array.type">
+  type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected string type</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="BOOSE_Array_valueInt" data-uid="BOOSE.Array.valueInt">
+  valueInt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int valueInt</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="BOOSE_Array_valueReal" data-uid="BOOSE.Array.valueReal">
+  valueReal
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected double valueReal</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="BOOSE_Array_Columns_" data-uid="BOOSE.Array.Columns*"></a>
+
+  <h3 id="BOOSE_Array_Columns" data-uid="BOOSE.Array.Columns">
+  Columns
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dimensions of the array, 1 is default if no parameter is supplied.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int Columns { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Array_Rows_" data-uid="BOOSE.Array.Rows*"></a>
+
+  <h3 id="BOOSE_Array_Rows" data-uid="BOOSE.Array.Rows">
+  Rows
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Size of the array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int Rows { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -243,7 +784,7 @@ Class Array  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="BOOSE_Array_CheckParameters_System_String___" data-uid="BOOSE.Array.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Checks that there are 3 or 4 parameters..
@@ -276,10 +817,10 @@ Class Array  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="BOOSE_Array_Compile" data-uid="BOOSE.Array.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Determine if variable declaration does not have an initial value.</p>
+  <div class="markdown level1 summary"><p>Ensure array is correctly declared</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -287,6 +828,259 @@ Class Array  <a class="header-action link-secondary" title="View source" href="h
     <pre><code class="lang-csharp hljs">public override void Compile()</code></pre>
   </div>
 
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BOOSE.CommandException.html">CommandException</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="BOOSE_Array_Execute_" data-uid="BOOSE.Array.Execute*"></a>
+
+  <h3 id="BOOSE_Array_Execute" data-uid="BOOSE.Array.Execute">
+  Execute()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Evaluate any expression and store the evaluatedExpression result in instance data for sub classes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Array_GetIntArray_" data-uid="BOOSE.Array.GetIntArray*"></a>
+
+  <h3 id="BOOSE_Array_GetIntArray_System_Int32_System_Int32_" data-uid="BOOSE.Array.GetIntArray(System.Int32,System.Int32)">
+  GetIntArray(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetIntArray(int row, int col)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>row</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>col</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Array_GetRealArray_" data-uid="BOOSE.Array.GetRealArray*"></a>
+
+  <h3 id="BOOSE_Array_GetRealArray_System_Int32_System_Int32_" data-uid="BOOSE.Array.GetRealArray(System.Int32,System.Int32)">
+  GetRealArray(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double GetRealArray(int row, int col)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>row</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>col</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Array_ProcessArrayParametersCompile_" data-uid="BOOSE.Array.ProcessArrayParametersCompile*"></a>
+
+  <h3 id="BOOSE_Array_ProcessArrayParametersCompile_System_Boolean_" data-uid="BOOSE.Array.ProcessArrayParametersCompile(System.Boolean)">
+  ProcessArrayParametersCompile(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Peek and Poke are very similar in syntax but not identical, so processing them has to be done slightly differently.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ProcessArrayParametersCompile(bool peekOrPoke)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>peekOrPoke</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BOOSE.CommandException.html">CommandException</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="BOOSE_Array_ProcessArrayParametersExecute_" data-uid="BOOSE.Array.ProcessArrayParametersExecute*"></a>
+
+  <h3 id="BOOSE_Array_ProcessArrayParametersExecute_System_Boolean_" data-uid="BOOSE.Array.ProcessArrayParametersExecute(System.Boolean)">
+  ProcessArrayParametersExecute(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set up the object with parsed row and column (from any expressions).
+Used by Peek and Poke at runtime.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ProcessArrayParametersExecute(bool peekOrPoke)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>peekOrPoke</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BOOSE.CommandException.html">CommandException</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="BOOSE_Array_SetIntArray_" data-uid="BOOSE.Array.SetIntArray*"></a>
+
+  <h3 id="BOOSE_Array_SetIntArray_System_Int32_System_Int32_System_Int32_" data-uid="BOOSE.Array.SetIntArray(System.Int32,System.Int32,System.Int32)">
+  SetIntArray(int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetIntArray(int val, int row, int col)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>row</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>col</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Array_SetRealArray_" data-uid="BOOSE.Array.SetRealArray*"></a>
+
+  <h3 id="BOOSE_Array_SetRealArray_System_Double_System_Int32_System_Int32_" data-uid="BOOSE.Array.SetRealArray(System.Double,System.Int32,System.Int32)">
+  SetRealArray(double, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRealArray(double val, int row, int col)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>row</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>col</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
 
 
 

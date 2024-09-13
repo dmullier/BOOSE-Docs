@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class Parser | mysite ">
       
-      
+      <meta name="description" content="The parser takes a program, who&#39;s lines are seperated by &amp;quot;\n&amp;quot;, and attempts to create a StoredProgram. Once the SToredProgram has been created it then can be run. As much processing that can be done is done here because it has no run penalty (other than starting the program). Command objects are created and their parameters processed as much as possible. Variables are checked for existance but expressions cannot be processed until runtime.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="BOOSE_Parser" data-uid="BOOSE.Parser" class="text-break">
-Class Parser  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L25"><i class="bi bi-code-slash"></i></a>
+Class Parser  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,12 @@ Class Parser  <a class="header-action link-secondary" title="View source" href="
   <dl><dt>Assembly</dt><dd>BOOSE.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>The parser takes a program, who's lines are seperated by &quot;\n&quot;, and attempts to create a StoredProgram.
+Once the SToredProgram has been created it then can be run.
+As much processing that can be done is done here because it has no run penalty (other than starting the program).
+Command objects are created and their parameters processed as much as possible.
+Variables are checked for existance but expressions cannot be processed until runtime.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -162,7 +167,7 @@ Class Parser  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="BOOSE_Parser__ctor_BOOSE_CommandFactory_BOOSE_StoredProgram_" data-uid="BOOSE.Parser.#ctor(BOOSE.CommandFactory,BOOSE.StoredProgram)">
   Parser(CommandFactory, StoredProgram)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create Parser object with associated StoredProgram.</p>
@@ -191,6 +196,12 @@ Class Parser  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BOOSE.ParserException.html">ParserException</a></dt>
+    <dd><p>Thrown on syntax errors. message contains a complete list with line numbers, seperated by return characters.</p>
+</dd>
+  </dl>
 
 
 
@@ -202,7 +213,7 @@ Class Parser  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="BOOSE_Parser_ParseCommand_System_String_" data-uid="BOOSE.Parser.ParseCommand(System.String)">
   ParseCommand(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Take a line and attempt to parse a BOOSE command.
@@ -247,7 +258,7 @@ The Command Factory is called to make the Command object and its Compile() metho
 
   <h3 id="BOOSE_Parser_ParseProgram_System_String_" data-uid="BOOSE.Parser.ParseProgram(System.String)">
   ParseProgram(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L110"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The whole program is processed line by line.
@@ -256,30 +267,29 @@ ParseCommand() is called for each line.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string ParseProgram(string program)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void ParseProgram(string program)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>program</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>String program seperated by return characters.</p>
-</dd>
+    <dd></dd>
   </dl>
 
-  <h4 class="section">Returns</h4>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>An error list of syntax errors by line seperated by returns.</p>
+    <dt><a class="xref" href="BOOSE.ParserException.html">ParserException</a></dt>
+    <dd><p>Complete list of syntax errors with line numbers.</p>
 </dd>
   </dl>
-
-
-
-
-
-
-
-
 
 
 
@@ -287,7 +297,7 @@ ParseCommand() is called for each line.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L25" class="edit-link">Edit this page</a>
+          <a href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L33" class="edit-link">Edit this page</a>
         </div>
 
 

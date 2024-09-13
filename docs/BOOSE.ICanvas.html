@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Interface ICanvas | mysite ">
       
-      <meta name="description" content="Use implement ICanvas for your BOOSE renderer. It has an Xpos and Ypos of the current cursor position, and a pen colour. Your class should implement the methods below to draw on its &amp;quot;bitmap&amp;quot; (i.e. it may not be a bitmap, it could draw in ASCII text for example).">
+      <meta name="description" content="Implement ICanvas for your BOOSE renderer. It has an Xpos and Ypos of the current cursor position, and a pen colour. Your class should implement the methods below to draw on its &amp;quot;bitmap&amp;quot; (i.e. it may not be a bitmap, it could draw in ASCII text for example).">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -97,7 +97,7 @@ Interface ICanvas  <a class="header-action link-secondary" title="View source" h
   <dl><dt>Assembly</dt><dd>BOOSE.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Use implement ICanvas for your BOOSE renderer. It has an Xpos and Ypos of the current cursor position, and a pen colour.
+  <div class="markdown summary"><p>Implement ICanvas for your BOOSE renderer. It has an Xpos and Ypos of the current cursor position, and a pen colour.
 Your class should implement the methods below to draw on its &quot;bitmap&quot; (i.e. it may not be a bitmap, it could draw in ASCII text for example).</p>
 </div>
   <div class="markdown conceptual"></div>
@@ -358,6 +358,42 @@ Cast to relevant type.</p>
 
 
 
+  <a id="BOOSE_ICanvas_Rect_" data-uid="BOOSE.ICanvas.Rect*"></a>
+
+  <h3 id="BOOSE_ICanvas_Rect_System_Int32_System_Int32_System_Boolean_" data-uid="BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)">
+  Rect(int, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draw a rectangle at cursor position of width and height.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Rect(int width, int height, bool filled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>filled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="BOOSE_ICanvas_Reset_" data-uid="BOOSE.ICanvas.Reset*"></a>
 
   <h3 id="BOOSE_ICanvas_Reset" data-uid="BOOSE.ICanvas.Reset">
@@ -455,11 +491,80 @@ Cast to relevant type.</p>
 
 
 
+  <a id="BOOSE_ICanvas_Tri_" data-uid="BOOSE.ICanvas.Tri*"></a>
+
+  <h3 id="BOOSE_ICanvas_Tri_System_Int32_System_Int32_" data-uid="BOOSE.ICanvas.Tri(System.Int32,System.Int32)">
+  Tri(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draw a triangle in the bounding rectangle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Tri(int width, int height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Width of bounding rectangle.</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Height of bounding rectangle.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_ICanvas_WriteText_" data-uid="BOOSE.ICanvas.WriteText*"></a>
+
+  <h3 id="BOOSE_ICanvas_WriteText_System_String_" data-uid="BOOSE.ICanvas.WriteText(System.String)">
+  WriteText(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws text on the output window at the cursor position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void WriteText(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String to output</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="BOOSE_ICanvas_getBitmap_" data-uid="BOOSE.ICanvas.getBitmap*"></a>
 
   <h3 id="BOOSE_ICanvas_getBitmap" data-uid="BOOSE.ICanvas.getBitmap">
   getBitmap()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L105"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get the drawing Object of whatever native type.
