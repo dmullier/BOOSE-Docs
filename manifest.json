@@ -1,0 +1,612 @@
+{
+  "source_base_path": "C:/Users/post/source/documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "BOOSE-Docs/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSE-Docs/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.AboutBOOSE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.AboutBOOSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Array.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Array.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.BOOSEException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.BOOSEException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.BOOSEinfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.BOOSEinfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Boolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Boolean.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Call.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Call.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Canvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Canvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.CanvasCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.CanvasCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.CanvasException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.CanvasException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.CanvasI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.CanvasI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Cast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Cast.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Circle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Circle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.CommandException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.CommandException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.CommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.CommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.CommandFactoryI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.CommandFactoryI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.CommandInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.CommandInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.CommandOneParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.CommandOneParameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.CommandThreeParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.CommandThreeParameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.CommandTwoParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.CommandTwoParameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.CompoundCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.CompoundCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.ConditionalCommand.conditionalTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.ConditionalCommand.conditionalTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.ConditionalCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.ConditionalCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.DrawTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.DrawTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Else.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Else.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.End.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.End.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Evaluation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Evaluation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.FactoryException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.FactoryException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.For.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.For.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.ICanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.ICanvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.ICommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.ICommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.ICommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.ICommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.IEvaluation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.IEvaluation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.IParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.IParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.IStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.IStoredProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.If.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.If.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Int.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Int.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Method.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Method.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.MoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.MoveTo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.ParserException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.ParserException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Peek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Peek.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.PenColour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.PenColour.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Poke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Poke.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Real.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Real.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Rect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Rect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.RestrictionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.RestrictionException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.StoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.StoredProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.StoredProgramException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.StoredProgramException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.StoredProgramI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.StoredProgramI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.TwoParamDrawCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.TwoParamDrawCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Var.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Var.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.VarException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.VarException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.While.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.While.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.Write.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.Write.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "boose/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/toc.html"
+        },
+        ".json": {
+          "relative_path": "boose/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/README.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
