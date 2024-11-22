@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class Int | mysite ">
       
-      <meta name="description" content="Class to store integer values.">
+      <meta name="description" content="Command Class to define and store integer values.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -97,7 +97,7 @@ Class Int  <a class="header-action link-secondary" title="View source" href="htt
   <dl><dt>Assembly</dt><dd>BOOSE.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Class to store integer values.</p>
+  <div class="markdown summary"><p>Command Class to define and store integer values.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -261,8 +261,8 @@ Class Int  <a class="header-action link-secondary" title="View source" href="htt
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Int.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>If this is a variable declartation set its value and add it to the variable table.
-If it is an expression then nothis happens as it already exists in the variable table.</p>
+  <div class="markdown level1 summary"><p>If this is a variable declartation set its value and add it to the variable table in the StoredProgram.
+If it is an expression then nothing happens as it already exists in the variable table (that is handled within StoredProgram).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -310,7 +310,7 @@ Determines if a cast is needed for a real value.</p>
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
     <dt><a class="xref" href="BOOSE.StoredProgramException.html">StoredProgramException</a></dt>
-    <dd><p>Throws an exception is it can't parse an integer or if there is an attempt to parse a real value.</p>
+    <dd><p>Throws an exception is it can't parse an integer or if there is an attempt to parse a real value which requires a boose cast to force it.</p>
 </dd>
   </dl>
 

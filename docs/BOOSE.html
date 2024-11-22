@@ -96,13 +96,22 @@ Classes
 </h3>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.AboutBOOSE.html">AboutBOOSE</a></dt>
-      <dd><p>Basic Object Orientated Software Engineering.<br>
+      <dd><p>V1.05<br>
+Basic Object Orientated Software Engineering.<br>
+Documentation updated 22/11/2024<br>
 This is a set of classes for implementing the BOOSE language.<br>
-To replace class functionality you can ether implement the relevant interface to completely replace all functionality, or extend the relevant class and override the interface methods, which will allow the calling of base methods in the original class.<br><br>Example of adding a command to BOOSE. Here I will call the new program AppBOOSE and append App to class names (but you can call them what you like).
+To replace class functionality you can either implement the relevant interface to completely replace all functionality, or extend the relevant class and override the interface methods, which will allow the calling of base methods in the original class.<br><br>Example of adding a command to BOOSE. Here I will call the new program AppBOOSE and append App to class names (but you can call them what you like).
 <br>step 1 extend ICanvas to have your new draw command that will be called when its command is executed, IAppCanvas.
 <br>step 2 extend this new interface with a class (AppCanvas) which creates a drawing object (bitmap?) does all the actual drawing.
 <br>step 3 extend appropriate command Interface to create a new command class. i.e. Rect(width, height) would extend ICommandTwoParameters.
-<br>step 4 extend the original factory if you want to use any of its existing commands (by calling base.MakeCommand() after looking for your new commands) or ICommandFactory if completely replacing it.</p>
+<br>step 4 extend the original factory if you want to use any of its existing commands (by calling base.MakeCommand() after looking for your new commands) or ICommandFactory if completely replacing it.
+<br>BOOSE is restricted via a set of constants that limit its functionality unless the restrictions are turned off. They can only be turned off at the source code level (i.e. by the author only).
+<br>1.04 reduced restrictions on graphics commands.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Array.html">Array</a></dt>
+      <dd><p>An array command takes the form &quot;array int myArray 10,2&quot; or &quot;array real prices 10&quot; [array][(type)][(size)][(optional dimentions, 1 if not given)]</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -112,9 +121,19 @@ Extends Exception</p>
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Boolean.html">Boolean</a></dt>
+      <dd><p>Boolean datatype, also used for Conditional Commands.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Call.html">Call</a></dt>
+      <dd><p>Comand to call a previously defined method.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.Canvas.html">Canvas</a></dt>
       <dd><p>Abstract class that implements CanvasInterface. See CanvasInterface documentation for what to implement.
-This class show handle all the drawing on your system according to above ocumentation.
+This class handles all the drawing on your system according to above ocumentation.
 BOOSE does not by default specify a default drawing Canvas (only this).</p>
 </dd>
     </dl>
@@ -129,8 +148,14 @@ BOOSE does not by default specify a default drawing Canvas (only this).</p>
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Cast.html">Cast</a></dt>
+      <dd><p>Cast real values to int values.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.Circle.html">Circle</a></dt>
-      <dd></dd>
+      <dd><p>Draw a circle round the current cursor position.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.Command.html">Command</a></dt>
@@ -179,7 +204,8 @@ Each command has an Xpos and Ypos that operates from the current cursor position
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.DrawTo.html">DrawTo</a></dt>
-      <dd></dd>
+      <dd><p>Draw a line from to current cursor position to the provided x,y position.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.Else.html">Else</a></dt>
@@ -193,6 +219,11 @@ BOOSE has only one End type command which has a parameter to say what it belongs
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Evaluation.html">Evaluation</a></dt>
+      <dd><p>An evaluation encompasses all things that can have a value, such as variables, expressions and conditions used in loops and ifs.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.FactoryException.html">FactoryException</a></dt>
       <dd><p>exception genereted by the StoredProgram class</p>
 </dd>
@@ -200,34 +231,81 @@ BOOSE has only one End type command which has a parameter to say what it belongs
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.For.html">For</a></dt>
       <dd><p>For command.
-So far blank as it doesn't do anything beyond ConditionalCommand but it makes the code clearer (in the factory).</p>
+Adds processing at compile() and execute() to process a for command.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.If.html">If</a></dt>
-      <dd></dd>
+      <dd><p>If command.
+Adds processing at compile() and execute() to process an if command.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Int.html">Int</a></dt>
+      <dd><p>Command Class to define and store integer values.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Method.html">Method</a></dt>
+      <dd><p>Method declaration command</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.MoveTo.html">MoveTo</a></dt>
-      <dd></dd>
+      <dd><p>Set the cursor position, for subsequent drawing operations, to the provide x,y position.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.Parser.html">Parser</a></dt>
-      <dd></dd>
+      <dd><p>The parser takes a program, who's lines are seperated by &quot;\n&quot;, and attempts to create a StoredProgram.
+Once the SToredProgram has been created it then can be run.
+As much processing that can be done is done here because it has no run penalty (other than starting the program).
+Command objects are created and their parameters processed as much as possible.
+Variables are checked for existance but expressions cannot be processed until runtime.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.ParserException.html">ParserException</a></dt>
-      <dd><p>exception genereted by the StoredProgram class</p>
+      <dd><p>exception genereted by the Parser class to denote syntax errors</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Peek.html">Peek</a></dt>
+      <dd><p>Peek an array, i.e. get the value of an array cell.
+[variable] = peek [array name] [row] [optional column]</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.PenColour.html">PenColour</a></dt>
-      <dd></dd>
+      <dd><p>Set the pen for the next drawing operations to the provided r,g,b colour.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Poke.html">Poke</a></dt>
+      <dd><p>Poke an array, i.e. set the value of an array cell.
+poke [array name] [row] [optional column] = [value]</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Real.html">Real</a></dt>
+      <dd><p>Class for a Real Number Variable.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Rect.html">Rect</a></dt>
+      <dd><p>Draw a rectangle of provided with and heigh with the current cursor position being the top left corner.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.RestrictionException.html">RestrictionException</a></dt>
+      <dd><p>Exception thrown when restrictions are breached.
+If you get this you need to write your own code for the facility.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.StoredProgram.html">StoredProgram</a></dt>
-      <dd><p>a collection class for storing a program of Command objects, extends ArrayList to add a program counter and a flag to indicate that the syntax is ok and the program valid.
-Don't confuse with the class Program that a form creates with the main method in it</p>
+      <dd><p>A collection class for storing a program of Command objects, extends ArrayList to add a program counter and a flag to indicate that the syntax is ok and the program valid.
+Adds methods below to process variables and methods and implements flow of control for ifs and loops.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -236,12 +314,9 @@ Don't confuse with the class Program that a form creates with the main method in
 </dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="BOOSE.Var.html">Var</a></dt>
-      <dd></dd>
-    </dl>
-    <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.VarException.html">VarException</a></dt>
-      <dd></dd>
+      <dd><p>Exception raised by variable commands.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.While.html">While</a></dt>
@@ -249,12 +324,16 @@ Don't confuse with the class Program that a form creates with the main method in
 So far blank as it doesn't do anything beyond ConditionalCommand but it makes the code clearer (in the factory).</p>
 </dd>
     </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.Write.html">Write</a></dt>
+      <dd></dd>
+    </dl>
     <h3 id="interfaces">
 Interfaces
 </h3>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.ICanvas.html">ICanvas</a></dt>
-      <dd><p>Use implement ICanvas for your BOOSE renderer. It has an Xpos and Ypos of the current cursor position, and a pen colour.
+      <dd><p>Implement ICanvas for your BOOSE renderer. It has an Xpos and Ypos of the current cursor position, and a pen colour.
 Your class should implement the methods below to draw on its &quot;bitmap&quot; (i.e. it may not be a bitmap, it could draw in ASCII text for example).</p>
 </dd>
     </dl>
@@ -270,6 +349,14 @@ Contains methods to set the Command up after its creation, manage its parameters
 You should extend the existing BOOSE:CommandFactory (which implements this interface) and then
 implement the MakeCommand() method. It shoudld create a new command object based on the string passed.
 Any standard BOOSE commands can then be made by calling base.MakeCommand();</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSE.IEvaluation.html">IEvaluation</a></dt>
+      <dd><p>IEvaluation adds properties to get and set an Evaluations name, value and expression.
+An evaluation can be a variable declaration, such as &quot;int total&quot; or &quot;real area&quot;.
+It can be change of value of a variable, such as &quot;total = total + 1&quot;, the part after the &quot;=&quot; is an referred to as an &quot;expression&quot;.
+In the first two cases the parser will generate an Int object and a Real Object. In the third case it will generate a &quot;Evaluation&quot; object.</p>
 </dd>
     </dl>
     <dl class="jumplist">

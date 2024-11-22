@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class Evaluation | mysite ">
       
-      <meta name="description" content="An evaluation encompasses all things that can have a value, such as variables, expressions and conditions.">
+      <meta name="description" content="An evaluation encompasses all things that can have a value, such as variables, expressions and conditions used in loops and ifs.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -97,7 +97,7 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
   <dl><dt>Assembly</dt><dd>BOOSE.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>An evaluation encompasses all things that can have a value, such as variables, expressions and conditions.</p>
+  <div class="markdown summary"><p>An evaluation encompasses all things that can have a value, such as variables, expressions and conditions used in loops and ifs.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -207,7 +207,7 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_Evaluation__ctor" data-uid="BOOSE.Evaluation.#ctor">
   Evaluation()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Blank constructor,</p>
@@ -365,7 +365,7 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The right hand side of an expression. in a variable initialisetion or variable change of value, or a boolean in a conditional command</p>
+  <div class="markdown level1 summary"><p>The right hand side of an expression in a variable initialisetion or variable change of value, or a boolean in a conditional command</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -394,10 +394,10 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_Evaluation_Local" data-uid="BOOSE.Evaluation.Local">
   Local
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Is this a local variable/method variable?</p>
+  <div class="markdown level1 summary"><p>Is this a local variable/method variable? This is so that variables of the same name can exist in defferent scopes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -434,7 +434,7 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Value { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual int Value { get; set; }</code></pre>
   </div>
 
 
@@ -461,7 +461,7 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>name of variable as a string (as opposed to Name which is the name of the class, in this case Var.</p>
+  <div class="markdown level1 summary"><p>Name of variable as a string (as opposed to Name which is the name of the class, such as Int, Real or Boolean).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -494,10 +494,10 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_Evaluation_CheckParameters_System_String___" data-uid="BOOSE.Evaluation.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Derived commandas must provide a method to check that their parameters are ok and throw relevant exceptions if not.</p>
+  <div class="markdown level1 summary"><p>Does nothing in this case.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -526,10 +526,11 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_Evaluation_Compile" data-uid="BOOSE.Evaluation.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Determine if variable declaration does not have an initial value.</p>
+  <div class="markdown level1 summary"><p>Determine if variable declaration does not have an initial value. If it doesn't set it to a standard initial value (0 for int and real for example)
+If it does ProcessExpression will be called to extract the right hand side of the expression.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -553,10 +554,11 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_Evaluation_Execute" data-uid="BOOSE.Evaluation.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Evaluate any expression and store the evaluatedExpression result in instance data for sub classes.</p>
+  <div class="markdown level1 summary"><p>Evaluate any expression and store the evaluatedExpression result in instance data for sub classes.
+Expressions are evaluated at runtime by a StoredProgram object (Program)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -580,10 +582,10 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_Evaluation_ProcessExpression_System_String_" data-uid="BOOSE.Evaluation.ProcessExpression(System.String)">
   ProcessExpression(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L106"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Takes a complete expression with left hand side and right hand side and returns only the right hand side</p>
+  <div class="markdown level1 summary"><p>Takes a complete expression with left hand side and right hand side and returns only the right hand side (i.e. the bit after the =).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -594,13 +596,14 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>Expression</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>Expression to evaluate</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>S</p>
+    <dd><p>Right hand side of expression (the bit after the =)</p>
 </dd>
   </dl>
 
@@ -614,7 +617,8 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
     <dt><a class="xref" href="BOOSE.VarException.html">VarException</a></dt>
-    <dd></dd>
+    <dd><p>Var exception if it isn't an expression</p>
+</dd>
   </dl>
 
 

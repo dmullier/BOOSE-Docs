@@ -213,12 +213,14 @@ Variables are checked for existance but expressions cannot be processed until ru
 
   <h3 id="BOOSE_Parser_ParseCommand_System_String_" data-uid="BOOSE.Parser.ParseCommand(System.String)">
   ParseCommand(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Take a line and attempt to parse a BOOSE command.
 The command is split from its parameters. It determines if variables are being defined or updated.
-The Command Factory is called to make the Command object and its Compile() method is called to further process its parameters.</p>
+The Command Factory is called to make the Command object and its Compile() method is called to further process its parameters.
+Normal commands are of the form [command][space][parameter list]
+Variable declarations\redefinitions are of the form [variablename][=][expression] where expression is optional</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -258,7 +260,7 @@ The Command Factory is called to make the Command object and its Compile() metho
 
   <h3 id="BOOSE_Parser_ParseProgram_System_String_" data-uid="BOOSE.Parser.ParseProgram(System.String)">
   ParseProgram(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Parser.cs/#L112"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The whole program is processed line by line.

@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class StoredProgram | mysite ">
       
-      <meta name="description" content="a collection class for storing a program of Command objects, extends ArrayList to add a program counter and a flag to indicate that the syntax is ok and the program valid. Don&#39;t confuse with the class Program that a form creates with the main method in it">
+      <meta name="description" content="A collection class for storing a program of Command objects, extends ArrayList to add a program counter and a flag to indicate that the syntax is ok and the program valid. Adds methods below to process variables and methods and implements flow of control for ifs and loops.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -97,8 +97,8 @@ Class StoredProgram  <a class="header-action link-secondary" title="View source"
   <dl><dt>Assembly</dt><dd>BOOSE.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>a collection class for storing a program of Command objects, extends ArrayList to add a program counter and a flag to indicate that the syntax is ok and the program valid.
-Don't confuse with the class Program that a form creates with the main method in it</p>
+  <div class="markdown summary"><p>A collection class for storing a program of Command objects, extends ArrayList to add a program counter and a flag to indicate that the syntax is ok and the program valid.
+Adds methods below to process variables and methods and implements flow of control for ifs and loops.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -316,10 +316,11 @@ Don't confuse with the class Program that a form creates with the main method in
 
   <h3 id="BOOSE_StoredProgram__ctor_BOOSE_ICanvas_" data-uid="BOOSE.StoredProgram.#ctor(BOOSE.ICanvas)">
   StoredProgram(ICanvas)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Create a blank program which will output to the provided Canvas object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -385,7 +386,7 @@ Don't confuse with the class Program that a form creates with the main method in
 
   <h3 id="BOOSE_StoredProgram_PC" data-uid="BOOSE.StoredProgram.PC">
   PC
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Program Counter, points at the next command object.</p>
@@ -421,7 +422,7 @@ Don't confuse with the class Program that a form creates with the main method in
 
   <h3 id="BOOSE_StoredProgram_Add_BOOSE_Command_" data-uid="BOOSE.StoredProgram.Add(BOOSE.Command)">
   Add(Command)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L384"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L407"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Adds Command to a stored program</p>
@@ -459,7 +460,7 @@ Don't confuse with the class Program that a form creates with the main method in
 
   <h3 id="BOOSE_StoredProgram_AddMethod_BOOSE_Method_" data-uid="BOOSE.StoredProgram.AddMethod(BOOSE.Method)">
   AddMethod(Method)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Add a Method object to the methods table so it can be linked to a call.</p>
@@ -492,7 +493,7 @@ Don't confuse with the class Program that a form creates with the main method in
 
   <h3 id="BOOSE_StoredProgram_AddVariable_BOOSE_Evaluation_" data-uid="BOOSE.StoredProgram.AddVariable(BOOSE.Evaluation)">
   AddVariable(Evaluation)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L119"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Add a variable/evaluation to the Stored Program.</p>
@@ -525,7 +526,7 @@ Don't confuse with the class Program that a form creates with the main method in
 
   <h3 id="BOOSE_StoredProgram_Commandsleft" data-uid="BOOSE.StoredProgram.Commandsleft">
   Commandsleft()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L429"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L452"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Are there any commands left to execute in the program?
@@ -559,7 +560,7 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
   <h3 id="BOOSE_StoredProgram_DeleteVariable_System_String_" data-uid="BOOSE.StoredProgram.DeleteVariable(System.String)">
   DeleteVariable(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L281"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>If the passed in variable name exists then delete it.</p>
@@ -592,11 +593,11 @@ i.e. pc (Program Counter) has not yet reached the end of the program</p>
 
   <h3 id="BOOSE_StoredProgram_EvaluateExpression_System_String_" data-uid="BOOSE.StoredProgram.EvaluateExpression(System.String)">
   EvaluateExpression(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L316"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L339"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Evaluate the given expression by finding the values of any variables and passing the final evaluated result as a String.
-Uses the DataTable Class Compute() method.</p>
+Uses the DataTable Class Compute() method which can parse an expression as a string, but it doesn't know about boose variable so they have to be converted to values and the expression assembled with them.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -636,7 +637,7 @@ Uses the DataTable Class Compute() method.</p>
 
   <h3 id="BOOSE_StoredProgram_EvaluateExpressionWithString_System_String_" data-uid="BOOSE.StoredProgram.EvaluateExpressionWithString(System.String)">
   EvaluateExpressionWithString(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L313"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Evaluate an expression with a string. i.e. area + &quot; cm^2&quot;</p>
@@ -671,83 +672,11 @@ Uses the DataTable Class Compute() method.</p>
 
 
 
-  <a id="BOOSE_StoredProgram_FindMethod_" data-uid="BOOSE.StoredProgram.FindMethod*"></a>
-
-  <h3 id="BOOSE_StoredProgram_FindMethod_BOOSE_Method_" data-uid="BOOSE.StoredProgram.FindMethod(BOOSE.Method)">
-  FindMethod(Method)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L68"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int FindMethod(Method M)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>M</code> <a class="xref" href="BOOSE.Method.html">Method</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="BOOSE_StoredProgram_FindMethod_" data-uid="BOOSE.StoredProgram.FindMethod*"></a>
-
-  <h3 id="BOOSE_StoredProgram_FindMethod_System_String_" data-uid="BOOSE.StoredProgram.FindMethod(System.String)">
-  FindMethod(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L82"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int FindMethod(string methodName)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>methodName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
   <a id="BOOSE_StoredProgram_FindVariable_" data-uid="BOOSE.StoredProgram.FindVariable*"></a>
 
   <h3 id="BOOSE_StoredProgram_FindVariable_BOOSE_Evaluation_" data-uid="BOOSE.StoredProgram.FindVariable(BOOSE.Evaluation)">
   FindVariable(Evaluation)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L161"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Finds the position of a Variable Object in the Variable table.</p>
@@ -786,7 +715,7 @@ Uses the DataTable Class Compute() method.</p>
 
   <h3 id="BOOSE_StoredProgram_FindVariable_System_String_" data-uid="BOOSE.StoredProgram.FindVariable(System.String)">
   FindVariable(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L172"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get a variable's position in the Variable table. The variable is expressed by its string name.</p>
@@ -825,10 +754,11 @@ Uses the DataTable Class Compute() method.</p>
 
   <h3 id="BOOSE_StoredProgram_GetMethod_System_String_" data-uid="BOOSE.StoredProgram.GetMethod(System.String)">
   GetMethod(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the method object from the StoredProgram's method table from its string name.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -838,7 +768,8 @@ Uses the DataTable Class Compute() method.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>MethodName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>String name of method.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -854,6 +785,12 @@ Uses the DataTable Class Compute() method.</p>
 
 
 
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BOOSE.StoredProgramException.html">StoredProgramException</a></dt>
+    <dd><p>Thrown if method does not exist</p>
+</dd>
+  </dl>
 
 
 
@@ -861,7 +798,7 @@ Uses the DataTable Class Compute() method.</p>
 
   <h3 id="BOOSE_StoredProgram_GetVarValue_System_String_" data-uid="BOOSE.StoredProgram.GetVarValue(System.String)">
   GetVarValue(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L209"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a variables value from it string name.</p>
@@ -906,7 +843,7 @@ Uses the DataTable Class Compute() method.</p>
 
   <h3 id="BOOSE_StoredProgram_GetVariable_System_Int32_" data-uid="BOOSE.StoredProgram.GetVariable(System.Int32)">
   GetVariable(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L149"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Return the Variable object at the given index in the Variable table.</p>
@@ -951,7 +888,7 @@ Uses the DataTable Class Compute() method.</p>
 
   <h3 id="BOOSE_StoredProgram_GetVariable_System_String_" data-uid="BOOSE.StoredProgram.GetVariable(System.String)">
   GetVariable(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L135"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get a Variable Object. Evaluation is the base class, it could itself be a subclass of the actual types (int, real boolean etc).</p>
@@ -995,7 +932,7 @@ Uses the DataTable Class Compute() method.</p>
 
   <h3 id="BOOSE_StoredProgram_IsExpression_System_String_" data-uid="BOOSE.StoredProgram.IsExpression(System.String)">
   IsExpression(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L295"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1031,7 +968,7 @@ Uses the DataTable Class Compute() method.</p>
 
   <h3 id="BOOSE_StoredProgram_Pop" data-uid="BOOSE.StoredProgram.Pop">
   Pop()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L367"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L390"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Pop a compound command onto the stack.
@@ -1070,7 +1007,7 @@ Used for whiles/if/fors/methods to move the PC.</p>
 
   <h3 id="BOOSE_StoredProgram_Push_BOOSE_ConditionalCommand_" data-uid="BOOSE.StoredProgram.Push(BOOSE.ConditionalCommand)">
   Push(ConditionalCommand)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L356"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L379"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Push a compound command onto the stack.
@@ -1104,7 +1041,7 @@ Used for whiles/if/fors/methods to move the PC.</p>
 
   <h3 id="BOOSE_StoredProgram_ResetProgram" data-uid="BOOSE.StoredProgram.ResetProgram">
   ResetProgram()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L413"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L436"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Once a program has finished executing it needs to be reset (Program Counter set to zero)</p>
@@ -1131,7 +1068,7 @@ Used for whiles/if/fors/methods to move the PC.</p>
 
   <h3 id="BOOSE_StoredProgram_Run" data-uid="BOOSE.StoredProgram.Run">
   Run()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L445"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L468"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Attempt to execute the program, throws a StoredProgram if it cannot run to completion.
@@ -1166,7 +1103,7 @@ Attempts to detect infinite loops by detecting it has gione fround the run loop 
 
   <h3 id="BOOSE_StoredProgram_UpdateVariable_System_String_System_Boolean_" data-uid="BOOSE.StoredProgram.UpdateVariable(System.String,System.Boolean)">
   UpdateVariable(string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L248"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L265"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Update integer variable value.</p>
@@ -1202,7 +1139,7 @@ Attempts to detect infinite loops by detecting it has gione fround the run loop 
 
   <h3 id="BOOSE_StoredProgram_UpdateVariable_System_String_System_Double_" data-uid="BOOSE.StoredProgram.UpdateVariable(System.String,System.Double)">
   UpdateVariable(string, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L248"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Update real variable value.</p>
@@ -1238,7 +1175,7 @@ Attempts to detect infinite loops by detecting it has gione fround the run loop 
 
   <h3 id="BOOSE_StoredProgram_UpdateVariable_System_String_System_Int32_" data-uid="BOOSE.StoredProgram.UpdateVariable(System.String,System.Int32)">
   UpdateVariable(string, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L228"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Update an existing variable's integer value if it is found, do nothing if not found.</p>
@@ -1274,7 +1211,7 @@ Attempts to detect infinite loops by detecting it has gione fround the run loop 
 
   <h3 id="BOOSE_StoredProgram_VariableExists_System_String_" data-uid="BOOSE.StoredProgram.VariableExists(System.String)">
   VariableExists(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/StoredProgram.cs/#L194"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns true if the variable specified by its name exists.</p>

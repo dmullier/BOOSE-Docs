@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace BOOSE | Basic Object Orientated Software Engineering </title>
+      <title>Namespace BOOSE | mysite </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace BOOSE | Basic Object Orientated Software Engineering ">
+      <meta name="title" content="Namespace BOOSE | mysite ">
       
       
-      <link rel="icon" href="boose.ico">
-      <link rel="stylesheet" href="docfx.min.css">
-      <link rel="stylesheet" href="main.css">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="">
       <meta name="docfx:tocrel" content="toc.html">
       
@@ -44,7 +44,7 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="boose">
+            <img id="logo" class="svg" src="../logo.svg" alt="mysite">
             mysite
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -96,15 +96,17 @@ Classes
 </h3>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.AboutBOOSE.html">AboutBOOSE</a></dt>
-      <dd><p>V0.01<br>
+      <dd><p>V1.05<br>
 Basic Object Orientated Software Engineering.<br>
+Documentation updated 22/11/2024<br>
 This is a set of classes for implementing the BOOSE language.<br>
 To replace class functionality you can either implement the relevant interface to completely replace all functionality, or extend the relevant class and override the interface methods, which will allow the calling of base methods in the original class.<br><br>Example of adding a command to BOOSE. Here I will call the new program AppBOOSE and append App to class names (but you can call them what you like).
 <br>step 1 extend ICanvas to have your new draw command that will be called when its command is executed, IAppCanvas.
 <br>step 2 extend this new interface with a class (AppCanvas) which creates a drawing object (bitmap?) does all the actual drawing.
 <br>step 3 extend appropriate command Interface to create a new command class. i.e. Rect(width, height) would extend ICommandTwoParameters.
 <br>step 4 extend the original factory if you want to use any of its existing commands (by calling base.MakeCommand() after looking for your new commands) or ICommandFactory if completely replacing it.
-<br>BOOSE is restricted via a set of constants that limit its functionality unless the restrictions are turned off. They can only be turned off at the source code level (i.e. by the author only).</p>
+<br>BOOSE is restricted via a set of constants that limit its functionality unless the restrictions are turned off. They can only be turned off at the source code level (i.e. by the author only).
+<br>1.04 reduced restrictions on graphics commands.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -131,7 +133,7 @@ Extends Exception</p>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.Canvas.html">Canvas</a></dt>
       <dd><p>Abstract class that implements CanvasInterface. See CanvasInterface documentation for what to implement.
-This class show handle all the drawing on your system according to above ocumentation.
+This class handles all the drawing on your system according to above ocumentation.
 BOOSE does not by default specify a default drawing Canvas (only this).</p>
 </dd>
     </dl>
@@ -218,7 +220,7 @@ BOOSE has only one End type command which has a parameter to say what it belongs
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.Evaluation.html">Evaluation</a></dt>
-      <dd><p>An evaluation encompasses all things that can have a value, such as variables, expressions and conditions.</p>
+      <dd><p>An evaluation encompasses all things that can have a value, such as variables, expressions and conditions used in loops and ifs.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -240,7 +242,7 @@ Adds processing at compile() and execute() to process an if command.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.Int.html">Int</a></dt>
-      <dd><p>Class to store integer values.</p>
+      <dd><p>Command Class to define and store integer values.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -302,8 +304,8 @@ If you get this you need to write your own code for the facility.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.StoredProgram.html">StoredProgram</a></dt>
-      <dd><p>a collection class for storing a program of Command objects, extends ArrayList to add a program counter and a flag to indicate that the syntax is ok and the program valid.
-Don't confuse with the class Program that a form creates with the main method in it</p>
+      <dd><p>A collection class for storing a program of Command objects, extends ArrayList to add a program counter and a flag to indicate that the syntax is ok and the program valid.
+Adds methods below to process variables and methods and implements flow of control for ifs and loops.</p>
 </dd>
     </dl>
     <dl class="jumplist">
