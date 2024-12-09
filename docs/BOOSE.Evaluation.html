@@ -494,7 +494,7 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_Evaluation_CheckParameters_System_String___" data-uid="BOOSE.Evaluation.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L95"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Does nothing in this case.</p>
@@ -526,7 +526,7 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_Evaluation_Compile" data-uid="BOOSE.Evaluation.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Determine if variable declaration does not have an initial value. If it doesn't set it to a standard initial value (0 for int and real for example)
@@ -554,7 +554,7 @@ If it does ProcessExpression will be called to extract the right hand side of th
 
   <h3 id="BOOSE_Evaluation_Execute" data-uid="BOOSE.Evaluation.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Evaluate any expression and store the evaluatedExpression result in instance data for sub classes.
@@ -582,7 +582,7 @@ Expressions are evaluated at runtime by a StoredProgram object (Program)</p>
 
   <h3 id="BOOSE_Evaluation_ProcessExpression_System_String_" data-uid="BOOSE.Evaluation.ProcessExpression(System.String)">
   ProcessExpression(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Takes a complete expression with left hand side and right hand side and returns only the right hand side (i.e. the bit after the =).</p>
@@ -618,39 +618,6 @@ Expressions are evaluated at runtime by a StoredProgram object (Program)</p>
   <dl class="parameters">
     <dt><a class="xref" href="BOOSE.VarException.html">VarException</a></dt>
     <dd><p>Var exception if it isn't an expression</p>
-</dd>
-  </dl>
-
-
-
-  <a id="BOOSE_Evaluation_Restrictions_" data-uid="BOOSE.Evaluation.Restrictions*"></a>
-
-  <h3 id="BOOSE_Evaluation_Restrictions" data-uid="BOOSE.Evaluation.Restrictions">
-  Restrictions()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L55"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Restrict the number of variable declarations.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void Restrictions()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BOOSE.RestrictionException.html">RestrictionException</a></dt>
-    <dd><p>Thrown if variable limit exceeded.</p>
 </dd>
   </dl>
 

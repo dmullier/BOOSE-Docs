@@ -161,9 +161,6 @@ Class Array  <a class="header-action link-secondary" title="View source" href="h
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Local">Evaluation.Local</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Restrictions">Evaluation.Restrictions()</a>
-    </div>
-    <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_System_String_">Evaluation.ProcessExpression(string)</a>
     </div>
     <div>
@@ -235,10 +232,11 @@ Class Array  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="BOOSE_Array__ctor" data-uid="BOOSE.Array.#ctor">
   Array()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Contructor calls restrictions.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -719,7 +717,7 @@ Class Array  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="BOOSE_Array_Columns" data-uid="BOOSE.Array.Columns">
   Columns
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Dimensions of the array, 1 is default if no parameter is supplied.</p>
@@ -751,7 +749,7 @@ Class Array  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="BOOSE_Array_Rows" data-uid="BOOSE.Array.Rows">
   Rows
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Size of the array.</p>
@@ -783,11 +781,37 @@ Class Array  <a class="header-action link-secondary" title="View source" href="h
 </h2>
 
 
+  <a id="BOOSE_Array_ArrayRestrictions_" data-uid="BOOSE.Array.ArrayRestrictions*"></a>
+
+  <h3 id="BOOSE_Array_ArrayRestrictions" data-uid="BOOSE.Array.ArrayRestrictions">
+  ArrayRestrictions()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ArrayRestrictions()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="BOOSE_Array_CheckParameters_" data-uid="BOOSE.Array.CheckParameters*"></a>
 
   <h3 id="BOOSE_Array_CheckParameters_System_String___" data-uid="BOOSE.Array.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Checks that there are 3 or 4 parameters..
@@ -820,7 +844,7 @@ Class Array  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="BOOSE_Array_Compile" data-uid="BOOSE.Array.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Ensure array is correctly declared</p>
@@ -852,7 +876,7 @@ Class Array  <a class="header-action link-secondary" title="View source" href="h
 
   <h3 id="BOOSE_Array_Execute" data-uid="BOOSE.Array.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L94"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Evaluate any expression and store the evaluatedExpression result in instance data for sub classes.
@@ -880,14 +904,14 @@ Expressions are evaluated at runtime by a StoredProgram object (Program)</p>
 
   <h3 id="BOOSE_Array_GetIntArray_System_Int32_System_Int32_" data-uid="BOOSE.Array.GetIntArray(System.Int32,System.Int32)">
   GetIntArray(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L210"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetIntArray(int row, int col)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual int GetIntArray(int row, int col)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -918,14 +942,14 @@ Expressions are evaluated at runtime by a StoredProgram object (Program)</p>
 
   <h3 id="BOOSE_Array_GetRealArray_System_Int32_System_Int32_" data-uid="BOOSE.Array.GetRealArray(System.Int32,System.Int32)">
   GetRealArray(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L216"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double GetRealArray(int row, int col)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual double GetRealArray(int row, int col)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -956,7 +980,7 @@ Expressions are evaluated at runtime by a StoredProgram object (Program)</p>
 
   <h3 id="BOOSE_Array_ProcessArrayParametersCompile_System_Boolean_" data-uid="BOOSE.Array.ProcessArrayParametersCompile(System.Boolean)">
   ProcessArrayParametersCompile(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L114"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Peek and Poke are very similar in syntax but not identical, so processing them has to be done slightly differently.</p>
@@ -964,7 +988,7 @@ Expressions are evaluated at runtime by a StoredProgram object (Program)</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void ProcessArrayParametersCompile(bool peekOrPoke)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void ProcessArrayParametersCompile(bool peekOrPoke)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -993,7 +1017,7 @@ Expressions are evaluated at runtime by a StoredProgram object (Program)</p>
 
   <h3 id="BOOSE_Array_ProcessArrayParametersExecute_System_Boolean_" data-uid="BOOSE.Array.ProcessArrayParametersExecute(System.Boolean)">
   ProcessArrayParametersExecute(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set up the object with parsed row and column (from any expressions).
@@ -1002,7 +1026,7 @@ Used by Peek and Poke at runtime.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void ProcessArrayParametersExecute(bool peekOrPoke)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void ProcessArrayParametersExecute(bool peekOrPoke)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1027,18 +1051,44 @@ Used by Peek and Poke at runtime.</p>
 
 
 
-  <a id="BOOSE_Array_SetIntArray_" data-uid="BOOSE.Array.SetIntArray*"></a>
+  <a id="BOOSE_Array_ReduceRestrictionCounter_" data-uid="BOOSE.Array.ReduceRestrictionCounter*"></a>
 
-  <h3 id="BOOSE_Array_SetIntArray_System_Int32_System_Int32_System_Int32_" data-uid="BOOSE.Array.SetIntArray(System.Int32,System.Int32,System.Int32)">
-  SetIntArray(int, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_Array_ReduceRestrictionCounter" data-uid="BOOSE.Array.ReduceRestrictionCounter">
+  ReduceRestrictionCounter()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetIntArray(int val, int row, int col)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void ReduceRestrictionCounter()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_Array_SetIntArray_" data-uid="BOOSE.Array.SetIntArray*"></a>
+
+  <h3 id="BOOSE_Array_SetIntArray_System_Int32_System_Int32_System_Int32_" data-uid="BOOSE.Array.SetIntArray(System.Int32,System.Int32,System.Int32)">
+  SetIntArray(int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SetIntArray(int val, int row, int col)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1066,14 +1116,14 @@ Used by Peek and Poke at runtime.</p>
 
   <h3 id="BOOSE_Array_SetRealArray_System_Double_System_Int32_System_Int32_" data-uid="BOOSE.Array.SetRealArray(System.Double,System.Int32,System.Int32)">
   SetRealArray(double, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Array.cs/#L204"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetRealArray(double val, int row, int col)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void SetRealArray(double val, int row, int col)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

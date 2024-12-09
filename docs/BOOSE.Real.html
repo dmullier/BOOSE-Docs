@@ -151,9 +151,6 @@ Class Real  <a class="header-action link-secondary" title="View source" href="ht
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Local">Evaluation.Local</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Restrictions">Evaluation.Restrictions()</a>
-    </div>
-    <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_CheckParameters_System_String___">Evaluation.CheckParameters(string[])</a>
     </div>
     <div>
@@ -228,10 +225,11 @@ Class Real  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="BOOSE_Real__ctor" data-uid="BOOSE.Real.#ctor">
   Real()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Real.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Real.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Contructor calls restrictions.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -258,7 +256,7 @@ Class Real  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="BOOSE_Real_Value" data-uid="BOOSE.Real.Value">
   Value
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Real.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Real.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get double value for a real number.</p>
@@ -294,7 +292,7 @@ Class Real  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="BOOSE_Real_Compile" data-uid="BOOSE.Real.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Real.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Real.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>If this is a variable declartation set its value and add it to the variable table.
@@ -322,7 +320,7 @@ If it is an expression then nothis happens as it already exists in the variable 
 
   <h3 id="BOOSE_Real_Execute" data-uid="BOOSE.Real.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Real.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Real.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Base calculates a string evaluated expression. Now see if it's a double/real value.</p>
@@ -346,6 +344,39 @@ If it is an expression then nothis happens as it already exists in the variable 
   <dl class="parameters">
     <dt><a class="xref" href="BOOSE.StoredProgramException.html">StoredProgramException</a></dt>
     <dd></dd>
+  </dl>
+
+
+
+  <a id="BOOSE_Real_Restrictions_" data-uid="BOOSE.Real.Restrictions*"></a>
+
+  <h3 id="BOOSE_Real_Restrictions" data-uid="BOOSE.Real.Restrictions">
+  Restrictions()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Real.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Restrict the number of variable declarations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Restrictions()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BOOSE.RestrictionException.html">RestrictionException</a></dt>
+    <dd><p>Thrown if variable limit exceeded.</p>
+</dd>
   </dl>
 
 

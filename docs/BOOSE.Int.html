@@ -154,9 +154,6 @@ Class Int  <a class="header-action link-secondary" title="View source" href="htt
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Local">Evaluation.Local</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Restrictions">Evaluation.Restrictions()</a>
-    </div>
-    <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_CheckParameters_System_String___">Evaluation.CheckParameters(string[])</a>
     </div>
     <div>
@@ -231,10 +228,11 @@ Class Int  <a class="header-action link-secondary" title="View source" href="htt
 
   <h3 id="BOOSE_Int__ctor" data-uid="BOOSE.Int.#ctor">
   Int()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Int.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Int.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Contructor calls restrictions.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -261,7 +259,7 @@ Class Int  <a class="header-action link-secondary" title="View source" href="htt
 
   <h3 id="BOOSE_Int_Compile" data-uid="BOOSE.Int.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Int.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Int.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>If this is a variable declartation set its value and add it to the variable table in the StoredProgram.
@@ -289,7 +287,7 @@ If it is an expression then nothing happens as it already exists in the variable
 
   <h3 id="BOOSE_Int_Execute" data-uid="BOOSE.Int.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Int.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Int.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Base calculates a string evaluated expression. Now see if it's an integer value.
@@ -314,6 +312,39 @@ Determines if a cast is needed for a real value.</p>
   <dl class="parameters">
     <dt><a class="xref" href="BOOSE.StoredProgramException.html">StoredProgramException</a></dt>
     <dd><p>Throws an exception is it can't parse an integer or if there is an attempt to parse a real value which requires a boose cast to force it.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="BOOSE_Int_Restrictions_" data-uid="BOOSE.Int.Restrictions*"></a>
+
+  <h3 id="BOOSE_Int_Restrictions" data-uid="BOOSE.Int.Restrictions">
+  Restrictions()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Int.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Restrict the number of variable declarations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Restrictions()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="BOOSE.RestrictionException.html">RestrictionException</a></dt>
+    <dd><p>Thrown if variable limit exceeded.</p>
 </dd>
   </dl>
 

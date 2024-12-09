@@ -183,6 +183,12 @@ poke [array name] [row] [optional column] = [value]</p>
       <a class="xref" href="BOOSE.Array.html#BOOSE_Array_Columns">Array.Columns</a>
     </div>
     <div>
+      <a class="xref" href="BOOSE.Array.html#BOOSE_Array_ArrayRestrictions">Array.ArrayRestrictions()</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Array.html#BOOSE_Array_ReduceRestrictionCounter">Array.ReduceRestrictionCounter()</a>
+    </div>
+    <div>
       <a class="xref" href="BOOSE.Array.html#BOOSE_Array_ProcessArrayParametersCompile_System_Boolean_">Array.ProcessArrayParametersCompile(bool)</a>
     </div>
     <div>
@@ -223,9 +229,6 @@ poke [array name] [row] [optional column] = [value]</p>
     </div>
     <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Local">Evaluation.Local</a>
-    </div>
-    <div>
-      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Restrictions">Evaluation.Restrictions()</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_System_String_">Evaluation.ProcessExpression(string)</a>
@@ -288,6 +291,36 @@ poke [array name] [row] [optional column] = [value]</p>
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="BOOSE_Poke__ctor_" data-uid="BOOSE.Poke.#ctor*"></a>
+
+  <h3 id="BOOSE_Poke__ctor" data-uid="BOOSE.Poke.#ctor">
+  Poke()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Poke.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Poke()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -296,7 +329,7 @@ poke [array name] [row] [optional column] = [value]</p>
 
   <h3 id="BOOSE_Poke_CheckParameters_System_String___" data-uid="BOOSE.Poke.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Poke.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Poke.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Checks that there are 3 or 4 parameters..
@@ -329,7 +362,7 @@ poke [array name] [row] [optional column] = [value]</p>
 
   <h3 id="BOOSE_Poke_Compile" data-uid="BOOSE.Poke.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Poke.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Poke.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Ensure array is correctly declared</p>
@@ -361,7 +394,7 @@ poke [array name] [row] [optional column] = [value]</p>
 
   <h3 id="BOOSE_Poke_Execute" data-uid="BOOSE.Poke.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Poke.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Poke.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Evaluate any expression and store the evaluatedExpression result in instance data for sub classes.
@@ -389,7 +422,7 @@ Expressions are evaluated at runtime by a StoredProgram object (Program)</p>
 
   <h3 id="BOOSE_Poke_Set_BOOSE_StoredProgram_System_String_" data-uid="BOOSE.Poke.Set(BOOSE.StoredProgram,System.String)">
   Set(StoredProgram, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Poke.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Poke.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set a Command Object</p>
