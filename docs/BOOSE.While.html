@@ -103,7 +103,7 @@ So far blank as it doesn't do anything beyond ConditionalCommand but it makes th
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class While : ConditionalCommand, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class While : CompoundCommand, ICommand</code></pre>
   </div>
 
 
@@ -117,6 +117,7 @@ So far blank as it doesn't do anything beyond ConditionalCommand but it makes th
       <div><a class="xref" href="BOOSE.Evaluation.html">Evaluation</a></div>
       <div><a class="xref" href="BOOSE.Boolean.html">Boolean</a></div>
       <div><a class="xref" href="BOOSE.ConditionalCommand.html">ConditionalCommand</a></div>
+      <div><a class="xref" href="BOOSE.CompoundCommand.html">CompoundCommand</a></div>
       <div><span class="xref">While</span></div>
     </dd>
   </dl>
@@ -132,6 +133,18 @@ So far blank as it doesn't do anything beyond ConditionalCommand but it makes th
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_CorrespondingCommand">CompoundCommand.CorrespondingCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_ReduceRestrictions">CompoundCommand.ReduceRestrictions()</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_CheckParameters_System_String___">CompoundCommand.CheckParameters(string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_Compile">CompoundCommand.Compile()</a>
+    </div>
     <div>
       <a class="xref" href="BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_endLineNumber">ConditionalCommand.endLineNumber</a>
     </div>
@@ -149,9 +162,6 @@ So far blank as it doesn't do anything beyond ConditionalCommand but it makes th
     </div>
     <div>
       <a class="xref" href="BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_ReturnLineNumber">ConditionalCommand.ReturnLineNumber</a>
-    </div>
-    <div>
-      <a class="xref" href="BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Compile">ConditionalCommand.Compile()</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Execute">ConditionalCommand.Execute()</a>
@@ -185,9 +195,6 @@ So far blank as it doesn't do anything beyond ConditionalCommand but it makes th
     </div>
     <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Local">Evaluation.Local</a>
-    </div>
-    <div>
-      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_CheckParameters_System_String___">Evaluation.CheckParameters(string[])</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_System_String_">Evaluation.ProcessExpression(string)</a>

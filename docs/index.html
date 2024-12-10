@@ -96,7 +96,7 @@ Classes
 </h3>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.AboutBOOSE.html">AboutBOOSE</a></dt>
-      <dd><p>V1.06<br>
+      <dd><p>V1.09<br>
 Basic Object Orientated Software Engineering.<br>
 This is a set of classes for implementing the BOOSE language.<br>
 To replace class functionality you can either implement the relevant interface to completely replace all functionality, or extend the relevant class and override the interface methods, which will allow the calling of base methods in the original class.<br><br>Example of adding a command to BOOSE. Here I will call the new program AppBOOSE and append App to class names (but you can call them what you like).
@@ -107,7 +107,8 @@ To replace class functionality you can either implement the relevant interface t
 <br>BOOSE is restricted via a set of constants that limit its functionality unless the restrictions are turned off. They can only be turned off at the source code level (i.e. by the author only).
 <br>1.04 reduced restrictions on graphics commands.
 <br>1.06 added restrictions method in evaluation, to move where restrictions are located.
-<br>1.08 added new restrctions to Array, moved restrictions from evaluation to Int, Real and Boolean.</p>
+<br>1.08 added new restrctions to Array, moved restrictions from evaluation to Int, Real and Boolean.
+<br>1.09 added new restrictions to compound commands and methods, made program size simpler.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -216,7 +217,8 @@ Each command has an Xpos and Ypos that operates from the current cursor position
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.End.html">End</a></dt>
       <dd><p>End command for If/While/For/Method.
-BOOSE has only one End type command which has a parameter to say what it belongs so eg. &quot;end if&quot;.</p>
+BOOSE has only one End type command which has a parameter to say what it belongs so eg. &quot;end if&quot;.
+End checks Boose types for the ciorresponding command (If/While/For/Method) and will likely require a complete rewrite to replcae those commands. It would probbaly be easier to replace Parser, StoredProgram, CompoundCommand and this. Look at the metghods each provides, if you like, and try and fill in their fucntionality.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -248,7 +250,8 @@ Adds processing at compile() and execute() to process an if command.</p>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.Method.html">Method</a></dt>
-      <dd><p>Method declaration command</p>
+      <dd><p>Method declaration command.
+Overcoming method restrictions will require a complete rewrite. It would be simpler to do this after Parser and StoredProgram. You are getting to the stage where you need to do a big rewrite.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -379,7 +382,8 @@ Enums
 </h3>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSE.ConditionalCommand.conditionalTypes.html">ConditionalCommand.conditionalTypes</a></dt>
-      <dd></dd>
+      <dd><p>Enumerated type to represent individual conditional commands.</p>
+</dd>
     </dl>
 
 

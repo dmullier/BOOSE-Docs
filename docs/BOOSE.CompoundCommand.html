@@ -133,7 +133,9 @@ Class CompoundCommand  <a class="header-action link-secondary" title="View sourc
       <div><a class="xref" href="BOOSE.Call.html">Call</a></div>
       <div><a class="xref" href="BOOSE.Else.html">Else</a></div>
       <div><a class="xref" href="BOOSE.End.html">End</a></div>
+      <div><a class="xref" href="BOOSE.If.html">If</a></div>
       <div><a class="xref" href="BOOSE.Method.html">Method</a></div>
+      <div><a class="xref" href="BOOSE.While.html">While</a></div>
     </dd>
   </dl>
 
@@ -328,7 +330,7 @@ Class CompoundCommand  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="BOOSE_CompoundCommand_CheckParameters_System_String___" data-uid="BOOSE.CompoundCommand.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Does nothing in this case.</p>
@@ -360,7 +362,7 @@ Class CompoundCommand  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="BOOSE_CompoundCommand_Compile" data-uid="BOOSE.CompoundCommand.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Override base.compile() because a variable always has variable = expression and this is just expression.</p>
@@ -385,6 +387,32 @@ Class CompoundCommand  <a class="header-action link-secondary" title="View sourc
     <dt><a class="xref" href="BOOSE.VarException.html">VarException</a></dt>
     <dd></dd>
   </dl>
+
+
+
+  <a id="BOOSE_CompoundCommand_ReduceRestrictions_" data-uid="BOOSE.CompoundCommand.ReduceRestrictions*"></a>
+
+  <h3 id="BOOSE_CompoundCommand_ReduceRestrictions" data-uid="BOOSE.CompoundCommand.ReduceRestrictions">
+  ReduceRestrictions()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ReduceRestrictions()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
 
 
 
