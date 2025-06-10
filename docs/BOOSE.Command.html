@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class Command | mysite ">
       
-      <meta name="description" content="Abstract class for commands with a parameter list or expression. This class will seperate the parameters or expression from the command and store in the &amp;quot;ParameterList&amp;quot;. The Command&#39;s Compile() method is called by the parser and this is expected to set the Command&#39;s parameters. CheckParameters">
+      <meta name="description" content="Abstract class for BOOSE commands. Can handle a parameter list or expression. This class will seperate the parameters or expression from the command and store in the &amp;quot;ParameterList&amp;quot;. The Command&#39;s Compile() method is called by the parser and this is expected to set the Command&#39;s parameters. BOOSE implementation of commands makes definitions &amp;quot;sealed&amp;quot;. Sealed classes cannot be inherited, so you can&#39;t use what&#39;s there to remove the restrictions, you will have to totally rewrite them.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="BOOSE_Command" data-uid="BOOSE.Command" class="text-break">
-Class Command  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L18"><i class="bi bi-code-slash"></i></a>
+Class Command  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,10 +97,10 @@ Class Command  <a class="header-action link-secondary" title="View source" href=
   <dl><dt>Assembly</dt><dd>BOOSE.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Abstract class for commands with a parameter list or expression.
+  <div class="markdown summary"><p>Abstract class for BOOSE commands. Can handle a parameter list or expression.
 This class will seperate the parameters or expression from the command and store in the &quot;ParameterList&quot;.
 The Command's Compile() method is called by the parser and this is expected to set the Command's parameters.
-CheckParameters</p>
+BOOSE implementation of commands makes definitions &quot;sealed&quot;. Sealed classes cannot be inherited, so you can't use what's there to remove the restrictions, you will have to totally rewrite them.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -171,7 +171,7 @@ CheckParameters</p>
 
   <h3 id="BOOSE_Command__ctor" data-uid="BOOSE.Command.#ctor">
   Command()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>designed to be used with ProgramFactory so should not call constructor</p>
@@ -199,9 +199,39 @@ CheckParameters</p>
 
 
 
+  <h3 id="BOOSE_Command_IsDouble" data-uid="BOOSE.Command.IsDouble">
+  IsDouble
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool IsDouble</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <h3 id="BOOSE_Command_parameterList" data-uid="BOOSE.Command.parameterList">
   parameterList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -231,7 +261,7 @@ CheckParameters</p>
 
   <h3 id="BOOSE_Command_parameters" data-uid="BOOSE.Command.parameters">
   parameters
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -261,7 +291,7 @@ CheckParameters</p>
 
   <h3 id="BOOSE_Command_paramsint" data-uid="BOOSE.Command.paramsint">
   paramsint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -291,7 +321,7 @@ CheckParameters</p>
 
   <h3 id="BOOSE_Command_program" data-uid="BOOSE.Command.program">
   program
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -326,7 +356,7 @@ CheckParameters</p>
 
   <h3 id="BOOSE_Command_Name" data-uid="BOOSE.Command.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>returns the name type of this command as a string.</p>
@@ -358,7 +388,7 @@ CheckParameters</p>
 
   <h3 id="BOOSE_Command_ParameterList" data-uid="BOOSE.Command.ParameterList">
   ParameterList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -389,7 +419,7 @@ CheckParameters</p>
 
   <h3 id="BOOSE_Command_Parameters" data-uid="BOOSE.Command.Parameters">
   Parameters
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -420,7 +450,7 @@ CheckParameters</p>
 
   <h3 id="BOOSE_Command_Paramsint" data-uid="BOOSE.Command.Paramsint">
   Paramsint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -451,7 +481,7 @@ CheckParameters</p>
 
   <h3 id="BOOSE_Command_Program" data-uid="BOOSE.Command.Program">
   Program
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -486,7 +516,7 @@ CheckParameters</p>
 
   <h3 id="BOOSE_Command_CheckParameters_System_String___" data-uid="BOOSE.Command.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Derived commandas must provide a method to check that their parameters are ok and throw relevant exceptions if not.</p>
@@ -518,7 +548,7 @@ CheckParameters</p>
 
   <h3 id="BOOSE_Command_Compile" data-uid="BOOSE.Command.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L95"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when Command added to the Program</p>
@@ -545,7 +575,7 @@ CheckParameters</p>
 
   <h3 id="BOOSE_Command_Execute" data-uid="BOOSE.Command.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generic Execute() checks a command's parameter list and converts any variables and expressions to literal values
@@ -574,7 +604,7 @@ Derived Command should check it has the correct number of parameters and throw a
 
   <h3 id="BOOSE_Command_ProcessParameters_System_String_" data-uid="BOOSE.Command.ProcessParameters(System.String)">
   ProcessParameters(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L142"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Converts a string containing parameters to seperate parameters.
@@ -613,7 +643,7 @@ Given a raw, single string parameter list, seperated by commas this splits into 
 
   <h3 id="BOOSE_Command_Set_BOOSE_StoredProgram_System_String_" data-uid="BOOSE.Command.Set(BOOSE.StoredProgram,System.String)">
   Set(StoredProgram, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set a Command Object</p>
@@ -649,7 +679,7 @@ Given a raw, single string parameter list, seperated by commas this splits into 
 
   <h3 id="BOOSE_Command_ToString" data-uid="BOOSE.Command.ToString">
   ToString()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>returns name and parameter list as a string suitable for reparsing.</p>
@@ -681,7 +711,7 @@ Given a raw, single string parameter list, seperated by commas this splits into 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L18" class="edit-link">Edit this page</a>
+          <a href="https://github.com/dmullier/BOOSE/blob/master/Command.cs/#L19" class="edit-link">Edit this page</a>
         </div>
 
 

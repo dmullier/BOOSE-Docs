@@ -139,6 +139,9 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
     <dt>Inherited Members</dt>
     <dd>
     <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_IsDouble">Command.IsDouble</a>
+    </div>
+    <div>
       <a class="xref" href="BOOSE.Command.html#BOOSE_Command_program">Command.program</a>
     </div>
     <div>
@@ -494,7 +497,7 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_Evaluation_CheckParameters_System_String___" data-uid="BOOSE.Evaluation.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Does nothing in this case.</p>
@@ -526,12 +529,10 @@ Class Evaluation  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_Evaluation_Compile" data-uid="BOOSE.Evaluation.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Determine if variable declaration does not have an initial value. If it doesn't set it to a standard initial value (0 for int and real for example)
-If it does ProcessExpression will be called to extract the right hand side of the expression.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -554,7 +555,7 @@ If it does ProcessExpression will be called to extract the right hand side of th
 
   <h3 id="BOOSE_Evaluation_Execute" data-uid="BOOSE.Evaluation.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Evaluate any expression and store the evaluatedExpression result in instance data for sub classes.
@@ -582,7 +583,7 @@ Expressions are evaluated at runtime by a StoredProgram object (Program)</p>
 
   <h3 id="BOOSE_Evaluation_ProcessExpression_System_String_" data-uid="BOOSE.Evaluation.ProcessExpression(System.String)">
   ProcessExpression(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Evaluation.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Takes a complete expression with left hand side and right hand side and returns only the right hand side (i.e. the bit after the =).</p>

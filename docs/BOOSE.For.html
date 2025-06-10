@@ -103,7 +103,7 @@ Adds processing at compile() and execute() to process a for command.</p>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class For : ConditionalCommand, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class For : ConditionalCommand, ICommand</code></pre>
   </div>
 
 
@@ -133,9 +133,6 @@ Adds processing at compile() and execute() to process a for command.</p>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_endLineNumber">ConditionalCommand.endLineNumber</a>
-    </div>
-    <div>
       <a class="xref" href="BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_EndLineNumber">ConditionalCommand.EndLineNumber</a>
     </div>
     <div>
@@ -154,21 +151,6 @@ Adds processing at compile() and execute() to process a for command.</p>
       <a class="xref" href="BOOSE.Boolean.html#BOOSE_Boolean_BoolValue">Boolean.BoolValue</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Boolean.html#BOOSE_Boolean_Restrictions">Boolean.Restrictions()</a>
-    </div>
-    <div>
-      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_expression">Evaluation.expression</a>
-    </div>
-    <div>
-      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_evaluatedExpression">Evaluation.evaluatedExpression</a>
-    </div>
-    <div>
-      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_varName">Evaluation.varName</a>
-    </div>
-    <div>
-      <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_value">Evaluation.value</a>
-    </div>
-    <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_Expression">Evaluation.Expression</a>
     </div>
     <div>
@@ -185,18 +167,6 @@ Adds processing at compile() and execute() to process a for command.</p>
     </div>
     <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_System_String_">Evaluation.ProcessExpression(string)</a>
-    </div>
-    <div>
-      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_program">Command.program</a>
-    </div>
-    <div>
-      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_parameterList">Command.parameterList</a>
-    </div>
-    <div>
-      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_parameters">Command.parameters</a>
-    </div>
-    <div>
-      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_paramsint">Command.paramsint</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.Command.html#BOOSE_Command_Program">Command.Program</a>
@@ -235,12 +205,39 @@ Adds processing at compile() and execute() to process a for command.</p>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
   </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="BOOSE_For__ctor_" data-uid="BOOSE.For.#ctor*"></a>
+
+  <h3 id="BOOSE_For__ctor" data-uid="BOOSE.For.#ctor">
+  For()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/For.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public For()</code></pre>
+  </div>
+
+
+
+
+
+
+
 
 
 
@@ -255,7 +252,7 @@ Adds processing at compile() and execute() to process a for command.</p>
 
   <h3 id="BOOSE_For_From" data-uid="BOOSE.For.From">
   From
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/For.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/For.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Where counting starts.</p>
@@ -287,7 +284,7 @@ Adds processing at compile() and execute() to process a for command.</p>
 
   <h3 id="BOOSE_For_LoopControlV" data-uid="BOOSE.For.LoopControlV">
   LoopControlV
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/For.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/For.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>For loop uses a variable to do its counting.</p>
@@ -319,7 +316,7 @@ Adds processing at compile() and execute() to process a for command.</p>
 
   <h3 id="BOOSE_For_Step" data-uid="BOOSE.For.Step">
   Step
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/For.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/For.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>What do do each count. If none is specified it is set to +1t.</p>
@@ -351,7 +348,7 @@ Adds processing at compile() and execute() to process a for command.</p>
 
   <h3 id="BOOSE_For_To" data-uid="BOOSE.For.To">
   To
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/For.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/For.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Where counting ends.</p>
@@ -387,7 +384,7 @@ Adds processing at compile() and execute() to process a for command.</p>
 
   <h3 id="BOOSE_For_Compile" data-uid="BOOSE.For.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/For.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/For.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Takes the standard parameter list and extracts the LCV name, &quot;from&quot;,&quot;to&quot; and &quot;step&quot;.
@@ -415,7 +412,7 @@ If the LCV does not exists then it creates it. Otherwise it gets it from the var
 
   <h3 id="BOOSE_For_Execute" data-uid="BOOSE.For.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/For.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/For.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Evaluate the from, to and step (as they could be variables).

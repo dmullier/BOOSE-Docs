@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class CompoundCommand | mysite ">
       
-      <meta name="description" content="CompoundCommand is a building block for shared functionality between CompoundCommands, such as ELSE and ENDS">
+      <meta name="description" content="CompoundCommand is a building block for shared functionality between CompoundCommands, such as IF, WHILE, FOR ,ELSE and ENDS Classes the inherit from here tend to be &amp;quot;sealed&amp;quot; so that they cnnot be inherited from to manipulate restrictions.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -89,7 +89,7 @@
 
 
   <h1 id="BOOSE_CompoundCommand" data-uid="BOOSE.CompoundCommand" class="text-break">
-Class CompoundCommand  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L13"><i class="bi bi-code-slash"></i></a>
+Class CompoundCommand  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Class CompoundCommand  <a class="header-action link-secondary" title="View sourc
   <dl><dt>Assembly</dt><dd>BOOSE.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>CompoundCommand is a building block for shared functionality between CompoundCommands, such as ELSE and ENDS</p>
+  <div class="markdown summary"><p>CompoundCommand is a building block for shared functionality between CompoundCommands, such as IF, WHILE, FOR ,ELSE and ENDS
+Classes the inherit from here tend to be &quot;sealed&quot; so that they cnnot be inherited from to manipulate restrictions.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -167,9 +168,6 @@ Class CompoundCommand  <a class="header-action link-secondary" title="View sourc
       <a class="xref" href="BOOSE.Boolean.html#BOOSE_Boolean_BoolValue">Boolean.BoolValue</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Boolean.html#BOOSE_Boolean_Restrictions">Boolean.Restrictions()</a>
-    </div>
-    <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_expression">Evaluation.expression</a>
     </div>
     <div>
@@ -195,6 +193,9 @@ Class CompoundCommand  <a class="header-action link-secondary" title="View sourc
     </div>
     <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_System_String_">Evaluation.ProcessExpression(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_IsDouble">Command.IsDouble</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.Command.html#BOOSE_Command_program">Command.program</a>
@@ -265,7 +266,7 @@ Class CompoundCommand  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="BOOSE_CompoundCommand__ctor" data-uid="BOOSE.CompoundCommand.#ctor">
   CompoundCommand()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -295,7 +296,7 @@ Class CompoundCommand  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="BOOSE_CompoundCommand_CorrespondingCommand" data-uid="BOOSE.CompoundCommand.CorrespondingCommand">
   CorrespondingCommand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -330,7 +331,7 @@ Class CompoundCommand  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="BOOSE_CompoundCommand_CheckParameters_System_String___" data-uid="BOOSE.CompoundCommand.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Does nothing in this case.</p>
@@ -362,7 +363,7 @@ Class CompoundCommand  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="BOOSE_CompoundCommand_Compile" data-uid="BOOSE.CompoundCommand.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Override base.compile() because a variable always has variable = expression and this is just expression.</p>
@@ -394,7 +395,7 @@ Class CompoundCommand  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="BOOSE_CompoundCommand_ReduceRestrictions" data-uid="BOOSE.CompoundCommand.ReduceRestrictions">
   ReduceRestrictions()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -420,7 +421,7 @@ Class CompoundCommand  <a class="header-action link-secondary" title="View sourc
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L13" class="edit-link">Edit this page</a>
+          <a href="https://github.com/dmullier/BOOSE/blob/master/CompoundCommand.cs/#L15" class="edit-link">Edit this page</a>
         </div>
 
 

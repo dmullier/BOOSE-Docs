@@ -160,9 +160,6 @@ Class Else  <a class="header-action link-secondary" title="View source" href="ht
       <a class="xref" href="BOOSE.Boolean.html#BOOSE_Boolean_BoolValue">Boolean.BoolValue</a>
     </div>
     <div>
-      <a class="xref" href="BOOSE.Boolean.html#BOOSE_Boolean_Restrictions">Boolean.Restrictions()</a>
-    </div>
-    <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_expression">Evaluation.expression</a>
     </div>
     <div>
@@ -188,6 +185,9 @@ Class Else  <a class="header-action link-secondary" title="View source" href="ht
     </div>
     <div>
       <a class="xref" href="BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_System_String_">Evaluation.ProcessExpression(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE.Command.html#BOOSE_Command_IsDouble">Command.IsDouble</a>
     </div>
     <div>
       <a class="xref" href="BOOSE.Command.html#BOOSE_Command_program">Command.program</a>
@@ -258,7 +258,7 @@ Class Else  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="BOOSE_Else__ctor" data-uid="BOOSE.Else.#ctor">
   Else()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Else.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Else.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -288,7 +288,7 @@ Class Else  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="BOOSE_Else_CorrespondingEnd" data-uid="BOOSE.Else.CorrespondingEnd">
   CorrespondingEnd
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Else.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Else.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -323,7 +323,7 @@ Class Else  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="BOOSE_Else_CheckParameters_System_String___" data-uid="BOOSE.Else.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Else.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Else.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Does nothing in this case.</p>
@@ -355,7 +355,7 @@ Class Else  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="BOOSE_Else_Compile" data-uid="BOOSE.Else.Compile">
   Compile()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Else.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Else.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Override base.compile() because a variable always has variable = expression and this is just expression.</p>
@@ -387,7 +387,7 @@ Class Else  <a class="header-action link-secondary" title="View source" href="ht
 
   <h3 id="BOOSE_Else_Execute" data-uid="BOOSE.Else.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Else.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Else.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Called when program is executed. Determines if condition is true or false. If false then jumps to corrensponding &quot;end&quot; command.</p>
