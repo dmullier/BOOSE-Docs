@@ -1,3 +1,3 @@
 # BOOSE-Docs
 Online Documentation for BOOSE project.
-Changed something.
+Click Deployments->GithubPages to the right to view the documentation.
