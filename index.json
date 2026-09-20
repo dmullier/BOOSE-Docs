@@ -1,8 +1,8 @@
 {
   "README.html": {
     "href": "README.html",
-    "title": "BOOSE | BOOSE Programming Language and Runtime System",
-    "summary": "BOOSE"
+    "title": "BOOSE-Docs | BOOSE Programming Language and Runtime System",
+    "summary": "BOOSE-Docs Online Documentation for BOOSE project. by Dr D J Mullier Click API to see full documentation."
   },
   "api/BOOSE.AboutBOOSE.html": {
     "href": "api/BOOSE.AboutBOOSE.html",
@@ -261,7 +261,7 @@
   },
   "index.html": {
     "href": "index.html",
-    "title": "This is the HOMEPAGE. | BOOSE Programming Language and Runtime System",
-    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+    "title": "BOOSE Language and Runtime Documentation | BOOSE Programming Language and Runtime System",
+    "summary": "BOOSE Language and Runtime Documentation by Dr D J Mullier Currently BOOSE is a private repo. You can download the Interfaces and Exception Classes only. You will not be able to extend existing classes. Click API to see full documentation. Refer to Markdown for how to write markdown files."
   }
 }
