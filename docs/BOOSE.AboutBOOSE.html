@@ -1,16 +1,16 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class AboutBOOSE | mysite </title>
+      <title>Class AboutBOOSE | BOOSE Programming Language and Runtime System </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class AboutBOOSE | mysite ">
+      <meta name="title" content="Class AboutBOOSE | BOOSE Programming Language and Runtime System ">
       
-      
+      <meta name="description" content="Basic Object Orientated Software Engineering. This is a set of classes for implementing the BOOSE language. It is currently private, so you will not be able to extend the classes, only examine the documentation and use the public interfaces. To replace class functionality you can either implement the relevant interface to completely replace all functionality, or extend the relevant class (if the library is made public) and override the interface methods, which will allow the calling of base methods in the original class. Example of adding a command to BOOSE. Here I will call the new program AppBOOSE and append App to class names (but you can call them what you like). step 1 extend ICanvas to have your new draw command that will be called when its command is executed, IAppCanvas. step 2 extend this new interface with a class (AppCanvas) which creates a drawing object (bitmap?) does all the actual drawing. step 3 extend appropriate command Interface to create a new command class. i.e. Rect(width, height) would extend ICommandTwoParameters. step 4 extend the original factory if you want to use any of its existing commands (by calling base.MakeCommand() after looking for your new commands) or ICommandFactory if completely replacing it. BOOSE is restricted via a set of constants that limit its functionality unless the restrictions are turned off. They can only be turned off at the source code level (i.e. by the author only). Restrictions are persistant through multiple runs (i.e. if you have a program that defines two variables and run it three times it will have defined six variables and will trigger the restrictions. 1.04 reduced restrictions on graphics commands. 1.06 added restrictions method in evaluation, to move where restrictions are located. 1.08 added new restrctions to Array, moved restrictions from evaluation to Int, Real and Boolean. 1.09 added new restrictions to compound commands and methods, made program size simpler. 1.1 fixed bug stopping restrictions on arrays. 1.2 increased number of execution cycles in StoredProgram from 50 to 200. 2.0 Complier conditionals to implemenmt restrictions.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="">
+      <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
@@ -44,8 +44,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="mysite">
-            mysite
+            <img id="logo" class="svg" src="../logo.svg" alt="BOOSE Programming Language and Runtime System">
+            BOOSE Programming Language and Runtime System
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="BOOSE_AboutBOOSE" data-uid="BOOSE.AboutBOOSE" class="text-break">
-Class AboutBOOSE  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L30"><i class="bi bi-code-slash"></i></a>
+Class AboutBOOSE  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,11 +97,29 @@ Class AboutBOOSE  <a class="header-action link-secondary" title="View source" hr
   <dl><dt>Assembly</dt><dd>BOOSE.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Basic Object Orientated Software Engineering.
+This is a set of classes for implementing the BOOSE language.
+It is currently private, so you will not be able to extend the classes, only examine the documentation and use the public interfaces.
+To replace class functionality you can either implement the relevant interface to completely replace all functionality, or extend the relevant class (if the library is made public) and override the interface methods, which will allow the calling of base methods in the original class.
+Example of adding a command to BOOSE. Here I will call the new program AppBOOSE and append App to class names (but you can call them what you like).
+step 1 extend ICanvas to have your new draw command that will be called when its command is executed, IAppCanvas.
+step 2 extend this new interface with a class (AppCanvas) which creates a drawing object (bitmap?) does all the actual drawing.
+step 3 extend appropriate command Interface to create a new command class. i.e. Rect(width, height) would extend ICommandTwoParameters.
+step 4 extend the original factory if you want to use any of its existing commands (by calling base.MakeCommand() after looking for your new commands) or ICommandFactory if completely replacing it.
+BOOSE is restricted via a set of constants that limit its functionality unless the restrictions are turned off. They can only be turned off at the source code level (i.e. by the author only).
+Restrictions are persistant through multiple runs (i.e. if you have a program that defines two variables and run it three times it will have defined six variables and will trigger the restrictions.
+1.04 reduced restrictions on graphics commands.
+1.06 added restrictions method in evaluation, to move where restrictions are located.
+1.08 added new restrctions to Array, moved restrictions from evaluation to Int, Real and Boolean.
+1.09 added new restrictions to compound commands and methods, made program size simpler.
+1.1 fixed bug stopping restrictions on arrays.
+1.2 increased number of execution cycles in StoredProgram from 50 to 200.
+2.0 Complier conditionals to implemenmt restrictions.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class AboutBOOSE</code></pre>
+    <pre><code class="lang-csharp hljs">public class AboutBOOSE</code></pre>
   </div>
 
 
@@ -155,10 +173,11 @@ Class AboutBOOSE  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_AboutBOOSE_ARRAYLIMIT" data-uid="BOOSE.AboutBOOSE.ARRAYLIMIT">
   ARRAYLIMIT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>maximum number of arrays that can be defined</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -185,10 +204,11 @@ Class AboutBOOSE  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_AboutBOOSE_BODYLIMIT" data-uid="BOOSE.AboutBOOSE.BODYLIMIT">
   BODYLIMIT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>maximum number of lines between and command and its end</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -215,10 +235,11 @@ Class AboutBOOSE  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_AboutBOOSE_COMPOUNCOMMANDLIMIT" data-uid="BOOSE.AboutBOOSE.COMPOUNCOMMANDLIMIT">
   COMPOUNCOMMANDLIMIT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>maximum number of ifs/while/for</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -245,10 +266,11 @@ Class AboutBOOSE  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_AboutBOOSE_MAXITTERATIONS" data-uid="BOOSE.AboutBOOSE.MAXITTERATIONS">
   MAXITTERATIONS
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>maximum number of lines StroredProgram will execute.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -275,10 +297,11 @@ Class AboutBOOSE  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_AboutBOOSE_MAXPROGRAMSIZE" data-uid="BOOSE.AboutBOOSE.MAXPROGRAMSIZE">
   MAXPROGRAMSIZE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>maximum number of lines in a program (parser checked)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -305,10 +328,11 @@ Class AboutBOOSE  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_AboutBOOSE_METHODLIMIT" data-uid="BOOSE.AboutBOOSE.METHODLIMIT">
   METHODLIMIT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>maximum number of methods that can be defined</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -335,10 +359,11 @@ Class AboutBOOSE  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_AboutBOOSE_SIZELIMIT" data-uid="BOOSE.AboutBOOSE.SIZELIMIT">
   SIZELIMIT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>maximum parameter value for graphics commands</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -365,10 +390,11 @@ Class AboutBOOSE  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_AboutBOOSE_VARIABLELIMIT" data-uid="BOOSE.AboutBOOSE.VARIABLELIMIT">
   VARIABLELIMIT
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>maximum number of variables in restricted program</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -400,7 +426,7 @@ Class AboutBOOSE  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_AboutBOOSE_Version" data-uid="BOOSE.AboutBOOSE.Version">
   Version
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get version of BOOSE</p>
@@ -436,7 +462,7 @@ Class AboutBOOSE  <a class="header-action link-secondary" title="View source" hr
 
   <h3 id="BOOSE_AboutBOOSE_about" data-uid="BOOSE.AboutBOOSE.about">
   about()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L94"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -467,7 +493,7 @@ Class AboutBOOSE  <a class="header-action link-secondary" title="View source" hr
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L30" class="edit-link">Edit this page</a>
+          <a href="https://github.com/dmullier/BOOSE/blob/master/AboutBOOSE.cs/#L29" class="edit-link">Edit this page</a>
         </div>
 
 

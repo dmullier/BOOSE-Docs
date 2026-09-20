@@ -1,16 +1,16 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Canvas | mysite </title>
+      <title>Class Canvas | BOOSE Programming Language and Runtime System </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Canvas | mysite ">
+      <meta name="title" content="Class Canvas | BOOSE Programming Language and Runtime System ">
       
       <meta name="description" content="Abstract class that implements CanvasInterface. See CanvasInterface documentation for what to implement. This class handles all the drawing on your system according to above documentation. BOOSE does not by default specify a default drawing Canvas (only this).">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="">
+      <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
@@ -44,8 +44,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="mysite">
-            mysite
+            <img id="logo" class="svg" src="../logo.svg" alt="BOOSE Programming Language and Runtime System">
+            BOOSE Programming Language and Runtime System
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -232,9 +232,7 @@ BOOSE does not by default specify a default drawing Canvas (only this).</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get/Set the Pencolour for next drawing operation using a native colour datatype.
-Cast to relevant type.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -297,7 +295,7 @@ Cast to relevant type.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Y position of next drawing position</p>
+  <div class="markdown level1 summary"><p>Y position of next drawing operation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -333,7 +331,7 @@ Cast to relevant type.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Draw a circle at cursor position of radius.</p>
+  <div class="markdown level1 summary"><p>Draw a circle so that the center is the current X,Y position of radius privided. If filled is true then cursor is solid, otherwise it is just an outline.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -396,7 +394,7 @@ Cast to relevant type.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Draw a line using the current pen from the last drawingf position to the specified position and move the cursor position to the provided x,y</p>
+  <div class="markdown level1 summary"><p>Draw a line using the current pen from the last drawing position to the specified position and move the cursor position to the provided x,y</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -468,7 +466,7 @@ Cast to relevant type.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Draw a rectangle at cursor position of width and height.</p>
+  <div class="markdown level1 summary"><p>Draw a rectangle so that the top-left corner is the current cursor position of width and height.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -539,7 +537,7 @@ Cast to relevant type.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L99"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Reset drawing cursor to 0,0 and reset pen to default.</p>
+  <div class="markdown level1 summary"><p>Reset drawing cursor to 0,0 and reset pen to default colour.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -636,7 +634,7 @@ Cast to relevant type.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Draw a triangle in the bounding rectangle.</p>
+  <div class="markdown level1 summary"><p>Draw a triangle in the bounding rectangle, top-left corner is the current cursor position.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -672,7 +670,7 @@ Cast to relevant type.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/Canvas.cs/#L119"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Draws text on the output window at the cursor position</p>
+  <div class="markdown level1 summary"><p>Draws text on the output window at the cursor position.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 

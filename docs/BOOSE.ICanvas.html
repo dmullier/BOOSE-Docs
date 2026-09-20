@@ -1,16 +1,16 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface ICanvas | mysite </title>
+      <title>Interface ICanvas | BOOSE Programming Language and Runtime System </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface ICanvas | mysite ">
+      <meta name="title" content="Interface ICanvas | BOOSE Programming Language and Runtime System ">
       
-      <meta name="description" content="Implement ICanvas for your BOOSE renderer. It has an Xpos and Ypos of the current cursor position, and a pen colour. Your class should implement the methods below to draw on its &amp;quot;bitmap&amp;quot; (i.e. it may not be a bitmap, it could draw in ASCII text for example).">
+      <meta name="description" content="Implement ICanvas for your BOOSE renderer. It has an Xpos and Ypos of the current cursor position and a pen colour. Your class should implement the methods below to draw on its &amp;quot;bitmap&amp;quot; (i.e. it may not be a bitmap, it could draw in ASCII text for example).">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="">
+      <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
@@ -44,8 +44,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="mysite">
-            mysite
+            <img id="logo" class="svg" src="../logo.svg" alt="BOOSE Programming Language and Runtime System">
+            BOOSE Programming Language and Runtime System
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -97,7 +97,7 @@ Interface ICanvas  <a class="header-action link-secondary" title="View source" h
   <dl><dt>Assembly</dt><dd>BOOSE.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Implement ICanvas for your BOOSE renderer. It has an Xpos and Ypos of the current cursor position, and a pen colour.
+  <div class="markdown summary"><p>Implement ICanvas for your BOOSE renderer. It has an Xpos and Ypos of the current cursor position and a pen colour.
 Your class should implement the methods below to draw on its &quot;bitmap&quot; (i.e. it may not be a bitmap, it could draw in ASCII text for example).</p>
 </div>
   <div class="markdown conceptual"></div>
@@ -120,39 +120,6 @@ Your class should implement the methods below to draw on its &quot;bitmap&quot; 
 
   <h2 class="section" id="properties">Properties
 </h2>
-
-
-  <a id="BOOSE_ICanvas_PenColour_" data-uid="BOOSE.ICanvas.PenColour*"></a>
-
-  <h3 id="BOOSE_ICanvas_PenColour" data-uid="BOOSE.ICanvas.PenColour">
-  PenColour
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L38"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Get/Set the Pencolour for next drawing operation using a native colour datatype.
-Cast to relevant type.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">object PenColour { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
 
 
   <a id="BOOSE_ICanvas_Xpos_" data-uid="BOOSE.ICanvas.Xpos*"></a>
@@ -194,7 +161,7 @@ Cast to relevant type.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Y position of next drawing position</p>
+  <div class="markdown level1 summary"><p>Y position of next drawing operation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -227,10 +194,10 @@ Cast to relevant type.</p>
 
   <h3 id="BOOSE_ICanvas_Circle_System_Int32_System_Boolean_" data-uid="BOOSE.ICanvas.Circle(System.Int32,System.Boolean)">
   Circle(int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Draw a circle at cursor position of radius.</p>
+  <div class="markdown level1 summary"><p>Draw a circle so that the center is the current X,Y position of radius privided. If filled is true then cursor is solid, otherwise it is just an outline.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -263,7 +230,7 @@ Cast to relevant type.</p>
 
   <h3 id="BOOSE_ICanvas_Clear" data-uid="BOOSE.ICanvas.Clear">
   Clear()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fill the background in the default colour.</p>
@@ -290,10 +257,10 @@ Cast to relevant type.</p>
 
   <h3 id="BOOSE_ICanvas_DrawTo_System_Int32_System_Int32_" data-uid="BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)">
   DrawTo(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Draw a line using the current pen from the last drawingf position to the specified position and move the cursor position to the provided x,y</p>
+  <div class="markdown level1 summary"><p>Draw a line using the current pen from the last drawing position to the specified position and move the cursor position to the provided x,y</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -326,7 +293,7 @@ Cast to relevant type.</p>
 
   <h3 id="BOOSE_ICanvas_MoveTo_System_Int32_System_Int32_" data-uid="BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)">
   MoveTo(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Move the X and Y of the next drawing operation.</p>
@@ -362,10 +329,10 @@ Cast to relevant type.</p>
 
   <h3 id="BOOSE_ICanvas_Rect_System_Int32_System_Int32_System_Boolean_" data-uid="BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)">
   Rect(int, int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Draw a rectangle at cursor position of width and height.</p>
+  <div class="markdown level1 summary"><p>Draw a rectangle so that the top-left corner is the current cursor position of width and height.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -398,10 +365,10 @@ Cast to relevant type.</p>
 
   <h3 id="BOOSE_ICanvas_Reset" data-uid="BOOSE.ICanvas.Reset">
   Reset()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L63"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Reset drawing cursor to 0,0 and reset pen to default.</p>
+  <div class="markdown level1 summary"><p>Reset drawing cursor to 0,0 and reset pen to default colour.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -459,7 +426,7 @@ Cast to relevant type.</p>
 
   <h3 id="BOOSE_ICanvas_SetColour_System_Int32_System_Int32_System_Int32_" data-uid="BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)">
   SetColour(int, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set the pen colour using rgb values.</p>
@@ -495,10 +462,10 @@ Cast to relevant type.</p>
 
   <h3 id="BOOSE_ICanvas_Tri_System_Int32_System_Int32_" data-uid="BOOSE.ICanvas.Tri(System.Int32,System.Int32)">
   Tri(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L85"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Draw a triangle in the bounding rectangle.</p>
+  <div class="markdown level1 summary"><p>Draw a triangle in the bounding rectangle, top-left corner is the current cursor position.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -531,10 +498,10 @@ Cast to relevant type.</p>
 
   <h3 id="BOOSE_ICanvas_WriteText_System_String_" data-uid="BOOSE.ICanvas.WriteText(System.String)">
   WriteText(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Draws text on the output window at the cursor position</p>
+  <div class="markdown level1 summary"><p>Draws text on the output window at the cursor position.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -564,7 +531,7 @@ Cast to relevant type.</p>
 
   <h3 id="BOOSE_ICanvas_getBitmap" data-uid="BOOSE.ICanvas.getBitmap">
   getBitmap()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dmullier/BOOSE/blob/master/ICanvas.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get the drawing Object of whatever native type.
