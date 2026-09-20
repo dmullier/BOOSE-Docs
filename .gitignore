@@ -1,13 +1,3 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs/BOOSE-Docs.slnx/FileContentIndex/01c0d3f1-2e49-4d5a-aa00-99013f53ffa4.vsidx
-/.vs/BOOSE-Docs.slnx/FileContentIndex/6cc2f213-13c4-4cc8-a92c-4634651183ec.vsidx
-/.vs/BOOSE-Docs.slnx/FileContentIndex/2fb1504f-3246-420b-898e-f3f05228a158.vsidx
-/.vs/BOOSE-Docs.slnx/FileContentIndex/b6dfdda9-352e-4c44-a395-aefea13f31b2.vsidx
-/.vs/BOOSE-Docs.slnx/FileContentIndex/4bae1340-4177-4c53-bd8d-0e4f6363c7a5.vsidx
-/.vs/BOOSE-Docs.slnx/FileContentIndex/c2ca084b-117f-4051-9110-bde95c31aca0.vsidx
-/.vs/BOOSE-Docs.slnx/FileContentIndex/edd5d3f2-944a-4c1c-b472-2d3618ae3103.vsidx
-/.vs/BOOSE-Docs.slnx/FileContentIndex/ee47319d-a2a6-463a-a706-2117c76cdb70.vsidx
-/.vs/BOOSE-Docs.slnx/FileContentIndex/3bb743d4-b947-4681-a319-a84b59669621.vsidx
+*.vsidx
+.vs/
+*.user

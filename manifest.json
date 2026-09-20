@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/Users/post/source/documentation",
+  "source_base_path": "C:/Users/Dunc/source/repos/BOOSE",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -12,593 +12,765 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "BOOSE-Docs/README.md",
+      "source_relative_path": "README.md",
       "output": {
         ".html": {
-          "relative_path": "BOOSE-Docs/README.html"
+          "relative_path": "README.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.AboutBOOSE.yml",
+      "source_relative_path": "api/BOOSE.AboutBOOSE.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.AboutBOOSE.html"
+          "relative_path": "api/BOOSE.AboutBOOSE.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.AboutBOOSE",
+      "Summary": "<p sourcefile=\"api/BOOSE.AboutBOOSE.yml\" sourcestartlinenumber=\"1\">Basic Object Orientated Software Engineering.\nThis is a set of classes for implementing the BOOSE language.\nIt is currently private, so you will not be able to extend the classes, only examine the documentation and use the public interfaces.\nTo replace class functionality you can either implement the relevant interface to completely replace all functionality, or extend the relevant class (if the library is made public) and override the interface methods, which will allow the calling of base methods in the original class.\nExample of adding a command to BOOSE. Here I will call the new program AppBOOSE and append App to class names (but you can call them what you like).\nstep 1 extend ICanvas to have your new draw command that will be called when its command is executed, IAppCanvas.\nstep 2 extend this new interface with a class (AppCanvas) which creates a drawing object (bitmap?) does all the actual drawing.\nstep 3 extend appropriate command Interface to create a new command class. i.e. Rect(width, height) would extend ICommandTwoParameters.\nstep 4 extend the original factory if you want to use any of its existing commands (by calling base.MakeCommand() after looking for your new commands) or ICommandFactory if completely replacing it.\nBOOSE is restricted via a set of constants that limit its functionality unless the restrictions are turned off. They can only be turned off at the source code level (i.e. by the author only).\nRestrictions are persistant through multiple runs (i.e. if you have a program that defines two variables and run it three times it will have defined six variables and will trigger the restrictions.\n1.04 reduced restrictions on graphics commands.\n1.06 added restrictions method in evaluation, to move where restrictions are located.\n1.08 added new restrctions to Array, moved restrictions from evaluation to Int, Real and Boolean.\n1.09 added new restrictions to compound commands and methods, made program size simpler.\n1.1 fixed bug stopping restrictions on arrays.\n1.2 increased number of execution cycles in StoredProgram from 50 to 200.\n2.0 Complier conditionals to implemenmt restrictions.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Array.yml",
+      "source_relative_path": "api/BOOSE.Array.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Array.html"
+          "relative_path": "api/BOOSE.Array.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Array",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.BOOSEException.yml",
+      "source_relative_path": "api/BOOSE.BOOSEException.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.BOOSEException.html"
+          "relative_path": "api/BOOSE.BOOSEException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.BOOSEException",
+      "Summary": "<p sourcefile=\"api/BOOSE.BOOSEException.yml\" sourcestartlinenumber=\"1\">Generic BOOSE Language exception\nExtends Exception</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.BOOSEinfo.yml",
+      "source_relative_path": "api/BOOSE.Boolean.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.BOOSEinfo.html"
+          "relative_path": "api/BOOSE.Boolean.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Boolean",
+      "Summary": "<p sourcefile=\"api/BOOSE.Boolean.yml\" sourcestartlinenumber=\"1\">Boolean datatype, also used for Conditional Commands.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Boolean.yml",
+      "source_relative_path": "api/BOOSE.Call.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Boolean.html"
+          "relative_path": "api/BOOSE.Call.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Call",
+      "Summary": "<p sourcefile=\"api/BOOSE.Call.yml\" sourcestartlinenumber=\"1\">Command to call a previously defined method.</p>\n<p sourcefile=\"api/BOOSE.Call.yml\" sourcestartlinenumber=\"3\"><example>method int testMethod\\n int one, int two\\n  testMethod = one* two\\nend method\\nint global = 55\\ncall testMethod 10 15</example></p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Call.yml",
+      "source_relative_path": "api/BOOSE.Canvas.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Call.html"
+          "relative_path": "api/BOOSE.Canvas.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Canvas",
+      "Summary": "<p sourcefile=\"api/BOOSE.Canvas.yml\" sourcestartlinenumber=\"1\">Abstract class that implements CanvasInterface. See CanvasInterface documentation for what to implement.\nThis class handles all the drawing on your system according to above documentation.\nBOOSE does not by default specify a default drawing Canvas (only this).</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Canvas.yml",
+      "source_relative_path": "api/BOOSE.CanvasCommand.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Canvas.html"
+          "relative_path": "api/BOOSE.CanvasCommand.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.CanvasCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.CanvasCommand.yml\" sourcestartlinenumber=\"1\">Abstract class that is inherited by derived canvas commands that draw on a canvas. It stores the x and y positions of the last drawing operation.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.CanvasCommand.yml",
+      "source_relative_path": "api/BOOSE.CanvasException.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.CanvasCommand.html"
+          "relative_path": "api/BOOSE.CanvasException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.CanvasException",
+      "Summary": "<p sourcefile=\"api/BOOSE.CanvasException.yml\" sourcestartlinenumber=\"1\">Exception that should be thrown by operations that fail on the Canvas.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.CanvasException.yml",
+      "source_relative_path": "api/BOOSE.Cast.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.CanvasException.html"
+          "relative_path": "api/BOOSE.Cast.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Cast",
+      "Summary": "<p sourcefile=\"api/BOOSE.Cast.yml\" sourcestartlinenumber=\"1\">Cast real values to int values.\nSyntax: cast <i>intVar</i> <i>realVar</i>\nBoth variables must be previously defined.</p>\n<p sourcefile=\"api/BOOSE.Cast.yml\" sourcestartlinenumber=\"5\"><example> real circ = 100.123\\nint c\\ncast c circ\\ncircle c</example></p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.CanvasI.yml",
+      "source_relative_path": "api/BOOSE.Circle.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.CanvasI.html"
+          "relative_path": "api/BOOSE.Circle.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Circle",
+      "Summary": "<p sourcefile=\"api/BOOSE.Circle.yml\" sourcestartlinenumber=\"1\">Draw a circle round the current cursor position.</p>\n<p sourcefile=\"api/BOOSE.Circle.yml\" sourcestartlinenumber=\"3\"><example>circle 50</example>\n<throws>Canvas exception if a non-integer is passed.</throws></p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Cast.yml",
+      "source_relative_path": "api/BOOSE.Command.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Cast.html"
+          "relative_path": "api/BOOSE.Command.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Command",
+      "Summary": "<p sourcefile=\"api/BOOSE.Command.yml\" sourcestartlinenumber=\"1\">Abstract class for BOOSE commands. Can handle a parameter list or expression.\nThis class will seperate the parameters or expression from the command and store in the &quot;ParameterList&quot;.\nThe Command's Compile() method is called by the parser and this is expected to set the Command's parameters.\nBOOSE implementation of commands makes definitions &quot;sealed&quot;. Sealed classes cannot be inherited, so you can't use what's there to remove the restrictions, you will have to totally rewrite them.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Circle.yml",
+      "source_relative_path": "api/BOOSE.CommandException.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Circle.html"
+          "relative_path": "api/BOOSE.CommandException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.CommandException",
+      "Summary": "<p sourcefile=\"api/BOOSE.CommandException.yml\" sourcestartlinenumber=\"1\">Exception genereted by the StoredProgram class when a command fails. This represents a run-time error.\nAny StoredProgram class should catch such an exception and report the problem to the user.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Command.yml",
+      "source_relative_path": "api/BOOSE.CommandFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Command.html"
+          "relative_path": "api/BOOSE.CommandFactory.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.CommandFactory",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.CommandException.yml",
+      "source_relative_path": "api/BOOSE.CommandOneParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.CommandException.html"
+          "relative_path": "api/BOOSE.CommandOneParameter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.CommandOneParameter",
+      "Summary": "<p sourcefile=\"api/BOOSE.CommandOneParameter.yml\" sourcestartlinenumber=\"1\">Commands with one parameter.\nThe command system adds one parameter at a time. Can be used by any one parameter command.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.CommandFactory.yml",
+      "source_relative_path": "api/BOOSE.CommandThreeParameters.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.CommandFactory.html"
+          "relative_path": "api/BOOSE.CommandThreeParameters.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.CommandThreeParameters",
+      "Summary": "<p sourcefile=\"api/BOOSE.CommandThreeParameters.yml\" sourcestartlinenumber=\"1\">Commands with two parameters.\nEach command has an Xpos and Ypos that operates from the current cursor position.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.CommandFactoryI.yml",
+      "source_relative_path": "api/BOOSE.CommandTwoParameters.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.CommandFactoryI.html"
+          "relative_path": "api/BOOSE.CommandTwoParameters.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.CommandTwoParameters",
+      "Summary": "<p sourcefile=\"api/BOOSE.CommandTwoParameters.yml\" sourcestartlinenumber=\"1\">Commands with two parameters.\nEach command has an Xpos and Ypos that operates from the current cursor position.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.CommandInterface.yml",
+      "source_relative_path": "api/BOOSE.CompoundCommand.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.CommandInterface.html"
+          "relative_path": "api/BOOSE.CompoundCommand.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.CompoundCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.CompoundCommand.yml\" sourcestartlinenumber=\"1\">CompoundCommand is a building block for shared functionality between CompoundCommands, such as IF, WHILE, FOR ,ELSE and ENDS\nClasses the inherit from here tend to be &quot;sealed&quot; so that they cnnot be inherited from to manipulate restrictions.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.CommandOneParameter.yml",
+      "source_relative_path": "api/BOOSE.ConditionalCommand.conditionalTypes.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.CommandOneParameter.html"
+          "relative_path": "api/BOOSE.ConditionalCommand.conditionalTypes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.ConditionalCommand.conditionalTypes",
+      "Summary": "<p sourcefile=\"api/BOOSE.ConditionalCommand.conditionalTypes.yml\" sourcestartlinenumber=\"1\">Enumerated type to represent individual conditional commands.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.CommandThreeParameters.yml",
+      "source_relative_path": "api/BOOSE.ConditionalCommand.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.CommandThreeParameters.html"
+          "relative_path": "api/BOOSE.ConditionalCommand.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.ConditionalCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.ConditionalCommand.yml\" sourcestartlinenumber=\"1\">Used for Ifs, Whiles and Fors</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.CommandTwoParameters.yml",
+      "source_relative_path": "api/BOOSE.DrawTo.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.CommandTwoParameters.html"
+          "relative_path": "api/BOOSE.DrawTo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.DrawTo",
+      "Summary": "<p sourcefile=\"api/BOOSE.DrawTo.yml\" sourcestartlinenumber=\"1\">Draw a line from to current cursor position to the provided x,y position.</p>\n<p sourcefile=\"api/BOOSE.DrawTo.yml\" sourcestartlinenumber=\"3\"><example>drawto 200,200</example></p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.CompoundCommand.yml",
+      "source_relative_path": "api/BOOSE.Else.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.CompoundCommand.html"
+          "relative_path": "api/BOOSE.Else.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Else",
+      "Summary": "<p sourcefile=\"api/BOOSE.Else.yml\" sourcestartlinenumber=\"1\">An Else is like an Endif but it pops the corresponding If off the stack and pushes itself on so that it becomes the corresponding command to the end</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.ConditionalCommand.conditionalTypes.yml",
+      "source_relative_path": "api/BOOSE.End.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.ConditionalCommand.conditionalTypes.html"
+          "relative_path": "api/BOOSE.End.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.End",
+      "Summary": "<p sourcefile=\"api/BOOSE.End.yml\" sourcestartlinenumber=\"1\">End command for If/While/For/Method.\nBOOSE has only one End type command which has a parameter to say what it belongs so eg. &quot;end if&quot;.\nEnd checks Boose types for the ciorresponding command (If/While/For/Method) and will likely require a complete rewrite to replcae those commands. It would probbaly be easier to replace Parser, StoredProgram, CompoundCommand and this. Look at the metghods each provides, if you like, and try and fill in their fucntionality.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.ConditionalCommand.yml",
+      "source_relative_path": "api/BOOSE.Evaluation.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.ConditionalCommand.html"
+          "relative_path": "api/BOOSE.Evaluation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Evaluation",
+      "Summary": "<p sourcefile=\"api/BOOSE.Evaluation.yml\" sourcestartlinenumber=\"1\">An evaluation encompasses all things that can have a value, such as variables, expressions and conditions used in loops and ifs.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.DrawTo.yml",
+      "source_relative_path": "api/BOOSE.FactoryException.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.DrawTo.html"
+          "relative_path": "api/BOOSE.FactoryException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.FactoryException",
+      "Summary": "<p sourcefile=\"api/BOOSE.FactoryException.yml\" sourcestartlinenumber=\"1\">Exception genereted by the a CommandFactory. It represents a command not being part of BOOSE.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Else.yml",
+      "source_relative_path": "api/BOOSE.For.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Else.html"
+          "relative_path": "api/BOOSE.For.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.For",
+      "Summary": "<p sourcefile=\"api/BOOSE.For.yml\" sourcestartlinenumber=\"1\">For command.\nAdds processing at compile() and execute() to process a for command.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.End.yml",
+      "source_relative_path": "api/BOOSE.ICanvas.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.End.html"
+          "relative_path": "api/BOOSE.ICanvas.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.ICanvas",
+      "Summary": "<p sourcefile=\"api/BOOSE.ICanvas.yml\" sourcestartlinenumber=\"1\">Implement ICanvas for your BOOSE renderer. It has an Xpos and Ypos of the current cursor position and a pen colour.\nYour class should implement the methods below to draw on its &quot;bitmap&quot; (i.e. it may not be a bitmap, it could draw in ASCII text for example).</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Evaluation.yml",
+      "source_relative_path": "api/BOOSE.ICommand.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Evaluation.html"
+          "relative_path": "api/BOOSE.ICommand.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.ICommand",
+      "Summary": "<p sourcefile=\"api/BOOSE.ICommand.yml\" sourcestartlinenumber=\"1\">Interface for BOOSE commands. Any Command class should implement this interface and be generated by a CommandFactory that implements the ICommandFactory interface.\nContains methods to set the Command up after its creation, manage its parameters when it is compiled and execute it when it is called.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.FactoryException.yml",
+      "source_relative_path": "api/BOOSE.ICommandFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.FactoryException.html"
+          "relative_path": "api/BOOSE.ICommandFactory.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.ICommandFactory",
+      "Summary": "<p sourcefile=\"api/BOOSE.ICommandFactory.yml\" sourcestartlinenumber=\"1\">To add commands to BOOSE you must create a CommandFactory that uses this interface.\nYou should extend the existing BOOSE:CommandFactory (which implements this interface) and then\nimplement the MakeCommand() method. It shoudld create a new command object based on the string passed.\nAny standard BOOSE commands can then be made by calling base.MakeCommand();\nIf you do not extend the existing CommandFactory you must implement this interface and create a MakeCommand() method that creates all commands, including the standard BOOSE commands.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.For.yml",
+      "source_relative_path": "api/BOOSE.IEvaluation.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.For.html"
+          "relative_path": "api/BOOSE.IEvaluation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.IEvaluation",
+      "Summary": "<p sourcefile=\"api/BOOSE.IEvaluation.yml\" sourcestartlinenumber=\"1\">IEvaluation adds properties to get and set an Evaluations name, value and expression.\nAn evaluation can be a variable declaration, such as &quot;int total&quot; or &quot;real area&quot;.\nIt can be change an exprerssion to change the value of a variable, such as &quot;total = total + 1&quot;, the part after the &quot;=&quot; is an referred to as an &quot;expression&quot;.\nIn the first two cases the parser will generate an Int object and a Real Object. In the third case it will generate a &quot;Evaluation&quot; object.\nNot currently used in the standard implementation of BOOSE.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.ICanvas.yml",
+      "source_relative_path": "api/BOOSE.IParser.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.ICanvas.html"
+          "relative_path": "api/BOOSE.IParser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.IParser",
+      "Summary": "<p sourcefile=\"api/BOOSE.IParser.yml\" sourcestartlinenumber=\"1\">The Parser Class takes a BOOSE program as a String with each line seperated by '\\n'\nand creates command objects for each valid command and stores them in the passed in StoredProgram.\nExceptions shoulod bee generated for any syntax errors by the comand objects themselves. The parser should catch these exceptions and add them to an error list.\nWhen each valid command is generated its Compile() method is called.\nThe valid command will have its parameters processed and any variables identified.\nIt is the role of StoredProgram to run the commands.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.ICommand.yml",
+      "source_relative_path": "api/BOOSE.IStoredProgram.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.ICommand.html"
+          "relative_path": "api/BOOSE.IStoredProgram.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.IStoredProgram",
+      "Summary": "<p sourcefile=\"api/BOOSE.IStoredProgram.yml\" sourcestartlinenumber=\"1\">Runtime interface for a StoredProgram. A StoredProgram is a collection of commands that can be executed in order. It has a program counter (PC) that keeps track of the current command being executed. It also has a collection of variables that can be used in expressions. The StoredProgram can be reset, and it can be run until there are no more commands left to execute.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.ICommandFactory.yml",
+      "source_relative_path": "api/BOOSE.If.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.ICommandFactory.html"
+          "relative_path": "api/BOOSE.If.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.If",
+      "Summary": "<p sourcefile=\"api/BOOSE.If.yml\" sourcestartlinenumber=\"1\">If command.\nAdds processing at compile() and execute() to process an if command.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.IEvaluation.yml",
+      "source_relative_path": "api/BOOSE.Int.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.IEvaluation.html"
+          "relative_path": "api/BOOSE.Int.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Int",
+      "Summary": "<p sourcefile=\"api/BOOSE.Int.yml\" sourcestartlinenumber=\"1\">Command Class to define and store integer values.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.IParser.yml",
+      "source_relative_path": "api/BOOSE.Method.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.IParser.html"
+          "relative_path": "api/BOOSE.Method.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Method",
+      "Summary": "<p sourcefile=\"api/BOOSE.Method.yml\" sourcestartlinenumber=\"1\">Method declaration command.\nOvercoming method restrictions will require a complete rewrite. It would be simpler to do this after Parser and StoredProgram. You are getting to the stage where you need to do a big rewrite.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.IStoredProgram.yml",
+      "source_relative_path": "api/BOOSE.MoveTo.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.IStoredProgram.html"
+          "relative_path": "api/BOOSE.MoveTo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.MoveTo",
+      "Summary": "<p sourcefile=\"api/BOOSE.MoveTo.yml\" sourcestartlinenumber=\"1\">Set the cursor position, for subsequent drawing operations, to the provide x,y position.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.If.yml",
+      "source_relative_path": "api/BOOSE.Parser.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.If.html"
+          "relative_path": "api/BOOSE.Parser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Parser",
+      "Summary": "<p sourcefile=\"api/BOOSE.Parser.yml\" sourcestartlinenumber=\"1\">The parser takes a program, who's lines are seperated by &quot;\\n&quot;, and attempts to create a StoredProgram.\nOnce the SToredProgram has been created it then can be run.\nAs much processing that can be done is done here because it has no run penalty (other than starting the program).\nCommand objects are created and their parameters processed as much as possible.\nVariables are checked for existance but expressions cannot be processed until runtime.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Int.yml",
+      "source_relative_path": "api/BOOSE.ParserException.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Int.html"
+          "relative_path": "api/BOOSE.ParserException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.ParserException",
+      "Summary": "<p sourcefile=\"api/BOOSE.ParserException.yml\" sourcestartlinenumber=\"1\">Exception genereted by the Parser class to denote syntax errors. ANy systax error should proivide information about what the error is.\nA Parser shoudl catch these exceptions, append a line number and generate a syntax error list.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Method.yml",
+      "source_relative_path": "api/BOOSE.Peek.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Method.html"
+          "relative_path": "api/BOOSE.Peek.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Peek",
+      "Summary": "<p sourcefile=\"api/BOOSE.Peek.yml\" sourcestartlinenumber=\"1\">Peek an array, i.e. get the value of an array cell.\n[variable] = peek [array name] [row] [optional column]</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.MoveTo.yml",
+      "source_relative_path": "api/BOOSE.PenColour.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.MoveTo.html"
+          "relative_path": "api/BOOSE.PenColour.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.PenColour",
+      "Summary": "<p sourcefile=\"api/BOOSE.PenColour.yml\" sourcestartlinenumber=\"1\">Set the pen for the next drawing operations to the provided r,g,b colour.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Parser.yml",
+      "source_relative_path": "api/BOOSE.Poke.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Parser.html"
+          "relative_path": "api/BOOSE.Poke.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Poke",
+      "Summary": "<p sourcefile=\"api/BOOSE.Poke.yml\" sourcestartlinenumber=\"1\">Poke an array, i.e. set the value of an array cell.\npoke [array name] [row] [optional column] = [value]</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.ParserException.yml",
+      "source_relative_path": "api/BOOSE.Real.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.ParserException.html"
+          "relative_path": "api/BOOSE.Real.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Real",
+      "Summary": "<p sourcefile=\"api/BOOSE.Real.yml\" sourcestartlinenumber=\"1\">Class for a Real Number Variable.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Peek.yml",
+      "source_relative_path": "api/BOOSE.Rect.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Peek.html"
+          "relative_path": "api/BOOSE.Rect.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Rect",
+      "Summary": "<p sourcefile=\"api/BOOSE.Rect.yml\" sourcestartlinenumber=\"1\">Draw a rectangle of provided with and heigh with the current cursor position being the top left corner.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.PenColour.yml",
+      "source_relative_path": "api/BOOSE.RestrictionException.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.PenColour.html"
+          "relative_path": "api/BOOSE.RestrictionException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.RestrictionException",
+      "Summary": "<p sourcefile=\"api/BOOSE.RestrictionException.yml\" sourcestartlinenumber=\"1\">Exception thrown when restrictions are breached.\nIf you get this you need to write your own code for the facility.\nThis only occurs when using the library code from a DLL. If you are writing your own classes this exception is irrelevant.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Poke.yml",
+      "source_relative_path": "api/BOOSE.StoredProgram.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Poke.html"
+          "relative_path": "api/BOOSE.StoredProgram.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.StoredProgram",
+      "Summary": "<p sourcefile=\"api/BOOSE.StoredProgram.yml\" sourcestartlinenumber=\"1\">A collection class for storing a program of Command objects, extends ArrayList to add a program counter and a flag to indicate that the syntax is ok and the program valid.\nAdds methods below to process variables and methods and implements flow of control for ifs and loops.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Real.yml",
+      "source_relative_path": "api/BOOSE.StoredProgramException.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Real.html"
+          "relative_path": "api/BOOSE.StoredProgramException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.StoredProgramException",
+      "Summary": "<p sourcefile=\"api/BOOSE.StoredProgramException.yml\" sourcestartlinenumber=\"1\">Exception genereted by the StoredProgram class. This excption should be thrown by a StoredProgram if an operation like returning the value of a non-existant variable or attempt to call a non-existant method happens.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Rect.yml",
+      "source_relative_path": "api/BOOSE.VarException.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.Rect.html"
+          "relative_path": "api/BOOSE.VarException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.VarException",
+      "Summary": "<p sourcefile=\"api/BOOSE.VarException.yml\" sourcestartlinenumber=\"1\">Exception raised by variable commands.if their expressions cannot be evaluated.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.RestrictionException.yml",
+      "source_relative_path": "api/BOOSE.While.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.RestrictionException.html"
+          "relative_path": "api/BOOSE.While.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.While",
+      "Summary": "<p sourcefile=\"api/BOOSE.While.yml\" sourcestartlinenumber=\"1\">While command.\nSo far blank as it doesn't do anything beyond ConditionalCommand but it makes the code clearer (in the factory).</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.StoredProgram.yml",
+      "source_relative_path": "api/BOOSE.Write.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.StoredProgram.html"
+          "relative_path": "api/BOOSE.Write.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE.Write",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.StoredProgramException.yml",
+      "source_relative_path": "api/BOOSE.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/BOOSE.StoredProgramException.html"
+          "relative_path": "api/BOOSE.html"
         }
       },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.StoredProgramI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "boose/BOOSE.StoredProgramI.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.TwoParamDrawCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "boose/BOOSE.TwoParamDrawCommand.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Var.yml",
-      "output": {
-        ".html": {
-          "relative_path": "boose/BOOSE.Var.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.VarException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "boose/BOOSE.VarException.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.While.yml",
-      "output": {
-        ".html": {
-          "relative_path": "boose/BOOSE.While.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.Write.yml",
-      "output": {
-        ".html": {
-          "relative_path": "boose/BOOSE.Write.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "boose/BOOSE.yml",
-      "output": {
-        ".html": {
-          "relative_path": "boose/BOOSE.html"
-        }
-      },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE",
+      "Summary": null
     },
     {
       "type": "Toc",
-      "source_relative_path": "boose/toc.yml",
+      "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "boose/toc.html"
+          "relative_path": "api/toc.html"
         },
         ".json": {
-          "relative_path": "boose/toc.json"
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/README.md",
+      "source_relative_path": "docs/getting-started.md",
       "output": {
         ".html": {
-          "relative_path": "docs/README.html"
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""

@@ -3,93 +3,99 @@ sorted: true
 references:
 - uid: BOOSE
   name: BOOSE
-  href: boose/BOOSE.html
+  href: api/BOOSE.html
   commentId: N:BOOSE
   fullName: BOOSE
   nameWithType: BOOSE
 - uid: BOOSE.AboutBOOSE
   name: AboutBOOSE
-  href: boose/BOOSE.AboutBOOSE.html
+  href: api/BOOSE.AboutBOOSE.html
   commentId: T:BOOSE.AboutBOOSE
   fullName: BOOSE.AboutBOOSE
   nameWithType: AboutBOOSE
 - uid: BOOSE.AboutBOOSE.ARRAYLIMIT
   name: ARRAYLIMIT
-  href: boose/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_ARRAYLIMIT
+  href: api/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_ARRAYLIMIT
   commentId: F:BOOSE.AboutBOOSE.ARRAYLIMIT
   fullName: BOOSE.AboutBOOSE.ARRAYLIMIT
   nameWithType: AboutBOOSE.ARRAYLIMIT
 - uid: BOOSE.AboutBOOSE.BODYLIMIT
   name: BODYLIMIT
-  href: boose/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_BODYLIMIT
+  href: api/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_BODYLIMIT
   commentId: F:BOOSE.AboutBOOSE.BODYLIMIT
   fullName: BOOSE.AboutBOOSE.BODYLIMIT
   nameWithType: AboutBOOSE.BODYLIMIT
 - uid: BOOSE.AboutBOOSE.COMPOUNCOMMANDLIMIT
   name: COMPOUNCOMMANDLIMIT
-  href: boose/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_COMPOUNCOMMANDLIMIT
+  href: api/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_COMPOUNCOMMANDLIMIT
   commentId: F:BOOSE.AboutBOOSE.COMPOUNCOMMANDLIMIT
   fullName: BOOSE.AboutBOOSE.COMPOUNCOMMANDLIMIT
   nameWithType: AboutBOOSE.COMPOUNCOMMANDLIMIT
+- uid: BOOSE.AboutBOOSE.MAXITTERATIONS
+  name: MAXITTERATIONS
+  href: api/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_MAXITTERATIONS
+  commentId: F:BOOSE.AboutBOOSE.MAXITTERATIONS
+  fullName: BOOSE.AboutBOOSE.MAXITTERATIONS
+  nameWithType: AboutBOOSE.MAXITTERATIONS
 - uid: BOOSE.AboutBOOSE.MAXPROGRAMSIZE
   name: MAXPROGRAMSIZE
-  href: boose/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_MAXPROGRAMSIZE
+  href: api/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_MAXPROGRAMSIZE
   commentId: F:BOOSE.AboutBOOSE.MAXPROGRAMSIZE
   fullName: BOOSE.AboutBOOSE.MAXPROGRAMSIZE
   nameWithType: AboutBOOSE.MAXPROGRAMSIZE
-- uid: BOOSE.AboutBOOSE.RESTRICTIONS
-  name: RESTRICTIONS
-  href: boose/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_RESTRICTIONS
-  commentId: F:BOOSE.AboutBOOSE.RESTRICTIONS
-  fullName: BOOSE.AboutBOOSE.RESTRICTIONS
-  nameWithType: AboutBOOSE.RESTRICTIONS
+- uid: BOOSE.AboutBOOSE.METHODLIMIT
+  name: METHODLIMIT
+  href: api/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_METHODLIMIT
+  commentId: F:BOOSE.AboutBOOSE.METHODLIMIT
+  fullName: BOOSE.AboutBOOSE.METHODLIMIT
+  nameWithType: AboutBOOSE.METHODLIMIT
 - uid: BOOSE.AboutBOOSE.SIZELIMIT
   name: SIZELIMIT
-  href: boose/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_SIZELIMIT
+  href: api/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_SIZELIMIT
   commentId: F:BOOSE.AboutBOOSE.SIZELIMIT
   fullName: BOOSE.AboutBOOSE.SIZELIMIT
   nameWithType: AboutBOOSE.SIZELIMIT
 - uid: BOOSE.AboutBOOSE.VARIABLELIMIT
   name: VARIABLELIMIT
-  href: boose/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_VARIABLELIMIT
+  href: api/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_VARIABLELIMIT
   commentId: F:BOOSE.AboutBOOSE.VARIABLELIMIT
   fullName: BOOSE.AboutBOOSE.VARIABLELIMIT
   nameWithType: AboutBOOSE.VARIABLELIMIT
 - uid: BOOSE.AboutBOOSE.Version
   name: Version
-  href: boose/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_Version
+  href: api/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_Version
   commentId: P:BOOSE.AboutBOOSE.Version
   fullName: BOOSE.AboutBOOSE.Version
   nameWithType: AboutBOOSE.Version
 - uid: BOOSE.AboutBOOSE.Version*
   name: Version
-  href: boose/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_Version_
+  href: api/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_Version_
   commentId: Overload:BOOSE.AboutBOOSE.Version
   isSpec: "True"
   fullName: BOOSE.AboutBOOSE.Version
   nameWithType: AboutBOOSE.Version
 - uid: BOOSE.AboutBOOSE.about
   name: about()
-  href: boose/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_about
+  href: api/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_about
   commentId: M:BOOSE.AboutBOOSE.about
   fullName: BOOSE.AboutBOOSE.about()
   nameWithType: AboutBOOSE.about()
 - uid: BOOSE.AboutBOOSE.about*
   name: about
-  href: boose/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_about_
+  href: api/BOOSE.AboutBOOSE.html#BOOSE_AboutBOOSE_about_
   commentId: Overload:BOOSE.AboutBOOSE.about
   isSpec: "True"
   fullName: BOOSE.AboutBOOSE.about
   nameWithType: AboutBOOSE.about
 - uid: BOOSE.Array
   name: Array
-  href: boose/BOOSE.Array.html
+  href: api/BOOSE.Array.html
   commentId: T:BOOSE.Array
   fullName: BOOSE.Array
   nameWithType: Array
 - uid: BOOSE.Array.#ctor
   name: Array()
-  href: boose/BOOSE.Array.html#BOOSE_Array__ctor
+  href: api/BOOSE.Array.html#BOOSE_Array__ctor
   commentId: M:BOOSE.Array.#ctor
   name.vb: New()
   fullName: BOOSE.Array.Array()
@@ -98,7 +104,7 @@ references:
   nameWithType.vb: Array.New()
 - uid: BOOSE.Array.#ctor*
   name: Array
-  href: boose/BOOSE.Array.html#BOOSE_Array__ctor_
+  href: api/BOOSE.Array.html#BOOSE_Array__ctor_
   commentId: Overload:BOOSE.Array.#ctor
   isSpec: "True"
   name.vb: New
@@ -106,9 +112,22 @@ references:
   fullName.vb: BOOSE.Array.New
   nameWithType: Array.Array
   nameWithType.vb: Array.New
+- uid: BOOSE.Array.ArrayRestrictions
+  name: ArrayRestrictions()
+  href: api/BOOSE.Array.html#BOOSE_Array_ArrayRestrictions
+  commentId: M:BOOSE.Array.ArrayRestrictions
+  fullName: BOOSE.Array.ArrayRestrictions()
+  nameWithType: Array.ArrayRestrictions()
+- uid: BOOSE.Array.ArrayRestrictions*
+  name: ArrayRestrictions
+  href: api/BOOSE.Array.html#BOOSE_Array_ArrayRestrictions_
+  commentId: Overload:BOOSE.Array.ArrayRestrictions
+  isSpec: "True"
+  fullName: BOOSE.Array.ArrayRestrictions
+  nameWithType: Array.ArrayRestrictions
 - uid: BOOSE.Array.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.Array.html#BOOSE_Array_CheckParameters_System_String___
+  href: api/BOOSE.Array.html#BOOSE_Array_CheckParameters_System_String___
   commentId: M:BOOSE.Array.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.Array.CheckParameters(string[])
@@ -117,53 +136,53 @@ references:
   nameWithType.vb: Array.CheckParameters(String())
 - uid: BOOSE.Array.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.Array.html#BOOSE_Array_CheckParameters_
+  href: api/BOOSE.Array.html#BOOSE_Array_CheckParameters_
   commentId: Overload:BOOSE.Array.CheckParameters
   isSpec: "True"
   fullName: BOOSE.Array.CheckParameters
   nameWithType: Array.CheckParameters
 - uid: BOOSE.Array.Columns
   name: Columns
-  href: boose/BOOSE.Array.html#BOOSE_Array_Columns
+  href: api/BOOSE.Array.html#BOOSE_Array_Columns
   commentId: P:BOOSE.Array.Columns
   fullName: BOOSE.Array.Columns
   nameWithType: Array.Columns
 - uid: BOOSE.Array.Columns*
   name: Columns
-  href: boose/BOOSE.Array.html#BOOSE_Array_Columns_
+  href: api/BOOSE.Array.html#BOOSE_Array_Columns_
   commentId: Overload:BOOSE.Array.Columns
   isSpec: "True"
   fullName: BOOSE.Array.Columns
   nameWithType: Array.Columns
 - uid: BOOSE.Array.Compile
   name: Compile()
-  href: boose/BOOSE.Array.html#BOOSE_Array_Compile
+  href: api/BOOSE.Array.html#BOOSE_Array_Compile
   commentId: M:BOOSE.Array.Compile
   fullName: BOOSE.Array.Compile()
   nameWithType: Array.Compile()
 - uid: BOOSE.Array.Compile*
   name: Compile
-  href: boose/BOOSE.Array.html#BOOSE_Array_Compile_
+  href: api/BOOSE.Array.html#BOOSE_Array_Compile_
   commentId: Overload:BOOSE.Array.Compile
   isSpec: "True"
   fullName: BOOSE.Array.Compile
   nameWithType: Array.Compile
 - uid: BOOSE.Array.Execute
   name: Execute()
-  href: boose/BOOSE.Array.html#BOOSE_Array_Execute
+  href: api/BOOSE.Array.html#BOOSE_Array_Execute
   commentId: M:BOOSE.Array.Execute
   fullName: BOOSE.Array.Execute()
   nameWithType: Array.Execute()
 - uid: BOOSE.Array.Execute*
   name: Execute
-  href: boose/BOOSE.Array.html#BOOSE_Array_Execute_
+  href: api/BOOSE.Array.html#BOOSE_Array_Execute_
   commentId: Overload:BOOSE.Array.Execute
   isSpec: "True"
   fullName: BOOSE.Array.Execute
   nameWithType: Array.Execute
 - uid: BOOSE.Array.GetIntArray(System.Int32,System.Int32)
   name: GetIntArray(int, int)
-  href: boose/BOOSE.Array.html#BOOSE_Array_GetIntArray_System_Int32_System_Int32_
+  href: api/BOOSE.Array.html#BOOSE_Array_GetIntArray_System_Int32_System_Int32_
   commentId: M:BOOSE.Array.GetIntArray(System.Int32,System.Int32)
   name.vb: GetIntArray(Integer, Integer)
   fullName: BOOSE.Array.GetIntArray(int, int)
@@ -172,14 +191,14 @@ references:
   nameWithType.vb: Array.GetIntArray(Integer, Integer)
 - uid: BOOSE.Array.GetIntArray*
   name: GetIntArray
-  href: boose/BOOSE.Array.html#BOOSE_Array_GetIntArray_
+  href: api/BOOSE.Array.html#BOOSE_Array_GetIntArray_
   commentId: Overload:BOOSE.Array.GetIntArray
   isSpec: "True"
   fullName: BOOSE.Array.GetIntArray
   nameWithType: Array.GetIntArray
 - uid: BOOSE.Array.GetRealArray(System.Int32,System.Int32)
   name: GetRealArray(int, int)
-  href: boose/BOOSE.Array.html#BOOSE_Array_GetRealArray_System_Int32_System_Int32_
+  href: api/BOOSE.Array.html#BOOSE_Array_GetRealArray_System_Int32_System_Int32_
   commentId: M:BOOSE.Array.GetRealArray(System.Int32,System.Int32)
   name.vb: GetRealArray(Integer, Integer)
   fullName: BOOSE.Array.GetRealArray(int, int)
@@ -188,26 +207,26 @@ references:
   nameWithType.vb: Array.GetRealArray(Integer, Integer)
 - uid: BOOSE.Array.GetRealArray*
   name: GetRealArray
-  href: boose/BOOSE.Array.html#BOOSE_Array_GetRealArray_
+  href: api/BOOSE.Array.html#BOOSE_Array_GetRealArray_
   commentId: Overload:BOOSE.Array.GetRealArray
   isSpec: "True"
   fullName: BOOSE.Array.GetRealArray
   nameWithType: Array.GetRealArray
 - uid: BOOSE.Array.PEEK
   name: PEEK
-  href: boose/BOOSE.Array.html#BOOSE_Array_PEEK
+  href: api/BOOSE.Array.html#BOOSE_Array_PEEK
   commentId: F:BOOSE.Array.PEEK
   fullName: BOOSE.Array.PEEK
   nameWithType: Array.PEEK
 - uid: BOOSE.Array.POKE
   name: POKE
-  href: boose/BOOSE.Array.html#BOOSE_Array_POKE
+  href: api/BOOSE.Array.html#BOOSE_Array_POKE
   commentId: F:BOOSE.Array.POKE
   fullName: BOOSE.Array.POKE
   nameWithType: Array.POKE
 - uid: BOOSE.Array.ProcessArrayParametersCompile(System.Boolean)
   name: ProcessArrayParametersCompile(bool)
-  href: boose/BOOSE.Array.html#BOOSE_Array_ProcessArrayParametersCompile_System_Boolean_
+  href: api/BOOSE.Array.html#BOOSE_Array_ProcessArrayParametersCompile_System_Boolean_
   commentId: M:BOOSE.Array.ProcessArrayParametersCompile(System.Boolean)
   name.vb: ProcessArrayParametersCompile(Boolean)
   fullName: BOOSE.Array.ProcessArrayParametersCompile(bool)
@@ -216,14 +235,14 @@ references:
   nameWithType.vb: Array.ProcessArrayParametersCompile(Boolean)
 - uid: BOOSE.Array.ProcessArrayParametersCompile*
   name: ProcessArrayParametersCompile
-  href: boose/BOOSE.Array.html#BOOSE_Array_ProcessArrayParametersCompile_
+  href: api/BOOSE.Array.html#BOOSE_Array_ProcessArrayParametersCompile_
   commentId: Overload:BOOSE.Array.ProcessArrayParametersCompile
   isSpec: "True"
   fullName: BOOSE.Array.ProcessArrayParametersCompile
   nameWithType: Array.ProcessArrayParametersCompile
 - uid: BOOSE.Array.ProcessArrayParametersExecute(System.Boolean)
   name: ProcessArrayParametersExecute(bool)
-  href: boose/BOOSE.Array.html#BOOSE_Array_ProcessArrayParametersExecute_System_Boolean_
+  href: api/BOOSE.Array.html#BOOSE_Array_ProcessArrayParametersExecute_System_Boolean_
   commentId: M:BOOSE.Array.ProcessArrayParametersExecute(System.Boolean)
   name.vb: ProcessArrayParametersExecute(Boolean)
   fullName: BOOSE.Array.ProcessArrayParametersExecute(bool)
@@ -232,27 +251,27 @@ references:
   nameWithType.vb: Array.ProcessArrayParametersExecute(Boolean)
 - uid: BOOSE.Array.ProcessArrayParametersExecute*
   name: ProcessArrayParametersExecute
-  href: boose/BOOSE.Array.html#BOOSE_Array_ProcessArrayParametersExecute_
+  href: api/BOOSE.Array.html#BOOSE_Array_ProcessArrayParametersExecute_
   commentId: Overload:BOOSE.Array.ProcessArrayParametersExecute
   isSpec: "True"
   fullName: BOOSE.Array.ProcessArrayParametersExecute
   nameWithType: Array.ProcessArrayParametersExecute
 - uid: BOOSE.Array.Rows
   name: Rows
-  href: boose/BOOSE.Array.html#BOOSE_Array_Rows
+  href: api/BOOSE.Array.html#BOOSE_Array_Rows
   commentId: P:BOOSE.Array.Rows
   fullName: BOOSE.Array.Rows
   nameWithType: Array.Rows
 - uid: BOOSE.Array.Rows*
   name: Rows
-  href: boose/BOOSE.Array.html#BOOSE_Array_Rows_
+  href: api/BOOSE.Array.html#BOOSE_Array_Rows_
   commentId: Overload:BOOSE.Array.Rows
   isSpec: "True"
   fullName: BOOSE.Array.Rows
   nameWithType: Array.Rows
 - uid: BOOSE.Array.SetIntArray(System.Int32,System.Int32,System.Int32)
   name: SetIntArray(int, int, int)
-  href: boose/BOOSE.Array.html#BOOSE_Array_SetIntArray_System_Int32_System_Int32_System_Int32_
+  href: api/BOOSE.Array.html#BOOSE_Array_SetIntArray_System_Int32_System_Int32_System_Int32_
   commentId: M:BOOSE.Array.SetIntArray(System.Int32,System.Int32,System.Int32)
   name.vb: SetIntArray(Integer, Integer, Integer)
   fullName: BOOSE.Array.SetIntArray(int, int, int)
@@ -261,14 +280,14 @@ references:
   nameWithType.vb: Array.SetIntArray(Integer, Integer, Integer)
 - uid: BOOSE.Array.SetIntArray*
   name: SetIntArray
-  href: boose/BOOSE.Array.html#BOOSE_Array_SetIntArray_
+  href: api/BOOSE.Array.html#BOOSE_Array_SetIntArray_
   commentId: Overload:BOOSE.Array.SetIntArray
   isSpec: "True"
   fullName: BOOSE.Array.SetIntArray
   nameWithType: Array.SetIntArray
 - uid: BOOSE.Array.SetRealArray(System.Double,System.Int32,System.Int32)
   name: SetRealArray(double, int, int)
-  href: boose/BOOSE.Array.html#BOOSE_Array_SetRealArray_System_Double_System_Int32_System_Int32_
+  href: api/BOOSE.Array.html#BOOSE_Array_SetRealArray_System_Double_System_Int32_System_Int32_
   commentId: M:BOOSE.Array.SetRealArray(System.Double,System.Int32,System.Int32)
   name.vb: SetRealArray(Double, Integer, Integer)
   fullName: BOOSE.Array.SetRealArray(double, int, int)
@@ -277,98 +296,98 @@ references:
   nameWithType.vb: Array.SetRealArray(Double, Integer, Integer)
 - uid: BOOSE.Array.SetRealArray*
   name: SetRealArray
-  href: boose/BOOSE.Array.html#BOOSE_Array_SetRealArray_
+  href: api/BOOSE.Array.html#BOOSE_Array_SetRealArray_
   commentId: Overload:BOOSE.Array.SetRealArray
   isSpec: "True"
   fullName: BOOSE.Array.SetRealArray
   nameWithType: Array.SetRealArray
 - uid: BOOSE.Array.column
   name: column
-  href: boose/BOOSE.Array.html#BOOSE_Array_column
+  href: api/BOOSE.Array.html#BOOSE_Array_column
   commentId: F:BOOSE.Array.column
   fullName: BOOSE.Array.column
   nameWithType: Array.column
 - uid: BOOSE.Array.columnS
   name: columnS
-  href: boose/BOOSE.Array.html#BOOSE_Array_columnS
+  href: api/BOOSE.Array.html#BOOSE_Array_columnS
   commentId: F:BOOSE.Array.columnS
   fullName: BOOSE.Array.columnS
   nameWithType: Array.columnS
 - uid: BOOSE.Array.columns
   name: columns
-  href: boose/BOOSE.Array.html#BOOSE_Array_columns
+  href: api/BOOSE.Array.html#BOOSE_Array_columns
   commentId: F:BOOSE.Array.columns
   fullName: BOOSE.Array.columns
   nameWithType: Array.columns
 - uid: BOOSE.Array.intArray
   name: intArray
-  href: boose/BOOSE.Array.html#BOOSE_Array_intArray
+  href: api/BOOSE.Array.html#BOOSE_Array_intArray
   commentId: F:BOOSE.Array.intArray
   fullName: BOOSE.Array.intArray
   nameWithType: Array.intArray
 - uid: BOOSE.Array.peekVar
   name: peekVar
-  href: boose/BOOSE.Array.html#BOOSE_Array_peekVar
+  href: api/BOOSE.Array.html#BOOSE_Array_peekVar
   commentId: F:BOOSE.Array.peekVar
   fullName: BOOSE.Array.peekVar
   nameWithType: Array.peekVar
 - uid: BOOSE.Array.pokeValue
   name: pokeValue
-  href: boose/BOOSE.Array.html#BOOSE_Array_pokeValue
+  href: api/BOOSE.Array.html#BOOSE_Array_pokeValue
   commentId: F:BOOSE.Array.pokeValue
   fullName: BOOSE.Array.pokeValue
   nameWithType: Array.pokeValue
 - uid: BOOSE.Array.realArray
   name: realArray
-  href: boose/BOOSE.Array.html#BOOSE_Array_realArray
+  href: api/BOOSE.Array.html#BOOSE_Array_realArray
   commentId: F:BOOSE.Array.realArray
   fullName: BOOSE.Array.realArray
   nameWithType: Array.realArray
 - uid: BOOSE.Array.row
   name: row
-  href: boose/BOOSE.Array.html#BOOSE_Array_row
+  href: api/BOOSE.Array.html#BOOSE_Array_row
   commentId: F:BOOSE.Array.row
   fullName: BOOSE.Array.row
   nameWithType: Array.row
 - uid: BOOSE.Array.rowS
   name: rowS
-  href: boose/BOOSE.Array.html#BOOSE_Array_rowS
+  href: api/BOOSE.Array.html#BOOSE_Array_rowS
   commentId: F:BOOSE.Array.rowS
   fullName: BOOSE.Array.rowS
   nameWithType: Array.rowS
 - uid: BOOSE.Array.rows
   name: rows
-  href: boose/BOOSE.Array.html#BOOSE_Array_rows
+  href: api/BOOSE.Array.html#BOOSE_Array_rows
   commentId: F:BOOSE.Array.rows
   fullName: BOOSE.Array.rows
   nameWithType: Array.rows
 - uid: BOOSE.Array.type
   name: type
-  href: boose/BOOSE.Array.html#BOOSE_Array_type
+  href: api/BOOSE.Array.html#BOOSE_Array_type
   commentId: F:BOOSE.Array.type
   fullName: BOOSE.Array.type
   nameWithType: Array.type
 - uid: BOOSE.Array.valueInt
   name: valueInt
-  href: boose/BOOSE.Array.html#BOOSE_Array_valueInt
+  href: api/BOOSE.Array.html#BOOSE_Array_valueInt
   commentId: F:BOOSE.Array.valueInt
   fullName: BOOSE.Array.valueInt
   nameWithType: Array.valueInt
 - uid: BOOSE.Array.valueReal
   name: valueReal
-  href: boose/BOOSE.Array.html#BOOSE_Array_valueReal
+  href: api/BOOSE.Array.html#BOOSE_Array_valueReal
   commentId: F:BOOSE.Array.valueReal
   fullName: BOOSE.Array.valueReal
   nameWithType: Array.valueReal
 - uid: BOOSE.BOOSEException
   name: BOOSEException
-  href: boose/BOOSE.BOOSEException.html
+  href: api/BOOSE.BOOSEException.html
   commentId: T:BOOSE.BOOSEException
   fullName: BOOSE.BOOSEException
   nameWithType: BOOSEException
 - uid: BOOSE.BOOSEException.#ctor(System.String)
   name: BOOSEException(string)
-  href: boose/BOOSE.BOOSEException.html#BOOSE_BOOSEException__ctor_System_String_
+  href: api/BOOSE.BOOSEException.html#BOOSE_BOOSEException__ctor_System_String_
   commentId: M:BOOSE.BOOSEException.#ctor(System.String)
   name.vb: New(String)
   fullName: BOOSE.BOOSEException.BOOSEException(string)
@@ -377,7 +396,7 @@ references:
   nameWithType.vb: BOOSEException.New(String)
 - uid: BOOSE.BOOSEException.#ctor*
   name: BOOSEException
-  href: boose/BOOSE.BOOSEException.html#BOOSE_BOOSEException__ctor_
+  href: api/BOOSE.BOOSEException.html#BOOSE_BOOSEException__ctor_
   commentId: Overload:BOOSE.BOOSEException.#ctor
   isSpec: "True"
   name.vb: New
@@ -385,117 +404,117 @@ references:
   fullName.vb: BOOSE.BOOSEException.New
   nameWithType: BOOSEException.BOOSEException
   nameWithType.vb: BOOSEException.New
-- uid: BOOSE.BOOSEinfo
-  name: BOOSEinfo
-  href: boose/BOOSE.BOOSEinfo.html
-  commentId: T:BOOSE.BOOSEinfo
-  fullName: BOOSE.BOOSEinfo
-  nameWithType: BOOSEinfo
-- uid: BOOSE.BOOSEinfo.about
-  name: about()
-  href: boose/BOOSE.BOOSEinfo.html#BOOSE_BOOSEinfo_about
-  commentId: M:BOOSE.BOOSEinfo.about
-  fullName: BOOSE.BOOSEinfo.about()
-  nameWithType: BOOSEinfo.about()
-- uid: BOOSE.BOOSEinfo.about*
-  name: about
-  href: boose/BOOSE.BOOSEinfo.html#BOOSE_BOOSEinfo_about_
-  commentId: Overload:BOOSE.BOOSEinfo.about
-  isSpec: "True"
-  fullName: BOOSE.BOOSEinfo.about
-  nameWithType: BOOSEinfo.about
 - uid: BOOSE.Boolean
   name: Boolean
-  href: boose/BOOSE.Boolean.html
+  href: api/BOOSE.Boolean.html
   commentId: T:BOOSE.Boolean
   fullName: BOOSE.Boolean
   nameWithType: Boolean
+- uid: BOOSE.Boolean.#ctor
+  name: Boolean()
+  href: api/BOOSE.Boolean.html#BOOSE_Boolean__ctor
+  commentId: M:BOOSE.Boolean.#ctor
+  name.vb: New()
+  fullName: BOOSE.Boolean.Boolean()
+  fullName.vb: BOOSE.Boolean.New()
+  nameWithType: Boolean.Boolean()
+  nameWithType.vb: Boolean.New()
+- uid: BOOSE.Boolean.#ctor*
+  name: Boolean
+  href: api/BOOSE.Boolean.html#BOOSE_Boolean__ctor_
+  commentId: Overload:BOOSE.Boolean.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE.Boolean.Boolean
+  fullName.vb: BOOSE.Boolean.New
+  nameWithType: Boolean.Boolean
+  nameWithType.vb: Boolean.New
 - uid: BOOSE.Boolean.BoolValue
   name: BoolValue
-  href: boose/BOOSE.Boolean.html#BOOSE_Boolean_BoolValue
+  href: api/BOOSE.Boolean.html#BOOSE_Boolean_BoolValue
   commentId: P:BOOSE.Boolean.BoolValue
   fullName: BOOSE.Boolean.BoolValue
   nameWithType: Boolean.BoolValue
 - uid: BOOSE.Boolean.BoolValue*
   name: BoolValue
-  href: boose/BOOSE.Boolean.html#BOOSE_Boolean_BoolValue_
+  href: api/BOOSE.Boolean.html#BOOSE_Boolean_BoolValue_
   commentId: Overload:BOOSE.Boolean.BoolValue
   isSpec: "True"
   fullName: BOOSE.Boolean.BoolValue
   nameWithType: Boolean.BoolValue
 - uid: BOOSE.Boolean.Compile
   name: Compile()
-  href: boose/BOOSE.Boolean.html#BOOSE_Boolean_Compile
+  href: api/BOOSE.Boolean.html#BOOSE_Boolean_Compile
   commentId: M:BOOSE.Boolean.Compile
   fullName: BOOSE.Boolean.Compile()
   nameWithType: Boolean.Compile()
 - uid: BOOSE.Boolean.Compile*
   name: Compile
-  href: boose/BOOSE.Boolean.html#BOOSE_Boolean_Compile_
+  href: api/BOOSE.Boolean.html#BOOSE_Boolean_Compile_
   commentId: Overload:BOOSE.Boolean.Compile
   isSpec: "True"
   fullName: BOOSE.Boolean.Compile
   nameWithType: Boolean.Compile
 - uid: BOOSE.Boolean.Execute
   name: Execute()
-  href: boose/BOOSE.Boolean.html#BOOSE_Boolean_Execute
+  href: api/BOOSE.Boolean.html#BOOSE_Boolean_Execute
   commentId: M:BOOSE.Boolean.Execute
   fullName: BOOSE.Boolean.Execute()
   nameWithType: Boolean.Execute()
 - uid: BOOSE.Boolean.Execute*
   name: Execute
-  href: boose/BOOSE.Boolean.html#BOOSE_Boolean_Execute_
+  href: api/BOOSE.Boolean.html#BOOSE_Boolean_Execute_
   commentId: Overload:BOOSE.Boolean.Execute
   isSpec: "True"
   fullName: BOOSE.Boolean.Execute
   nameWithType: Boolean.Execute
 - uid: BOOSE.Call
   name: Call
-  href: boose/BOOSE.Call.html
+  href: api/BOOSE.Call.html
   commentId: T:BOOSE.Call
   fullName: BOOSE.Call
   nameWithType: Call
 - uid: BOOSE.Call.Compile
   name: Compile()
-  href: boose/BOOSE.Call.html#BOOSE_Call_Compile
+  href: api/BOOSE.Call.html#BOOSE_Call_Compile
   commentId: M:BOOSE.Call.Compile
   fullName: BOOSE.Call.Compile()
   nameWithType: Call.Compile()
 - uid: BOOSE.Call.Compile*
   name: Compile
-  href: boose/BOOSE.Call.html#BOOSE_Call_Compile_
+  href: api/BOOSE.Call.html#BOOSE_Call_Compile_
   commentId: Overload:BOOSE.Call.Compile
   isSpec: "True"
   fullName: BOOSE.Call.Compile
   nameWithType: Call.Compile
 - uid: BOOSE.Call.Execute
   name: Execute()
-  href: boose/BOOSE.Call.html#BOOSE_Call_Execute
+  href: api/BOOSE.Call.html#BOOSE_Call_Execute
   commentId: M:BOOSE.Call.Execute
   fullName: BOOSE.Call.Execute()
   nameWithType: Call.Execute()
 - uid: BOOSE.Call.Execute*
   name: Execute
-  href: boose/BOOSE.Call.html#BOOSE_Call_Execute_
+  href: api/BOOSE.Call.html#BOOSE_Call_Execute_
   commentId: Overload:BOOSE.Call.Execute
   isSpec: "True"
   fullName: BOOSE.Call.Execute
   nameWithType: Call.Execute
 - uid: BOOSE.Call.methodName
   name: methodName
-  href: boose/BOOSE.Call.html#BOOSE_Call_methodName
+  href: api/BOOSE.Call.html#BOOSE_Call_methodName
   commentId: F:BOOSE.Call.methodName
   fullName: BOOSE.Call.methodName
   nameWithType: Call.methodName
 - uid: BOOSE.Canvas
   name: Canvas
-  href: boose/BOOSE.Canvas.html
+  href: api/BOOSE.Canvas.html
   commentId: T:BOOSE.Canvas
   fullName: BOOSE.Canvas
   nameWithType: Canvas
 - uid: BOOSE.Canvas.#ctor
   name: Canvas()
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas__ctor
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas__ctor
   commentId: M:BOOSE.Canvas.#ctor
   name.vb: New()
   fullName: BOOSE.Canvas.Canvas()
@@ -504,7 +523,7 @@ references:
   nameWithType.vb: Canvas.New()
 - uid: BOOSE.Canvas.#ctor*
   name: Canvas
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas__ctor_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas__ctor_
   commentId: Overload:BOOSE.Canvas.#ctor
   isSpec: "True"
   name.vb: New
@@ -514,7 +533,7 @@ references:
   nameWithType.vb: Canvas.New
 - uid: BOOSE.Canvas.Circle(System.Int32,System.Boolean)
   name: Circle(int, bool)
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Circle_System_Int32_System_Boolean_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Circle_System_Int32_System_Boolean_
   commentId: M:BOOSE.Canvas.Circle(System.Int32,System.Boolean)
   name.vb: Circle(Integer, Boolean)
   fullName: BOOSE.Canvas.Circle(int, bool)
@@ -523,27 +542,27 @@ references:
   nameWithType.vb: Canvas.Circle(Integer, Boolean)
 - uid: BOOSE.Canvas.Circle*
   name: Circle
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Circle_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Circle_
   commentId: Overload:BOOSE.Canvas.Circle
   isSpec: "True"
   fullName: BOOSE.Canvas.Circle
   nameWithType: Canvas.Circle
 - uid: BOOSE.Canvas.Clear
   name: Clear()
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Clear
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Clear
   commentId: M:BOOSE.Canvas.Clear
   fullName: BOOSE.Canvas.Clear()
   nameWithType: Canvas.Clear()
 - uid: BOOSE.Canvas.Clear*
   name: Clear
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Clear_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Clear_
   commentId: Overload:BOOSE.Canvas.Clear
   isSpec: "True"
   fullName: BOOSE.Canvas.Clear
   nameWithType: Canvas.Clear
 - uid: BOOSE.Canvas.DrawTo(System.Int32,System.Int32)
   name: DrawTo(int, int)
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_DrawTo_System_Int32_System_Int32_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_DrawTo_System_Int32_System_Int32_
   commentId: M:BOOSE.Canvas.DrawTo(System.Int32,System.Int32)
   name.vb: DrawTo(Integer, Integer)
   fullName: BOOSE.Canvas.DrawTo(int, int)
@@ -552,14 +571,14 @@ references:
   nameWithType.vb: Canvas.DrawTo(Integer, Integer)
 - uid: BOOSE.Canvas.DrawTo*
   name: DrawTo
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_DrawTo_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_DrawTo_
   commentId: Overload:BOOSE.Canvas.DrawTo
   isSpec: "True"
   fullName: BOOSE.Canvas.DrawTo
   nameWithType: Canvas.DrawTo
 - uid: BOOSE.Canvas.MoveTo(System.Int32,System.Int32)
   name: MoveTo(int, int)
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_MoveTo_System_Int32_System_Int32_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_MoveTo_System_Int32_System_Int32_
   commentId: M:BOOSE.Canvas.MoveTo(System.Int32,System.Int32)
   name.vb: MoveTo(Integer, Integer)
   fullName: BOOSE.Canvas.MoveTo(int, int)
@@ -568,27 +587,27 @@ references:
   nameWithType.vb: Canvas.MoveTo(Integer, Integer)
 - uid: BOOSE.Canvas.MoveTo*
   name: MoveTo
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_MoveTo_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_MoveTo_
   commentId: Overload:BOOSE.Canvas.MoveTo
   isSpec: "True"
   fullName: BOOSE.Canvas.MoveTo
   nameWithType: Canvas.MoveTo
 - uid: BOOSE.Canvas.PenColour
   name: PenColour
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_PenColour
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_PenColour
   commentId: P:BOOSE.Canvas.PenColour
   fullName: BOOSE.Canvas.PenColour
   nameWithType: Canvas.PenColour
 - uid: BOOSE.Canvas.PenColour*
   name: PenColour
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_PenColour_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_PenColour_
   commentId: Overload:BOOSE.Canvas.PenColour
   isSpec: "True"
   fullName: BOOSE.Canvas.PenColour
   nameWithType: Canvas.PenColour
 - uid: BOOSE.Canvas.Rect(System.Int32,System.Int32,System.Boolean)
   name: Rect(int, int, bool)
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Rect_System_Int32_System_Int32_System_Boolean_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Rect_System_Int32_System_Int32_System_Boolean_
   commentId: M:BOOSE.Canvas.Rect(System.Int32,System.Int32,System.Boolean)
   name.vb: Rect(Integer, Integer, Boolean)
   fullName: BOOSE.Canvas.Rect(int, int, bool)
@@ -597,14 +616,14 @@ references:
   nameWithType.vb: Canvas.Rect(Integer, Integer, Boolean)
 - uid: BOOSE.Canvas.Rect*
   name: Rect
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Rect_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Rect_
   commentId: Overload:BOOSE.Canvas.Rect
   isSpec: "True"
   fullName: BOOSE.Canvas.Rect
   nameWithType: Canvas.Rect
 - uid: BOOSE.Canvas.Rectangle(System.Int32,System.Int32,System.Boolean)
   name: Rectangle(int, int, bool)
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Rectangle_System_Int32_System_Int32_System_Boolean_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Rectangle_System_Int32_System_Int32_System_Boolean_
   commentId: M:BOOSE.Canvas.Rectangle(System.Int32,System.Int32,System.Boolean)
   name.vb: Rectangle(Integer, Integer, Boolean)
   fullName: BOOSE.Canvas.Rectangle(int, int, bool)
@@ -613,27 +632,27 @@ references:
   nameWithType.vb: Canvas.Rectangle(Integer, Integer, Boolean)
 - uid: BOOSE.Canvas.Rectangle*
   name: Rectangle
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Rectangle_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Rectangle_
   commentId: Overload:BOOSE.Canvas.Rectangle
   isSpec: "True"
   fullName: BOOSE.Canvas.Rectangle
   nameWithType: Canvas.Rectangle
 - uid: BOOSE.Canvas.Reset
   name: Reset()
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Reset
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Reset
   commentId: M:BOOSE.Canvas.Reset
   fullName: BOOSE.Canvas.Reset()
   nameWithType: Canvas.Reset()
 - uid: BOOSE.Canvas.Reset*
   name: Reset
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Reset_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Reset_
   commentId: Overload:BOOSE.Canvas.Reset
   isSpec: "True"
   fullName: BOOSE.Canvas.Reset
   nameWithType: Canvas.Reset
 - uid: BOOSE.Canvas.Set(System.Int32,System.Int32)
   name: Set(int, int)
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Set_System_Int32_System_Int32_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Set_System_Int32_System_Int32_
   commentId: M:BOOSE.Canvas.Set(System.Int32,System.Int32)
   name.vb: Set(Integer, Integer)
   fullName: BOOSE.Canvas.Set(int, int)
@@ -642,14 +661,14 @@ references:
   nameWithType.vb: Canvas.Set(Integer, Integer)
 - uid: BOOSE.Canvas.Set*
   name: Set
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Set_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Set_
   commentId: Overload:BOOSE.Canvas.Set
   isSpec: "True"
   fullName: BOOSE.Canvas.Set
   nameWithType: Canvas.Set
 - uid: BOOSE.Canvas.SetColour(System.Int32,System.Int32,System.Int32)
   name: SetColour(int, int, int)
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_SetColour_System_Int32_System_Int32_System_Int32_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_SetColour_System_Int32_System_Int32_System_Int32_
   commentId: M:BOOSE.Canvas.SetColour(System.Int32,System.Int32,System.Int32)
   name.vb: SetColour(Integer, Integer, Integer)
   fullName: BOOSE.Canvas.SetColour(int, int, int)
@@ -658,14 +677,14 @@ references:
   nameWithType.vb: Canvas.SetColour(Integer, Integer, Integer)
 - uid: BOOSE.Canvas.SetColour*
   name: SetColour
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_SetColour_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_SetColour_
   commentId: Overload:BOOSE.Canvas.SetColour
   isSpec: "True"
   fullName: BOOSE.Canvas.SetColour
   nameWithType: Canvas.SetColour
 - uid: BOOSE.Canvas.Tri(System.Int32,System.Int32)
   name: Tri(int, int)
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Tri_System_Int32_System_Int32_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Tri_System_Int32_System_Int32_
   commentId: M:BOOSE.Canvas.Tri(System.Int32,System.Int32)
   name.vb: Tri(Integer, Integer)
   fullName: BOOSE.Canvas.Tri(int, int)
@@ -674,14 +693,14 @@ references:
   nameWithType.vb: Canvas.Tri(Integer, Integer)
 - uid: BOOSE.Canvas.Tri*
   name: Tri
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Tri_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Tri_
   commentId: Overload:BOOSE.Canvas.Tri
   isSpec: "True"
   fullName: BOOSE.Canvas.Tri
   nameWithType: Canvas.Tri
 - uid: BOOSE.Canvas.WriteText(System.String)
   name: WriteText(string)
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_WriteText_System_String_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_WriteText_System_String_
   commentId: M:BOOSE.Canvas.WriteText(System.String)
   name.vb: WriteText(String)
   fullName: BOOSE.Canvas.WriteText(string)
@@ -690,65 +709,65 @@ references:
   nameWithType.vb: Canvas.WriteText(String)
 - uid: BOOSE.Canvas.WriteText*
   name: WriteText
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_WriteText_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_WriteText_
   commentId: Overload:BOOSE.Canvas.WriteText
   isSpec: "True"
   fullName: BOOSE.Canvas.WriteText
   nameWithType: Canvas.WriteText
 - uid: BOOSE.Canvas.Xpos
   name: Xpos
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Xpos
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Xpos
   commentId: P:BOOSE.Canvas.Xpos
   fullName: BOOSE.Canvas.Xpos
   nameWithType: Canvas.Xpos
 - uid: BOOSE.Canvas.Xpos*
   name: Xpos
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Xpos_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Xpos_
   commentId: Overload:BOOSE.Canvas.Xpos
   isSpec: "True"
   fullName: BOOSE.Canvas.Xpos
   nameWithType: Canvas.Xpos
 - uid: BOOSE.Canvas.Ypos
   name: Ypos
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Ypos
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Ypos
   commentId: P:BOOSE.Canvas.Ypos
   fullName: BOOSE.Canvas.Ypos
   nameWithType: Canvas.Ypos
 - uid: BOOSE.Canvas.Ypos*
   name: Ypos
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_Ypos_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_Ypos_
   commentId: Overload:BOOSE.Canvas.Ypos
   isSpec: "True"
   fullName: BOOSE.Canvas.Ypos
   nameWithType: Canvas.Ypos
 - uid: BOOSE.Canvas.background_colour
   name: background_colour
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_background_colour
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_background_colour
   commentId: F:BOOSE.Canvas.background_colour
   fullName: BOOSE.Canvas.background_colour
   nameWithType: Canvas.background_colour
 - uid: BOOSE.Canvas.getBitmap
   name: getBitmap()
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_getBitmap
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_getBitmap
   commentId: M:BOOSE.Canvas.getBitmap
   fullName: BOOSE.Canvas.getBitmap()
   nameWithType: Canvas.getBitmap()
 - uid: BOOSE.Canvas.getBitmap*
   name: getBitmap
-  href: boose/BOOSE.Canvas.html#BOOSE_Canvas_getBitmap_
+  href: api/BOOSE.Canvas.html#BOOSE_Canvas_getBitmap_
   commentId: Overload:BOOSE.Canvas.getBitmap
   isSpec: "True"
   fullName: BOOSE.Canvas.getBitmap
   nameWithType: Canvas.getBitmap
 - uid: BOOSE.CanvasCommand
   name: CanvasCommand
-  href: boose/BOOSE.CanvasCommand.html
+  href: api/BOOSE.CanvasCommand.html
   commentId: T:BOOSE.CanvasCommand
   fullName: BOOSE.CanvasCommand
   nameWithType: CanvasCommand
 - uid: BOOSE.CanvasCommand.#ctor
   name: CanvasCommand()
-  href: boose/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand__ctor
+  href: api/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand__ctor
   commentId: M:BOOSE.CanvasCommand.#ctor
   name.vb: New()
   fullName: BOOSE.CanvasCommand.CanvasCommand()
@@ -757,7 +776,7 @@ references:
   nameWithType.vb: CanvasCommand.New()
 - uid: BOOSE.CanvasCommand.#ctor(BOOSE.ICanvas)
   name: CanvasCommand(ICanvas)
-  href: boose/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand__ctor_BOOSE_ICanvas_
+  href: api/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand__ctor_BOOSE_ICanvas_
   commentId: M:BOOSE.CanvasCommand.#ctor(BOOSE.ICanvas)
   name.vb: New(ICanvas)
   fullName: BOOSE.CanvasCommand.CanvasCommand(BOOSE.ICanvas)
@@ -766,7 +785,7 @@ references:
   nameWithType.vb: CanvasCommand.New(ICanvas)
 - uid: BOOSE.CanvasCommand.#ctor*
   name: CanvasCommand
-  href: boose/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand__ctor_
+  href: api/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand__ctor_
   commentId: Overload:BOOSE.CanvasCommand.#ctor
   isSpec: "True"
   name.vb: New
@@ -776,44 +795,44 @@ references:
   nameWithType.vb: CanvasCommand.New
 - uid: BOOSE.CanvasCommand.Canvas
   name: Canvas
-  href: boose/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand_Canvas
+  href: api/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand_Canvas
   commentId: P:BOOSE.CanvasCommand.Canvas
   fullName: BOOSE.CanvasCommand.Canvas
   nameWithType: CanvasCommand.Canvas
 - uid: BOOSE.CanvasCommand.Canvas*
   name: Canvas
-  href: boose/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand_Canvas_
+  href: api/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand_Canvas_
   commentId: Overload:BOOSE.CanvasCommand.Canvas
   isSpec: "True"
   fullName: BOOSE.CanvasCommand.Canvas
   nameWithType: CanvasCommand.Canvas
 - uid: BOOSE.CanvasCommand.canvas
   name: canvas
-  href: boose/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand_canvas
+  href: api/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand_canvas
   commentId: F:BOOSE.CanvasCommand.canvas
   fullName: BOOSE.CanvasCommand.canvas
   nameWithType: CanvasCommand.canvas
 - uid: BOOSE.CanvasCommand.xPos
   name: xPos
-  href: boose/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand_xPos
+  href: api/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand_xPos
   commentId: F:BOOSE.CanvasCommand.xPos
   fullName: BOOSE.CanvasCommand.xPos
   nameWithType: CanvasCommand.xPos
 - uid: BOOSE.CanvasCommand.yPos
   name: yPos
-  href: boose/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand_yPos
+  href: api/BOOSE.CanvasCommand.html#BOOSE_CanvasCommand_yPos
   commentId: F:BOOSE.CanvasCommand.yPos
   fullName: BOOSE.CanvasCommand.yPos
   nameWithType: CanvasCommand.yPos
 - uid: BOOSE.CanvasException
   name: CanvasException
-  href: boose/BOOSE.CanvasException.html
+  href: api/BOOSE.CanvasException.html
   commentId: T:BOOSE.CanvasException
   fullName: BOOSE.CanvasException
   nameWithType: CanvasException
 - uid: BOOSE.CanvasException.#ctor(System.String)
   name: CanvasException(string)
-  href: boose/BOOSE.CanvasException.html#BOOSE_CanvasException__ctor_System_String_
+  href: api/BOOSE.CanvasException.html#BOOSE_CanvasException__ctor_System_String_
   commentId: M:BOOSE.CanvasException.#ctor(System.String)
   name.vb: New(String)
   fullName: BOOSE.CanvasException.CanvasException(string)
@@ -822,7 +841,7 @@ references:
   nameWithType.vb: CanvasException.New(String)
 - uid: BOOSE.CanvasException.#ctor*
   name: CanvasException
-  href: boose/BOOSE.CanvasException.html#BOOSE_CanvasException__ctor_
+  href: api/BOOSE.CanvasException.html#BOOSE_CanvasException__ctor_
   commentId: Overload:BOOSE.CanvasException.#ctor
   isSpec: "True"
   name.vb: New
@@ -830,179 +849,15 @@ references:
   fullName.vb: BOOSE.CanvasException.New
   nameWithType: CanvasException.CanvasException
   nameWithType.vb: CanvasException.New
-- uid: BOOSE.CanvasI
-  name: CanvasI
-  href: boose/BOOSE.CanvasI.html
-  commentId: T:BOOSE.CanvasI
-  fullName: BOOSE.CanvasI
-  nameWithType: CanvasI
-- uid: BOOSE.CanvasI.Circle(System.Int32,System.Boolean)
-  name: Circle(int, bool)
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_Circle_System_Int32_System_Boolean_
-  commentId: M:BOOSE.CanvasI.Circle(System.Int32,System.Boolean)
-  name.vb: Circle(Integer, Boolean)
-  fullName: BOOSE.CanvasI.Circle(int, bool)
-  fullName.vb: BOOSE.CanvasI.Circle(Integer, Boolean)
-  nameWithType: CanvasI.Circle(int, bool)
-  nameWithType.vb: CanvasI.Circle(Integer, Boolean)
-- uid: BOOSE.CanvasI.Circle*
-  name: Circle
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_Circle_
-  commentId: Overload:BOOSE.CanvasI.Circle
-  isSpec: "True"
-  fullName: BOOSE.CanvasI.Circle
-  nameWithType: CanvasI.Circle
-- uid: BOOSE.CanvasI.Clear
-  name: Clear()
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_Clear
-  commentId: M:BOOSE.CanvasI.Clear
-  fullName: BOOSE.CanvasI.Clear()
-  nameWithType: CanvasI.Clear()
-- uid: BOOSE.CanvasI.Clear*
-  name: Clear
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_Clear_
-  commentId: Overload:BOOSE.CanvasI.Clear
-  isSpec: "True"
-  fullName: BOOSE.CanvasI.Clear
-  nameWithType: CanvasI.Clear
-- uid: BOOSE.CanvasI.DrawTo(System.Int32,System.Int32)
-  name: DrawTo(int, int)
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_DrawTo_System_Int32_System_Int32_
-  commentId: M:BOOSE.CanvasI.DrawTo(System.Int32,System.Int32)
-  name.vb: DrawTo(Integer, Integer)
-  fullName: BOOSE.CanvasI.DrawTo(int, int)
-  fullName.vb: BOOSE.CanvasI.DrawTo(Integer, Integer)
-  nameWithType: CanvasI.DrawTo(int, int)
-  nameWithType.vb: CanvasI.DrawTo(Integer, Integer)
-- uid: BOOSE.CanvasI.DrawTo*
-  name: DrawTo
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_DrawTo_
-  commentId: Overload:BOOSE.CanvasI.DrawTo
-  isSpec: "True"
-  fullName: BOOSE.CanvasI.DrawTo
-  nameWithType: CanvasI.DrawTo
-- uid: BOOSE.CanvasI.MoveTo(System.Int32,System.Int32)
-  name: MoveTo(int, int)
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_MoveTo_System_Int32_System_Int32_
-  commentId: M:BOOSE.CanvasI.MoveTo(System.Int32,System.Int32)
-  name.vb: MoveTo(Integer, Integer)
-  fullName: BOOSE.CanvasI.MoveTo(int, int)
-  fullName.vb: BOOSE.CanvasI.MoveTo(Integer, Integer)
-  nameWithType: CanvasI.MoveTo(int, int)
-  nameWithType.vb: CanvasI.MoveTo(Integer, Integer)
-- uid: BOOSE.CanvasI.MoveTo*
-  name: MoveTo
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_MoveTo_
-  commentId: Overload:BOOSE.CanvasI.MoveTo
-  isSpec: "True"
-  fullName: BOOSE.CanvasI.MoveTo
-  nameWithType: CanvasI.MoveTo
-- uid: BOOSE.CanvasI.PenColour
-  name: PenColour
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_PenColour
-  commentId: P:BOOSE.CanvasI.PenColour
-  fullName: BOOSE.CanvasI.PenColour
-  nameWithType: CanvasI.PenColour
-- uid: BOOSE.CanvasI.PenColour*
-  name: PenColour
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_PenColour_
-  commentId: Overload:BOOSE.CanvasI.PenColour
-  isSpec: "True"
-  fullName: BOOSE.CanvasI.PenColour
-  nameWithType: CanvasI.PenColour
-- uid: BOOSE.CanvasI.Reset
-  name: Reset()
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_Reset
-  commentId: M:BOOSE.CanvasI.Reset
-  fullName: BOOSE.CanvasI.Reset()
-  nameWithType: CanvasI.Reset()
-- uid: BOOSE.CanvasI.Reset*
-  name: Reset
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_Reset_
-  commentId: Overload:BOOSE.CanvasI.Reset
-  isSpec: "True"
-  fullName: BOOSE.CanvasI.Reset
-  nameWithType: CanvasI.Reset
-- uid: BOOSE.CanvasI.Set(System.Int32,System.Int32)
-  name: Set(int, int)
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_Set_System_Int32_System_Int32_
-  commentId: M:BOOSE.CanvasI.Set(System.Int32,System.Int32)
-  name.vb: Set(Integer, Integer)
-  fullName: BOOSE.CanvasI.Set(int, int)
-  fullName.vb: BOOSE.CanvasI.Set(Integer, Integer)
-  nameWithType: CanvasI.Set(int, int)
-  nameWithType.vb: CanvasI.Set(Integer, Integer)
-- uid: BOOSE.CanvasI.Set*
-  name: Set
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_Set_
-  commentId: Overload:BOOSE.CanvasI.Set
-  isSpec: "True"
-  fullName: BOOSE.CanvasI.Set
-  nameWithType: CanvasI.Set
-- uid: BOOSE.CanvasI.SetColour(System.Int32,System.Int32,System.Int32)
-  name: SetColour(int, int, int)
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_SetColour_System_Int32_System_Int32_System_Int32_
-  commentId: M:BOOSE.CanvasI.SetColour(System.Int32,System.Int32,System.Int32)
-  name.vb: SetColour(Integer, Integer, Integer)
-  fullName: BOOSE.CanvasI.SetColour(int, int, int)
-  fullName.vb: BOOSE.CanvasI.SetColour(Integer, Integer, Integer)
-  nameWithType: CanvasI.SetColour(int, int, int)
-  nameWithType.vb: CanvasI.SetColour(Integer, Integer, Integer)
-- uid: BOOSE.CanvasI.SetColour*
-  name: SetColour
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_SetColour_
-  commentId: Overload:BOOSE.CanvasI.SetColour
-  isSpec: "True"
-  fullName: BOOSE.CanvasI.SetColour
-  nameWithType: CanvasI.SetColour
-- uid: BOOSE.CanvasI.Xpos
-  name: Xpos
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_Xpos
-  commentId: P:BOOSE.CanvasI.Xpos
-  fullName: BOOSE.CanvasI.Xpos
-  nameWithType: CanvasI.Xpos
-- uid: BOOSE.CanvasI.Xpos*
-  name: Xpos
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_Xpos_
-  commentId: Overload:BOOSE.CanvasI.Xpos
-  isSpec: "True"
-  fullName: BOOSE.CanvasI.Xpos
-  nameWithType: CanvasI.Xpos
-- uid: BOOSE.CanvasI.Ypos
-  name: Ypos
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_Ypos
-  commentId: P:BOOSE.CanvasI.Ypos
-  fullName: BOOSE.CanvasI.Ypos
-  nameWithType: CanvasI.Ypos
-- uid: BOOSE.CanvasI.Ypos*
-  name: Ypos
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_Ypos_
-  commentId: Overload:BOOSE.CanvasI.Ypos
-  isSpec: "True"
-  fullName: BOOSE.CanvasI.Ypos
-  nameWithType: CanvasI.Ypos
-- uid: BOOSE.CanvasI.getBitmap
-  name: getBitmap()
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_getBitmap
-  commentId: M:BOOSE.CanvasI.getBitmap
-  fullName: BOOSE.CanvasI.getBitmap()
-  nameWithType: CanvasI.getBitmap()
-- uid: BOOSE.CanvasI.getBitmap*
-  name: getBitmap
-  href: boose/BOOSE.CanvasI.html#BOOSE_CanvasI_getBitmap_
-  commentId: Overload:BOOSE.CanvasI.getBitmap
-  isSpec: "True"
-  fullName: BOOSE.CanvasI.getBitmap
-  nameWithType: CanvasI.getBitmap
 - uid: BOOSE.Cast
   name: Cast
-  href: boose/BOOSE.Cast.html
+  href: api/BOOSE.Cast.html
   commentId: T:BOOSE.Cast
   fullName: BOOSE.Cast
   nameWithType: Cast
 - uid: BOOSE.Cast.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.Cast.html#BOOSE_Cast_CheckParameters_System_String___
+  href: api/BOOSE.Cast.html#BOOSE_Cast_CheckParameters_System_String___
   commentId: M:BOOSE.Cast.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.Cast.CheckParameters(string[])
@@ -1011,46 +866,46 @@ references:
   nameWithType.vb: Cast.CheckParameters(String())
 - uid: BOOSE.Cast.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.Cast.html#BOOSE_Cast_CheckParameters_
+  href: api/BOOSE.Cast.html#BOOSE_Cast_CheckParameters_
   commentId: Overload:BOOSE.Cast.CheckParameters
   isSpec: "True"
   fullName: BOOSE.Cast.CheckParameters
   nameWithType: Cast.CheckParameters
 - uid: BOOSE.Cast.Compile
   name: Compile()
-  href: boose/BOOSE.Cast.html#BOOSE_Cast_Compile
+  href: api/BOOSE.Cast.html#BOOSE_Cast_Compile
   commentId: M:BOOSE.Cast.Compile
   fullName: BOOSE.Cast.Compile()
   nameWithType: Cast.Compile()
 - uid: BOOSE.Cast.Compile*
   name: Compile
-  href: boose/BOOSE.Cast.html#BOOSE_Cast_Compile_
+  href: api/BOOSE.Cast.html#BOOSE_Cast_Compile_
   commentId: Overload:BOOSE.Cast.Compile
   isSpec: "True"
   fullName: BOOSE.Cast.Compile
   nameWithType: Cast.Compile
 - uid: BOOSE.Cast.Execute
   name: Execute()
-  href: boose/BOOSE.Cast.html#BOOSE_Cast_Execute
+  href: api/BOOSE.Cast.html#BOOSE_Cast_Execute
   commentId: M:BOOSE.Cast.Execute
   fullName: BOOSE.Cast.Execute()
   nameWithType: Cast.Execute()
 - uid: BOOSE.Cast.Execute*
   name: Execute
-  href: boose/BOOSE.Cast.html#BOOSE_Cast_Execute_
+  href: api/BOOSE.Cast.html#BOOSE_Cast_Execute_
   commentId: Overload:BOOSE.Cast.Execute
   isSpec: "True"
   fullName: BOOSE.Cast.Execute
   nameWithType: Cast.Execute
 - uid: BOOSE.Circle
   name: Circle
-  href: boose/BOOSE.Circle.html
+  href: api/BOOSE.Circle.html
   commentId: T:BOOSE.Circle
   fullName: BOOSE.Circle
   nameWithType: Circle
 - uid: BOOSE.Circle.#ctor
   name: Circle()
-  href: boose/BOOSE.Circle.html#BOOSE_Circle__ctor
+  href: api/BOOSE.Circle.html#BOOSE_Circle__ctor
   commentId: M:BOOSE.Circle.#ctor
   name.vb: New()
   fullName: BOOSE.Circle.Circle()
@@ -1059,7 +914,7 @@ references:
   nameWithType.vb: Circle.New()
 - uid: BOOSE.Circle.#ctor(BOOSE.Canvas,System.Int32)
   name: Circle(Canvas, int)
-  href: boose/BOOSE.Circle.html#BOOSE_Circle__ctor_BOOSE_Canvas_System_Int32_
+  href: api/BOOSE.Circle.html#BOOSE_Circle__ctor_BOOSE_Canvas_System_Int32_
   commentId: M:BOOSE.Circle.#ctor(BOOSE.Canvas,System.Int32)
   name.vb: New(Canvas, Integer)
   fullName: BOOSE.Circle.Circle(BOOSE.Canvas, int)
@@ -1068,7 +923,7 @@ references:
   nameWithType.vb: Circle.New(Canvas, Integer)
 - uid: BOOSE.Circle.#ctor*
   name: Circle
-  href: boose/BOOSE.Circle.html#BOOSE_Circle__ctor_
+  href: api/BOOSE.Circle.html#BOOSE_Circle__ctor_
   commentId: Overload:BOOSE.Circle.#ctor
   isSpec: "True"
   name.vb: New
@@ -1078,7 +933,7 @@ references:
   nameWithType.vb: Circle.New
 - uid: BOOSE.Circle.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.Circle.html#BOOSE_Circle_CheckParameters_System_String___
+  href: api/BOOSE.Circle.html#BOOSE_Circle_CheckParameters_System_String___
   commentId: M:BOOSE.Circle.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.Circle.CheckParameters(string[])
@@ -1087,33 +942,33 @@ references:
   nameWithType.vb: Circle.CheckParameters(String())
 - uid: BOOSE.Circle.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.Circle.html#BOOSE_Circle_CheckParameters_
+  href: api/BOOSE.Circle.html#BOOSE_Circle_CheckParameters_
   commentId: Overload:BOOSE.Circle.CheckParameters
   isSpec: "True"
   fullName: BOOSE.Circle.CheckParameters
   nameWithType: Circle.CheckParameters
 - uid: BOOSE.Circle.Execute
   name: Execute()
-  href: boose/BOOSE.Circle.html#BOOSE_Circle_Execute
+  href: api/BOOSE.Circle.html#BOOSE_Circle_Execute
   commentId: M:BOOSE.Circle.Execute
   fullName: BOOSE.Circle.Execute()
   nameWithType: Circle.Execute()
 - uid: BOOSE.Circle.Execute*
   name: Execute
-  href: boose/BOOSE.Circle.html#BOOSE_Circle_Execute_
+  href: api/BOOSE.Circle.html#BOOSE_Circle_Execute_
   commentId: Overload:BOOSE.Circle.Execute
   isSpec: "True"
   fullName: BOOSE.Circle.Execute
   nameWithType: Circle.Execute
 - uid: BOOSE.Command
   name: Command
-  href: boose/BOOSE.Command.html
+  href: api/BOOSE.Command.html
   commentId: T:BOOSE.Command
   fullName: BOOSE.Command
   nameWithType: Command
 - uid: BOOSE.Command.#ctor
   name: Command()
-  href: boose/BOOSE.Command.html#BOOSE_Command__ctor
+  href: api/BOOSE.Command.html#BOOSE_Command__ctor
   commentId: M:BOOSE.Command.#ctor
   name.vb: New()
   fullName: BOOSE.Command.Command()
@@ -1122,7 +977,7 @@ references:
   nameWithType.vb: Command.New()
 - uid: BOOSE.Command.#ctor*
   name: Command
-  href: boose/BOOSE.Command.html#BOOSE_Command__ctor_
+  href: api/BOOSE.Command.html#BOOSE_Command__ctor_
   commentId: Overload:BOOSE.Command.#ctor
   isSpec: "True"
   name.vb: New
@@ -1132,7 +987,7 @@ references:
   nameWithType.vb: Command.New
 - uid: BOOSE.Command.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.Command.html#BOOSE_Command_CheckParameters_System_String___
+  href: api/BOOSE.Command.html#BOOSE_Command_CheckParameters_System_String___
   commentId: M:BOOSE.Command.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.Command.CheckParameters(string[])
@@ -1141,92 +996,98 @@ references:
   nameWithType.vb: Command.CheckParameters(String())
 - uid: BOOSE.Command.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.Command.html#BOOSE_Command_CheckParameters_
+  href: api/BOOSE.Command.html#BOOSE_Command_CheckParameters_
   commentId: Overload:BOOSE.Command.CheckParameters
   isSpec: "True"
   fullName: BOOSE.Command.CheckParameters
   nameWithType: Command.CheckParameters
 - uid: BOOSE.Command.Compile
   name: Compile()
-  href: boose/BOOSE.Command.html#BOOSE_Command_Compile
+  href: api/BOOSE.Command.html#BOOSE_Command_Compile
   commentId: M:BOOSE.Command.Compile
   fullName: BOOSE.Command.Compile()
   nameWithType: Command.Compile()
 - uid: BOOSE.Command.Compile*
   name: Compile
-  href: boose/BOOSE.Command.html#BOOSE_Command_Compile_
+  href: api/BOOSE.Command.html#BOOSE_Command_Compile_
   commentId: Overload:BOOSE.Command.Compile
   isSpec: "True"
   fullName: BOOSE.Command.Compile
   nameWithType: Command.Compile
 - uid: BOOSE.Command.Execute
   name: Execute()
-  href: boose/BOOSE.Command.html#BOOSE_Command_Execute
+  href: api/BOOSE.Command.html#BOOSE_Command_Execute
   commentId: M:BOOSE.Command.Execute
   fullName: BOOSE.Command.Execute()
   nameWithType: Command.Execute()
 - uid: BOOSE.Command.Execute*
   name: Execute
-  href: boose/BOOSE.Command.html#BOOSE_Command_Execute_
+  href: api/BOOSE.Command.html#BOOSE_Command_Execute_
   commentId: Overload:BOOSE.Command.Execute
   isSpec: "True"
   fullName: BOOSE.Command.Execute
   nameWithType: Command.Execute
+- uid: BOOSE.Command.IsDouble
+  name: IsDouble
+  href: api/BOOSE.Command.html#BOOSE_Command_IsDouble
+  commentId: F:BOOSE.Command.IsDouble
+  fullName: BOOSE.Command.IsDouble
+  nameWithType: Command.IsDouble
 - uid: BOOSE.Command.Name
   name: Name
-  href: boose/BOOSE.Command.html#BOOSE_Command_Name
+  href: api/BOOSE.Command.html#BOOSE_Command_Name
   commentId: P:BOOSE.Command.Name
   fullName: BOOSE.Command.Name
   nameWithType: Command.Name
 - uid: BOOSE.Command.Name*
   name: Name
-  href: boose/BOOSE.Command.html#BOOSE_Command_Name_
+  href: api/BOOSE.Command.html#BOOSE_Command_Name_
   commentId: Overload:BOOSE.Command.Name
   isSpec: "True"
   fullName: BOOSE.Command.Name
   nameWithType: Command.Name
 - uid: BOOSE.Command.ParameterList
   name: ParameterList
-  href: boose/BOOSE.Command.html#BOOSE_Command_ParameterList
+  href: api/BOOSE.Command.html#BOOSE_Command_ParameterList
   commentId: P:BOOSE.Command.ParameterList
   fullName: BOOSE.Command.ParameterList
   nameWithType: Command.ParameterList
 - uid: BOOSE.Command.ParameterList*
   name: ParameterList
-  href: boose/BOOSE.Command.html#BOOSE_Command_ParameterList_
+  href: api/BOOSE.Command.html#BOOSE_Command_ParameterList_
   commentId: Overload:BOOSE.Command.ParameterList
   isSpec: "True"
   fullName: BOOSE.Command.ParameterList
   nameWithType: Command.ParameterList
 - uid: BOOSE.Command.Parameters
   name: Parameters
-  href: boose/BOOSE.Command.html#BOOSE_Command_Parameters
+  href: api/BOOSE.Command.html#BOOSE_Command_Parameters
   commentId: P:BOOSE.Command.Parameters
   fullName: BOOSE.Command.Parameters
   nameWithType: Command.Parameters
 - uid: BOOSE.Command.Parameters*
   name: Parameters
-  href: boose/BOOSE.Command.html#BOOSE_Command_Parameters_
+  href: api/BOOSE.Command.html#BOOSE_Command_Parameters_
   commentId: Overload:BOOSE.Command.Parameters
   isSpec: "True"
   fullName: BOOSE.Command.Parameters
   nameWithType: Command.Parameters
 - uid: BOOSE.Command.Paramsint
   name: Paramsint
-  href: boose/BOOSE.Command.html#BOOSE_Command_Paramsint
+  href: api/BOOSE.Command.html#BOOSE_Command_Paramsint
   commentId: P:BOOSE.Command.Paramsint
   fullName: BOOSE.Command.Paramsint
   nameWithType: Command.Paramsint
 - uid: BOOSE.Command.Paramsint*
   name: Paramsint
-  href: boose/BOOSE.Command.html#BOOSE_Command_Paramsint_
+  href: api/BOOSE.Command.html#BOOSE_Command_Paramsint_
   commentId: Overload:BOOSE.Command.Paramsint
   isSpec: "True"
   fullName: BOOSE.Command.Paramsint
   nameWithType: Command.Paramsint
 - uid: BOOSE.Command.ProcessParameters(System.String)
   name: ProcessParameters(string)
-  href: boose/BOOSE.Command.html#BOOSE_Command_ProcessParameters_System_String_
+  href: api/BOOSE.Command.html#BOOSE_Command_ProcessParameters_System_String_
   commentId: M:BOOSE.Command.ProcessParameters(System.String)
   name.vb: ProcessParameters(String)
   fullName: BOOSE.Command.ProcessParameters(string)
@@ -1235,27 +1096,27 @@ references:
   nameWithType.vb: Command.ProcessParameters(String)
 - uid: BOOSE.Command.ProcessParameters*
   name: ProcessParameters
-  href: boose/BOOSE.Command.html#BOOSE_Command_ProcessParameters_
+  href: api/BOOSE.Command.html#BOOSE_Command_ProcessParameters_
   commentId: Overload:BOOSE.Command.ProcessParameters
   isSpec: "True"
   fullName: BOOSE.Command.ProcessParameters
   nameWithType: Command.ProcessParameters
 - uid: BOOSE.Command.Program
   name: Program
-  href: boose/BOOSE.Command.html#BOOSE_Command_Program
+  href: api/BOOSE.Command.html#BOOSE_Command_Program
   commentId: P:BOOSE.Command.Program
   fullName: BOOSE.Command.Program
   nameWithType: Command.Program
 - uid: BOOSE.Command.Program*
   name: Program
-  href: boose/BOOSE.Command.html#BOOSE_Command_Program_
+  href: api/BOOSE.Command.html#BOOSE_Command_Program_
   commentId: Overload:BOOSE.Command.Program
   isSpec: "True"
   fullName: BOOSE.Command.Program
   nameWithType: Command.Program
 - uid: BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
   name: Set(StoredProgram, string)
-  href: boose/BOOSE.Command.html#BOOSE_Command_Set_BOOSE_StoredProgram_System_String_
+  href: api/BOOSE.Command.html#BOOSE_Command_Set_BOOSE_StoredProgram_System_String_
   commentId: M:BOOSE.Command.Set(BOOSE.StoredProgram,System.String)
   name.vb: Set(StoredProgram, String)
   fullName: BOOSE.Command.Set(BOOSE.StoredProgram, string)
@@ -1264,57 +1125,57 @@ references:
   nameWithType.vb: Command.Set(StoredProgram, String)
 - uid: BOOSE.Command.Set*
   name: Set
-  href: boose/BOOSE.Command.html#BOOSE_Command_Set_
+  href: api/BOOSE.Command.html#BOOSE_Command_Set_
   commentId: Overload:BOOSE.Command.Set
   isSpec: "True"
   fullName: BOOSE.Command.Set
   nameWithType: Command.Set
 - uid: BOOSE.Command.ToString
   name: ToString()
-  href: boose/BOOSE.Command.html#BOOSE_Command_ToString
+  href: api/BOOSE.Command.html#BOOSE_Command_ToString
   commentId: M:BOOSE.Command.ToString
   fullName: BOOSE.Command.ToString()
   nameWithType: Command.ToString()
 - uid: BOOSE.Command.ToString*
   name: ToString
-  href: boose/BOOSE.Command.html#BOOSE_Command_ToString_
+  href: api/BOOSE.Command.html#BOOSE_Command_ToString_
   commentId: Overload:BOOSE.Command.ToString
   isSpec: "True"
   fullName: BOOSE.Command.ToString
   nameWithType: Command.ToString
 - uid: BOOSE.Command.parameterList
   name: parameterList
-  href: boose/BOOSE.Command.html#BOOSE_Command_parameterList
+  href: api/BOOSE.Command.html#BOOSE_Command_parameterList
   commentId: F:BOOSE.Command.parameterList
   fullName: BOOSE.Command.parameterList
   nameWithType: Command.parameterList
 - uid: BOOSE.Command.parameters
   name: parameters
-  href: boose/BOOSE.Command.html#BOOSE_Command_parameters
+  href: api/BOOSE.Command.html#BOOSE_Command_parameters
   commentId: F:BOOSE.Command.parameters
   fullName: BOOSE.Command.parameters
   nameWithType: Command.parameters
 - uid: BOOSE.Command.paramsint
   name: paramsint
-  href: boose/BOOSE.Command.html#BOOSE_Command_paramsint
+  href: api/BOOSE.Command.html#BOOSE_Command_paramsint
   commentId: F:BOOSE.Command.paramsint
   fullName: BOOSE.Command.paramsint
   nameWithType: Command.paramsint
 - uid: BOOSE.Command.program
   name: program
-  href: boose/BOOSE.Command.html#BOOSE_Command_program
+  href: api/BOOSE.Command.html#BOOSE_Command_program
   commentId: F:BOOSE.Command.program
   fullName: BOOSE.Command.program
   nameWithType: Command.program
 - uid: BOOSE.CommandException
   name: CommandException
-  href: boose/BOOSE.CommandException.html
+  href: api/BOOSE.CommandException.html
   commentId: T:BOOSE.CommandException
   fullName: BOOSE.CommandException
   nameWithType: CommandException
 - uid: BOOSE.CommandException.#ctor(System.String)
   name: CommandException(string)
-  href: boose/BOOSE.CommandException.html#BOOSE_CommandException__ctor_System_String_
+  href: api/BOOSE.CommandException.html#BOOSE_CommandException__ctor_System_String_
   commentId: M:BOOSE.CommandException.#ctor(System.String)
   name.vb: New(String)
   fullName: BOOSE.CommandException.CommandException(string)
@@ -1323,7 +1184,7 @@ references:
   nameWithType.vb: CommandException.New(String)
 - uid: BOOSE.CommandException.#ctor*
   name: CommandException
-  href: boose/BOOSE.CommandException.html#BOOSE_CommandException__ctor_
+  href: api/BOOSE.CommandException.html#BOOSE_CommandException__ctor_
   commentId: Overload:BOOSE.CommandException.#ctor
   isSpec: "True"
   name.vb: New
@@ -1333,13 +1194,13 @@ references:
   nameWithType.vb: CommandException.New
 - uid: BOOSE.CommandFactory
   name: CommandFactory
-  href: boose/BOOSE.CommandFactory.html
+  href: api/BOOSE.CommandFactory.html
   commentId: T:BOOSE.CommandFactory
   fullName: BOOSE.CommandFactory
   nameWithType: CommandFactory
 - uid: BOOSE.CommandFactory.MakeCommand(System.String)
   name: MakeCommand(string)
-  href: boose/BOOSE.CommandFactory.html#BOOSE_CommandFactory_MakeCommand_System_String_
+  href: api/BOOSE.CommandFactory.html#BOOSE_CommandFactory_MakeCommand_System_String_
   commentId: M:BOOSE.CommandFactory.MakeCommand(System.String)
   name.vb: MakeCommand(String)
   fullName: BOOSE.CommandFactory.MakeCommand(string)
@@ -1348,90 +1209,20 @@ references:
   nameWithType.vb: CommandFactory.MakeCommand(String)
 - uid: BOOSE.CommandFactory.MakeCommand*
   name: MakeCommand
-  href: boose/BOOSE.CommandFactory.html#BOOSE_CommandFactory_MakeCommand_
+  href: api/BOOSE.CommandFactory.html#BOOSE_CommandFactory_MakeCommand_
   commentId: Overload:BOOSE.CommandFactory.MakeCommand
   isSpec: "True"
   fullName: BOOSE.CommandFactory.MakeCommand
   nameWithType: CommandFactory.MakeCommand
-- uid: BOOSE.CommandFactoryI
-  name: CommandFactoryI
-  href: boose/BOOSE.CommandFactoryI.html
-  commentId: T:BOOSE.CommandFactoryI
-  fullName: BOOSE.CommandFactoryI
-  nameWithType: CommandFactoryI
-- uid: BOOSE.CommandFactoryI.MakeCommand(System.String)
-  name: MakeCommand(string)
-  href: boose/BOOSE.CommandFactoryI.html#BOOSE_CommandFactoryI_MakeCommand_System_String_
-  commentId: M:BOOSE.CommandFactoryI.MakeCommand(System.String)
-  name.vb: MakeCommand(String)
-  fullName: BOOSE.CommandFactoryI.MakeCommand(string)
-  fullName.vb: BOOSE.CommandFactoryI.MakeCommand(String)
-  nameWithType: CommandFactoryI.MakeCommand(string)
-  nameWithType.vb: CommandFactoryI.MakeCommand(String)
-- uid: BOOSE.CommandFactoryI.MakeCommand*
-  name: MakeCommand
-  href: boose/BOOSE.CommandFactoryI.html#BOOSE_CommandFactoryI_MakeCommand_
-  commentId: Overload:BOOSE.CommandFactoryI.MakeCommand
-  isSpec: "True"
-  fullName: BOOSE.CommandFactoryI.MakeCommand
-  nameWithType: CommandFactoryI.MakeCommand
-- uid: BOOSE.CommandInterface
-  name: CommandInterface
-  href: boose/BOOSE.CommandInterface.html
-  commentId: T:BOOSE.CommandInterface
-  fullName: BOOSE.CommandInterface
-  nameWithType: CommandInterface
-- uid: BOOSE.CommandInterface.CheckParameters(System.String[])
-  name: CheckParameters(string[])
-  href: boose/BOOSE.CommandInterface.html#BOOSE_CommandInterface_CheckParameters_System_String___
-  commentId: M:BOOSE.CommandInterface.CheckParameters(System.String[])
-  name.vb: CheckParameters(String())
-  fullName: BOOSE.CommandInterface.CheckParameters(string[])
-  fullName.vb: BOOSE.CommandInterface.CheckParameters(String())
-  nameWithType: CommandInterface.CheckParameters(string[])
-  nameWithType.vb: CommandInterface.CheckParameters(String())
-- uid: BOOSE.CommandInterface.CheckParameters*
-  name: CheckParameters
-  href: boose/BOOSE.CommandInterface.html#BOOSE_CommandInterface_CheckParameters_
-  commentId: Overload:BOOSE.CommandInterface.CheckParameters
-  isSpec: "True"
-  fullName: BOOSE.CommandInterface.CheckParameters
-  nameWithType: CommandInterface.CheckParameters
-- uid: BOOSE.CommandInterface.Compile
-  name: Compile()
-  href: boose/BOOSE.CommandInterface.html#BOOSE_CommandInterface_Compile
-  commentId: M:BOOSE.CommandInterface.Compile
-  fullName: BOOSE.CommandInterface.Compile()
-  nameWithType: CommandInterface.Compile()
-- uid: BOOSE.CommandInterface.Compile*
-  name: Compile
-  href: boose/BOOSE.CommandInterface.html#BOOSE_CommandInterface_Compile_
-  commentId: Overload:BOOSE.CommandInterface.Compile
-  isSpec: "True"
-  fullName: BOOSE.CommandInterface.Compile
-  nameWithType: CommandInterface.Compile
-- uid: BOOSE.CommandInterface.Execute
-  name: Execute()
-  href: boose/BOOSE.CommandInterface.html#BOOSE_CommandInterface_Execute
-  commentId: M:BOOSE.CommandInterface.Execute
-  fullName: BOOSE.CommandInterface.Execute()
-  nameWithType: CommandInterface.Execute()
-- uid: BOOSE.CommandInterface.Execute*
-  name: Execute
-  href: boose/BOOSE.CommandInterface.html#BOOSE_CommandInterface_Execute_
-  commentId: Overload:BOOSE.CommandInterface.Execute
-  isSpec: "True"
-  fullName: BOOSE.CommandInterface.Execute
-  nameWithType: CommandInterface.Execute
 - uid: BOOSE.CommandOneParameter
   name: CommandOneParameter
-  href: boose/BOOSE.CommandOneParameter.html
+  href: api/BOOSE.CommandOneParameter.html
   commentId: T:BOOSE.CommandOneParameter
   fullName: BOOSE.CommandOneParameter
   nameWithType: CommandOneParameter
 - uid: BOOSE.CommandOneParameter.#ctor
   name: CommandOneParameter()
-  href: boose/BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter__ctor
+  href: api/BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter__ctor
   commentId: M:BOOSE.CommandOneParameter.#ctor
   name.vb: New()
   fullName: BOOSE.CommandOneParameter.CommandOneParameter()
@@ -1440,7 +1231,7 @@ references:
   nameWithType.vb: CommandOneParameter.New()
 - uid: BOOSE.CommandOneParameter.#ctor(BOOSE.Canvas)
   name: CommandOneParameter(Canvas)
-  href: boose/BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter__ctor_BOOSE_Canvas_
+  href: api/BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter__ctor_BOOSE_Canvas_
   commentId: M:BOOSE.CommandOneParameter.#ctor(BOOSE.Canvas)
   name.vb: New(Canvas)
   fullName: BOOSE.CommandOneParameter.CommandOneParameter(BOOSE.Canvas)
@@ -1449,7 +1240,7 @@ references:
   nameWithType.vb: CommandOneParameter.New(Canvas)
 - uid: BOOSE.CommandOneParameter.#ctor*
   name: CommandOneParameter
-  href: boose/BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter__ctor_
+  href: api/BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter__ctor_
   commentId: Overload:BOOSE.CommandOneParameter.#ctor
   isSpec: "True"
   name.vb: New
@@ -1459,7 +1250,7 @@ references:
   nameWithType.vb: CommandOneParameter.New
 - uid: BOOSE.CommandOneParameter.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter_CheckParameters_System_String___
+  href: api/BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter_CheckParameters_System_String___
   commentId: M:BOOSE.CommandOneParameter.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.CommandOneParameter.CheckParameters(string[])
@@ -1468,32 +1259,32 @@ references:
   nameWithType.vb: CommandOneParameter.CheckParameters(String())
 - uid: BOOSE.CommandOneParameter.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter_CheckParameters_
+  href: api/BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter_CheckParameters_
   commentId: Overload:BOOSE.CommandOneParameter.CheckParameters
   isSpec: "True"
   fullName: BOOSE.CommandOneParameter.CheckParameters
   nameWithType: CommandOneParameter.CheckParameters
 - uid: BOOSE.CommandOneParameter.param1
   name: param1
-  href: boose/BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter_param1
+  href: api/BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter_param1
   commentId: F:BOOSE.CommandOneParameter.param1
   fullName: BOOSE.CommandOneParameter.param1
   nameWithType: CommandOneParameter.param1
 - uid: BOOSE.CommandOneParameter.param1unprocessed
   name: param1unprocessed
-  href: boose/BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter_param1unprocessed
+  href: api/BOOSE.CommandOneParameter.html#BOOSE_CommandOneParameter_param1unprocessed
   commentId: F:BOOSE.CommandOneParameter.param1unprocessed
   fullName: BOOSE.CommandOneParameter.param1unprocessed
   nameWithType: CommandOneParameter.param1unprocessed
 - uid: BOOSE.CommandThreeParameters
   name: CommandThreeParameters
-  href: boose/BOOSE.CommandThreeParameters.html
+  href: api/BOOSE.CommandThreeParameters.html
   commentId: T:BOOSE.CommandThreeParameters
   fullName: BOOSE.CommandThreeParameters
   nameWithType: CommandThreeParameters
 - uid: BOOSE.CommandThreeParameters.#ctor
   name: CommandThreeParameters()
-  href: boose/BOOSE.CommandThreeParameters.html#BOOSE_CommandThreeParameters__ctor
+  href: api/BOOSE.CommandThreeParameters.html#BOOSE_CommandThreeParameters__ctor
   commentId: M:BOOSE.CommandThreeParameters.#ctor
   name.vb: New()
   fullName: BOOSE.CommandThreeParameters.CommandThreeParameters()
@@ -1502,7 +1293,7 @@ references:
   nameWithType.vb: CommandThreeParameters.New()
 - uid: BOOSE.CommandThreeParameters.#ctor(BOOSE.Canvas)
   name: CommandThreeParameters(Canvas)
-  href: boose/BOOSE.CommandThreeParameters.html#BOOSE_CommandThreeParameters__ctor_BOOSE_Canvas_
+  href: api/BOOSE.CommandThreeParameters.html#BOOSE_CommandThreeParameters__ctor_BOOSE_Canvas_
   commentId: M:BOOSE.CommandThreeParameters.#ctor(BOOSE.Canvas)
   name.vb: New(Canvas)
   fullName: BOOSE.CommandThreeParameters.CommandThreeParameters(BOOSE.Canvas)
@@ -1511,7 +1302,7 @@ references:
   nameWithType.vb: CommandThreeParameters.New(Canvas)
 - uid: BOOSE.CommandThreeParameters.#ctor*
   name: CommandThreeParameters
-  href: boose/BOOSE.CommandThreeParameters.html#BOOSE_CommandThreeParameters__ctor_
+  href: api/BOOSE.CommandThreeParameters.html#BOOSE_CommandThreeParameters__ctor_
   commentId: Overload:BOOSE.CommandThreeParameters.#ctor
   isSpec: "True"
   name.vb: New
@@ -1521,7 +1312,7 @@ references:
   nameWithType.vb: CommandThreeParameters.New
 - uid: BOOSE.CommandThreeParameters.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.CommandThreeParameters.html#BOOSE_CommandThreeParameters_CheckParameters_System_String___
+  href: api/BOOSE.CommandThreeParameters.html#BOOSE_CommandThreeParameters_CheckParameters_System_String___
   commentId: M:BOOSE.CommandThreeParameters.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.CommandThreeParameters.CheckParameters(string[])
@@ -1530,32 +1321,32 @@ references:
   nameWithType.vb: CommandThreeParameters.CheckParameters(String())
 - uid: BOOSE.CommandThreeParameters.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.CommandThreeParameters.html#BOOSE_CommandThreeParameters_CheckParameters_
+  href: api/BOOSE.CommandThreeParameters.html#BOOSE_CommandThreeParameters_CheckParameters_
   commentId: Overload:BOOSE.CommandThreeParameters.CheckParameters
   isSpec: "True"
   fullName: BOOSE.CommandThreeParameters.CheckParameters
   nameWithType: CommandThreeParameters.CheckParameters
 - uid: BOOSE.CommandThreeParameters.param3
   name: param3
-  href: boose/BOOSE.CommandThreeParameters.html#BOOSE_CommandThreeParameters_param3
+  href: api/BOOSE.CommandThreeParameters.html#BOOSE_CommandThreeParameters_param3
   commentId: F:BOOSE.CommandThreeParameters.param3
   fullName: BOOSE.CommandThreeParameters.param3
   nameWithType: CommandThreeParameters.param3
 - uid: BOOSE.CommandThreeParameters.param3unprocessed
   name: param3unprocessed
-  href: boose/BOOSE.CommandThreeParameters.html#BOOSE_CommandThreeParameters_param3unprocessed
+  href: api/BOOSE.CommandThreeParameters.html#BOOSE_CommandThreeParameters_param3unprocessed
   commentId: F:BOOSE.CommandThreeParameters.param3unprocessed
   fullName: BOOSE.CommandThreeParameters.param3unprocessed
   nameWithType: CommandThreeParameters.param3unprocessed
 - uid: BOOSE.CommandTwoParameters
   name: CommandTwoParameters
-  href: boose/BOOSE.CommandTwoParameters.html
+  href: api/BOOSE.CommandTwoParameters.html
   commentId: T:BOOSE.CommandTwoParameters
   fullName: BOOSE.CommandTwoParameters
   nameWithType: CommandTwoParameters
 - uid: BOOSE.CommandTwoParameters.#ctor
   name: CommandTwoParameters()
-  href: boose/BOOSE.CommandTwoParameters.html#BOOSE_CommandTwoParameters__ctor
+  href: api/BOOSE.CommandTwoParameters.html#BOOSE_CommandTwoParameters__ctor
   commentId: M:BOOSE.CommandTwoParameters.#ctor
   name.vb: New()
   fullName: BOOSE.CommandTwoParameters.CommandTwoParameters()
@@ -1564,7 +1355,7 @@ references:
   nameWithType.vb: CommandTwoParameters.New()
 - uid: BOOSE.CommandTwoParameters.#ctor(BOOSE.Canvas)
   name: CommandTwoParameters(Canvas)
-  href: boose/BOOSE.CommandTwoParameters.html#BOOSE_CommandTwoParameters__ctor_BOOSE_Canvas_
+  href: api/BOOSE.CommandTwoParameters.html#BOOSE_CommandTwoParameters__ctor_BOOSE_Canvas_
   commentId: M:BOOSE.CommandTwoParameters.#ctor(BOOSE.Canvas)
   name.vb: New(Canvas)
   fullName: BOOSE.CommandTwoParameters.CommandTwoParameters(BOOSE.Canvas)
@@ -1573,7 +1364,7 @@ references:
   nameWithType.vb: CommandTwoParameters.New(Canvas)
 - uid: BOOSE.CommandTwoParameters.#ctor*
   name: CommandTwoParameters
-  href: boose/BOOSE.CommandTwoParameters.html#BOOSE_CommandTwoParameters__ctor_
+  href: api/BOOSE.CommandTwoParameters.html#BOOSE_CommandTwoParameters__ctor_
   commentId: Overload:BOOSE.CommandTwoParameters.#ctor
   isSpec: "True"
   name.vb: New
@@ -1583,7 +1374,7 @@ references:
   nameWithType.vb: CommandTwoParameters.New
 - uid: BOOSE.CommandTwoParameters.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.CommandTwoParameters.html#BOOSE_CommandTwoParameters_CheckParameters_System_String___
+  href: api/BOOSE.CommandTwoParameters.html#BOOSE_CommandTwoParameters_CheckParameters_System_String___
   commentId: M:BOOSE.CommandTwoParameters.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.CommandTwoParameters.CheckParameters(string[])
@@ -1592,32 +1383,32 @@ references:
   nameWithType.vb: CommandTwoParameters.CheckParameters(String())
 - uid: BOOSE.CommandTwoParameters.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.CommandTwoParameters.html#BOOSE_CommandTwoParameters_CheckParameters_
+  href: api/BOOSE.CommandTwoParameters.html#BOOSE_CommandTwoParameters_CheckParameters_
   commentId: Overload:BOOSE.CommandTwoParameters.CheckParameters
   isSpec: "True"
   fullName: BOOSE.CommandTwoParameters.CheckParameters
   nameWithType: CommandTwoParameters.CheckParameters
 - uid: BOOSE.CommandTwoParameters.param2
   name: param2
-  href: boose/BOOSE.CommandTwoParameters.html#BOOSE_CommandTwoParameters_param2
+  href: api/BOOSE.CommandTwoParameters.html#BOOSE_CommandTwoParameters_param2
   commentId: F:BOOSE.CommandTwoParameters.param2
   fullName: BOOSE.CommandTwoParameters.param2
   nameWithType: CommandTwoParameters.param2
 - uid: BOOSE.CommandTwoParameters.param2unprocessed
   name: param2unprocessed
-  href: boose/BOOSE.CommandTwoParameters.html#BOOSE_CommandTwoParameters_param2unprocessed
+  href: api/BOOSE.CommandTwoParameters.html#BOOSE_CommandTwoParameters_param2unprocessed
   commentId: F:BOOSE.CommandTwoParameters.param2unprocessed
   fullName: BOOSE.CommandTwoParameters.param2unprocessed
   nameWithType: CommandTwoParameters.param2unprocessed
 - uid: BOOSE.CompoundCommand
   name: CompoundCommand
-  href: boose/BOOSE.CompoundCommand.html
+  href: api/BOOSE.CompoundCommand.html
   commentId: T:BOOSE.CompoundCommand
   fullName: BOOSE.CompoundCommand
   nameWithType: CompoundCommand
 - uid: BOOSE.CompoundCommand.#ctor
   name: CompoundCommand()
-  href: boose/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand__ctor
+  href: api/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand__ctor
   commentId: M:BOOSE.CompoundCommand.#ctor
   name.vb: New()
   fullName: BOOSE.CompoundCommand.CompoundCommand()
@@ -1626,7 +1417,7 @@ references:
   nameWithType.vb: CompoundCommand.New()
 - uid: BOOSE.CompoundCommand.#ctor*
   name: CompoundCommand
-  href: boose/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand__ctor_
+  href: api/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand__ctor_
   commentId: Overload:BOOSE.CompoundCommand.#ctor
   isSpec: "True"
   name.vb: New
@@ -1636,7 +1427,7 @@ references:
   nameWithType.vb: CompoundCommand.New
 - uid: BOOSE.CompoundCommand.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_CheckParameters_System_String___
+  href: api/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_CheckParameters_System_String___
   commentId: M:BOOSE.CompoundCommand.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.CompoundCommand.CheckParameters(string[])
@@ -1645,173 +1436,186 @@ references:
   nameWithType.vb: CompoundCommand.CheckParameters(String())
 - uid: BOOSE.CompoundCommand.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_CheckParameters_
+  href: api/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_CheckParameters_
   commentId: Overload:BOOSE.CompoundCommand.CheckParameters
   isSpec: "True"
   fullName: BOOSE.CompoundCommand.CheckParameters
   nameWithType: CompoundCommand.CheckParameters
 - uid: BOOSE.CompoundCommand.Compile
   name: Compile()
-  href: boose/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_Compile
+  href: api/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_Compile
   commentId: M:BOOSE.CompoundCommand.Compile
   fullName: BOOSE.CompoundCommand.Compile()
   nameWithType: CompoundCommand.Compile()
 - uid: BOOSE.CompoundCommand.Compile*
   name: Compile
-  href: boose/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_Compile_
+  href: api/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_Compile_
   commentId: Overload:BOOSE.CompoundCommand.Compile
   isSpec: "True"
   fullName: BOOSE.CompoundCommand.Compile
   nameWithType: CompoundCommand.Compile
 - uid: BOOSE.CompoundCommand.CorrespondingCommand
   name: CorrespondingCommand
-  href: boose/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_CorrespondingCommand
+  href: api/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_CorrespondingCommand
   commentId: P:BOOSE.CompoundCommand.CorrespondingCommand
   fullName: BOOSE.CompoundCommand.CorrespondingCommand
   nameWithType: CompoundCommand.CorrespondingCommand
 - uid: BOOSE.CompoundCommand.CorrespondingCommand*
   name: CorrespondingCommand
-  href: boose/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_CorrespondingCommand_
+  href: api/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_CorrespondingCommand_
   commentId: Overload:BOOSE.CompoundCommand.CorrespondingCommand
   isSpec: "True"
   fullName: BOOSE.CompoundCommand.CorrespondingCommand
   nameWithType: CompoundCommand.CorrespondingCommand
+- uid: BOOSE.CompoundCommand.ReduceRestrictions
+  name: ReduceRestrictions()
+  href: api/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_ReduceRestrictions
+  commentId: M:BOOSE.CompoundCommand.ReduceRestrictions
+  fullName: BOOSE.CompoundCommand.ReduceRestrictions()
+  nameWithType: CompoundCommand.ReduceRestrictions()
+- uid: BOOSE.CompoundCommand.ReduceRestrictions*
+  name: ReduceRestrictions
+  href: api/BOOSE.CompoundCommand.html#BOOSE_CompoundCommand_ReduceRestrictions_
+  commentId: Overload:BOOSE.CompoundCommand.ReduceRestrictions
+  isSpec: "True"
+  fullName: BOOSE.CompoundCommand.ReduceRestrictions
+  nameWithType: CompoundCommand.ReduceRestrictions
 - uid: BOOSE.ConditionalCommand
   name: ConditionalCommand
-  href: boose/BOOSE.ConditionalCommand.html
+  href: api/BOOSE.ConditionalCommand.html
   commentId: T:BOOSE.ConditionalCommand
   fullName: BOOSE.ConditionalCommand
   nameWithType: ConditionalCommand
 - uid: BOOSE.ConditionalCommand.Compile
   name: Compile()
-  href: boose/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Compile
+  href: api/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Compile
   commentId: M:BOOSE.ConditionalCommand.Compile
   fullName: BOOSE.ConditionalCommand.Compile()
   nameWithType: ConditionalCommand.Compile()
 - uid: BOOSE.ConditionalCommand.Compile*
   name: Compile
-  href: boose/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Compile_
+  href: api/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Compile_
   commentId: Overload:BOOSE.ConditionalCommand.Compile
   isSpec: "True"
   fullName: BOOSE.ConditionalCommand.Compile
   nameWithType: ConditionalCommand.Compile
 - uid: BOOSE.ConditionalCommand.CondType
   name: CondType
-  href: boose/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_CondType
+  href: api/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_CondType
   commentId: P:BOOSE.ConditionalCommand.CondType
   fullName: BOOSE.ConditionalCommand.CondType
   nameWithType: ConditionalCommand.CondType
 - uid: BOOSE.ConditionalCommand.CondType*
   name: CondType
-  href: boose/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_CondType_
+  href: api/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_CondType_
   commentId: Overload:BOOSE.ConditionalCommand.CondType
   isSpec: "True"
   fullName: BOOSE.ConditionalCommand.CondType
   nameWithType: ConditionalCommand.CondType
 - uid: BOOSE.ConditionalCommand.Condition
   name: Condition
-  href: boose/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Condition
+  href: api/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Condition
   commentId: P:BOOSE.ConditionalCommand.Condition
   fullName: BOOSE.ConditionalCommand.Condition
   nameWithType: ConditionalCommand.Condition
 - uid: BOOSE.ConditionalCommand.Condition*
   name: Condition
-  href: boose/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Condition_
+  href: api/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Condition_
   commentId: Overload:BOOSE.ConditionalCommand.Condition
   isSpec: "True"
   fullName: BOOSE.ConditionalCommand.Condition
   nameWithType: ConditionalCommand.Condition
 - uid: BOOSE.ConditionalCommand.EndLineNumber
   name: EndLineNumber
-  href: boose/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_EndLineNumber
+  href: api/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_EndLineNumber
   commentId: P:BOOSE.ConditionalCommand.EndLineNumber
   fullName: BOOSE.ConditionalCommand.EndLineNumber
   nameWithType: ConditionalCommand.EndLineNumber
 - uid: BOOSE.ConditionalCommand.EndLineNumber*
   name: EndLineNumber
-  href: boose/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_EndLineNumber_
+  href: api/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_EndLineNumber_
   commentId: Overload:BOOSE.ConditionalCommand.EndLineNumber
   isSpec: "True"
   fullName: BOOSE.ConditionalCommand.EndLineNumber
   nameWithType: ConditionalCommand.EndLineNumber
 - uid: BOOSE.ConditionalCommand.Execute
   name: Execute()
-  href: boose/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Execute
+  href: api/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Execute
   commentId: M:BOOSE.ConditionalCommand.Execute
   fullName: BOOSE.ConditionalCommand.Execute()
   nameWithType: ConditionalCommand.Execute()
 - uid: BOOSE.ConditionalCommand.Execute*
   name: Execute
-  href: boose/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Execute_
+  href: api/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_Execute_
   commentId: Overload:BOOSE.ConditionalCommand.Execute
   isSpec: "True"
   fullName: BOOSE.ConditionalCommand.Execute
   nameWithType: ConditionalCommand.Execute
 - uid: BOOSE.ConditionalCommand.LineNumber
   name: LineNumber
-  href: boose/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_LineNumber
+  href: api/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_LineNumber
   commentId: P:BOOSE.ConditionalCommand.LineNumber
   fullName: BOOSE.ConditionalCommand.LineNumber
   nameWithType: ConditionalCommand.LineNumber
 - uid: BOOSE.ConditionalCommand.LineNumber*
   name: LineNumber
-  href: boose/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_LineNumber_
+  href: api/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_LineNumber_
   commentId: Overload:BOOSE.ConditionalCommand.LineNumber
   isSpec: "True"
   fullName: BOOSE.ConditionalCommand.LineNumber
   nameWithType: ConditionalCommand.LineNumber
 - uid: BOOSE.ConditionalCommand.ReturnLineNumber
   name: ReturnLineNumber
-  href: boose/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_ReturnLineNumber
+  href: api/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_ReturnLineNumber
   commentId: P:BOOSE.ConditionalCommand.ReturnLineNumber
   fullName: BOOSE.ConditionalCommand.ReturnLineNumber
   nameWithType: ConditionalCommand.ReturnLineNumber
 - uid: BOOSE.ConditionalCommand.ReturnLineNumber*
   name: ReturnLineNumber
-  href: boose/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_ReturnLineNumber_
+  href: api/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_ReturnLineNumber_
   commentId: Overload:BOOSE.ConditionalCommand.ReturnLineNumber
   isSpec: "True"
   fullName: BOOSE.ConditionalCommand.ReturnLineNumber
   nameWithType: ConditionalCommand.ReturnLineNumber
 - uid: BOOSE.ConditionalCommand.conditionalTypes
   name: ConditionalCommand.conditionalTypes
-  href: boose/BOOSE.ConditionalCommand.conditionalTypes.html
+  href: api/BOOSE.ConditionalCommand.conditionalTypes.html
   commentId: T:BOOSE.ConditionalCommand.conditionalTypes
   fullName: BOOSE.ConditionalCommand.conditionalTypes
   nameWithType: ConditionalCommand.conditionalTypes
 - uid: BOOSE.ConditionalCommand.conditionalTypes.commFor
   name: commFor
-  href: boose/BOOSE.ConditionalCommand.conditionalTypes.html#BOOSE_ConditionalCommand_conditionalTypes_commFor
+  href: api/BOOSE.ConditionalCommand.conditionalTypes.html#BOOSE_ConditionalCommand_conditionalTypes_commFor
   commentId: F:BOOSE.ConditionalCommand.conditionalTypes.commFor
   fullName: BOOSE.ConditionalCommand.conditionalTypes.commFor
   nameWithType: ConditionalCommand.conditionalTypes.commFor
 - uid: BOOSE.ConditionalCommand.conditionalTypes.commIF
   name: commIF
-  href: boose/BOOSE.ConditionalCommand.conditionalTypes.html#BOOSE_ConditionalCommand_conditionalTypes_commIF
+  href: api/BOOSE.ConditionalCommand.conditionalTypes.html#BOOSE_ConditionalCommand_conditionalTypes_commIF
   commentId: F:BOOSE.ConditionalCommand.conditionalTypes.commIF
   fullName: BOOSE.ConditionalCommand.conditionalTypes.commIF
   nameWithType: ConditionalCommand.conditionalTypes.commIF
 - uid: BOOSE.ConditionalCommand.conditionalTypes.commWhile
   name: commWhile
-  href: boose/BOOSE.ConditionalCommand.conditionalTypes.html#BOOSE_ConditionalCommand_conditionalTypes_commWhile
+  href: api/BOOSE.ConditionalCommand.conditionalTypes.html#BOOSE_ConditionalCommand_conditionalTypes_commWhile
   commentId: F:BOOSE.ConditionalCommand.conditionalTypes.commWhile
   fullName: BOOSE.ConditionalCommand.conditionalTypes.commWhile
   nameWithType: ConditionalCommand.conditionalTypes.commWhile
 - uid: BOOSE.ConditionalCommand.endLineNumber
   name: endLineNumber
-  href: boose/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_endLineNumber
+  href: api/BOOSE.ConditionalCommand.html#BOOSE_ConditionalCommand_endLineNumber
   commentId: F:BOOSE.ConditionalCommand.endLineNumber
   fullName: BOOSE.ConditionalCommand.endLineNumber
   nameWithType: ConditionalCommand.endLineNumber
 - uid: BOOSE.DrawTo
   name: DrawTo
-  href: boose/BOOSE.DrawTo.html
+  href: api/BOOSE.DrawTo.html
   commentId: T:BOOSE.DrawTo
   fullName: BOOSE.DrawTo
   nameWithType: DrawTo
 - uid: BOOSE.DrawTo.#ctor
   name: DrawTo()
-  href: boose/BOOSE.DrawTo.html#BOOSE_DrawTo__ctor
+  href: api/BOOSE.DrawTo.html#BOOSE_DrawTo__ctor
   commentId: M:BOOSE.DrawTo.#ctor
   name.vb: New()
   fullName: BOOSE.DrawTo.DrawTo()
@@ -1820,7 +1624,7 @@ references:
   nameWithType.vb: DrawTo.New()
 - uid: BOOSE.DrawTo.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
   name: DrawTo(Canvas, int, int)
-  href: boose/BOOSE.DrawTo.html#BOOSE_DrawTo__ctor_BOOSE_Canvas_System_Int32_System_Int32_
+  href: api/BOOSE.DrawTo.html#BOOSE_DrawTo__ctor_BOOSE_Canvas_System_Int32_System_Int32_
   commentId: M:BOOSE.DrawTo.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
   name.vb: New(Canvas, Integer, Integer)
   fullName: BOOSE.DrawTo.DrawTo(BOOSE.Canvas, int, int)
@@ -1829,7 +1633,7 @@ references:
   nameWithType.vb: DrawTo.New(Canvas, Integer, Integer)
 - uid: BOOSE.DrawTo.#ctor*
   name: DrawTo
-  href: boose/BOOSE.DrawTo.html#BOOSE_DrawTo__ctor_
+  href: api/BOOSE.DrawTo.html#BOOSE_DrawTo__ctor_
   commentId: Overload:BOOSE.DrawTo.#ctor
   isSpec: "True"
   name.vb: New
@@ -1839,26 +1643,45 @@ references:
   nameWithType.vb: DrawTo.New
 - uid: BOOSE.DrawTo.Execute
   name: Execute()
-  href: boose/BOOSE.DrawTo.html#BOOSE_DrawTo_Execute
+  href: api/BOOSE.DrawTo.html#BOOSE_DrawTo_Execute
   commentId: M:BOOSE.DrawTo.Execute
   fullName: BOOSE.DrawTo.Execute()
   nameWithType: DrawTo.Execute()
 - uid: BOOSE.DrawTo.Execute*
   name: Execute
-  href: boose/BOOSE.DrawTo.html#BOOSE_DrawTo_Execute_
+  href: api/BOOSE.DrawTo.html#BOOSE_DrawTo_Execute_
   commentId: Overload:BOOSE.DrawTo.Execute
   isSpec: "True"
   fullName: BOOSE.DrawTo.Execute
   nameWithType: DrawTo.Execute
 - uid: BOOSE.Else
   name: Else
-  href: boose/BOOSE.Else.html
+  href: api/BOOSE.Else.html
   commentId: T:BOOSE.Else
   fullName: BOOSE.Else
   nameWithType: Else
+- uid: BOOSE.Else.#ctor
+  name: Else()
+  href: api/BOOSE.Else.html#BOOSE_Else__ctor
+  commentId: M:BOOSE.Else.#ctor
+  name.vb: New()
+  fullName: BOOSE.Else.Else()
+  fullName.vb: BOOSE.Else.New()
+  nameWithType: Else.Else()
+  nameWithType.vb: Else.New()
+- uid: BOOSE.Else.#ctor*
+  name: Else
+  href: api/BOOSE.Else.html#BOOSE_Else__ctor_
+  commentId: Overload:BOOSE.Else.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE.Else.Else
+  fullName.vb: BOOSE.Else.New
+  nameWithType: Else.Else
+  nameWithType.vb: Else.New
 - uid: BOOSE.Else.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.Else.html#BOOSE_Else_CheckParameters_System_String___
+  href: api/BOOSE.Else.html#BOOSE_Else_CheckParameters_System_String___
   commentId: M:BOOSE.Else.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.Else.CheckParameters(string[])
@@ -1867,91 +1690,110 @@ references:
   nameWithType.vb: Else.CheckParameters(String())
 - uid: BOOSE.Else.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.Else.html#BOOSE_Else_CheckParameters_
+  href: api/BOOSE.Else.html#BOOSE_Else_CheckParameters_
   commentId: Overload:BOOSE.Else.CheckParameters
   isSpec: "True"
   fullName: BOOSE.Else.CheckParameters
   nameWithType: Else.CheckParameters
 - uid: BOOSE.Else.Compile
   name: Compile()
-  href: boose/BOOSE.Else.html#BOOSE_Else_Compile
+  href: api/BOOSE.Else.html#BOOSE_Else_Compile
   commentId: M:BOOSE.Else.Compile
   fullName: BOOSE.Else.Compile()
   nameWithType: Else.Compile()
 - uid: BOOSE.Else.Compile*
   name: Compile
-  href: boose/BOOSE.Else.html#BOOSE_Else_Compile_
+  href: api/BOOSE.Else.html#BOOSE_Else_Compile_
   commentId: Overload:BOOSE.Else.Compile
   isSpec: "True"
   fullName: BOOSE.Else.Compile
   nameWithType: Else.Compile
 - uid: BOOSE.Else.CorrespondingEnd
   name: CorrespondingEnd
-  href: boose/BOOSE.Else.html#BOOSE_Else_CorrespondingEnd
+  href: api/BOOSE.Else.html#BOOSE_Else_CorrespondingEnd
   commentId: P:BOOSE.Else.CorrespondingEnd
   fullName: BOOSE.Else.CorrespondingEnd
   nameWithType: Else.CorrespondingEnd
 - uid: BOOSE.Else.CorrespondingEnd*
   name: CorrespondingEnd
-  href: boose/BOOSE.Else.html#BOOSE_Else_CorrespondingEnd_
+  href: api/BOOSE.Else.html#BOOSE_Else_CorrespondingEnd_
   commentId: Overload:BOOSE.Else.CorrespondingEnd
   isSpec: "True"
   fullName: BOOSE.Else.CorrespondingEnd
   nameWithType: Else.CorrespondingEnd
 - uid: BOOSE.Else.Execute
   name: Execute()
-  href: boose/BOOSE.Else.html#BOOSE_Else_Execute
+  href: api/BOOSE.Else.html#BOOSE_Else_Execute
   commentId: M:BOOSE.Else.Execute
   fullName: BOOSE.Else.Execute()
   nameWithType: Else.Execute()
 - uid: BOOSE.Else.Execute*
   name: Execute
-  href: boose/BOOSE.Else.html#BOOSE_Else_Execute_
+  href: api/BOOSE.Else.html#BOOSE_Else_Execute_
   commentId: Overload:BOOSE.Else.Execute
   isSpec: "True"
   fullName: BOOSE.Else.Execute
   nameWithType: Else.Execute
 - uid: BOOSE.End
   name: End
-  href: boose/BOOSE.End.html
+  href: api/BOOSE.End.html
   commentId: T:BOOSE.End
   fullName: BOOSE.End
   nameWithType: End
+- uid: BOOSE.End.#ctor
+  name: End()
+  href: api/BOOSE.End.html#BOOSE_End__ctor
+  commentId: M:BOOSE.End.#ctor
+  name.vb: New()
+  fullName: BOOSE.End.End()
+  fullName.vb: BOOSE.End.New()
+  nameWithType: End.End()
+  nameWithType.vb: End.New()
+- uid: BOOSE.End.#ctor*
+  name: End
+  href: api/BOOSE.End.html#BOOSE_End__ctor_
+  commentId: Overload:BOOSE.End.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE.End.End
+  fullName.vb: BOOSE.End.New
+  nameWithType: End.End
+  nameWithType.vb: End.New
 - uid: BOOSE.End.Compile
   name: Compile()
-  href: boose/BOOSE.End.html#BOOSE_End_Compile
+  href: api/BOOSE.End.html#BOOSE_End_Compile
   commentId: M:BOOSE.End.Compile
   fullName: BOOSE.End.Compile()
   nameWithType: End.Compile()
 - uid: BOOSE.End.Compile*
   name: Compile
-  href: boose/BOOSE.End.html#BOOSE_End_Compile_
+  href: api/BOOSE.End.html#BOOSE_End_Compile_
   commentId: Overload:BOOSE.End.Compile
   isSpec: "True"
   fullName: BOOSE.End.Compile
   nameWithType: End.Compile
 - uid: BOOSE.End.Execute
   name: Execute()
-  href: boose/BOOSE.End.html#BOOSE_End_Execute
+  href: api/BOOSE.End.html#BOOSE_End_Execute
   commentId: M:BOOSE.End.Execute
   fullName: BOOSE.End.Execute()
   nameWithType: End.Execute()
 - uid: BOOSE.End.Execute*
   name: Execute
-  href: boose/BOOSE.End.html#BOOSE_End_Execute_
+  href: api/BOOSE.End.html#BOOSE_End_Execute_
   commentId: Overload:BOOSE.End.Execute
   isSpec: "True"
   fullName: BOOSE.End.Execute
   nameWithType: End.Execute
 - uid: BOOSE.Evaluation
   name: Evaluation
-  href: boose/BOOSE.Evaluation.html
+  href: api/BOOSE.Evaluation.html
   commentId: T:BOOSE.Evaluation
   fullName: BOOSE.Evaluation
   nameWithType: Evaluation
 - uid: BOOSE.Evaluation.#ctor
   name: Evaluation()
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation__ctor
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation__ctor
   commentId: M:BOOSE.Evaluation.#ctor
   name.vb: New()
   fullName: BOOSE.Evaluation.Evaluation()
@@ -1960,7 +1802,7 @@ references:
   nameWithType.vb: Evaluation.New()
 - uid: BOOSE.Evaluation.#ctor*
   name: Evaluation
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation__ctor_
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation__ctor_
   commentId: Overload:BOOSE.Evaluation.#ctor
   isSpec: "True"
   name.vb: New
@@ -1970,7 +1812,7 @@ references:
   nameWithType.vb: Evaluation.New
 - uid: BOOSE.Evaluation.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_CheckParameters_System_String___
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_CheckParameters_System_String___
   commentId: M:BOOSE.Evaluation.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.Evaluation.CheckParameters(string[])
@@ -1979,66 +1821,66 @@ references:
   nameWithType.vb: Evaluation.CheckParameters(String())
 - uid: BOOSE.Evaluation.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_CheckParameters_
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_CheckParameters_
   commentId: Overload:BOOSE.Evaluation.CheckParameters
   isSpec: "True"
   fullName: BOOSE.Evaluation.CheckParameters
   nameWithType: Evaluation.CheckParameters
 - uid: BOOSE.Evaluation.Compile
   name: Compile()
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_Compile
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_Compile
   commentId: M:BOOSE.Evaluation.Compile
   fullName: BOOSE.Evaluation.Compile()
   nameWithType: Evaluation.Compile()
 - uid: BOOSE.Evaluation.Compile*
   name: Compile
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_Compile_
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_Compile_
   commentId: Overload:BOOSE.Evaluation.Compile
   isSpec: "True"
   fullName: BOOSE.Evaluation.Compile
   nameWithType: Evaluation.Compile
 - uid: BOOSE.Evaluation.Execute
   name: Execute()
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_Execute
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_Execute
   commentId: M:BOOSE.Evaluation.Execute
   fullName: BOOSE.Evaluation.Execute()
   nameWithType: Evaluation.Execute()
 - uid: BOOSE.Evaluation.Execute*
   name: Execute
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_Execute_
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_Execute_
   commentId: Overload:BOOSE.Evaluation.Execute
   isSpec: "True"
   fullName: BOOSE.Evaluation.Execute
   nameWithType: Evaluation.Execute
 - uid: BOOSE.Evaluation.Expression
   name: Expression
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_Expression
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_Expression
   commentId: P:BOOSE.Evaluation.Expression
   fullName: BOOSE.Evaluation.Expression
   nameWithType: Evaluation.Expression
 - uid: BOOSE.Evaluation.Expression*
   name: Expression
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_Expression_
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_Expression_
   commentId: Overload:BOOSE.Evaluation.Expression
   isSpec: "True"
   fullName: BOOSE.Evaluation.Expression
   nameWithType: Evaluation.Expression
 - uid: BOOSE.Evaluation.Local
   name: Local
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_Local
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_Local
   commentId: P:BOOSE.Evaluation.Local
   fullName: BOOSE.Evaluation.Local
   nameWithType: Evaluation.Local
 - uid: BOOSE.Evaluation.Local*
   name: Local
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_Local_
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_Local_
   commentId: Overload:BOOSE.Evaluation.Local
   isSpec: "True"
   fullName: BOOSE.Evaluation.Local
   nameWithType: Evaluation.Local
 - uid: BOOSE.Evaluation.ProcessExpression(System.String)
   name: ProcessExpression(string)
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_System_String_
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_System_String_
   commentId: M:BOOSE.Evaluation.ProcessExpression(System.String)
   name.vb: ProcessExpression(String)
   fullName: BOOSE.Evaluation.ProcessExpression(string)
@@ -2047,70 +1889,70 @@ references:
   nameWithType.vb: Evaluation.ProcessExpression(String)
 - uid: BOOSE.Evaluation.ProcessExpression*
   name: ProcessExpression
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_ProcessExpression_
   commentId: Overload:BOOSE.Evaluation.ProcessExpression
   isSpec: "True"
   fullName: BOOSE.Evaluation.ProcessExpression
   nameWithType: Evaluation.ProcessExpression
 - uid: BOOSE.Evaluation.Value
   name: Value
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_Value
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_Value
   commentId: P:BOOSE.Evaluation.Value
   fullName: BOOSE.Evaluation.Value
   nameWithType: Evaluation.Value
 - uid: BOOSE.Evaluation.Value*
   name: Value
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_Value_
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_Value_
   commentId: Overload:BOOSE.Evaluation.Value
   isSpec: "True"
   fullName: BOOSE.Evaluation.Value
   nameWithType: Evaluation.Value
 - uid: BOOSE.Evaluation.VarName
   name: VarName
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_VarName
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_VarName
   commentId: P:BOOSE.Evaluation.VarName
   fullName: BOOSE.Evaluation.VarName
   nameWithType: Evaluation.VarName
 - uid: BOOSE.Evaluation.VarName*
   name: VarName
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_VarName_
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_VarName_
   commentId: Overload:BOOSE.Evaluation.VarName
   isSpec: "True"
   fullName: BOOSE.Evaluation.VarName
   nameWithType: Evaluation.VarName
 - uid: BOOSE.Evaluation.evaluatedExpression
   name: evaluatedExpression
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_evaluatedExpression
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_evaluatedExpression
   commentId: F:BOOSE.Evaluation.evaluatedExpression
   fullName: BOOSE.Evaluation.evaluatedExpression
   nameWithType: Evaluation.evaluatedExpression
 - uid: BOOSE.Evaluation.expression
   name: expression
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_expression
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_expression
   commentId: F:BOOSE.Evaluation.expression
   fullName: BOOSE.Evaluation.expression
   nameWithType: Evaluation.expression
 - uid: BOOSE.Evaluation.value
   name: value
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_value
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_value
   commentId: F:BOOSE.Evaluation.value
   fullName: BOOSE.Evaluation.value
   nameWithType: Evaluation.value
 - uid: BOOSE.Evaluation.varName
   name: varName
-  href: boose/BOOSE.Evaluation.html#BOOSE_Evaluation_varName
+  href: api/BOOSE.Evaluation.html#BOOSE_Evaluation_varName
   commentId: F:BOOSE.Evaluation.varName
   fullName: BOOSE.Evaluation.varName
   nameWithType: Evaluation.varName
 - uid: BOOSE.FactoryException
   name: FactoryException
-  href: boose/BOOSE.FactoryException.html
+  href: api/BOOSE.FactoryException.html
   commentId: T:BOOSE.FactoryException
   fullName: BOOSE.FactoryException
   nameWithType: FactoryException
 - uid: BOOSE.FactoryException.#ctor(System.String)
   name: FactoryException(string)
-  href: boose/BOOSE.FactoryException.html#BOOSE_FactoryException__ctor_System_String_
+  href: api/BOOSE.FactoryException.html#BOOSE_FactoryException__ctor_System_String_
   commentId: M:BOOSE.FactoryException.#ctor(System.String)
   name.vb: New(String)
   fullName: BOOSE.FactoryException.FactoryException(string)
@@ -2119,7 +1961,7 @@ references:
   nameWithType.vb: FactoryException.New(String)
 - uid: BOOSE.FactoryException.#ctor*
   name: FactoryException
-  href: boose/BOOSE.FactoryException.html#BOOSE_FactoryException__ctor_
+  href: api/BOOSE.FactoryException.html#BOOSE_FactoryException__ctor_
   commentId: Overload:BOOSE.FactoryException.#ctor
   isSpec: "True"
   name.vb: New
@@ -2129,97 +1971,116 @@ references:
   nameWithType.vb: FactoryException.New
 - uid: BOOSE.For
   name: For
-  href: boose/BOOSE.For.html
+  href: api/BOOSE.For.html
   commentId: T:BOOSE.For
   fullName: BOOSE.For
   nameWithType: For
+- uid: BOOSE.For.#ctor
+  name: For()
+  href: api/BOOSE.For.html#BOOSE_For__ctor
+  commentId: M:BOOSE.For.#ctor
+  name.vb: New()
+  fullName: BOOSE.For.For()
+  fullName.vb: BOOSE.For.New()
+  nameWithType: For.For()
+  nameWithType.vb: For.New()
+- uid: BOOSE.For.#ctor*
+  name: For
+  href: api/BOOSE.For.html#BOOSE_For__ctor_
+  commentId: Overload:BOOSE.For.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE.For.For
+  fullName.vb: BOOSE.For.New
+  nameWithType: For.For
+  nameWithType.vb: For.New
 - uid: BOOSE.For.Compile
   name: Compile()
-  href: boose/BOOSE.For.html#BOOSE_For_Compile
+  href: api/BOOSE.For.html#BOOSE_For_Compile
   commentId: M:BOOSE.For.Compile
   fullName: BOOSE.For.Compile()
   nameWithType: For.Compile()
 - uid: BOOSE.For.Compile*
   name: Compile
-  href: boose/BOOSE.For.html#BOOSE_For_Compile_
+  href: api/BOOSE.For.html#BOOSE_For_Compile_
   commentId: Overload:BOOSE.For.Compile
   isSpec: "True"
   fullName: BOOSE.For.Compile
   nameWithType: For.Compile
 - uid: BOOSE.For.Execute
   name: Execute()
-  href: boose/BOOSE.For.html#BOOSE_For_Execute
+  href: api/BOOSE.For.html#BOOSE_For_Execute
   commentId: M:BOOSE.For.Execute
   fullName: BOOSE.For.Execute()
   nameWithType: For.Execute()
 - uid: BOOSE.For.Execute*
   name: Execute
-  href: boose/BOOSE.For.html#BOOSE_For_Execute_
+  href: api/BOOSE.For.html#BOOSE_For_Execute_
   commentId: Overload:BOOSE.For.Execute
   isSpec: "True"
   fullName: BOOSE.For.Execute
   nameWithType: For.Execute
 - uid: BOOSE.For.From
   name: From
-  href: boose/BOOSE.For.html#BOOSE_For_From
+  href: api/BOOSE.For.html#BOOSE_For_From
   commentId: P:BOOSE.For.From
   fullName: BOOSE.For.From
   nameWithType: For.From
 - uid: BOOSE.For.From*
   name: From
-  href: boose/BOOSE.For.html#BOOSE_For_From_
+  href: api/BOOSE.For.html#BOOSE_For_From_
   commentId: Overload:BOOSE.For.From
   isSpec: "True"
   fullName: BOOSE.For.From
   nameWithType: For.From
 - uid: BOOSE.For.LoopControlV
   name: LoopControlV
-  href: boose/BOOSE.For.html#BOOSE_For_LoopControlV
+  href: api/BOOSE.For.html#BOOSE_For_LoopControlV
   commentId: P:BOOSE.For.LoopControlV
   fullName: BOOSE.For.LoopControlV
   nameWithType: For.LoopControlV
 - uid: BOOSE.For.LoopControlV*
   name: LoopControlV
-  href: boose/BOOSE.For.html#BOOSE_For_LoopControlV_
+  href: api/BOOSE.For.html#BOOSE_For_LoopControlV_
   commentId: Overload:BOOSE.For.LoopControlV
   isSpec: "True"
   fullName: BOOSE.For.LoopControlV
   nameWithType: For.LoopControlV
 - uid: BOOSE.For.Step
   name: Step
-  href: boose/BOOSE.For.html#BOOSE_For_Step
+  href: api/BOOSE.For.html#BOOSE_For_Step
   commentId: P:BOOSE.For.Step
   fullName: BOOSE.For.Step
   nameWithType: For.Step
 - uid: BOOSE.For.Step*
   name: Step
-  href: boose/BOOSE.For.html#BOOSE_For_Step_
+  href: api/BOOSE.For.html#BOOSE_For_Step_
   commentId: Overload:BOOSE.For.Step
   isSpec: "True"
   fullName: BOOSE.For.Step
   nameWithType: For.Step
 - uid: BOOSE.For.To
   name: To
-  href: boose/BOOSE.For.html#BOOSE_For_To
+  href: api/BOOSE.For.html#BOOSE_For_To
   commentId: P:BOOSE.For.To
   fullName: BOOSE.For.To
   nameWithType: For.To
 - uid: BOOSE.For.To*
   name: To
-  href: boose/BOOSE.For.html#BOOSE_For_To_
+  href: api/BOOSE.For.html#BOOSE_For_To_
   commentId: Overload:BOOSE.For.To
   isSpec: "True"
   fullName: BOOSE.For.To
   nameWithType: For.To
 - uid: BOOSE.ICanvas
   name: ICanvas
-  href: boose/BOOSE.ICanvas.html
+  href: api/BOOSE.ICanvas.html
   commentId: T:BOOSE.ICanvas
   fullName: BOOSE.ICanvas
   nameWithType: ICanvas
 - uid: BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
   name: Circle(int, bool)
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Circle_System_Int32_System_Boolean_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Circle_System_Int32_System_Boolean_
   commentId: M:BOOSE.ICanvas.Circle(System.Int32,System.Boolean)
   name.vb: Circle(Integer, Boolean)
   fullName: BOOSE.ICanvas.Circle(int, bool)
@@ -2228,27 +2089,27 @@ references:
   nameWithType.vb: ICanvas.Circle(Integer, Boolean)
 - uid: BOOSE.ICanvas.Circle*
   name: Circle
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Circle_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Circle_
   commentId: Overload:BOOSE.ICanvas.Circle
   isSpec: "True"
   fullName: BOOSE.ICanvas.Circle
   nameWithType: ICanvas.Circle
 - uid: BOOSE.ICanvas.Clear
   name: Clear()
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Clear
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Clear
   commentId: M:BOOSE.ICanvas.Clear
   fullName: BOOSE.ICanvas.Clear()
   nameWithType: ICanvas.Clear()
 - uid: BOOSE.ICanvas.Clear*
   name: Clear
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Clear_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Clear_
   commentId: Overload:BOOSE.ICanvas.Clear
   isSpec: "True"
   fullName: BOOSE.ICanvas.Clear
   nameWithType: ICanvas.Clear
 - uid: BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
   name: DrawTo(int, int)
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_DrawTo_System_Int32_System_Int32_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_DrawTo_System_Int32_System_Int32_
   commentId: M:BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
   name.vb: DrawTo(Integer, Integer)
   fullName: BOOSE.ICanvas.DrawTo(int, int)
@@ -2257,14 +2118,14 @@ references:
   nameWithType.vb: ICanvas.DrawTo(Integer, Integer)
 - uid: BOOSE.ICanvas.DrawTo*
   name: DrawTo
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_DrawTo_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_DrawTo_
   commentId: Overload:BOOSE.ICanvas.DrawTo
   isSpec: "True"
   fullName: BOOSE.ICanvas.DrawTo
   nameWithType: ICanvas.DrawTo
 - uid: BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
   name: MoveTo(int, int)
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_MoveTo_System_Int32_System_Int32_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_MoveTo_System_Int32_System_Int32_
   commentId: M:BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
   name.vb: MoveTo(Integer, Integer)
   fullName: BOOSE.ICanvas.MoveTo(int, int)
@@ -2273,27 +2134,14 @@ references:
   nameWithType.vb: ICanvas.MoveTo(Integer, Integer)
 - uid: BOOSE.ICanvas.MoveTo*
   name: MoveTo
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_MoveTo_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_MoveTo_
   commentId: Overload:BOOSE.ICanvas.MoveTo
   isSpec: "True"
   fullName: BOOSE.ICanvas.MoveTo
   nameWithType: ICanvas.MoveTo
-- uid: BOOSE.ICanvas.PenColour
-  name: PenColour
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_PenColour
-  commentId: P:BOOSE.ICanvas.PenColour
-  fullName: BOOSE.ICanvas.PenColour
-  nameWithType: ICanvas.PenColour
-- uid: BOOSE.ICanvas.PenColour*
-  name: PenColour
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_PenColour_
-  commentId: Overload:BOOSE.ICanvas.PenColour
-  isSpec: "True"
-  fullName: BOOSE.ICanvas.PenColour
-  nameWithType: ICanvas.PenColour
 - uid: BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
   name: Rect(int, int, bool)
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Rect_System_Int32_System_Int32_System_Boolean_
   commentId: M:BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)
   name.vb: Rect(Integer, Integer, Boolean)
   fullName: BOOSE.ICanvas.Rect(int, int, bool)
@@ -2302,27 +2150,27 @@ references:
   nameWithType.vb: ICanvas.Rect(Integer, Integer, Boolean)
 - uid: BOOSE.ICanvas.Rect*
   name: Rect
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Rect_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Rect_
   commentId: Overload:BOOSE.ICanvas.Rect
   isSpec: "True"
   fullName: BOOSE.ICanvas.Rect
   nameWithType: ICanvas.Rect
 - uid: BOOSE.ICanvas.Reset
   name: Reset()
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Reset
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Reset
   commentId: M:BOOSE.ICanvas.Reset
   fullName: BOOSE.ICanvas.Reset()
   nameWithType: ICanvas.Reset()
 - uid: BOOSE.ICanvas.Reset*
   name: Reset
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Reset_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Reset_
   commentId: Overload:BOOSE.ICanvas.Reset
   isSpec: "True"
   fullName: BOOSE.ICanvas.Reset
   nameWithType: ICanvas.Reset
 - uid: BOOSE.ICanvas.Set(System.Int32,System.Int32)
   name: Set(int, int)
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Set_System_Int32_System_Int32_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Set_System_Int32_System_Int32_
   commentId: M:BOOSE.ICanvas.Set(System.Int32,System.Int32)
   name.vb: Set(Integer, Integer)
   fullName: BOOSE.ICanvas.Set(int, int)
@@ -2331,14 +2179,14 @@ references:
   nameWithType.vb: ICanvas.Set(Integer, Integer)
 - uid: BOOSE.ICanvas.Set*
   name: Set
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Set_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Set_
   commentId: Overload:BOOSE.ICanvas.Set
   isSpec: "True"
   fullName: BOOSE.ICanvas.Set
   nameWithType: ICanvas.Set
 - uid: BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
   name: SetColour(int, int, int)
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_SetColour_System_Int32_System_Int32_System_Int32_
   commentId: M:BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)
   name.vb: SetColour(Integer, Integer, Integer)
   fullName: BOOSE.ICanvas.SetColour(int, int, int)
@@ -2347,14 +2195,14 @@ references:
   nameWithType.vb: ICanvas.SetColour(Integer, Integer, Integer)
 - uid: BOOSE.ICanvas.SetColour*
   name: SetColour
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_SetColour_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_SetColour_
   commentId: Overload:BOOSE.ICanvas.SetColour
   isSpec: "True"
   fullName: BOOSE.ICanvas.SetColour
   nameWithType: ICanvas.SetColour
 - uid: BOOSE.ICanvas.Tri(System.Int32,System.Int32)
   name: Tri(int, int)
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Tri_System_Int32_System_Int32_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Tri_System_Int32_System_Int32_
   commentId: M:BOOSE.ICanvas.Tri(System.Int32,System.Int32)
   name.vb: Tri(Integer, Integer)
   fullName: BOOSE.ICanvas.Tri(int, int)
@@ -2363,14 +2211,14 @@ references:
   nameWithType.vb: ICanvas.Tri(Integer, Integer)
 - uid: BOOSE.ICanvas.Tri*
   name: Tri
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Tri_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Tri_
   commentId: Overload:BOOSE.ICanvas.Tri
   isSpec: "True"
   fullName: BOOSE.ICanvas.Tri
   nameWithType: ICanvas.Tri
 - uid: BOOSE.ICanvas.WriteText(System.String)
   name: WriteText(string)
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_WriteText_System_String_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_WriteText_System_String_
   commentId: M:BOOSE.ICanvas.WriteText(System.String)
   name.vb: WriteText(String)
   fullName: BOOSE.ICanvas.WriteText(string)
@@ -2379,59 +2227,59 @@ references:
   nameWithType.vb: ICanvas.WriteText(String)
 - uid: BOOSE.ICanvas.WriteText*
   name: WriteText
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_WriteText_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_WriteText_
   commentId: Overload:BOOSE.ICanvas.WriteText
   isSpec: "True"
   fullName: BOOSE.ICanvas.WriteText
   nameWithType: ICanvas.WriteText
 - uid: BOOSE.ICanvas.Xpos
   name: Xpos
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Xpos
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Xpos
   commentId: P:BOOSE.ICanvas.Xpos
   fullName: BOOSE.ICanvas.Xpos
   nameWithType: ICanvas.Xpos
 - uid: BOOSE.ICanvas.Xpos*
   name: Xpos
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Xpos_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Xpos_
   commentId: Overload:BOOSE.ICanvas.Xpos
   isSpec: "True"
   fullName: BOOSE.ICanvas.Xpos
   nameWithType: ICanvas.Xpos
 - uid: BOOSE.ICanvas.Ypos
   name: Ypos
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Ypos
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Ypos
   commentId: P:BOOSE.ICanvas.Ypos
   fullName: BOOSE.ICanvas.Ypos
   nameWithType: ICanvas.Ypos
 - uid: BOOSE.ICanvas.Ypos*
   name: Ypos
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_Ypos_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_Ypos_
   commentId: Overload:BOOSE.ICanvas.Ypos
   isSpec: "True"
   fullName: BOOSE.ICanvas.Ypos
   nameWithType: ICanvas.Ypos
 - uid: BOOSE.ICanvas.getBitmap
   name: getBitmap()
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_getBitmap
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_getBitmap
   commentId: M:BOOSE.ICanvas.getBitmap
   fullName: BOOSE.ICanvas.getBitmap()
   nameWithType: ICanvas.getBitmap()
 - uid: BOOSE.ICanvas.getBitmap*
   name: getBitmap
-  href: boose/BOOSE.ICanvas.html#BOOSE_ICanvas_getBitmap_
+  href: api/BOOSE.ICanvas.html#BOOSE_ICanvas_getBitmap_
   commentId: Overload:BOOSE.ICanvas.getBitmap
   isSpec: "True"
   fullName: BOOSE.ICanvas.getBitmap
   nameWithType: ICanvas.getBitmap
 - uid: BOOSE.ICommand
   name: ICommand
-  href: boose/BOOSE.ICommand.html
+  href: api/BOOSE.ICommand.html
   commentId: T:BOOSE.ICommand
   fullName: BOOSE.ICommand
   nameWithType: ICommand
 - uid: BOOSE.ICommand.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.ICommand.html#BOOSE_ICommand_CheckParameters_System_String___
+  href: api/BOOSE.ICommand.html#BOOSE_ICommand_CheckParameters_System_String___
   commentId: M:BOOSE.ICommand.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.ICommand.CheckParameters(string[])
@@ -2440,40 +2288,40 @@ references:
   nameWithType.vb: ICommand.CheckParameters(String())
 - uid: BOOSE.ICommand.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.ICommand.html#BOOSE_ICommand_CheckParameters_
+  href: api/BOOSE.ICommand.html#BOOSE_ICommand_CheckParameters_
   commentId: Overload:BOOSE.ICommand.CheckParameters
   isSpec: "True"
   fullName: BOOSE.ICommand.CheckParameters
   nameWithType: ICommand.CheckParameters
 - uid: BOOSE.ICommand.Compile
   name: Compile()
-  href: boose/BOOSE.ICommand.html#BOOSE_ICommand_Compile
+  href: api/BOOSE.ICommand.html#BOOSE_ICommand_Compile
   commentId: M:BOOSE.ICommand.Compile
   fullName: BOOSE.ICommand.Compile()
   nameWithType: ICommand.Compile()
 - uid: BOOSE.ICommand.Compile*
   name: Compile
-  href: boose/BOOSE.ICommand.html#BOOSE_ICommand_Compile_
+  href: api/BOOSE.ICommand.html#BOOSE_ICommand_Compile_
   commentId: Overload:BOOSE.ICommand.Compile
   isSpec: "True"
   fullName: BOOSE.ICommand.Compile
   nameWithType: ICommand.Compile
 - uid: BOOSE.ICommand.Execute
   name: Execute()
-  href: boose/BOOSE.ICommand.html#BOOSE_ICommand_Execute
+  href: api/BOOSE.ICommand.html#BOOSE_ICommand_Execute
   commentId: M:BOOSE.ICommand.Execute
   fullName: BOOSE.ICommand.Execute()
   nameWithType: ICommand.Execute()
 - uid: BOOSE.ICommand.Execute*
   name: Execute
-  href: boose/BOOSE.ICommand.html#BOOSE_ICommand_Execute_
+  href: api/BOOSE.ICommand.html#BOOSE_ICommand_Execute_
   commentId: Overload:BOOSE.ICommand.Execute
   isSpec: "True"
   fullName: BOOSE.ICommand.Execute
   nameWithType: ICommand.Execute
 - uid: BOOSE.ICommand.Set(BOOSE.StoredProgram,System.String)
   name: Set(StoredProgram, string)
-  href: boose/BOOSE.ICommand.html#BOOSE_ICommand_Set_BOOSE_StoredProgram_System_String_
+  href: api/BOOSE.ICommand.html#BOOSE_ICommand_Set_BOOSE_StoredProgram_System_String_
   commentId: M:BOOSE.ICommand.Set(BOOSE.StoredProgram,System.String)
   name.vb: Set(StoredProgram, String)
   fullName: BOOSE.ICommand.Set(BOOSE.StoredProgram, string)
@@ -2482,20 +2330,20 @@ references:
   nameWithType.vb: ICommand.Set(StoredProgram, String)
 - uid: BOOSE.ICommand.Set*
   name: Set
-  href: boose/BOOSE.ICommand.html#BOOSE_ICommand_Set_
+  href: api/BOOSE.ICommand.html#BOOSE_ICommand_Set_
   commentId: Overload:BOOSE.ICommand.Set
   isSpec: "True"
   fullName: BOOSE.ICommand.Set
   nameWithType: ICommand.Set
 - uid: BOOSE.ICommandFactory
   name: ICommandFactory
-  href: boose/BOOSE.ICommandFactory.html
+  href: api/BOOSE.ICommandFactory.html
   commentId: T:BOOSE.ICommandFactory
   fullName: BOOSE.ICommandFactory
   nameWithType: ICommandFactory
 - uid: BOOSE.ICommandFactory.MakeCommand(System.String)
   name: MakeCommand(string)
-  href: boose/BOOSE.ICommandFactory.html#BOOSE_ICommandFactory_MakeCommand_System_String_
+  href: api/BOOSE.ICommandFactory.html#BOOSE_ICommandFactory_MakeCommand_System_String_
   commentId: M:BOOSE.ICommandFactory.MakeCommand(System.String)
   name.vb: MakeCommand(String)
   fullName: BOOSE.ICommandFactory.MakeCommand(string)
@@ -2504,65 +2352,65 @@ references:
   nameWithType.vb: ICommandFactory.MakeCommand(String)
 - uid: BOOSE.ICommandFactory.MakeCommand*
   name: MakeCommand
-  href: boose/BOOSE.ICommandFactory.html#BOOSE_ICommandFactory_MakeCommand_
+  href: api/BOOSE.ICommandFactory.html#BOOSE_ICommandFactory_MakeCommand_
   commentId: Overload:BOOSE.ICommandFactory.MakeCommand
   isSpec: "True"
   fullName: BOOSE.ICommandFactory.MakeCommand
   nameWithType: ICommandFactory.MakeCommand
 - uid: BOOSE.IEvaluation
   name: IEvaluation
-  href: boose/BOOSE.IEvaluation.html
+  href: api/BOOSE.IEvaluation.html
   commentId: T:BOOSE.IEvaluation
   fullName: BOOSE.IEvaluation
   nameWithType: IEvaluation
 - uid: BOOSE.IEvaluation.Expression
   name: Expression
-  href: boose/BOOSE.IEvaluation.html#BOOSE_IEvaluation_Expression
+  href: api/BOOSE.IEvaluation.html#BOOSE_IEvaluation_Expression
   commentId: P:BOOSE.IEvaluation.Expression
   fullName: BOOSE.IEvaluation.Expression
   nameWithType: IEvaluation.Expression
 - uid: BOOSE.IEvaluation.Expression*
   name: Expression
-  href: boose/BOOSE.IEvaluation.html#BOOSE_IEvaluation_Expression_
+  href: api/BOOSE.IEvaluation.html#BOOSE_IEvaluation_Expression_
   commentId: Overload:BOOSE.IEvaluation.Expression
   isSpec: "True"
   fullName: BOOSE.IEvaluation.Expression
   nameWithType: IEvaluation.Expression
 - uid: BOOSE.IEvaluation.Value
   name: Value
-  href: boose/BOOSE.IEvaluation.html#BOOSE_IEvaluation_Value
+  href: api/BOOSE.IEvaluation.html#BOOSE_IEvaluation_Value
   commentId: P:BOOSE.IEvaluation.Value
   fullName: BOOSE.IEvaluation.Value
   nameWithType: IEvaluation.Value
 - uid: BOOSE.IEvaluation.Value*
   name: Value
-  href: boose/BOOSE.IEvaluation.html#BOOSE_IEvaluation_Value_
+  href: api/BOOSE.IEvaluation.html#BOOSE_IEvaluation_Value_
   commentId: Overload:BOOSE.IEvaluation.Value
   isSpec: "True"
   fullName: BOOSE.IEvaluation.Value
   nameWithType: IEvaluation.Value
 - uid: BOOSE.IEvaluation.VarName
   name: VarName
-  href: boose/BOOSE.IEvaluation.html#BOOSE_IEvaluation_VarName
+  href: api/BOOSE.IEvaluation.html#BOOSE_IEvaluation_VarName
   commentId: P:BOOSE.IEvaluation.VarName
   fullName: BOOSE.IEvaluation.VarName
   nameWithType: IEvaluation.VarName
 - uid: BOOSE.IEvaluation.VarName*
   name: VarName
-  href: boose/BOOSE.IEvaluation.html#BOOSE_IEvaluation_VarName_
+  href: api/BOOSE.IEvaluation.html#BOOSE_IEvaluation_VarName_
   commentId: Overload:BOOSE.IEvaluation.VarName
   isSpec: "True"
   fullName: BOOSE.IEvaluation.VarName
   nameWithType: IEvaluation.VarName
 - uid: BOOSE.IParser
   name: IParser
-  href: boose/BOOSE.IParser.html
+  href: api/BOOSE.IParser.html
   commentId: T:BOOSE.IParser
   fullName: BOOSE.IParser
   nameWithType: IParser
 - uid: BOOSE.IParser.ParseCommand(System.String)
   name: ParseCommand(string)
-  href: boose/BOOSE.IParser.html#BOOSE_IParser_ParseCommand_System_String_
+  href: api/BOOSE.IParser.html#BOOSE_IParser_ParseCommand_System_String_
   commentId: M:BOOSE.IParser.ParseCommand(System.String)
   name.vb: ParseCommand(String)
   fullName: BOOSE.IParser.ParseCommand(string)
@@ -2571,14 +2419,14 @@ references:
   nameWithType.vb: IParser.ParseCommand(String)
 - uid: BOOSE.IParser.ParseCommand*
   name: ParseCommand
-  href: boose/BOOSE.IParser.html#BOOSE_IParser_ParseCommand_
+  href: api/BOOSE.IParser.html#BOOSE_IParser_ParseCommand_
   commentId: Overload:BOOSE.IParser.ParseCommand
   isSpec: "True"
   fullName: BOOSE.IParser.ParseCommand
   nameWithType: IParser.ParseCommand
 - uid: BOOSE.IParser.ParseProgram(System.String)
   name: ParseProgram(string)
-  href: boose/BOOSE.IParser.html#BOOSE_IParser_ParseProgram_System_String_
+  href: api/BOOSE.IParser.html#BOOSE_IParser_ParseProgram_System_String_
   commentId: M:BOOSE.IParser.ParseProgram(System.String)
   name.vb: ParseProgram(String)
   fullName: BOOSE.IParser.ParseProgram(string)
@@ -2587,59 +2435,59 @@ references:
   nameWithType.vb: IParser.ParseProgram(String)
 - uid: BOOSE.IParser.ParseProgram*
   name: ParseProgram
-  href: boose/BOOSE.IParser.html#BOOSE_IParser_ParseProgram_
+  href: api/BOOSE.IParser.html#BOOSE_IParser_ParseProgram_
   commentId: Overload:BOOSE.IParser.ParseProgram
   isSpec: "True"
   fullName: BOOSE.IParser.ParseProgram
   nameWithType: IParser.ParseProgram
 - uid: BOOSE.IStoredProgram
   name: IStoredProgram
-  href: boose/BOOSE.IStoredProgram.html
+  href: api/BOOSE.IStoredProgram.html
   commentId: T:BOOSE.IStoredProgram
   fullName: BOOSE.IStoredProgram
   nameWithType: IStoredProgram
 - uid: BOOSE.IStoredProgram.Add(BOOSE.Command)
   name: Add(Command)
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_Add_BOOSE_Command_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_Add_BOOSE_Command_
   commentId: M:BOOSE.IStoredProgram.Add(BOOSE.Command)
   fullName: BOOSE.IStoredProgram.Add(BOOSE.Command)
   nameWithType: IStoredProgram.Add(Command)
 - uid: BOOSE.IStoredProgram.Add*
   name: Add
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_Add_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_Add_
   commentId: Overload:BOOSE.IStoredProgram.Add
   isSpec: "True"
   fullName: BOOSE.IStoredProgram.Add
   nameWithType: IStoredProgram.Add
 - uid: BOOSE.IStoredProgram.AddVariable(BOOSE.Evaluation)
   name: AddVariable(Evaluation)
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_AddVariable_BOOSE_Evaluation_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_AddVariable_BOOSE_Evaluation_
   commentId: M:BOOSE.IStoredProgram.AddVariable(BOOSE.Evaluation)
   fullName: BOOSE.IStoredProgram.AddVariable(BOOSE.Evaluation)
   nameWithType: IStoredProgram.AddVariable(Evaluation)
 - uid: BOOSE.IStoredProgram.AddVariable*
   name: AddVariable
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_AddVariable_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_AddVariable_
   commentId: Overload:BOOSE.IStoredProgram.AddVariable
   isSpec: "True"
   fullName: BOOSE.IStoredProgram.AddVariable
   nameWithType: IStoredProgram.AddVariable
 - uid: BOOSE.IStoredProgram.Commandsleft
   name: Commandsleft()
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_Commandsleft
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_Commandsleft
   commentId: M:BOOSE.IStoredProgram.Commandsleft
   fullName: BOOSE.IStoredProgram.Commandsleft()
   nameWithType: IStoredProgram.Commandsleft()
 - uid: BOOSE.IStoredProgram.Commandsleft*
   name: Commandsleft
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_Commandsleft_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_Commandsleft_
   commentId: Overload:BOOSE.IStoredProgram.Commandsleft
   isSpec: "True"
   fullName: BOOSE.IStoredProgram.Commandsleft
   nameWithType: IStoredProgram.Commandsleft
 - uid: BOOSE.IStoredProgram.EvaluateExpression(System.String)
   name: EvaluateExpression(string)
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_EvaluateExpression_System_String_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_EvaluateExpression_System_String_
   commentId: M:BOOSE.IStoredProgram.EvaluateExpression(System.String)
   name.vb: EvaluateExpression(String)
   fullName: BOOSE.IStoredProgram.EvaluateExpression(string)
@@ -2648,14 +2496,14 @@ references:
   nameWithType.vb: IStoredProgram.EvaluateExpression(String)
 - uid: BOOSE.IStoredProgram.EvaluateExpression*
   name: EvaluateExpression
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_EvaluateExpression_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_EvaluateExpression_
   commentId: Overload:BOOSE.IStoredProgram.EvaluateExpression
   isSpec: "True"
   fullName: BOOSE.IStoredProgram.EvaluateExpression
   nameWithType: IStoredProgram.EvaluateExpression
 - uid: BOOSE.IStoredProgram.GetVarValue(System.String)
   name: GetVarValue(string)
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_GetVarValue_System_String_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_GetVarValue_System_String_
   commentId: M:BOOSE.IStoredProgram.GetVarValue(System.String)
   name.vb: GetVarValue(String)
   fullName: BOOSE.IStoredProgram.GetVarValue(string)
@@ -2664,14 +2512,14 @@ references:
   nameWithType.vb: IStoredProgram.GetVarValue(String)
 - uid: BOOSE.IStoredProgram.GetVarValue*
   name: GetVarValue
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_GetVarValue_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_GetVarValue_
   commentId: Overload:BOOSE.IStoredProgram.GetVarValue
   isSpec: "True"
   fullName: BOOSE.IStoredProgram.GetVarValue
   nameWithType: IStoredProgram.GetVarValue
 - uid: BOOSE.IStoredProgram.IsExpression(System.String)
   name: IsExpression(string)
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_IsExpression_System_String_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_IsExpression_System_String_
   commentId: M:BOOSE.IStoredProgram.IsExpression(System.String)
   name.vb: IsExpression(String)
   fullName: BOOSE.IStoredProgram.IsExpression(string)
@@ -2680,53 +2528,53 @@ references:
   nameWithType.vb: IStoredProgram.IsExpression(String)
 - uid: BOOSE.IStoredProgram.IsExpression*
   name: IsExpression
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_IsExpression_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_IsExpression_
   commentId: Overload:BOOSE.IStoredProgram.IsExpression
   isSpec: "True"
   fullName: BOOSE.IStoredProgram.IsExpression
   nameWithType: IStoredProgram.IsExpression
 - uid: BOOSE.IStoredProgram.PC
   name: PC
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_PC
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_PC
   commentId: P:BOOSE.IStoredProgram.PC
   fullName: BOOSE.IStoredProgram.PC
   nameWithType: IStoredProgram.PC
 - uid: BOOSE.IStoredProgram.PC*
   name: PC
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_PC_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_PC_
   commentId: Overload:BOOSE.IStoredProgram.PC
   isSpec: "True"
   fullName: BOOSE.IStoredProgram.PC
   nameWithType: IStoredProgram.PC
 - uid: BOOSE.IStoredProgram.ResetProgram
   name: ResetProgram()
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_ResetProgram
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_ResetProgram
   commentId: M:BOOSE.IStoredProgram.ResetProgram
   fullName: BOOSE.IStoredProgram.ResetProgram()
   nameWithType: IStoredProgram.ResetProgram()
 - uid: BOOSE.IStoredProgram.ResetProgram*
   name: ResetProgram
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_ResetProgram_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_ResetProgram_
   commentId: Overload:BOOSE.IStoredProgram.ResetProgram
   isSpec: "True"
   fullName: BOOSE.IStoredProgram.ResetProgram
   nameWithType: IStoredProgram.ResetProgram
 - uid: BOOSE.IStoredProgram.Run
   name: Run()
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_Run
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_Run
   commentId: M:BOOSE.IStoredProgram.Run
   fullName: BOOSE.IStoredProgram.Run()
   nameWithType: IStoredProgram.Run()
 - uid: BOOSE.IStoredProgram.Run*
   name: Run
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_Run_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_Run_
   commentId: Overload:BOOSE.IStoredProgram.Run
   isSpec: "True"
   fullName: BOOSE.IStoredProgram.Run
   nameWithType: IStoredProgram.Run
 - uid: BOOSE.IStoredProgram.VariableExists(System.String)
   name: VariableExists(string)
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_VariableExists_System_String_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_VariableExists_System_String_
   commentId: M:BOOSE.IStoredProgram.VariableExists(System.String)
   name.vb: VariableExists(String)
   fullName: BOOSE.IStoredProgram.VariableExists(string)
@@ -2735,26 +2583,45 @@ references:
   nameWithType.vb: IStoredProgram.VariableExists(String)
 - uid: BOOSE.IStoredProgram.VariableExists*
   name: VariableExists
-  href: boose/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_VariableExists_
+  href: api/BOOSE.IStoredProgram.html#BOOSE_IStoredProgram_VariableExists_
   commentId: Overload:BOOSE.IStoredProgram.VariableExists
   isSpec: "True"
   fullName: BOOSE.IStoredProgram.VariableExists
   nameWithType: IStoredProgram.VariableExists
 - uid: BOOSE.If
   name: If
-  href: boose/BOOSE.If.html
+  href: api/BOOSE.If.html
   commentId: T:BOOSE.If
   fullName: BOOSE.If
   nameWithType: If
+- uid: BOOSE.If.#ctor
+  name: If()
+  href: api/BOOSE.If.html#BOOSE_If__ctor
+  commentId: M:BOOSE.If.#ctor
+  name.vb: New()
+  fullName: BOOSE.If.If()
+  fullName.vb: BOOSE.If.New()
+  nameWithType: If.If()
+  nameWithType.vb: If.New()
+- uid: BOOSE.If.#ctor*
+  name: If
+  href: api/BOOSE.If.html#BOOSE_If__ctor_
+  commentId: Overload:BOOSE.If.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE.If.If
+  fullName.vb: BOOSE.If.New
+  nameWithType: If.If
+  nameWithType.vb: If.New
 - uid: BOOSE.Int
   name: Int
-  href: boose/BOOSE.Int.html
+  href: api/BOOSE.Int.html
   commentId: T:BOOSE.Int
   fullName: BOOSE.Int
   nameWithType: Int
 - uid: BOOSE.Int.#ctor
   name: Int()
-  href: boose/BOOSE.Int.html#BOOSE_Int__ctor
+  href: api/BOOSE.Int.html#BOOSE_Int__ctor
   commentId: M:BOOSE.Int.#ctor
   name.vb: New()
   fullName: BOOSE.Int.Int()
@@ -2763,7 +2630,7 @@ references:
   nameWithType.vb: Int.New()
 - uid: BOOSE.Int.#ctor*
   name: Int
-  href: boose/BOOSE.Int.html#BOOSE_Int__ctor_
+  href: api/BOOSE.Int.html#BOOSE_Int__ctor_
   commentId: Overload:BOOSE.Int.#ctor
   isSpec: "True"
   name.vb: New
@@ -2773,39 +2640,39 @@ references:
   nameWithType.vb: Int.New
 - uid: BOOSE.Int.Compile
   name: Compile()
-  href: boose/BOOSE.Int.html#BOOSE_Int_Compile
+  href: api/BOOSE.Int.html#BOOSE_Int_Compile
   commentId: M:BOOSE.Int.Compile
   fullName: BOOSE.Int.Compile()
   nameWithType: Int.Compile()
 - uid: BOOSE.Int.Compile*
   name: Compile
-  href: boose/BOOSE.Int.html#BOOSE_Int_Compile_
+  href: api/BOOSE.Int.html#BOOSE_Int_Compile_
   commentId: Overload:BOOSE.Int.Compile
   isSpec: "True"
   fullName: BOOSE.Int.Compile
   nameWithType: Int.Compile
 - uid: BOOSE.Int.Execute
   name: Execute()
-  href: boose/BOOSE.Int.html#BOOSE_Int_Execute
+  href: api/BOOSE.Int.html#BOOSE_Int_Execute
   commentId: M:BOOSE.Int.Execute
   fullName: BOOSE.Int.Execute()
   nameWithType: Int.Execute()
 - uid: BOOSE.Int.Execute*
   name: Execute
-  href: boose/BOOSE.Int.html#BOOSE_Int_Execute_
+  href: api/BOOSE.Int.html#BOOSE_Int_Execute_
   commentId: Overload:BOOSE.Int.Execute
   isSpec: "True"
   fullName: BOOSE.Int.Execute
   nameWithType: Int.Execute
 - uid: BOOSE.Method
   name: Method
-  href: boose/BOOSE.Method.html
+  href: api/BOOSE.Method.html
   commentId: T:BOOSE.Method
   fullName: BOOSE.Method
   nameWithType: Method
 - uid: BOOSE.Method.#ctor
   name: Method()
-  href: boose/BOOSE.Method.html#BOOSE_Method__ctor
+  href: api/BOOSE.Method.html#BOOSE_Method__ctor
   commentId: M:BOOSE.Method.#ctor
   name.vb: New()
   fullName: BOOSE.Method.Method()
@@ -2814,7 +2681,7 @@ references:
   nameWithType.vb: Method.New()
 - uid: BOOSE.Method.#ctor*
   name: Method
-  href: boose/BOOSE.Method.html#BOOSE_Method__ctor_
+  href: api/BOOSE.Method.html#BOOSE_Method__ctor_
   commentId: Overload:BOOSE.Method.#ctor
   isSpec: "True"
   name.vb: New
@@ -2824,7 +2691,7 @@ references:
   nameWithType.vb: Method.New
 - uid: BOOSE.Method.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.Method.html#BOOSE_Method_CheckParameters_System_String___
+  href: api/BOOSE.Method.html#BOOSE_Method_CheckParameters_System_String___
   commentId: M:BOOSE.Method.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.Method.CheckParameters(string[])
@@ -2833,85 +2700,85 @@ references:
   nameWithType.vb: Method.CheckParameters(String())
 - uid: BOOSE.Method.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.Method.html#BOOSE_Method_CheckParameters_
+  href: api/BOOSE.Method.html#BOOSE_Method_CheckParameters_
   commentId: Overload:BOOSE.Method.CheckParameters
   isSpec: "True"
   fullName: BOOSE.Method.CheckParameters
   nameWithType: Method.CheckParameters
 - uid: BOOSE.Method.Compile
   name: Compile()
-  href: boose/BOOSE.Method.html#BOOSE_Method_Compile
+  href: api/BOOSE.Method.html#BOOSE_Method_Compile
   commentId: M:BOOSE.Method.Compile
   fullName: BOOSE.Method.Compile()
   nameWithType: Method.Compile()
 - uid: BOOSE.Method.Compile*
   name: Compile
-  href: boose/BOOSE.Method.html#BOOSE_Method_Compile_
+  href: api/BOOSE.Method.html#BOOSE_Method_Compile_
   commentId: Overload:BOOSE.Method.Compile
   isSpec: "True"
   fullName: BOOSE.Method.Compile
   nameWithType: Method.Compile
 - uid: BOOSE.Method.Execute
   name: Execute()
-  href: boose/BOOSE.Method.html#BOOSE_Method_Execute
+  href: api/BOOSE.Method.html#BOOSE_Method_Execute
   commentId: M:BOOSE.Method.Execute
   fullName: BOOSE.Method.Execute()
   nameWithType: Method.Execute()
 - uid: BOOSE.Method.Execute*
   name: Execute
-  href: boose/BOOSE.Method.html#BOOSE_Method_Execute_
+  href: api/BOOSE.Method.html#BOOSE_Method_Execute_
   commentId: Overload:BOOSE.Method.Execute
   isSpec: "True"
   fullName: BOOSE.Method.Execute
   nameWithType: Method.Execute
 - uid: BOOSE.Method.LocalVariables
   name: LocalVariables
-  href: boose/BOOSE.Method.html#BOOSE_Method_LocalVariables
+  href: api/BOOSE.Method.html#BOOSE_Method_LocalVariables
   commentId: P:BOOSE.Method.LocalVariables
   fullName: BOOSE.Method.LocalVariables
   nameWithType: Method.LocalVariables
 - uid: BOOSE.Method.LocalVariables*
   name: LocalVariables
-  href: boose/BOOSE.Method.html#BOOSE_Method_LocalVariables_
+  href: api/BOOSE.Method.html#BOOSE_Method_LocalVariables_
   commentId: Overload:BOOSE.Method.LocalVariables
   isSpec: "True"
   fullName: BOOSE.Method.LocalVariables
   nameWithType: Method.LocalVariables
 - uid: BOOSE.Method.MethodName
   name: MethodName
-  href: boose/BOOSE.Method.html#BOOSE_Method_MethodName
+  href: api/BOOSE.Method.html#BOOSE_Method_MethodName
   commentId: P:BOOSE.Method.MethodName
   fullName: BOOSE.Method.MethodName
   nameWithType: Method.MethodName
 - uid: BOOSE.Method.MethodName*
   name: MethodName
-  href: boose/BOOSE.Method.html#BOOSE_Method_MethodName_
+  href: api/BOOSE.Method.html#BOOSE_Method_MethodName_
   commentId: Overload:BOOSE.Method.MethodName
   isSpec: "True"
   fullName: BOOSE.Method.MethodName
   nameWithType: Method.MethodName
 - uid: BOOSE.Method.Type
   name: Type
-  href: boose/BOOSE.Method.html#BOOSE_Method_Type
+  href: api/BOOSE.Method.html#BOOSE_Method_Type
   commentId: P:BOOSE.Method.Type
   fullName: BOOSE.Method.Type
   nameWithType: Method.Type
 - uid: BOOSE.Method.Type*
   name: Type
-  href: boose/BOOSE.Method.html#BOOSE_Method_Type_
+  href: api/BOOSE.Method.html#BOOSE_Method_Type_
   commentId: Overload:BOOSE.Method.Type
   isSpec: "True"
   fullName: BOOSE.Method.Type
   nameWithType: Method.Type
 - uid: BOOSE.MoveTo
   name: MoveTo
-  href: boose/BOOSE.MoveTo.html
+  href: api/BOOSE.MoveTo.html
   commentId: T:BOOSE.MoveTo
   fullName: BOOSE.MoveTo
   nameWithType: MoveTo
 - uid: BOOSE.MoveTo.#ctor
   name: MoveTo()
-  href: boose/BOOSE.MoveTo.html#BOOSE_MoveTo__ctor
+  href: api/BOOSE.MoveTo.html#BOOSE_MoveTo__ctor
   commentId: M:BOOSE.MoveTo.#ctor
   name.vb: New()
   fullName: BOOSE.MoveTo.MoveTo()
@@ -2920,7 +2787,7 @@ references:
   nameWithType.vb: MoveTo.New()
 - uid: BOOSE.MoveTo.#ctor*
   name: MoveTo
-  href: boose/BOOSE.MoveTo.html#BOOSE_MoveTo__ctor_
+  href: api/BOOSE.MoveTo.html#BOOSE_MoveTo__ctor_
   commentId: Overload:BOOSE.MoveTo.#ctor
   isSpec: "True"
   name.vb: New
@@ -2930,26 +2797,26 @@ references:
   nameWithType.vb: MoveTo.New
 - uid: BOOSE.MoveTo.Execute
   name: Execute()
-  href: boose/BOOSE.MoveTo.html#BOOSE_MoveTo_Execute
+  href: api/BOOSE.MoveTo.html#BOOSE_MoveTo_Execute
   commentId: M:BOOSE.MoveTo.Execute
   fullName: BOOSE.MoveTo.Execute()
   nameWithType: MoveTo.Execute()
 - uid: BOOSE.MoveTo.Execute*
   name: Execute
-  href: boose/BOOSE.MoveTo.html#BOOSE_MoveTo_Execute_
+  href: api/BOOSE.MoveTo.html#BOOSE_MoveTo_Execute_
   commentId: Overload:BOOSE.MoveTo.Execute
   isSpec: "True"
   fullName: BOOSE.MoveTo.Execute
   nameWithType: MoveTo.Execute
 - uid: BOOSE.Parser
   name: Parser
-  href: boose/BOOSE.Parser.html
+  href: api/BOOSE.Parser.html
   commentId: T:BOOSE.Parser
   fullName: BOOSE.Parser
   nameWithType: Parser
 - uid: BOOSE.Parser.#ctor(BOOSE.CommandFactory,BOOSE.StoredProgram)
   name: Parser(CommandFactory, StoredProgram)
-  href: boose/BOOSE.Parser.html#BOOSE_Parser__ctor_BOOSE_CommandFactory_BOOSE_StoredProgram_
+  href: api/BOOSE.Parser.html#BOOSE_Parser__ctor_BOOSE_CommandFactory_BOOSE_StoredProgram_
   commentId: M:BOOSE.Parser.#ctor(BOOSE.CommandFactory,BOOSE.StoredProgram)
   name.vb: New(CommandFactory, StoredProgram)
   fullName: BOOSE.Parser.Parser(BOOSE.CommandFactory, BOOSE.StoredProgram)
@@ -2958,7 +2825,7 @@ references:
   nameWithType.vb: Parser.New(CommandFactory, StoredProgram)
 - uid: BOOSE.Parser.#ctor*
   name: Parser
-  href: boose/BOOSE.Parser.html#BOOSE_Parser__ctor_
+  href: api/BOOSE.Parser.html#BOOSE_Parser__ctor_
   commentId: Overload:BOOSE.Parser.#ctor
   isSpec: "True"
   name.vb: New
@@ -2968,7 +2835,7 @@ references:
   nameWithType.vb: Parser.New
 - uid: BOOSE.Parser.ParseCommand(System.String)
   name: ParseCommand(string)
-  href: boose/BOOSE.Parser.html#BOOSE_Parser_ParseCommand_System_String_
+  href: api/BOOSE.Parser.html#BOOSE_Parser_ParseCommand_System_String_
   commentId: M:BOOSE.Parser.ParseCommand(System.String)
   name.vb: ParseCommand(String)
   fullName: BOOSE.Parser.ParseCommand(string)
@@ -2977,14 +2844,14 @@ references:
   nameWithType.vb: Parser.ParseCommand(String)
 - uid: BOOSE.Parser.ParseCommand*
   name: ParseCommand
-  href: boose/BOOSE.Parser.html#BOOSE_Parser_ParseCommand_
+  href: api/BOOSE.Parser.html#BOOSE_Parser_ParseCommand_
   commentId: Overload:BOOSE.Parser.ParseCommand
   isSpec: "True"
   fullName: BOOSE.Parser.ParseCommand
   nameWithType: Parser.ParseCommand
 - uid: BOOSE.Parser.ParseProgram(System.String)
   name: ParseProgram(string)
-  href: boose/BOOSE.Parser.html#BOOSE_Parser_ParseProgram_System_String_
+  href: api/BOOSE.Parser.html#BOOSE_Parser_ParseProgram_System_String_
   commentId: M:BOOSE.Parser.ParseProgram(System.String)
   name.vb: ParseProgram(String)
   fullName: BOOSE.Parser.ParseProgram(string)
@@ -2993,20 +2860,20 @@ references:
   nameWithType.vb: Parser.ParseProgram(String)
 - uid: BOOSE.Parser.ParseProgram*
   name: ParseProgram
-  href: boose/BOOSE.Parser.html#BOOSE_Parser_ParseProgram_
+  href: api/BOOSE.Parser.html#BOOSE_Parser_ParseProgram_
   commentId: Overload:BOOSE.Parser.ParseProgram
   isSpec: "True"
   fullName: BOOSE.Parser.ParseProgram
   nameWithType: Parser.ParseProgram
 - uid: BOOSE.ParserException
   name: ParserException
-  href: boose/BOOSE.ParserException.html
+  href: api/BOOSE.ParserException.html
   commentId: T:BOOSE.ParserException
   fullName: BOOSE.ParserException
   nameWithType: ParserException
 - uid: BOOSE.ParserException.#ctor(System.String)
   name: ParserException(string)
-  href: boose/BOOSE.ParserException.html#BOOSE_ParserException__ctor_System_String_
+  href: api/BOOSE.ParserException.html#BOOSE_ParserException__ctor_System_String_
   commentId: M:BOOSE.ParserException.#ctor(System.String)
   name.vb: New(String)
   fullName: BOOSE.ParserException.ParserException(string)
@@ -3015,7 +2882,7 @@ references:
   nameWithType.vb: ParserException.New(String)
 - uid: BOOSE.ParserException.#ctor*
   name: ParserException
-  href: boose/BOOSE.ParserException.html#BOOSE_ParserException__ctor_
+  href: api/BOOSE.ParserException.html#BOOSE_ParserException__ctor_
   commentId: Overload:BOOSE.ParserException.#ctor
   isSpec: "True"
   name.vb: New
@@ -3025,13 +2892,32 @@ references:
   nameWithType.vb: ParserException.New
 - uid: BOOSE.Peek
   name: Peek
-  href: boose/BOOSE.Peek.html
+  href: api/BOOSE.Peek.html
   commentId: T:BOOSE.Peek
   fullName: BOOSE.Peek
   nameWithType: Peek
+- uid: BOOSE.Peek.#ctor
+  name: Peek()
+  href: api/BOOSE.Peek.html#BOOSE_Peek__ctor
+  commentId: M:BOOSE.Peek.#ctor
+  name.vb: New()
+  fullName: BOOSE.Peek.Peek()
+  fullName.vb: BOOSE.Peek.New()
+  nameWithType: Peek.Peek()
+  nameWithType.vb: Peek.New()
+- uid: BOOSE.Peek.#ctor*
+  name: Peek
+  href: api/BOOSE.Peek.html#BOOSE_Peek__ctor_
+  commentId: Overload:BOOSE.Peek.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE.Peek.Peek
+  fullName.vb: BOOSE.Peek.New
+  nameWithType: Peek.Peek
+  nameWithType.vb: Peek.New
 - uid: BOOSE.Peek.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.Peek.html#BOOSE_Peek_CheckParameters_System_String___
+  href: api/BOOSE.Peek.html#BOOSE_Peek_CheckParameters_System_String___
   commentId: M:BOOSE.Peek.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.Peek.CheckParameters(string[])
@@ -3040,65 +2926,84 @@ references:
   nameWithType.vb: Peek.CheckParameters(String())
 - uid: BOOSE.Peek.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.Peek.html#BOOSE_Peek_CheckParameters_
+  href: api/BOOSE.Peek.html#BOOSE_Peek_CheckParameters_
   commentId: Overload:BOOSE.Peek.CheckParameters
   isSpec: "True"
   fullName: BOOSE.Peek.CheckParameters
   nameWithType: Peek.CheckParameters
 - uid: BOOSE.Peek.Compile
   name: Compile()
-  href: boose/BOOSE.Peek.html#BOOSE_Peek_Compile
+  href: api/BOOSE.Peek.html#BOOSE_Peek_Compile
   commentId: M:BOOSE.Peek.Compile
   fullName: BOOSE.Peek.Compile()
   nameWithType: Peek.Compile()
 - uid: BOOSE.Peek.Compile*
   name: Compile
-  href: boose/BOOSE.Peek.html#BOOSE_Peek_Compile_
+  href: api/BOOSE.Peek.html#BOOSE_Peek_Compile_
   commentId: Overload:BOOSE.Peek.Compile
   isSpec: "True"
   fullName: BOOSE.Peek.Compile
   nameWithType: Peek.Compile
 - uid: BOOSE.Peek.Execute
   name: Execute()
-  href: boose/BOOSE.Peek.html#BOOSE_Peek_Execute
+  href: api/BOOSE.Peek.html#BOOSE_Peek_Execute
   commentId: M:BOOSE.Peek.Execute
   fullName: BOOSE.Peek.Execute()
   nameWithType: Peek.Execute()
 - uid: BOOSE.Peek.Execute*
   name: Execute
-  href: boose/BOOSE.Peek.html#BOOSE_Peek_Execute_
+  href: api/BOOSE.Peek.html#BOOSE_Peek_Execute_
   commentId: Overload:BOOSE.Peek.Execute
   isSpec: "True"
   fullName: BOOSE.Peek.Execute
   nameWithType: Peek.Execute
 - uid: BOOSE.PenColour
   name: PenColour
-  href: boose/BOOSE.PenColour.html
+  href: api/BOOSE.PenColour.html
   commentId: T:BOOSE.PenColour
   fullName: BOOSE.PenColour
   nameWithType: PenColour
 - uid: BOOSE.PenColour.Execute
   name: Execute()
-  href: boose/BOOSE.PenColour.html#BOOSE_PenColour_Execute
+  href: api/BOOSE.PenColour.html#BOOSE_PenColour_Execute
   commentId: M:BOOSE.PenColour.Execute
   fullName: BOOSE.PenColour.Execute()
   nameWithType: PenColour.Execute()
 - uid: BOOSE.PenColour.Execute*
   name: Execute
-  href: boose/BOOSE.PenColour.html#BOOSE_PenColour_Execute_
+  href: api/BOOSE.PenColour.html#BOOSE_PenColour_Execute_
   commentId: Overload:BOOSE.PenColour.Execute
   isSpec: "True"
   fullName: BOOSE.PenColour.Execute
   nameWithType: PenColour.Execute
 - uid: BOOSE.Poke
   name: Poke
-  href: boose/BOOSE.Poke.html
+  href: api/BOOSE.Poke.html
   commentId: T:BOOSE.Poke
   fullName: BOOSE.Poke
   nameWithType: Poke
+- uid: BOOSE.Poke.#ctor
+  name: Poke()
+  href: api/BOOSE.Poke.html#BOOSE_Poke__ctor
+  commentId: M:BOOSE.Poke.#ctor
+  name.vb: New()
+  fullName: BOOSE.Poke.Poke()
+  fullName.vb: BOOSE.Poke.New()
+  nameWithType: Poke.Poke()
+  nameWithType.vb: Poke.New()
+- uid: BOOSE.Poke.#ctor*
+  name: Poke
+  href: api/BOOSE.Poke.html#BOOSE_Poke__ctor_
+  commentId: Overload:BOOSE.Poke.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE.Poke.Poke
+  fullName.vb: BOOSE.Poke.New
+  nameWithType: Poke.Poke
+  nameWithType.vb: Poke.New
 - uid: BOOSE.Poke.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.Poke.html#BOOSE_Poke_CheckParameters_System_String___
+  href: api/BOOSE.Poke.html#BOOSE_Poke_CheckParameters_System_String___
   commentId: M:BOOSE.Poke.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.Poke.CheckParameters(string[])
@@ -3107,40 +3012,40 @@ references:
   nameWithType.vb: Poke.CheckParameters(String())
 - uid: BOOSE.Poke.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.Poke.html#BOOSE_Poke_CheckParameters_
+  href: api/BOOSE.Poke.html#BOOSE_Poke_CheckParameters_
   commentId: Overload:BOOSE.Poke.CheckParameters
   isSpec: "True"
   fullName: BOOSE.Poke.CheckParameters
   nameWithType: Poke.CheckParameters
 - uid: BOOSE.Poke.Compile
   name: Compile()
-  href: boose/BOOSE.Poke.html#BOOSE_Poke_Compile
+  href: api/BOOSE.Poke.html#BOOSE_Poke_Compile
   commentId: M:BOOSE.Poke.Compile
   fullName: BOOSE.Poke.Compile()
   nameWithType: Poke.Compile()
 - uid: BOOSE.Poke.Compile*
   name: Compile
-  href: boose/BOOSE.Poke.html#BOOSE_Poke_Compile_
+  href: api/BOOSE.Poke.html#BOOSE_Poke_Compile_
   commentId: Overload:BOOSE.Poke.Compile
   isSpec: "True"
   fullName: BOOSE.Poke.Compile
   nameWithType: Poke.Compile
 - uid: BOOSE.Poke.Execute
   name: Execute()
-  href: boose/BOOSE.Poke.html#BOOSE_Poke_Execute
+  href: api/BOOSE.Poke.html#BOOSE_Poke_Execute
   commentId: M:BOOSE.Poke.Execute
   fullName: BOOSE.Poke.Execute()
   nameWithType: Poke.Execute()
 - uid: BOOSE.Poke.Execute*
   name: Execute
-  href: boose/BOOSE.Poke.html#BOOSE_Poke_Execute_
+  href: api/BOOSE.Poke.html#BOOSE_Poke_Execute_
   commentId: Overload:BOOSE.Poke.Execute
   isSpec: "True"
   fullName: BOOSE.Poke.Execute
   nameWithType: Poke.Execute
 - uid: BOOSE.Poke.Set(BOOSE.StoredProgram,System.String)
   name: Set(StoredProgram, string)
-  href: boose/BOOSE.Poke.html#BOOSE_Poke_Set_BOOSE_StoredProgram_System_String_
+  href: api/BOOSE.Poke.html#BOOSE_Poke_Set_BOOSE_StoredProgram_System_String_
   commentId: M:BOOSE.Poke.Set(BOOSE.StoredProgram,System.String)
   name.vb: Set(StoredProgram, String)
   fullName: BOOSE.Poke.Set(BOOSE.StoredProgram, string)
@@ -3149,20 +3054,20 @@ references:
   nameWithType.vb: Poke.Set(StoredProgram, String)
 - uid: BOOSE.Poke.Set*
   name: Set
-  href: boose/BOOSE.Poke.html#BOOSE_Poke_Set_
+  href: api/BOOSE.Poke.html#BOOSE_Poke_Set_
   commentId: Overload:BOOSE.Poke.Set
   isSpec: "True"
   fullName: BOOSE.Poke.Set
   nameWithType: Poke.Set
 - uid: BOOSE.Real
   name: Real
-  href: boose/BOOSE.Real.html
+  href: api/BOOSE.Real.html
   commentId: T:BOOSE.Real
   fullName: BOOSE.Real
   nameWithType: Real
 - uid: BOOSE.Real.#ctor
   name: Real()
-  href: boose/BOOSE.Real.html#BOOSE_Real__ctor
+  href: api/BOOSE.Real.html#BOOSE_Real__ctor
   commentId: M:BOOSE.Real.#ctor
   name.vb: New()
   fullName: BOOSE.Real.Real()
@@ -3171,7 +3076,7 @@ references:
   nameWithType.vb: Real.New()
 - uid: BOOSE.Real.#ctor*
   name: Real
-  href: boose/BOOSE.Real.html#BOOSE_Real__ctor_
+  href: api/BOOSE.Real.html#BOOSE_Real__ctor_
   commentId: Overload:BOOSE.Real.#ctor
   isSpec: "True"
   name.vb: New
@@ -3181,52 +3086,52 @@ references:
   nameWithType.vb: Real.New
 - uid: BOOSE.Real.Compile
   name: Compile()
-  href: boose/BOOSE.Real.html#BOOSE_Real_Compile
+  href: api/BOOSE.Real.html#BOOSE_Real_Compile
   commentId: M:BOOSE.Real.Compile
   fullName: BOOSE.Real.Compile()
   nameWithType: Real.Compile()
 - uid: BOOSE.Real.Compile*
   name: Compile
-  href: boose/BOOSE.Real.html#BOOSE_Real_Compile_
+  href: api/BOOSE.Real.html#BOOSE_Real_Compile_
   commentId: Overload:BOOSE.Real.Compile
   isSpec: "True"
   fullName: BOOSE.Real.Compile
   nameWithType: Real.Compile
 - uid: BOOSE.Real.Execute
   name: Execute()
-  href: boose/BOOSE.Real.html#BOOSE_Real_Execute
+  href: api/BOOSE.Real.html#BOOSE_Real_Execute
   commentId: M:BOOSE.Real.Execute
   fullName: BOOSE.Real.Execute()
   nameWithType: Real.Execute()
 - uid: BOOSE.Real.Execute*
   name: Execute
-  href: boose/BOOSE.Real.html#BOOSE_Real_Execute_
+  href: api/BOOSE.Real.html#BOOSE_Real_Execute_
   commentId: Overload:BOOSE.Real.Execute
   isSpec: "True"
   fullName: BOOSE.Real.Execute
   nameWithType: Real.Execute
 - uid: BOOSE.Real.Value
   name: Value
-  href: boose/BOOSE.Real.html#BOOSE_Real_Value
+  href: api/BOOSE.Real.html#BOOSE_Real_Value
   commentId: P:BOOSE.Real.Value
   fullName: BOOSE.Real.Value
   nameWithType: Real.Value
 - uid: BOOSE.Real.Value*
   name: Value
-  href: boose/BOOSE.Real.html#BOOSE_Real_Value_
+  href: api/BOOSE.Real.html#BOOSE_Real_Value_
   commentId: Overload:BOOSE.Real.Value
   isSpec: "True"
   fullName: BOOSE.Real.Value
   nameWithType: Real.Value
 - uid: BOOSE.Rect
   name: Rect
-  href: boose/BOOSE.Rect.html
+  href: api/BOOSE.Rect.html
   commentId: T:BOOSE.Rect
   fullName: BOOSE.Rect
   nameWithType: Rect
 - uid: BOOSE.Rect.#ctor
   name: Rect()
-  href: boose/BOOSE.Rect.html#BOOSE_Rect__ctor
+  href: api/BOOSE.Rect.html#BOOSE_Rect__ctor
   commentId: M:BOOSE.Rect.#ctor
   name.vb: New()
   fullName: BOOSE.Rect.Rect()
@@ -3235,7 +3140,7 @@ references:
   nameWithType.vb: Rect.New()
 - uid: BOOSE.Rect.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
   name: Rect(Canvas, int, int)
-  href: boose/BOOSE.Rect.html#BOOSE_Rect__ctor_BOOSE_Canvas_System_Int32_System_Int32_
+  href: api/BOOSE.Rect.html#BOOSE_Rect__ctor_BOOSE_Canvas_System_Int32_System_Int32_
   commentId: M:BOOSE.Rect.#ctor(BOOSE.Canvas,System.Int32,System.Int32)
   name.vb: New(Canvas, Integer, Integer)
   fullName: BOOSE.Rect.Rect(BOOSE.Canvas, int, int)
@@ -3244,7 +3149,7 @@ references:
   nameWithType.vb: Rect.New(Canvas, Integer, Integer)
 - uid: BOOSE.Rect.#ctor*
   name: Rect
-  href: boose/BOOSE.Rect.html#BOOSE_Rect__ctor_
+  href: api/BOOSE.Rect.html#BOOSE_Rect__ctor_
   commentId: Overload:BOOSE.Rect.#ctor
   isSpec: "True"
   name.vb: New
@@ -3254,7 +3159,7 @@ references:
   nameWithType.vb: Rect.New
 - uid: BOOSE.Rect.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.Rect.html#BOOSE_Rect_CheckParameters_System_String___
+  href: api/BOOSE.Rect.html#BOOSE_Rect_CheckParameters_System_String___
   commentId: M:BOOSE.Rect.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.Rect.CheckParameters(string[])
@@ -3263,33 +3168,33 @@ references:
   nameWithType.vb: Rect.CheckParameters(String())
 - uid: BOOSE.Rect.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.Rect.html#BOOSE_Rect_CheckParameters_
+  href: api/BOOSE.Rect.html#BOOSE_Rect_CheckParameters_
   commentId: Overload:BOOSE.Rect.CheckParameters
   isSpec: "True"
   fullName: BOOSE.Rect.CheckParameters
   nameWithType: Rect.CheckParameters
 - uid: BOOSE.Rect.Execute
   name: Execute()
-  href: boose/BOOSE.Rect.html#BOOSE_Rect_Execute
+  href: api/BOOSE.Rect.html#BOOSE_Rect_Execute
   commentId: M:BOOSE.Rect.Execute
   fullName: BOOSE.Rect.Execute()
   nameWithType: Rect.Execute()
 - uid: BOOSE.Rect.Execute*
   name: Execute
-  href: boose/BOOSE.Rect.html#BOOSE_Rect_Execute_
+  href: api/BOOSE.Rect.html#BOOSE_Rect_Execute_
   commentId: Overload:BOOSE.Rect.Execute
   isSpec: "True"
   fullName: BOOSE.Rect.Execute
   nameWithType: Rect.Execute
 - uid: BOOSE.RestrictionException
   name: RestrictionException
-  href: boose/BOOSE.RestrictionException.html
+  href: api/BOOSE.RestrictionException.html
   commentId: T:BOOSE.RestrictionException
   fullName: BOOSE.RestrictionException
   nameWithType: RestrictionException
 - uid: BOOSE.RestrictionException.#ctor(System.String)
   name: RestrictionException(string)
-  href: boose/BOOSE.RestrictionException.html#BOOSE_RestrictionException__ctor_System_String_
+  href: api/BOOSE.RestrictionException.html#BOOSE_RestrictionException__ctor_System_String_
   commentId: M:BOOSE.RestrictionException.#ctor(System.String)
   name.vb: New(String)
   fullName: BOOSE.RestrictionException.RestrictionException(string)
@@ -3298,7 +3203,7 @@ references:
   nameWithType.vb: RestrictionException.New(String)
 - uid: BOOSE.RestrictionException.#ctor*
   name: RestrictionException
-  href: boose/BOOSE.RestrictionException.html#BOOSE_RestrictionException__ctor_
+  href: api/BOOSE.RestrictionException.html#BOOSE_RestrictionException__ctor_
   commentId: Overload:BOOSE.RestrictionException.#ctor
   isSpec: "True"
   name.vb: New
@@ -3308,13 +3213,13 @@ references:
   nameWithType.vb: RestrictionException.New
 - uid: BOOSE.StoredProgram
   name: StoredProgram
-  href: boose/BOOSE.StoredProgram.html
+  href: api/BOOSE.StoredProgram.html
   commentId: T:BOOSE.StoredProgram
   fullName: BOOSE.StoredProgram
   nameWithType: StoredProgram
 - uid: BOOSE.StoredProgram.#ctor(BOOSE.ICanvas)
   name: StoredProgram(ICanvas)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram__ctor_BOOSE_ICanvas_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram__ctor_BOOSE_ICanvas_
   commentId: M:BOOSE.StoredProgram.#ctor(BOOSE.ICanvas)
   name.vb: New(ICanvas)
   fullName: BOOSE.StoredProgram.StoredProgram(BOOSE.ICanvas)
@@ -3323,7 +3228,7 @@ references:
   nameWithType.vb: StoredProgram.New(ICanvas)
 - uid: BOOSE.StoredProgram.#ctor*
   name: StoredProgram
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram__ctor_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram__ctor_
   commentId: Overload:BOOSE.StoredProgram.#ctor
   isSpec: "True"
   name.vb: New
@@ -3333,59 +3238,59 @@ references:
   nameWithType.vb: StoredProgram.New
 - uid: BOOSE.StoredProgram.Add(BOOSE.Command)
   name: Add(Command)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Add_BOOSE_Command_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Add_BOOSE_Command_
   commentId: M:BOOSE.StoredProgram.Add(BOOSE.Command)
   fullName: BOOSE.StoredProgram.Add(BOOSE.Command)
   nameWithType: StoredProgram.Add(Command)
 - uid: BOOSE.StoredProgram.Add*
   name: Add
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Add_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Add_
   commentId: Overload:BOOSE.StoredProgram.Add
   isSpec: "True"
   fullName: BOOSE.StoredProgram.Add
   nameWithType: StoredProgram.Add
 - uid: BOOSE.StoredProgram.AddMethod(BOOSE.Method)
   name: AddMethod(Method)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_AddMethod_BOOSE_Method_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_AddMethod_BOOSE_Method_
   commentId: M:BOOSE.StoredProgram.AddMethod(BOOSE.Method)
   fullName: BOOSE.StoredProgram.AddMethod(BOOSE.Method)
   nameWithType: StoredProgram.AddMethod(Method)
 - uid: BOOSE.StoredProgram.AddMethod*
   name: AddMethod
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_AddMethod_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_AddMethod_
   commentId: Overload:BOOSE.StoredProgram.AddMethod
   isSpec: "True"
   fullName: BOOSE.StoredProgram.AddMethod
   nameWithType: StoredProgram.AddMethod
 - uid: BOOSE.StoredProgram.AddVariable(BOOSE.Evaluation)
   name: AddVariable(Evaluation)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_AddVariable_BOOSE_Evaluation_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_AddVariable_BOOSE_Evaluation_
   commentId: M:BOOSE.StoredProgram.AddVariable(BOOSE.Evaluation)
   fullName: BOOSE.StoredProgram.AddVariable(BOOSE.Evaluation)
   nameWithType: StoredProgram.AddVariable(Evaluation)
 - uid: BOOSE.StoredProgram.AddVariable*
   name: AddVariable
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_AddVariable_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_AddVariable_
   commentId: Overload:BOOSE.StoredProgram.AddVariable
   isSpec: "True"
   fullName: BOOSE.StoredProgram.AddVariable
   nameWithType: StoredProgram.AddVariable
 - uid: BOOSE.StoredProgram.Commandsleft
   name: Commandsleft()
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Commandsleft
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Commandsleft
   commentId: M:BOOSE.StoredProgram.Commandsleft
   fullName: BOOSE.StoredProgram.Commandsleft()
   nameWithType: StoredProgram.Commandsleft()
 - uid: BOOSE.StoredProgram.Commandsleft*
   name: Commandsleft
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Commandsleft_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Commandsleft_
   commentId: Overload:BOOSE.StoredProgram.Commandsleft
   isSpec: "True"
   fullName: BOOSE.StoredProgram.Commandsleft
   nameWithType: StoredProgram.Commandsleft
 - uid: BOOSE.StoredProgram.DeleteVariable(System.String)
   name: DeleteVariable(string)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_DeleteVariable_System_String_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_DeleteVariable_System_String_
   commentId: M:BOOSE.StoredProgram.DeleteVariable(System.String)
   name.vb: DeleteVariable(String)
   fullName: BOOSE.StoredProgram.DeleteVariable(string)
@@ -3394,14 +3299,14 @@ references:
   nameWithType.vb: StoredProgram.DeleteVariable(String)
 - uid: BOOSE.StoredProgram.DeleteVariable*
   name: DeleteVariable
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_DeleteVariable_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_DeleteVariable_
   commentId: Overload:BOOSE.StoredProgram.DeleteVariable
   isSpec: "True"
   fullName: BOOSE.StoredProgram.DeleteVariable
   nameWithType: StoredProgram.DeleteVariable
 - uid: BOOSE.StoredProgram.EvaluateExpression(System.String)
   name: EvaluateExpression(string)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_EvaluateExpression_System_String_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_EvaluateExpression_System_String_
   commentId: M:BOOSE.StoredProgram.EvaluateExpression(System.String)
   name.vb: EvaluateExpression(String)
   fullName: BOOSE.StoredProgram.EvaluateExpression(string)
@@ -3410,14 +3315,14 @@ references:
   nameWithType.vb: StoredProgram.EvaluateExpression(String)
 - uid: BOOSE.StoredProgram.EvaluateExpression*
   name: EvaluateExpression
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_EvaluateExpression_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_EvaluateExpression_
   commentId: Overload:BOOSE.StoredProgram.EvaluateExpression
   isSpec: "True"
   fullName: BOOSE.StoredProgram.EvaluateExpression
   nameWithType: StoredProgram.EvaluateExpression
 - uid: BOOSE.StoredProgram.EvaluateExpressionWithString(System.String)
   name: EvaluateExpressionWithString(string)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_EvaluateExpressionWithString_System_String_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_EvaluateExpressionWithString_System_String_
   commentId: M:BOOSE.StoredProgram.EvaluateExpressionWithString(System.String)
   name.vb: EvaluateExpressionWithString(String)
   fullName: BOOSE.StoredProgram.EvaluateExpressionWithString(string)
@@ -3426,42 +3331,20 @@ references:
   nameWithType.vb: StoredProgram.EvaluateExpressionWithString(String)
 - uid: BOOSE.StoredProgram.EvaluateExpressionWithString*
   name: EvaluateExpressionWithString
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_EvaluateExpressionWithString_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_EvaluateExpressionWithString_
   commentId: Overload:BOOSE.StoredProgram.EvaluateExpressionWithString
   isSpec: "True"
   fullName: BOOSE.StoredProgram.EvaluateExpressionWithString
   nameWithType: StoredProgram.EvaluateExpressionWithString
-- uid: BOOSE.StoredProgram.FindMethod(BOOSE.Method)
-  name: FindMethod(Method)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_FindMethod_BOOSE_Method_
-  commentId: M:BOOSE.StoredProgram.FindMethod(BOOSE.Method)
-  fullName: BOOSE.StoredProgram.FindMethod(BOOSE.Method)
-  nameWithType: StoredProgram.FindMethod(Method)
-- uid: BOOSE.StoredProgram.FindMethod(System.String)
-  name: FindMethod(string)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_FindMethod_System_String_
-  commentId: M:BOOSE.StoredProgram.FindMethod(System.String)
-  name.vb: FindMethod(String)
-  fullName: BOOSE.StoredProgram.FindMethod(string)
-  fullName.vb: BOOSE.StoredProgram.FindMethod(String)
-  nameWithType: StoredProgram.FindMethod(string)
-  nameWithType.vb: StoredProgram.FindMethod(String)
-- uid: BOOSE.StoredProgram.FindMethod*
-  name: FindMethod
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_FindMethod_
-  commentId: Overload:BOOSE.StoredProgram.FindMethod
-  isSpec: "True"
-  fullName: BOOSE.StoredProgram.FindMethod
-  nameWithType: StoredProgram.FindMethod
 - uid: BOOSE.StoredProgram.FindVariable(BOOSE.Evaluation)
   name: FindVariable(Evaluation)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_FindVariable_BOOSE_Evaluation_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_FindVariable_BOOSE_Evaluation_
   commentId: M:BOOSE.StoredProgram.FindVariable(BOOSE.Evaluation)
   fullName: BOOSE.StoredProgram.FindVariable(BOOSE.Evaluation)
   nameWithType: StoredProgram.FindVariable(Evaluation)
 - uid: BOOSE.StoredProgram.FindVariable(System.String)
   name: FindVariable(string)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_FindVariable_System_String_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_FindVariable_System_String_
   commentId: M:BOOSE.StoredProgram.FindVariable(System.String)
   name.vb: FindVariable(String)
   fullName: BOOSE.StoredProgram.FindVariable(string)
@@ -3470,14 +3353,14 @@ references:
   nameWithType.vb: StoredProgram.FindVariable(String)
 - uid: BOOSE.StoredProgram.FindVariable*
   name: FindVariable
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_FindVariable_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_FindVariable_
   commentId: Overload:BOOSE.StoredProgram.FindVariable
   isSpec: "True"
   fullName: BOOSE.StoredProgram.FindVariable
   nameWithType: StoredProgram.FindVariable
 - uid: BOOSE.StoredProgram.GetMethod(System.String)
   name: GetMethod(string)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_GetMethod_System_String_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_GetMethod_System_String_
   commentId: M:BOOSE.StoredProgram.GetMethod(System.String)
   name.vb: GetMethod(String)
   fullName: BOOSE.StoredProgram.GetMethod(string)
@@ -3486,14 +3369,14 @@ references:
   nameWithType.vb: StoredProgram.GetMethod(String)
 - uid: BOOSE.StoredProgram.GetMethod*
   name: GetMethod
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_GetMethod_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_GetMethod_
   commentId: Overload:BOOSE.StoredProgram.GetMethod
   isSpec: "True"
   fullName: BOOSE.StoredProgram.GetMethod
   nameWithType: StoredProgram.GetMethod
 - uid: BOOSE.StoredProgram.GetVarValue(System.String)
   name: GetVarValue(string)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_GetVarValue_System_String_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_GetVarValue_System_String_
   commentId: M:BOOSE.StoredProgram.GetVarValue(System.String)
   name.vb: GetVarValue(String)
   fullName: BOOSE.StoredProgram.GetVarValue(string)
@@ -3502,14 +3385,14 @@ references:
   nameWithType.vb: StoredProgram.GetVarValue(String)
 - uid: BOOSE.StoredProgram.GetVarValue*
   name: GetVarValue
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_GetVarValue_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_GetVarValue_
   commentId: Overload:BOOSE.StoredProgram.GetVarValue
   isSpec: "True"
   fullName: BOOSE.StoredProgram.GetVarValue
   nameWithType: StoredProgram.GetVarValue
 - uid: BOOSE.StoredProgram.GetVariable(System.Int32)
   name: GetVariable(int)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_GetVariable_System_Int32_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_GetVariable_System_Int32_
   commentId: M:BOOSE.StoredProgram.GetVariable(System.Int32)
   name.vb: GetVariable(Integer)
   fullName: BOOSE.StoredProgram.GetVariable(int)
@@ -3518,7 +3401,7 @@ references:
   nameWithType.vb: StoredProgram.GetVariable(Integer)
 - uid: BOOSE.StoredProgram.GetVariable(System.String)
   name: GetVariable(string)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_GetVariable_System_String_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_GetVariable_System_String_
   commentId: M:BOOSE.StoredProgram.GetVariable(System.String)
   name.vb: GetVariable(String)
   fullName: BOOSE.StoredProgram.GetVariable(string)
@@ -3527,14 +3410,14 @@ references:
   nameWithType.vb: StoredProgram.GetVariable(String)
 - uid: BOOSE.StoredProgram.GetVariable*
   name: GetVariable
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_GetVariable_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_GetVariable_
   commentId: Overload:BOOSE.StoredProgram.GetVariable
   isSpec: "True"
   fullName: BOOSE.StoredProgram.GetVariable
   nameWithType: StoredProgram.GetVariable
 - uid: BOOSE.StoredProgram.IsExpression(System.String)
   name: IsExpression(string)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_IsExpression_System_String_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_IsExpression_System_String_
   commentId: M:BOOSE.StoredProgram.IsExpression(System.String)
   name.vb: IsExpression(String)
   fullName: BOOSE.StoredProgram.IsExpression(string)
@@ -3543,85 +3426,121 @@ references:
   nameWithType.vb: StoredProgram.IsExpression(String)
 - uid: BOOSE.StoredProgram.IsExpression*
   name: IsExpression
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_IsExpression_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_IsExpression_
   commentId: Overload:BOOSE.StoredProgram.IsExpression
   isSpec: "True"
   fullName: BOOSE.StoredProgram.IsExpression
   nameWithType: StoredProgram.IsExpression
+- uid: BOOSE.StoredProgram.IsValidProgram
+  name: IsValidProgram()
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_IsValidProgram
+  commentId: M:BOOSE.StoredProgram.IsValidProgram
+  fullName: BOOSE.StoredProgram.IsValidProgram()
+  nameWithType: StoredProgram.IsValidProgram()
+- uid: BOOSE.StoredProgram.IsValidProgram*
+  name: IsValidProgram
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_IsValidProgram_
+  commentId: Overload:BOOSE.StoredProgram.IsValidProgram
+  isSpec: "True"
+  fullName: BOOSE.StoredProgram.IsValidProgram
+  nameWithType: StoredProgram.IsValidProgram
+- uid: BOOSE.StoredProgram.NextCommand
+  name: NextCommand()
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_NextCommand
+  commentId: M:BOOSE.StoredProgram.NextCommand
+  fullName: BOOSE.StoredProgram.NextCommand()
+  nameWithType: StoredProgram.NextCommand()
+- uid: BOOSE.StoredProgram.NextCommand*
+  name: NextCommand
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_NextCommand_
+  commentId: Overload:BOOSE.StoredProgram.NextCommand
+  isSpec: "True"
+  fullName: BOOSE.StoredProgram.NextCommand
+  nameWithType: StoredProgram.NextCommand
 - uid: BOOSE.StoredProgram.PC
   name: PC
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_PC
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_PC
   commentId: P:BOOSE.StoredProgram.PC
   fullName: BOOSE.StoredProgram.PC
   nameWithType: StoredProgram.PC
 - uid: BOOSE.StoredProgram.PC*
   name: PC
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_PC_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_PC_
   commentId: Overload:BOOSE.StoredProgram.PC
   isSpec: "True"
   fullName: BOOSE.StoredProgram.PC
   nameWithType: StoredProgram.PC
 - uid: BOOSE.StoredProgram.Pop
   name: Pop()
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Pop
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Pop
   commentId: M:BOOSE.StoredProgram.Pop
   fullName: BOOSE.StoredProgram.Pop()
   nameWithType: StoredProgram.Pop()
 - uid: BOOSE.StoredProgram.Pop*
   name: Pop
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Pop_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Pop_
   commentId: Overload:BOOSE.StoredProgram.Pop
   isSpec: "True"
   fullName: BOOSE.StoredProgram.Pop
   nameWithType: StoredProgram.Pop
 - uid: BOOSE.StoredProgram.Push(BOOSE.ConditionalCommand)
   name: Push(ConditionalCommand)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Push_BOOSE_ConditionalCommand_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Push_BOOSE_ConditionalCommand_
   commentId: M:BOOSE.StoredProgram.Push(BOOSE.ConditionalCommand)
   fullName: BOOSE.StoredProgram.Push(BOOSE.ConditionalCommand)
   nameWithType: StoredProgram.Push(ConditionalCommand)
 - uid: BOOSE.StoredProgram.Push*
   name: Push
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Push_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Push_
   commentId: Overload:BOOSE.StoredProgram.Push
   isSpec: "True"
   fullName: BOOSE.StoredProgram.Push
   nameWithType: StoredProgram.Push
 - uid: BOOSE.StoredProgram.ResetProgram
   name: ResetProgram()
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_ResetProgram
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_ResetProgram
   commentId: M:BOOSE.StoredProgram.ResetProgram
   fullName: BOOSE.StoredProgram.ResetProgram()
   nameWithType: StoredProgram.ResetProgram()
 - uid: BOOSE.StoredProgram.ResetProgram*
   name: ResetProgram
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_ResetProgram_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_ResetProgram_
   commentId: Overload:BOOSE.StoredProgram.ResetProgram
   isSpec: "True"
   fullName: BOOSE.StoredProgram.ResetProgram
   nameWithType: StoredProgram.ResetProgram
 - uid: BOOSE.StoredProgram.Run
   name: Run()
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Run
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Run
   commentId: M:BOOSE.StoredProgram.Run
   fullName: BOOSE.StoredProgram.Run()
   nameWithType: StoredProgram.Run()
 - uid: BOOSE.StoredProgram.Run*
   name: Run
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Run_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_Run_
   commentId: Overload:BOOSE.StoredProgram.Run
   isSpec: "True"
   fullName: BOOSE.StoredProgram.Run
   nameWithType: StoredProgram.Run
-- uid: BOOSE.StoredProgram.SyntaxOk
-  name: SyntaxOk
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_SyntaxOk
-  commentId: F:BOOSE.StoredProgram.SyntaxOk
-  fullName: BOOSE.StoredProgram.SyntaxOk
-  nameWithType: StoredProgram.SyntaxOk
+- uid: BOOSE.StoredProgram.SetSyntaxStatus(System.Boolean)
+  name: SetSyntaxStatus(bool)
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_SetSyntaxStatus_System_Boolean_
+  commentId: M:BOOSE.StoredProgram.SetSyntaxStatus(System.Boolean)
+  name.vb: SetSyntaxStatus(Boolean)
+  fullName: BOOSE.StoredProgram.SetSyntaxStatus(bool)
+  fullName.vb: BOOSE.StoredProgram.SetSyntaxStatus(Boolean)
+  nameWithType: StoredProgram.SetSyntaxStatus(bool)
+  nameWithType.vb: StoredProgram.SetSyntaxStatus(Boolean)
+- uid: BOOSE.StoredProgram.SetSyntaxStatus*
+  name: SetSyntaxStatus
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_SetSyntaxStatus_
+  commentId: Overload:BOOSE.StoredProgram.SetSyntaxStatus
+  isSpec: "True"
+  fullName: BOOSE.StoredProgram.SetSyntaxStatus
+  nameWithType: StoredProgram.SetSyntaxStatus
 - uid: BOOSE.StoredProgram.UpdateVariable(System.String,System.Boolean)
   name: UpdateVariable(string, bool)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_UpdateVariable_System_String_System_Boolean_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_UpdateVariable_System_String_System_Boolean_
   commentId: M:BOOSE.StoredProgram.UpdateVariable(System.String,System.Boolean)
   name.vb: UpdateVariable(String, Boolean)
   fullName: BOOSE.StoredProgram.UpdateVariable(string, bool)
@@ -3630,7 +3549,7 @@ references:
   nameWithType.vb: StoredProgram.UpdateVariable(String, Boolean)
 - uid: BOOSE.StoredProgram.UpdateVariable(System.String,System.Double)
   name: UpdateVariable(string, double)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_UpdateVariable_System_String_System_Double_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_UpdateVariable_System_String_System_Double_
   commentId: M:BOOSE.StoredProgram.UpdateVariable(System.String,System.Double)
   name.vb: UpdateVariable(String, Double)
   fullName: BOOSE.StoredProgram.UpdateVariable(string, double)
@@ -3639,7 +3558,7 @@ references:
   nameWithType.vb: StoredProgram.UpdateVariable(String, Double)
 - uid: BOOSE.StoredProgram.UpdateVariable(System.String,System.Int32)
   name: UpdateVariable(string, int)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_UpdateVariable_System_String_System_Int32_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_UpdateVariable_System_String_System_Int32_
   commentId: M:BOOSE.StoredProgram.UpdateVariable(System.String,System.Int32)
   name.vb: UpdateVariable(String, Integer)
   fullName: BOOSE.StoredProgram.UpdateVariable(string, int)
@@ -3648,14 +3567,14 @@ references:
   nameWithType.vb: StoredProgram.UpdateVariable(String, Integer)
 - uid: BOOSE.StoredProgram.UpdateVariable*
   name: UpdateVariable
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_UpdateVariable_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_UpdateVariable_
   commentId: Overload:BOOSE.StoredProgram.UpdateVariable
   isSpec: "True"
   fullName: BOOSE.StoredProgram.UpdateVariable
   nameWithType: StoredProgram.UpdateVariable
 - uid: BOOSE.StoredProgram.VariableExists(System.String)
   name: VariableExists(string)
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_VariableExists_System_String_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_VariableExists_System_String_
   commentId: M:BOOSE.StoredProgram.VariableExists(System.String)
   name.vb: VariableExists(String)
   fullName: BOOSE.StoredProgram.VariableExists(string)
@@ -3664,20 +3583,20 @@ references:
   nameWithType.vb: StoredProgram.VariableExists(String)
 - uid: BOOSE.StoredProgram.VariableExists*
   name: VariableExists
-  href: boose/BOOSE.StoredProgram.html#BOOSE_StoredProgram_VariableExists_
+  href: api/BOOSE.StoredProgram.html#BOOSE_StoredProgram_VariableExists_
   commentId: Overload:BOOSE.StoredProgram.VariableExists
   isSpec: "True"
   fullName: BOOSE.StoredProgram.VariableExists
   nameWithType: StoredProgram.VariableExists
 - uid: BOOSE.StoredProgramException
   name: StoredProgramException
-  href: boose/BOOSE.StoredProgramException.html
+  href: api/BOOSE.StoredProgramException.html
   commentId: T:BOOSE.StoredProgramException
   fullName: BOOSE.StoredProgramException
   nameWithType: StoredProgramException
 - uid: BOOSE.StoredProgramException.#ctor(System.String)
   name: StoredProgramException(string)
-  href: boose/BOOSE.StoredProgramException.html#BOOSE_StoredProgramException__ctor_System_String_
+  href: api/BOOSE.StoredProgramException.html#BOOSE_StoredProgramException__ctor_System_String_
   commentId: M:BOOSE.StoredProgramException.#ctor(System.String)
   name.vb: New(String)
   fullName: BOOSE.StoredProgramException.StoredProgramException(string)
@@ -3686,7 +3605,7 @@ references:
   nameWithType.vb: StoredProgramException.New(String)
 - uid: BOOSE.StoredProgramException.#ctor*
   name: StoredProgramException
-  href: boose/BOOSE.StoredProgramException.html#BOOSE_StoredProgramException__ctor_
+  href: api/BOOSE.StoredProgramException.html#BOOSE_StoredProgramException__ctor_
   commentId: Overload:BOOSE.StoredProgramException.#ctor
   isSpec: "True"
   name.vb: New
@@ -3694,359 +3613,15 @@ references:
   fullName.vb: BOOSE.StoredProgramException.New
   nameWithType: StoredProgramException.StoredProgramException
   nameWithType.vb: StoredProgramException.New
-- uid: BOOSE.StoredProgramI
-  name: StoredProgramI
-  href: boose/BOOSE.StoredProgramI.html
-  commentId: T:BOOSE.StoredProgramI
-  fullName: BOOSE.StoredProgramI
-  nameWithType: StoredProgramI
-- uid: BOOSE.StoredProgramI.Add(BOOSE.Command)
-  name: Add(Command)
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_Add_BOOSE_Command_
-  commentId: M:BOOSE.StoredProgramI.Add(BOOSE.Command)
-  fullName: BOOSE.StoredProgramI.Add(BOOSE.Command)
-  nameWithType: StoredProgramI.Add(Command)
-- uid: BOOSE.StoredProgramI.Add*
-  name: Add
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_Add_
-  commentId: Overload:BOOSE.StoredProgramI.Add
-  isSpec: "True"
-  fullName: BOOSE.StoredProgramI.Add
-  nameWithType: StoredProgramI.Add
-- uid: BOOSE.StoredProgramI.AddVariable(BOOSE.Var)
-  name: AddVariable(Var)
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_AddVariable_BOOSE_Var_
-  commentId: M:BOOSE.StoredProgramI.AddVariable(BOOSE.Var)
-  fullName: BOOSE.StoredProgramI.AddVariable(BOOSE.Var)
-  nameWithType: StoredProgramI.AddVariable(Var)
-- uid: BOOSE.StoredProgramI.AddVariable*
-  name: AddVariable
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_AddVariable_
-  commentId: Overload:BOOSE.StoredProgramI.AddVariable
-  isSpec: "True"
-  fullName: BOOSE.StoredProgramI.AddVariable
-  nameWithType: StoredProgramI.AddVariable
-- uid: BOOSE.StoredProgramI.Commandsleft
-  name: Commandsleft()
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_Commandsleft
-  commentId: M:BOOSE.StoredProgramI.Commandsleft
-  fullName: BOOSE.StoredProgramI.Commandsleft()
-  nameWithType: StoredProgramI.Commandsleft()
-- uid: BOOSE.StoredProgramI.Commandsleft*
-  name: Commandsleft
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_Commandsleft_
-  commentId: Overload:BOOSE.StoredProgramI.Commandsleft
-  isSpec: "True"
-  fullName: BOOSE.StoredProgramI.Commandsleft
-  nameWithType: StoredProgramI.Commandsleft
-- uid: BOOSE.StoredProgramI.EvaluateExpression(System.String)
-  name: EvaluateExpression(string)
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_EvaluateExpression_System_String_
-  commentId: M:BOOSE.StoredProgramI.EvaluateExpression(System.String)
-  name.vb: EvaluateExpression(String)
-  fullName: BOOSE.StoredProgramI.EvaluateExpression(string)
-  fullName.vb: BOOSE.StoredProgramI.EvaluateExpression(String)
-  nameWithType: StoredProgramI.EvaluateExpression(string)
-  nameWithType.vb: StoredProgramI.EvaluateExpression(String)
-- uid: BOOSE.StoredProgramI.EvaluateExpression*
-  name: EvaluateExpression
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_EvaluateExpression_
-  commentId: Overload:BOOSE.StoredProgramI.EvaluateExpression
-  isSpec: "True"
-  fullName: BOOSE.StoredProgramI.EvaluateExpression
-  nameWithType: StoredProgramI.EvaluateExpression
-- uid: BOOSE.StoredProgramI.GetVarValue(System.String)
-  name: GetVarValue(string)
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_GetVarValue_System_String_
-  commentId: M:BOOSE.StoredProgramI.GetVarValue(System.String)
-  name.vb: GetVarValue(String)
-  fullName: BOOSE.StoredProgramI.GetVarValue(string)
-  fullName.vb: BOOSE.StoredProgramI.GetVarValue(String)
-  nameWithType: StoredProgramI.GetVarValue(string)
-  nameWithType.vb: StoredProgramI.GetVarValue(String)
-- uid: BOOSE.StoredProgramI.GetVarValue*
-  name: GetVarValue
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_GetVarValue_
-  commentId: Overload:BOOSE.StoredProgramI.GetVarValue
-  isSpec: "True"
-  fullName: BOOSE.StoredProgramI.GetVarValue
-  nameWithType: StoredProgramI.GetVarValue
-- uid: BOOSE.StoredProgramI.IsExpression(System.String)
-  name: IsExpression(string)
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_IsExpression_System_String_
-  commentId: M:BOOSE.StoredProgramI.IsExpression(System.String)
-  name.vb: IsExpression(String)
-  fullName: BOOSE.StoredProgramI.IsExpression(string)
-  fullName.vb: BOOSE.StoredProgramI.IsExpression(String)
-  nameWithType: StoredProgramI.IsExpression(string)
-  nameWithType.vb: StoredProgramI.IsExpression(String)
-- uid: BOOSE.StoredProgramI.IsExpression*
-  name: IsExpression
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_IsExpression_
-  commentId: Overload:BOOSE.StoredProgramI.IsExpression
-  isSpec: "True"
-  fullName: BOOSE.StoredProgramI.IsExpression
-  nameWithType: StoredProgramI.IsExpression
-- uid: BOOSE.StoredProgramI.PC
-  name: PC
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_PC
-  commentId: P:BOOSE.StoredProgramI.PC
-  fullName: BOOSE.StoredProgramI.PC
-  nameWithType: StoredProgramI.PC
-- uid: BOOSE.StoredProgramI.PC*
-  name: PC
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_PC_
-  commentId: Overload:BOOSE.StoredProgramI.PC
-  isSpec: "True"
-  fullName: BOOSE.StoredProgramI.PC
-  nameWithType: StoredProgramI.PC
-- uid: BOOSE.StoredProgramI.ResetProgram
-  name: ResetProgram()
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_ResetProgram
-  commentId: M:BOOSE.StoredProgramI.ResetProgram
-  fullName: BOOSE.StoredProgramI.ResetProgram()
-  nameWithType: StoredProgramI.ResetProgram()
-- uid: BOOSE.StoredProgramI.ResetProgram*
-  name: ResetProgram
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_ResetProgram_
-  commentId: Overload:BOOSE.StoredProgramI.ResetProgram
-  isSpec: "True"
-  fullName: BOOSE.StoredProgramI.ResetProgram
-  nameWithType: StoredProgramI.ResetProgram
-- uid: BOOSE.StoredProgramI.Run
-  name: Run()
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_Run
-  commentId: M:BOOSE.StoredProgramI.Run
-  fullName: BOOSE.StoredProgramI.Run()
-  nameWithType: StoredProgramI.Run()
-- uid: BOOSE.StoredProgramI.Run*
-  name: Run
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_Run_
-  commentId: Overload:BOOSE.StoredProgramI.Run
-  isSpec: "True"
-  fullName: BOOSE.StoredProgramI.Run
-  nameWithType: StoredProgramI.Run
-- uid: BOOSE.StoredProgramI.VariableExists(System.String)
-  name: VariableExists(string)
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_VariableExists_System_String_
-  commentId: M:BOOSE.StoredProgramI.VariableExists(System.String)
-  name.vb: VariableExists(String)
-  fullName: BOOSE.StoredProgramI.VariableExists(string)
-  fullName.vb: BOOSE.StoredProgramI.VariableExists(String)
-  nameWithType: StoredProgramI.VariableExists(string)
-  nameWithType.vb: StoredProgramI.VariableExists(String)
-- uid: BOOSE.StoredProgramI.VariableExists*
-  name: VariableExists
-  href: boose/BOOSE.StoredProgramI.html#BOOSE_StoredProgramI_VariableExists_
-  commentId: Overload:BOOSE.StoredProgramI.VariableExists
-  isSpec: "True"
-  fullName: BOOSE.StoredProgramI.VariableExists
-  nameWithType: StoredProgramI.VariableExists
-- uid: BOOSE.TwoParamDrawCommand
-  name: TwoParamDrawCommand
-  href: boose/BOOSE.TwoParamDrawCommand.html
-  commentId: T:BOOSE.TwoParamDrawCommand
-  fullName: BOOSE.TwoParamDrawCommand
-  nameWithType: TwoParamDrawCommand
-- uid: BOOSE.TwoParamDrawCommand.#ctor
-  name: TwoParamDrawCommand()
-  href: boose/BOOSE.TwoParamDrawCommand.html#BOOSE_TwoParamDrawCommand__ctor
-  commentId: M:BOOSE.TwoParamDrawCommand.#ctor
-  name.vb: New()
-  fullName: BOOSE.TwoParamDrawCommand.TwoParamDrawCommand()
-  fullName.vb: BOOSE.TwoParamDrawCommand.New()
-  nameWithType: TwoParamDrawCommand.TwoParamDrawCommand()
-  nameWithType.vb: TwoParamDrawCommand.New()
-- uid: BOOSE.TwoParamDrawCommand.#ctor(BOOSE.Canvas)
-  name: TwoParamDrawCommand(Canvas)
-  href: boose/BOOSE.TwoParamDrawCommand.html#BOOSE_TwoParamDrawCommand__ctor_BOOSE_Canvas_
-  commentId: M:BOOSE.TwoParamDrawCommand.#ctor(BOOSE.Canvas)
-  name.vb: New(Canvas)
-  fullName: BOOSE.TwoParamDrawCommand.TwoParamDrawCommand(BOOSE.Canvas)
-  fullName.vb: BOOSE.TwoParamDrawCommand.New(BOOSE.Canvas)
-  nameWithType: TwoParamDrawCommand.TwoParamDrawCommand(Canvas)
-  nameWithType.vb: TwoParamDrawCommand.New(Canvas)
-- uid: BOOSE.TwoParamDrawCommand.#ctor*
-  name: TwoParamDrawCommand
-  href: boose/BOOSE.TwoParamDrawCommand.html#BOOSE_TwoParamDrawCommand__ctor_
-  commentId: Overload:BOOSE.TwoParamDrawCommand.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: BOOSE.TwoParamDrawCommand.TwoParamDrawCommand
-  fullName.vb: BOOSE.TwoParamDrawCommand.New
-  nameWithType: TwoParamDrawCommand.TwoParamDrawCommand
-  nameWithType.vb: TwoParamDrawCommand.New
-- uid: BOOSE.TwoParamDrawCommand.CheckParameters(System.String[])
-  name: CheckParameters(string[])
-  href: boose/BOOSE.TwoParamDrawCommand.html#BOOSE_TwoParamDrawCommand_CheckParameters_System_String___
-  commentId: M:BOOSE.TwoParamDrawCommand.CheckParameters(System.String[])
-  name.vb: CheckParameters(String())
-  fullName: BOOSE.TwoParamDrawCommand.CheckParameters(string[])
-  fullName.vb: BOOSE.TwoParamDrawCommand.CheckParameters(String())
-  nameWithType: TwoParamDrawCommand.CheckParameters(string[])
-  nameWithType.vb: TwoParamDrawCommand.CheckParameters(String())
-- uid: BOOSE.TwoParamDrawCommand.CheckParameters*
-  name: CheckParameters
-  href: boose/BOOSE.TwoParamDrawCommand.html#BOOSE_TwoParamDrawCommand_CheckParameters_
-  commentId: Overload:BOOSE.TwoParamDrawCommand.CheckParameters
-  isSpec: "True"
-  fullName: BOOSE.TwoParamDrawCommand.CheckParameters
-  nameWithType: TwoParamDrawCommand.CheckParameters
-- uid: BOOSE.TwoParamDrawCommand.param1
-  name: param1
-  href: boose/BOOSE.TwoParamDrawCommand.html#BOOSE_TwoParamDrawCommand_param1
-  commentId: F:BOOSE.TwoParamDrawCommand.param1
-  fullName: BOOSE.TwoParamDrawCommand.param1
-  nameWithType: TwoParamDrawCommand.param1
-- uid: BOOSE.TwoParamDrawCommand.param1unprocessed
-  name: param1unprocessed
-  href: boose/BOOSE.TwoParamDrawCommand.html#BOOSE_TwoParamDrawCommand_param1unprocessed
-  commentId: F:BOOSE.TwoParamDrawCommand.param1unprocessed
-  fullName: BOOSE.TwoParamDrawCommand.param1unprocessed
-  nameWithType: TwoParamDrawCommand.param1unprocessed
-- uid: BOOSE.TwoParamDrawCommand.param2
-  name: param2
-  href: boose/BOOSE.TwoParamDrawCommand.html#BOOSE_TwoParamDrawCommand_param2
-  commentId: F:BOOSE.TwoParamDrawCommand.param2
-  fullName: BOOSE.TwoParamDrawCommand.param2
-  nameWithType: TwoParamDrawCommand.param2
-- uid: BOOSE.TwoParamDrawCommand.param2unprocessed
-  name: param2unprocessed
-  href: boose/BOOSE.TwoParamDrawCommand.html#BOOSE_TwoParamDrawCommand_param2unprocessed
-  commentId: F:BOOSE.TwoParamDrawCommand.param2unprocessed
-  fullName: BOOSE.TwoParamDrawCommand.param2unprocessed
-  nameWithType: TwoParamDrawCommand.param2unprocessed
-- uid: BOOSE.Var
-  name: Var
-  href: boose/BOOSE.Var.html
-  commentId: T:BOOSE.Var
-  fullName: BOOSE.Var
-  nameWithType: Var
-- uid: BOOSE.Var.#ctor
-  name: Var()
-  href: boose/BOOSE.Var.html#BOOSE_Var__ctor
-  commentId: M:BOOSE.Var.#ctor
-  name.vb: New()
-  fullName: BOOSE.Var.Var()
-  fullName.vb: BOOSE.Var.New()
-  nameWithType: Var.Var()
-  nameWithType.vb: Var.New()
-- uid: BOOSE.Var.#ctor*
-  name: Var
-  href: boose/BOOSE.Var.html#BOOSE_Var__ctor_
-  commentId: Overload:BOOSE.Var.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: BOOSE.Var.Var
-  fullName.vb: BOOSE.Var.New
-  nameWithType: Var.Var
-  nameWithType.vb: Var.New
-- uid: BOOSE.Var.CheckParameters(System.String[])
-  name: CheckParameters(string[])
-  href: boose/BOOSE.Var.html#BOOSE_Var_CheckParameters_System_String___
-  commentId: M:BOOSE.Var.CheckParameters(System.String[])
-  name.vb: CheckParameters(String())
-  fullName: BOOSE.Var.CheckParameters(string[])
-  fullName.vb: BOOSE.Var.CheckParameters(String())
-  nameWithType: Var.CheckParameters(string[])
-  nameWithType.vb: Var.CheckParameters(String())
-- uid: BOOSE.Var.CheckParameters*
-  name: CheckParameters
-  href: boose/BOOSE.Var.html#BOOSE_Var_CheckParameters_
-  commentId: Overload:BOOSE.Var.CheckParameters
-  isSpec: "True"
-  fullName: BOOSE.Var.CheckParameters
-  nameWithType: Var.CheckParameters
-- uid: BOOSE.Var.Compile
-  name: Compile()
-  href: boose/BOOSE.Var.html#BOOSE_Var_Compile
-  commentId: M:BOOSE.Var.Compile
-  fullName: BOOSE.Var.Compile()
-  nameWithType: Var.Compile()
-- uid: BOOSE.Var.Compile*
-  name: Compile
-  href: boose/BOOSE.Var.html#BOOSE_Var_Compile_
-  commentId: Overload:BOOSE.Var.Compile
-  isSpec: "True"
-  fullName: BOOSE.Var.Compile
-  nameWithType: Var.Compile
-- uid: BOOSE.Var.Execute
-  name: Execute()
-  href: boose/BOOSE.Var.html#BOOSE_Var_Execute
-  commentId: M:BOOSE.Var.Execute
-  fullName: BOOSE.Var.Execute()
-  nameWithType: Var.Execute()
-- uid: BOOSE.Var.Execute*
-  name: Execute
-  href: boose/BOOSE.Var.html#BOOSE_Var_Execute_
-  commentId: Overload:BOOSE.Var.Execute
-  isSpec: "True"
-  fullName: BOOSE.Var.Execute
-  nameWithType: Var.Execute
-- uid: BOOSE.Var.Expression
-  name: Expression
-  href: boose/BOOSE.Var.html#BOOSE_Var_Expression
-  commentId: P:BOOSE.Var.Expression
-  fullName: BOOSE.Var.Expression
-  nameWithType: Var.Expression
-- uid: BOOSE.Var.Expression*
-  name: Expression
-  href: boose/BOOSE.Var.html#BOOSE_Var_Expression_
-  commentId: Overload:BOOSE.Var.Expression
-  isSpec: "True"
-  fullName: BOOSE.Var.Expression
-  nameWithType: Var.Expression
-- uid: BOOSE.Var.ProcessExpression(System.String)
-  name: ProcessExpression(string)
-  href: boose/BOOSE.Var.html#BOOSE_Var_ProcessExpression_System_String_
-  commentId: M:BOOSE.Var.ProcessExpression(System.String)
-  name.vb: ProcessExpression(String)
-  fullName: BOOSE.Var.ProcessExpression(string)
-  fullName.vb: BOOSE.Var.ProcessExpression(String)
-  nameWithType: Var.ProcessExpression(string)
-  nameWithType.vb: Var.ProcessExpression(String)
-- uid: BOOSE.Var.ProcessExpression*
-  name: ProcessExpression
-  href: boose/BOOSE.Var.html#BOOSE_Var_ProcessExpression_
-  commentId: Overload:BOOSE.Var.ProcessExpression
-  isSpec: "True"
-  fullName: BOOSE.Var.ProcessExpression
-  nameWithType: Var.ProcessExpression
-- uid: BOOSE.Var.Value
-  name: Value
-  href: boose/BOOSE.Var.html#BOOSE_Var_Value
-  commentId: P:BOOSE.Var.Value
-  fullName: BOOSE.Var.Value
-  nameWithType: Var.Value
-- uid: BOOSE.Var.Value*
-  name: Value
-  href: boose/BOOSE.Var.html#BOOSE_Var_Value_
-  commentId: Overload:BOOSE.Var.Value
-  isSpec: "True"
-  fullName: BOOSE.Var.Value
-  nameWithType: Var.Value
-- uid: BOOSE.Var.VarName
-  name: VarName
-  href: boose/BOOSE.Var.html#BOOSE_Var_VarName
-  commentId: P:BOOSE.Var.VarName
-  fullName: BOOSE.Var.VarName
-  nameWithType: Var.VarName
-- uid: BOOSE.Var.VarName*
-  name: VarName
-  href: boose/BOOSE.Var.html#BOOSE_Var_VarName_
-  commentId: Overload:BOOSE.Var.VarName
-  isSpec: "True"
-  fullName: BOOSE.Var.VarName
-  nameWithType: Var.VarName
 - uid: BOOSE.VarException
   name: VarException
-  href: boose/BOOSE.VarException.html
+  href: api/BOOSE.VarException.html
   commentId: T:BOOSE.VarException
   fullName: BOOSE.VarException
   nameWithType: VarException
 - uid: BOOSE.VarException.#ctor(System.String)
   name: VarException(string)
-  href: boose/BOOSE.VarException.html#BOOSE_VarException__ctor_System_String_
+  href: api/BOOSE.VarException.html#BOOSE_VarException__ctor_System_String_
   commentId: M:BOOSE.VarException.#ctor(System.String)
   name.vb: New(String)
   fullName: BOOSE.VarException.VarException(string)
@@ -4055,7 +3630,7 @@ references:
   nameWithType.vb: VarException.New(String)
 - uid: BOOSE.VarException.#ctor*
   name: VarException
-  href: boose/BOOSE.VarException.html#BOOSE_VarException__ctor_
+  href: api/BOOSE.VarException.html#BOOSE_VarException__ctor_
   commentId: Overload:BOOSE.VarException.#ctor
   isSpec: "True"
   name.vb: New
@@ -4065,19 +3640,38 @@ references:
   nameWithType.vb: VarException.New
 - uid: BOOSE.While
   name: While
-  href: boose/BOOSE.While.html
+  href: api/BOOSE.While.html
   commentId: T:BOOSE.While
   fullName: BOOSE.While
   nameWithType: While
+- uid: BOOSE.While.#ctor
+  name: While()
+  href: api/BOOSE.While.html#BOOSE_While__ctor
+  commentId: M:BOOSE.While.#ctor
+  name.vb: New()
+  fullName: BOOSE.While.While()
+  fullName.vb: BOOSE.While.New()
+  nameWithType: While.While()
+  nameWithType.vb: While.New()
+- uid: BOOSE.While.#ctor*
+  name: While
+  href: api/BOOSE.While.html#BOOSE_While__ctor_
+  commentId: Overload:BOOSE.While.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE.While.While
+  fullName.vb: BOOSE.While.New
+  nameWithType: While.While
+  nameWithType.vb: While.New
 - uid: BOOSE.Write
   name: Write
-  href: boose/BOOSE.Write.html
+  href: api/BOOSE.Write.html
   commentId: T:BOOSE.Write
   fullName: BOOSE.Write
   nameWithType: Write
 - uid: BOOSE.Write.CheckParameters(System.String[])
   name: CheckParameters(string[])
-  href: boose/BOOSE.Write.html#BOOSE_Write_CheckParameters_System_String___
+  href: api/BOOSE.Write.html#BOOSE_Write_CheckParameters_System_String___
   commentId: M:BOOSE.Write.CheckParameters(System.String[])
   name.vb: CheckParameters(String())
   fullName: BOOSE.Write.CheckParameters(string[])
@@ -4086,20 +3680,20 @@ references:
   nameWithType.vb: Write.CheckParameters(String())
 - uid: BOOSE.Write.CheckParameters*
   name: CheckParameters
-  href: boose/BOOSE.Write.html#BOOSE_Write_CheckParameters_
+  href: api/BOOSE.Write.html#BOOSE_Write_CheckParameters_
   commentId: Overload:BOOSE.Write.CheckParameters
   isSpec: "True"
   fullName: BOOSE.Write.CheckParameters
   nameWithType: Write.CheckParameters
 - uid: BOOSE.Write.Execute
   name: Execute()
-  href: boose/BOOSE.Write.html#BOOSE_Write_Execute
+  href: api/BOOSE.Write.html#BOOSE_Write_Execute
   commentId: M:BOOSE.Write.Execute
   fullName: BOOSE.Write.Execute()
   nameWithType: Write.Execute()
 - uid: BOOSE.Write.Execute*
   name: Execute
-  href: boose/BOOSE.Write.html#BOOSE_Write_Execute_
+  href: api/BOOSE.Write.html#BOOSE_Write_Execute_
   commentId: Overload:BOOSE.Write.Execute
   isSpec: "True"
   fullName: BOOSE.Write.Execute
